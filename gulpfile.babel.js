@@ -1,6 +1,8 @@
 'use strict';
 
+import rev from 'gulp-rev';
 import gulp from 'gulp';
+import connect from 'gulp-connect';
 
 const dirs = {
   dest: 'build'
@@ -24,6 +26,13 @@ gulp.task('copy', () => {
       .pipe(gulp.dest(dirs.dest));
 });
 
+gulp.task('connect', () => {
+  connect.server({
+    root: 'build',
+    livereload: true
+  });
+});
+
 
 gulp.task('build', ['copy']);
 
@@ -35,4 +44,4 @@ gulp.task('deploy', () => {
           }));
 });
 
-gulp.task('default', ['build']);
+gulp.task('default', ['build', 'connect']);
