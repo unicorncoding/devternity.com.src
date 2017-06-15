@@ -7,7 +7,6 @@ branches:
 
 before_script:
   - npm install -g gulp-cli
-  - yarn install
 
 script: gulp build deploy
 
