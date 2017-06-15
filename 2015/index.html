@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Organization" ng-app="devternity" class="lt-ie9">
+  <head>
+
+    <link rel="shortcut icon" type="image/png" href="images/logo_brown.png"/>
+
+    <meta charset="UTF-8">
+
+    <title>DevTernity 2015</title>
+
+    <meta name="author"               content="DevTernity">
+    <meta http-equiv="content-type"   content="text/html; charset=utf-8" />
+    <meta name="description"          content="The biggest conference in the Baltics for those who care about software craftsmanship" />
+    <meta name="keywords"             content="software craftsmanship conference, software craftsmanship conference in Europe, software development conference" />
+    <meta name="robots"               content="index,follow"/>
+    <meta property="og:url"           content="http://devternity.com/2015" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="DevTernity" />
+    <meta property="og:description"   content="Software development conference for IT professionals who care about software craftsmanship" />
+    <meta property="og:image"         content="http://devternity.com/2015/images/logo_brown.png" />
+    <meta property="og:image:width"   content="512" />
+    <meta property="og:image:height"  content="512" />
+    <meta itemprop="name"             content="DevTernity 2015"/>
+    <meta itemprop="description"      content="Software development conference for IT professionals who care about software craftsmanship. Coming soon in 2016."/>
+    <meta itemprop="image"            content="http://devternity.com/2015/images/logo_brown.png"/>
+
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/remodal.min.js"></script>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66135177-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+   <link rel="stylesheet" href="css/remodal.css" />
+   <link rel="stylesheet" href="css/remodal-default-theme.css" />
+
+   <noscript>
+      <link rel="stylesheet" href="css/skel.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/style-xlarge.css" />
+   </noscript>
+
+   <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
+</head>
+
+	<body class="landing" ng-controller="LandingPageController">
+		<!-- Header -->
+			<header id="header">
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a id="speakers">Speakers</a></li>
+						<li><a id="program">Program</a></li>
+						<li><strong><a id="attend">Attend</a></strong></li>
+						<li><a id="support">Support</a></li>
+						<li><a href="https://twitter.com/devternity" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/devternity" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.linkedin.com/grp/home?gid=8371335" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div>
+					<img src="images/logo.png" />
+					<h2>&nbsp; DevTernity.</h2>
+				</div>
+
+				<p>Conference for IT professionals who care about software craftsmanship.</p>
+				<ul class="actions">
+					<li>
+						<!-- <a id="tickets" class="button big">I care. Take me with you.</a> -->
+						DevTernity will come back in 2016. In the meantime, enjoy <a href="https://www.youtube.com/watch?v=4rRrgBBRSEY&list=PLZQDTUIhS27DiqLxmgs80R52QfX6MQ1Ik">videos</a> from the past event, including <a href="https://www.youtube.com/watch?v=0bz55FuhFMo">speaker interviews</a> and <a href="https://www.youtube.com/watch?v=uwdfAzYGsak">funny moments</a>.
+						<br/>
+						<br/>
+						<a href="http://sizovs.us12.list-manage1.com/subscribe?u=286cb53c1b1459ca29ad7c933&id=f4321ae910" class="button big">Let me know when you're back!</a>
+					</li>
+				</ul>
+			</section>
+
+		<!-- One -->
+			<section class="wrapper style1 align-center">
+				<div class="container intro">
+					<header>
+						<h2></h2>
+						<p>The importance of software craftsmanship is increasing constantly. Software development made right can unlock a lot of hidden potential in organisations. Let's learn together what “right” actually means and how to get there. We focus on <strong>coding</strong>, <strong>architecture</strong> and <strong>leadership</strong> and have zero tolerance to Agile bullsh%t bingo.</p>
+						<h2></h2>
+						<p>This winter, DevTernity kicks-off as <strong>the biggest software craftsmanship conference in the Baltics</strong>.</p>
+					</header>
+					<div class="row 200%">
+						<section class="4u 12u$(small)">
+							<i class="icon big rounded fa-calendar"></i>
+							<h3>1st of December, 2015</h3>
+							<h5><a href="http://lanyrd.com/2015/devternity/save-to-calendar/">Save to calendar</a></h5>
+						</section>
+						<section class="4u 12u$(small)">
+							<i class="icon big rounded fa-location-arrow"></i>
+							<h3>Riga, National Library of Latvia</h3>
+							<h5><a href="https://www.google.lv/maps/place/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka/@56.941013,24.096625,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd136321fcd:0xf716266fca1b4d9b">Location on map</a></h5>
+						</section>
+						<section class="4u$ 12u$(small)">
+							<i class="icon big rounded fa-users"></i>
+							<h3>23 speakers, 3 tracks</h3>
+						</section>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="speakers-container" class="wrapper speakers align-center">
+				<div class="container">
+					<header>
+						<h1>Speakers</h1>
+						<h2></h2>
+						<p>People - that's what makes event tick, therefore we are carefully cherry-picking the best speakers. Only concrete, practical topics.</p>
+					</header>
+
+					<div class="row" ng-repeat="row in speakersInRows">
+						<section class="feature 3u 12u$(small)" ng-repeat="speaker in row">
+								<img class="headshot" ng-src="{{speaker.img}}"/>
+								<div class="whoname">{{speaker.name}}</div>
+								<div class="who">{{speaker.bio}}</div>
+						</section>
+					</div>
+
+
+<!--
+					<div class="row">
+						<section class="feature 12u 12u$(small)">
+							<h3 class="title">More coming soon. </h3>
+							<h5>
+								<a href="http://bit.ly/devternitymailing" target="_blank">Subscribe and stay tuned</a></br></br>
+						<a href="https://twitter.com/devternity" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+						<a href="https://www.facebook.com/devternity" target="_blank"><i class="fa fa-facebook"></i></a>	&nbsp;&nbsp;
+						<a href="https://www.linkedin.com/grp/home?gid=8371335" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+							</h5>
+
+						</section>
+					</div>	 -->
+				</div>
+
+			</section>
+
+
+
+
+			<section id="program-container" class="wrapper">
+				<div class="container">
+					<header class="align-center">
+						<h1>Program</h1>
+					</header>
+				<table>
+					<tr>
+						<th>&nbsp;</th>
+						<th class="align-center"><span class="fa-stack fa-1x">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <strong class="fa-stack-1x text-primary">1</strong>
+</span> Track</th>
+						<th><span class="fa-stack fa-1x">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <strong class="fa-stack-1x text-primary">2</strong>
+</span> Track </th>
+						<th><span class="fa-stack fa-1x">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <strong class="fa-stack-1x text-primary">3</strong>
+</span> Track</th>
+					</tr>
+
+					<tr ng-repeat="time in programTimes">
+							<td>{{time}}</td>
+							<td class="align-center" ng-repeat="event in program[time]" colspan="{{4 - program[time].length}}">
+								<a ng-click="popupSpeech(event.uid)" ng-if="event.type === 'speech'">
+									{{event.name}} {{event.partner ? 'and ' + event.partner.name : ''}} - {{event.title}}
+								</a>
+								<span ng-if="event.type != 'speech'">{{event.title}}</span>
+							</td>
+					</tr>
+				</table>
+            </div>
+			</section>
+
+
+				<div ng-repeat="yo in program">
+				<section ng-repeat="event in yo" ng-if="event.type === 'speech'" data-remodal-id="{{event.uid}}" class="wrapper speech tickets align-center">
+					<button data-remodal-action="close" class="remodal-close"></button>
+
+					<div class="row" ng-if="event.partner">
+						<section class="6u">
+							<div>
+								<img class="headshot" ng-src="{{event.img}}"/>
+								<div class="whoname">{{event.name}}</div>
+								<p>{{event.bio}}</p>
+							</div>
+								<p class="speaker">
+									{{event.long_bio}}
+								</p>
+						</section>
+						<section class="6u">
+							<div>
+								<img class="headshot" ng-src="{{event.partner.img}}"/>
+								<div class="whoname">{{event.partner.name}}</div>
+								<p>{{event.partner.bio}}</p>
+							</div>
+								<p class="speaker">
+									{{event.partner.long_bio}}
+								</p>
+						</section>
+					</div>
+					<div class="row" ng-if="event.partner">
+						<section class="12u">
+							<div class="whoname">{{event.title}}</div>
+							<p class="speaker">{{event.description}}</p>
+						</section>
+					</div>
+
+					<div class="row" ng-if="!event.partner">
+						<section class="12u">
+							<div>
+								<img class="headshot" ng-src="{{event.img}}"/>
+								<div class="whoname">{{event.name}}</div>
+								<p>{{event.bio}}</p>
+							</div>
+								<p class="speaker">
+									{{event.long_bio}}
+								</p>
+							<div class="whoname">{{event.title}}</div>
+							<p class="speaker">{{event.description}}</p>
+						</section>
+					</div>
+				</section>
+			</div>
+
+
+<!-- 				<section data-remodal-id="marcin" class="wrapper speech tickets align-center remodal">
+					<button data-remodal-action="close" class="remodal-close"></button>
+					<div class="row">
+						<section class="6u">
+							<div>
+								<img class="headshot" src="images/marcin.jpeg"/>
+								<div class="whoname">Marcin Grzejszczak</div>
+								<div class="who">Software Architect @ 4financeIT</div>
+								<div class="who">Author of <a href="https://www.packtpub.com/application-development/instant-mockito-instant">Mockito Instant​</a> and <a href="https://www.packtpub.com/application-development/mockito-cookbook">Mockito Cookbook</a></div>
+								<p class="speaker">
+JVM programmer. Enthusiast of clean coding and good design. Coauthor of the Builder AST Transformation in Groovy and of the Microservices project at 4finance. Microservice architecture junkie. Contributor to several open source projects (Drools, Moco, Mockito). Co-leader of the Warsaw Groovy User Group. A member of the Most Valuable Blogger program at DZone and Java Code Geeks.
+								</p>
+							</div>
+						</section>
+						<section class="6u">
+							<div>
+								<img class="headshot" src="images/szimano.jpeg"/>
+								<div class="whoname">Tomasz Szymański </div>
+								<div class="who">CEO @ SoftwareMill</div>
+								 <div class="who">Warszawa-JUG leader</div>
+<p class="speaker">
+	I have been working on almost all steps of the Software Engineer career ladder. Starting from intern at JBoss, a division of RedHat, ranging to Application Architect in a big financial institution in South Africa. In the meantime I have started a company which aims at creating a cool place to work at. I believe in agile methodologies, good code and communities. For the last I have been leader of Warsaw JUG for many years, and recently I have started Warsaw Groovy User Group.
+</p>
+							</div>
+						</section>
+					</div>
+
+							<div class="row">
+								<section class="12u">
+<div class="whoname">Microservices - enough with theory, let's code some
+</div>
+							<p class="speaker">
+We have been on many talks about the (not so) new software design approach which is - "Microservices".
+
+Having organized few Microservice Hackathons (both public and internal) and developing applications for the last 7 months using that approach, we would like to show you what are the BUTs of the idea. Rarely can you hear about the chalenges and issues related to this architectural approach and we’ll tell nothing but the truth about it. Also we’ll show how you can quickly start creating your own apps using the tools we have created at 4finance / SoftwareMill.
+
+Just a glimpse of what will you see in action: zookeeper for service discovery; Kibana / Graphana for monitoring; client code in Java, Scala and Groovy; Ansible for provisioning. And the best part is that everything is opensourced and ready to use.
+
+Expect nothing but live coding and may the Demo Gods have mercy on us ;-)
+</p>
+						</section>
+					</div>
+				</section> -->
+
+
+			<section id="tickets-container" class="wrapper style1 tickets align-center">
+				<div class="container">
+					<header>
+						<h1>Tickets</h1>
+						This year we've limited number of tickets to 300. Don’t wait for the last moment and get your ticket now!
+					</header>
+
+					<div class="row nopadding">
+						<!-- <section class="2u 12u$(medium) 12u$(small)">&nbsp;</section> -->
+<!-- 						<section class="tick feature 2u 12u$(medium) 12u$(small)">
+							<h3 class="title">Early Birds</h3>
+							<div class="body">
+
+							<h1 class="price">99 €</h1>
+							<h4>{{earlyOverall}} tickets</h4>
+							<h4>{{earlyTicketsLeft == 0 ? 'Sold out' : earlyTicketsLeft + ' left'}}</h4>
+							<a target="_blank" ng-href="{{earlyDisabled ? '' : 'https://devternity.typeform.com/to/TUW0b7?type=earlybird'}}" class="button" ng-class="{disabled: earlyDisabled}">Buy</a>
+							</div>
+						</section>
+						<section class="1u 12u$(medium) 12u$(small)">&nbsp;</section>
+						<section class="tick inactive feature 2u 12u$(medium) 12u$(small)">
+							<h3 class="title">Regular</h3>
+							<div class="body">
+							<h1 class="price">119 €</h1>
+							<h4>{{regularOverall}} tickets</h4>
+							<h4>{{regularTicketsLeft == 0 ? 'Sold out' : regularTicketsLeft + ' left'}}</h4>
+							<a target="_blank" ng-href="{{regularDisabled ? '' : 'https://devternity.typeform.com/to/TUW0b7?type=regular'}}" class="button" ng-class="{disabled: regularDisabled}">Buy</a>
+							</div>
+						</section> -->
+						<section class="4u 12u$(medium) 12u$(small)">&nbsp;</section>
+						<section class="tick inactive feature 4u 12u$(medium) 12u$(small)">
+							<h3 class="title">Hurry up!</h3>
+							<div class="body">
+							<h1 class="price">149 €</h1>
+							<!-- <h4>{{lateOverall}} tickets</h4> -->
+							<h4>{{lateTicketsLeft == 0 ? 'Sold out' : lateTicketsLeft + ' tickets left until 20 Nov'}}</h4>
+							<a target="_blank" ng-href="{{lateDisabled ? '' : 'https://devternity.typeform.com/to/TUW0b7?type=late'}}" class="button" ng-class="{disabled: lateDisabled}">Buy</a>
+							</div>
+						</section>
+						<section class="4u 12u$(medium) 12u$(small)">&nbsp;</section>
+					</div>
+					<header class="discounts">
+						<h2>Discounts</h2>
+						<div class="row">
+						<section class="feature 4u 12u$(small)">
+							<h3 class="title">LatCraft residents | -10% </h3>
+							<div>
+								Those who had ever attended or gave a speech at Latvian Software Craftsmanship Community. We will check your email in Eventbrite list.
+							</div>
+						</section>
+						<section class="feature 4u 12u$(small)">
+							<h3 class="title">Tribes | -10% </h3>
+							<div>
+								Get additional discount for registerig together as a tribe of 5+ people. Bring your collegues, friend or a cat. Tribe name must be provided for each member during registration.
+							</div>
+						</section>
+						<section class="feature 4u 12u$(small)">
+							<h3 class="title">Sponsors </h3>
+							<div>
+								We give discount for companies that support the event. Please contact us regarding sponsorship offer.
+							</div>
+						</section>
+						</div>
+					</header>
+				</div>
+			</section>
+
+
+<section id="support-container" class="wrapper">
+				<div class="container">
+					<header class="align-center">
+						<h2>Backed by <strong>Gold Sponsors</strong></h2>
+						<br/>
+					<div class="row">
+						<section class="6u 12u$(medium) 12u$(small)">
+							<a target="_blank" href="http://4financeit.com"><img src="images/4finance.png" /></a>
+							<p>
+								<a href="http://4financeit.com">4financeIT</a> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance (12 different countries).
+							</p>
+						</section>
+						<section class="6u 12u$(medium) 12u$(small)">
+							<a target="_blank" href="https://www.clusterpoint.com/"><img src="images/cluster.png" /></a>
+							<p>
+							<a href="https://www.clusterpoint.com/">Clusterpoint Cloud</a> is an instantly scalable database-as-a-service solution. It combines Clusterpoint database technology computational power with its own Cloud infrastructure for the database storage.
+							</p>
+						</section>
+
+						<br/>
+					</div>
+					<div class="row">
+						<section class="6u 12u$(medium) 12u$(small)">
+							<a target="_blank" href="http://ask.fm"><img src="images/askfm.png" /></a>
+							<p>
+At <a href="http://ask.fm">Ask.fm</a>, our premise is simple: we believe questions and answers are the building blocks of conversation, self-expression, and deeper understanding. As the only global social network built on a Q&amp;A format, we bring more than 150 million people together across more than 150 countries.
+							</p>
+						</section>
+						<section class="6u 12u$(medium) 12u$(small)">
+							<a target="_blank" href="http://visma.lv"><img src="images/visma.png" /></a>
+							<p>
+							<a href="http://visma.lv">Visma</a> is a provider of business software, outsourcing services, commerce solutions, retail IT solutions, and IT related development and consultancy. The company has 400,000 customers with the vast majority in Northern Europe.
+						</p>
+						</section>
+
+						<br/>
+					</div>
+
+					<div class="row">
+						<section class="6u 12u$(medium) 12u$(small)">
+							<a target="_blank" href="http://accenture.lv"><img src="images/accenture.png" /></a>
+							<p>Accenture is a global management consulting, technology services and outsourcing company, with more than 358,000 people serving clients in more than 120 countries. Its home page is <a href="http://www.accenture.com">www.accenture.com</a>.
+							</p>
+						</section>
+						<section class="6u 12u$(medium) 12u$(small)">
+							&nbsp;
+						</section>
+
+						<br/>
+					</div>
+
+						<h2>... as well as</h2>
+				<div class="row">
+						<section class="6u 6u$(medium) 12u$(small) ">
+							<a target="_blank" href="http://finabay.com"><img src="images/finabay.png" /></a>
+						</section>
+						<section class="6u 6u$(medium) 12u$(small) ">
+							<a target="_blank" href="http://diatomenterprises.com"><img src="images/diatom.png" /></a>
+						</section>
+				</div>
+				<div class="row" style="margin-top: 30px">
+						<section class="6u 6u$(medium) 12$(small) ">
+							<a target="_blank" href="http://ctco.lv"><img src="images/ctco.jpeg" /></a>
+						</section>
+						<section class="6u 6u$(medium) 12u$(small)">
+							<a target="_blank" href="http://www.zabbix.com/"><img src="images/zbx.png" /></a>
+						</section>
+						<br/>
+					</div>
+				<div class="row" style="margin-top: 30px">
+						<section class="6u 6u$(medium) 12$(small) ">
+							<a target="_blank" href="http://likeit.lv"><img src="images/likeit.png" /></a>
+						</section>
+						<section class="6u 6u$(medium) 12u$(small)">
+						</section>
+						<br/>
+					</div>
+
+
+
+						<br/>
+						<br/>
+
+
+						<h2></h2>
+						<h2></h2>
+						<h2>... and media friends</h2>
+
+
+
+<div class="row">
+						<section class="2u 12u$(small)">
+							<a target="_blank" href="https://www.facebook.com/gdgriga"><img src="images/gdg.png" /></a>
+						</section>
+						<section class="2u 12u$(small)">
+							<a target="_blank" href="http://startuplatvia.eu/"><img src="images/startuplv.png" /></a>
+						</section>
+						<section class="2u 12u$(small)">
+							<a target="_blank" href="http://www.labsoflatvia.com/"><img src="images/labsoflatvia.png" /></a>
+						</section>
+						<section class="2u 12u$(small)">
+							<a target="_blank" href="http://bycraft.by/"><img src="images/bycra.png" /></a>
+						</section>
+						<section class="2u 12u$(small)">
+							<a target="_blank" href="http://www.boot.lv/"><img src="images/boot.png" /></a>
+						</section>
+						<section class="2u 12u$(small)">
+							<a target="_blank" href="https://riga.techhub.com"><img src="images/techhub.png" /></a>
+						</section>
+						</div>
+<div class="row" style="margin-top: 50px">
+						<section class="2u 12u$(small)">
+							<a target="_blank" href="https://jetbrains.com"><img src="images/jb.png" /></a>
+						</section>
+						<section class="2u 12u$(small)">
+							<a target="_blank" href="https://www.mongodb.org"><img src="images/mongo.png" /></a>
+						</section>
+						<section class="2u 12u$(small)">
+							<a target="_blank" href="http://www.enjoyrecruitment.lv/"><img src="images/enjoy.png" /></a>
+						</section>
+						<section class="2u 12u$(small)">
+							<a target="_blank" href="http://www.kursors.lv/"><img src="images/kursors.png" /></a>
+						</section>
+						<section class="2u 12u$(small)">
+						</section>
+						<section class="2u 12u$(small)">
+						</section>
+						</div>
+					</header>
+					</div>
+</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<section class="12u">
+						</section>
+					</div>
+					<div class="row">
+						<section class="6u 6u(medium) 12u$(small)">
+							<h3>Organisers</h3>
+							<p>DevTernity is organised with pride, love and care by <a target="_blank" href="http://www.latcraft.lv">Latvian Software Craftsmanship Community</a>.</p>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://devternity.com" data-text="DevTernity - Conference for developers who care about software craftsmanship" data-size="small" data-hashtags="devternity">Tweet</a> <br />
+
+
+
+                    <div class="fb-like" data-href="http://devternity.lv/" data-send="false" data-layout="button_count" data-show-faces="false"></div>
+                    <br />
+
+
+<!-- Place this tag where you want the +1 button to render. -->
+<div id="gplus">
+<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div><br />
+</div>
+
+<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/Share" data-url="www.devternity.com" data-counter="right"></script>
+
+						</section>
+						<section class="6u$ 12u$(medium) 12u$(small)">
+							<h3>Follow Us</h3>
+							<ul class="icons">
+								<li><a href="https://twitter.com/devternity" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/devternity" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.linkedin.com/grp/home?gid=8371335" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="tabular">
+								<li>
+									<h3>Mail</h3>
+									<a href="mailto:hello@devternity.com">hello@devternity.com</a>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									(+371) 288 14 170
+								</li>
+							</ul>
+						</section>
+					</div>
+					<ul class="copyright">
+						<li>&copy; DevTernity. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+
+	</body>
+</html>

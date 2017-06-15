@@ -1,0 +1,14 @@
+{
+    "name": "devternity",
+    "version": "1.0.0",
+    "description": "devternity.com website",
+    "license": "UNLICENSED",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/devternity/website"
+    },
+    "dependencies": {
+      "gulp": "^3.9.0",
+      "gulp-inline-source": "^3.0.0"
+    }
+}

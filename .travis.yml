@@ -1,0 +1,14 @@
+language: node_js
+branches:
+  only:
+    - master
+
+before_script:
+  - npm install -g gulp-cli
+
+script: gulp build deploy
+
+
+env:
+  global:
+    secure: "ZEhL7lAizcG4sTx5tBgve2sI4QcpFo7Uj1aZe8Lny7WoxXzGyLV6Eppdj2WQU0OEzfo6Kx8ai+Cpehv4Tldi1zQh65ghg0yprUZKQc/HWlVUbKm2Sk68aKhtFvJLrG1d4lrm1phGCdFmaEXQpRFlKF2cMuCP2KwuQHJLqB/oJhA="
