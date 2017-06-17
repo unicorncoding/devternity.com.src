@@ -2,6 +2,7 @@
 
 import rev from 'gulp-rev';
 import gulp from 'gulp';
+import deploy from 'gulp-gh-pages';
 import connect from 'gulp-connect';
 
 const dirs = {
