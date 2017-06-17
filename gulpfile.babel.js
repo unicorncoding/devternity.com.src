@@ -36,12 +36,15 @@ gulp.task('connect', () => {
 
 
 gulp.task('build', ['copy']);
+gulp.task('deploy', ['build', 'ghPages']);
 
-gulp.task('deploy', () => {
+
+gulp.task('ghPages', () => {
   return gulp
       .src(['./build/**/*'])
       .pipe(deploy({
-          	remoteUrl: "https://eduardsi:${GH_TOKEN}@github.com/devternity/devternity.com"
+          	remoteUrl: "https://eduardsi:${GH_TOKEN}@github.com/devternity/devternity.com",
+            branch: "master"
           }));
 });
 
