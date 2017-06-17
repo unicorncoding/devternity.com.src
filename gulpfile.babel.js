@@ -36,7 +36,7 @@ gulp.task('connect', () => {
 
 
 gulp.task('build', ['copy']);
-gulp.task('deploy', ['build', 'ghPages']);
+gulp.task('deploy', ['ghPages']);
 
 
 gulp.task('ghPages', () => {
