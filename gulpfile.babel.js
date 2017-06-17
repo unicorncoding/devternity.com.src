@@ -43,7 +43,7 @@ gulp.task('ghPages', () => {
   return gulp
       .src(['./build/**/*'])
       .pipe(deploy({
-          	remoteUrl: "https://eduardsi:${GH_TOKEN}@github.com/devternity/devternity.com",
+          	remoteUrl: "https://eduardsi:${GH_TOKEN}@github.com/devternity/devternity.github.io.git",
             branch: "master"
           }));
 });
