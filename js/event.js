@@ -286,6 +286,21 @@
                     },
                     {
                       "time": "13:40",
+                      "tags": ["modularity", "layering", "java"],
+                      "name": "Jakub Nabrdalik",
+                      "twitter": "jnabrdalik",
+                      "type": "speech",
+                      "country": "pl",
+                      "bio": "Team Leader & Senior Software Engineer @ Allegro Group",
+                      "long_bio": "Jakub Nabrdalik - A software developer with 13 years of professional experience in IT, as an architect, programmer, designer, analyst, project leader, project manager, and even as a development department manager. 6 years of talks and workshops. Software Craftsmanship, Domain Design, Practicing Test-driven development and Spring. More at solidcraft.eu",
+                      "title": "Keep IT Clean, or How to Hide Your Shit",
+                      "description": "Do you know why the default scope in Java is package-private? Because that's what designers thought should be the most popular scope. Is that the scope you most often see? Probably not. Somehow Java devs became crazy communists-capitalists, recognising only private and public access, and preferring public everywhere. And so our projects look like a lawn right after snow melts: full of shit laying in public. Hard to put into your head. Hard to reason about. Entanglement instead of encapsulation. People even register every possible class in an IoC container, because FU (nctional) programming, that's why. You wanna find something in my code? Google it. Or how about inheritance? James Gosling asked in 2001 about what he would do differently if he had a chance to recreate Java, said he would probably remove class inheritance. We are in 2016, having lambdas, defaults on interfaces, AOP and other tricks, but young developers still prefer to just add another abstract class to your code. Gonna be fun navigating those seven layers of hell when you read it. Ok, maybe it's not THAT bad, but it's not much better either. The problem of course, is that we all start with tutorials, which cut corners for brevity. And we don't pay attention to those small problems till they hit us hard. Let's see how we can make our situation a little bit better, using Domain Driven Design, package-private scope, sensible packaging structure, and CQRS on microservices. Because it is actually easier, than not doing it. Real life project examples included.",
+                      "img": "images/jnb.png",
+                      "presentation": "",
+                      "video": ""
+                    },
+                    {
+                      "time": "13:40",
                       "tags": ["deep learning", "tensorflow", "live demo"],
                       "name": "Guillaume Laforge",
                       "twitter": "glaforge",
@@ -300,7 +315,13 @@
                       "video": ""
                     },
                     {
-                      "time": "13:40",
+                        "type": "break",
+                        "time": "14:30",
+                        "title": "Coffee Break",
+                        "icon": "fa-coffee"
+                    },
+                    {
+                      "time": "14:50",
                       "tags": ["closing keynote", "software craftsmanship", "career development"],
                       "name": "Sandro Mancuso",
                       "twitter": "sandromancuso",
@@ -311,26 +332,6 @@
                       "title": "The Long Road",
                       "description": "Choosing the next career step in such a diverse and fast-paced industry is not an easy task. But when it comes to our careers, there is no right or wrong. Or there is? How do we know? In this talk we will be talking about different career choices, how can we choose good companies to work for, what we can learn from interviews and selection processes, when should we look for a new job, and how to change our working environment.",
                       "img": "images/sandroma.jpg",
-                      "presentation": "",
-                      "video": ""
-                    },
-                    {
-                      "type": "speech",
-                      "time": "13:40",
-                      "img": "images/hz.png",
-                      "presentation": "",
-                      "video": ""
-                    },
-                    {
-                        "type": "break",
-                        "time": "14:30",
-                        "title": "Coffee Break",
-                        "icon": "fa-coffee"
-                    },
-                        {
-                      "type": "speech",
-                      "time": "14:50",
-                      "img": "images/hz.png",
                       "presentation": "",
                       "video": ""
                     },
