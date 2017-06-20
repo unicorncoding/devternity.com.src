@@ -286,7 +286,7 @@
                     },
                     {
                       "time": "13:40",
-                      "tags": ["modularity", "layering", "java"],
+                      "tags": ["code organisation", "layering", "java"],
                       "name": "Jakub Nabrdalik",
                       "twitter": "jnabrdalik",
                       "type": "speech",
