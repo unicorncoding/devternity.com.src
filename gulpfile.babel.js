@@ -48,4 +48,4 @@ gulp.task('ghPages', () => {
           }));
 });
 
-gulp.task('default', ['build', 'connect']); 
+gulp.task('default', ['build', 'connect']);
