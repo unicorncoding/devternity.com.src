@@ -29,7 +29,7 @@ gulp.task('copy', () => {
 
 gulp.task('connect', () => {
   connect.server({
-    root: 'build',
+    root: 'build', 
     livereload: true
   });
 });
