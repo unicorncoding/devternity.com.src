@@ -816,9 +816,13 @@ devternity.controller("DiscountController", function($scope) {
 	$scope.email = "";
 
 	$scope.askForDiscount = function() {
-		 firebase.database().ref("discounts")
+		 firebase.database().ref("events")
 		 .push()
-		 .set($scope.email)
+		 .set({
+			 type: "DISCOUNT_REQUESTED",
+			 product: "DT_RIX_17",
+			 email: $scope.email
+		 })
 		 .then(function() {
 			 if ($scope.inst) {
 				 $scope.inst.close();
