@@ -1,6 +1,7 @@
 [
     {
         "theme": "DevTernity 2017",
+        "codename": "DT_RIX_17",
         "desc": "The only software development conference you can't miss.",
         "month": "December 2017",
         "date": "1-2 December 2017",
