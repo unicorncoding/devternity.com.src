@@ -861,8 +861,8 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
     }
   }
 
-  $scope.buy = function() {
-    $window.location.href = 'https://devternity.typeform.com/to/hxkEy1';
+  $scope.buy = function(moveTo) {
+    $window.location.href = moveTo;
   }
 
 
