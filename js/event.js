@@ -57,7 +57,7 @@
                 "event": "workshops",
                 "schedule": [
                   {
-                      "product": "KVLDT2017",
+                      "product": "AGILE_ARCHITECTURE",
                       "name": "Kevlin Henney",
                       "type": "speech",
                       "time": "9:00 - 18:00",
@@ -72,7 +72,7 @@
                       "video": ""
                   },
                   {
-                      "product": "EVELI2017",
+                      "product": "MACHINE_LEARNING",
                       "name": "Evelina Gabasova",
                       "type": "speech",
                       "time": "9:00 - 18:00",
@@ -87,7 +87,7 @@
                       "video": ""
                   },
                   {
-                      "product": "UWEFR2017",
+                      "product": "RESILIENT_DESIGN",
                       "name": "Uwe Friedrichsen",
                       "type": "speech",
                       "time": "9:00 - 18:00",
@@ -102,7 +102,7 @@
                       "video": ""
                   },
                   {
-                      "product": "SANDR2017",
+                      "product": "CRAFTING_CODE",
                       "name": "Sandro Mancuso",
                       "type": "speech",
                       "time": "9:00 - 18:00",
@@ -117,7 +117,7 @@
                       "video": ""
                   },
                   {
-                      "product": "EVENTS2017",
+                      "product": "EVENTS_SOURCING",
                       "name": "Jakub Pilimon",
                       "type": "speech",
                       "time": "9:00 - 18:00",
