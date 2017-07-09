@@ -117,7 +117,7 @@
                       "video": ""
                   },
                   {
-                      "product": "EVENTS_SOURCING",
+                      "product": "ES_&_CQRS",
                       "name": "Jakub Pilimon",
                       "type": "speech",
                       "time": "9:00 - 18:00",
