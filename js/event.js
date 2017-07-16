@@ -37,6 +37,31 @@
         },
         "sponsors": [
           {
+            "package": "gold",
+            "logo": "devchampions.png",
+            "link": "https://devchampions.com"
+          },
+          {
+            "package": "others",
+            "logo": "likeit.png",
+            "link": "http://likeit.lv"
+          },
+          {
+            "package": "others",
+            "logo": "taxify.png",
+            "link": "http://visma.eu"
+          },
+          {
+            "package": "others",
+            "logo": "toptal.png",
+            "link": "http://toptal.com"
+          },
+          {
+            "package": "others",
+            "logo": "visma.png",
+            "link": "http://visma.lv"
+          },
+          {
             "package": "media",
             "logo": "diversity.png",
             "link": "http://diversitycharter.org"
