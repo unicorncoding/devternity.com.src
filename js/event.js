@@ -360,11 +360,15 @@
                       "img": "images/sandroma.jpg",
                       "presentation": "",
                       "video": ""
-                    },
+                    },                    
                     {
-                      "type": "speech",
                       "time": "14:50",
-                      "img": "images/hz.png",
+                      "name": "Maxim Dorofeev",
+                      "twitter": "cartmendum",
+                      "type": "speech",
+                      "country": "ru",
+                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
+                      "img": "images/dorofeev.png",
                       "presentation": "",
                       "video": ""
                     },

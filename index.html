@@ -123,7 +123,6 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 						<h2></h2>
 						<p>
               DevTernity is <strong>the the greatest international software development conference in Latvia</strong>. Carefully chosen keynotes and workshops, exclusively delivered by the <strong>world's top speakers</strong> make the conference inspiring and practical. With zero tolerance to marketing talks and Agile bullsh%t bingo, we cover modern approaches to coding, architecture, testing, engineering scalability and operations. We do not specialize on a particular framework or technology, because they come and go. <strong>We focus on fundamental building blocks necessary for building better, modern software systems</strong>.
-              <br/><br/>Are you in?
             </p>
             <p>
             </p>
@@ -217,9 +216,9 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
       							<td>&nbsp;{{time}}</td>
                     <td class="align-center" ng-if="program[time].length == 1">&nbsp;</td>
       							<td class="align-center" ng-repeat="event in program[time]">
-      								<a class="pointer" ng-click="popupSpeech(event.uid)" ng-if="event.type === 'speech' && event.name">{{event.name}}{{event.partner ? ' and ' + event.partner.name : ''}}</br><strong>{{event.title}}</strong></br></a>
+      								<a class="pointer" ng-click="popupSpeech(event.uid)" ng-if="event.type === 'speech' && event.title">{{event.name}}{{event.partner ? ' and ' + event.partner.name : ''}}</br><strong>{{event.title}}</strong></br></a>
                     <span class="tag" ng-repeat="tag in event.tags">&nbsp;&nbsp;{{tag}}&nbsp;&nbsp;</span>
-                      <span ng-if="event.type == 'speech' && !event.name">?</span>
+                      <span ng-if="event.type == 'speech' && !event.title">?</span>
       								<span ng-if="event.type != 'speech'">
                         {{event.title}}
                       </span>
