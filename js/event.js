@@ -348,6 +348,21 @@
                     },
                     {
                       "time": "14:50",
+                      "tags": ["case study", "enterprise architecture", "radical agility"],
+                      "name": "Felix Müller",
+                      "twitter": "fmueller_bln",
+                      "type": "speech",
+                      "country": "de",
+                      "bio": "Software Architect @ Zalando",
+                      "long_bio": "Felix Müller is an architect at Zalando SE in Berlin. Together with 100+ teams he develops the next generation of the Zalando platform. He is interested in distributed systems, smart architecture solutions and engineering excellence.",
+                      "title": "Scaling Architecture @ Zalando",
+                      "description": "Zalando introduced Radical Agility last year: an organizational concept which fosters autonomous teams. By building your organization on autonomous teams, you may wonder how architecture works takes place in such an environment - especially with a separate architecture team. Architecture should not become a bottleneck. In this talk I show, how we try to achieve shared understanding regarding architecture across our organization by facilitating architectural principles and forming guilds. You will hear about our most important guidelines, why we have them and which technical challenges arise by them.",
+                      "img": "images/felix_mueller.png",
+                      "presentation": "",
+                      "video": ""
+                    },                     
+                    {
+                      "time": "14:50",
                       "tags": ["closing keynote", "software craftsmanship", "career development"],
                       "name": "Sandro Mancuso",
                       "twitter": "sandromancuso",
@@ -369,13 +384,6 @@
                       "country": "ru",
                       "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
                       "img": "images/dorofeev.png",
-                      "presentation": "",
-                      "video": ""
-                    },
-                    {
-                      "type": "speech",
-                      "time": "14:50",
-                      "img": "images/hz.png",
                       "presentation": "",
                       "video": ""
                     },
