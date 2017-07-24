@@ -308,15 +308,15 @@
                     {
                       "time": "13:40",
                       "tags": ["docker", "containers", "workload management"],
-                      "name": "Paul Stack",
+                      "name": "Nic Jackson",
                       "twitter": "stack72",
                       "type": "speech",
                       "country": "gb",
-                      "bio": "Software Engineer @ Hashicorp, UK",
-                      "long_bio": "Paul Stack is a London based infrastructure coder and has spoken at various events throughout the world about his passion for continuous integration, continuous delivery and good operational procedures and why they should be part of what developers and system administrators do on a day to day basis. He believes that reliably delivering software is more important as its development. Paul’s passions are the DevOps and Continuous Delivery movements and how they help the entire business and its customers.",
+                      "bio": "Developer Advocate @ Hashicorp, author of <a href=\"https://www.amazon.co.uk/Building-Microservices-Go-Nic-Jackson/dp/1786468662\">Building Microservices in Go</a>",
+                      "long_bio": "Nic Jackson is a developer advocate and polyglot programmer working for HashiCorp, and the author of “Building Microservices in Go” due to be published April 2017; this book examines the best patterns and practices for building microservices with the Go programming language. In his spare time, Nic coaches and mentors at Coder Dojo teaching kids 7-14 Swift with Playgrounds, teaches at Women Who Go and GoBridge, speaks and evangelizes good coding practice, process, and technique and works to raise money for a charity he runs with his wife.",
                       "title": "Nomad: Scheduling Applications at Scale",
                       "description": "Tools like Docker and rkt make it easier than ever to package and distribute applications. Unfortunately, not all organizations have the luxury of being able to package their applications in a container runtime. Many organizations have virtualized workloads that cannot be easily containerized, such as applications that require full hardware isolation or virtual appliances. On the opposite end of the spectrum, some organizations deploy workloads that are already static binaries such as Go applications or Java applications that only rely on the JVM. These types of applications do not benefit from containerization as they are already self-contained. To address the growing heterogeneity of workloads, HashiCorp created Nomad – a globally aware, distributed scheduler and cluster manager. Nomad is designed to handle many types of workloads, on a variety of operating systems, at massive scale. Nomad empowers developers to specify jobs and tasks using a high-level specification in a plain-text file. Nomad accepts the job specification, parses the information, determines which compatible hosts have available resources, and then automatically manages the placement, healing, and scaling of the application. By placing multiple applications per host, Nomad maximizes resource utilization and dramatically reduces infrastructure costs. The flexibility of Nomad’s design brings the benefits of a scheduled application workflow to organizations with heterogeneous workloads and operating systems. This talk will discuss the pros and cons of running in a scheduled environment and includes a series of live demos to supplement the learning experience.",
-                      "img": "images/pstack.jpg",
+                      "img": "images/nic.png",
                       "presentation": "",
                       "video": ""
                     },
@@ -370,9 +370,44 @@
                       "img": "images/felix_mueller.png",
                       "presentation": "",
                       "video": ""
-                    },                     
+                    },                                       
                     {
                       "time": "14:50",
+                      "tags": ["productivity", "getting things done", "smarter working"],                      
+                      "name": "Maxim Dorofeev",
+                      "twitter": "cartmendum",
+                      "type": "speech",
+                      "country": "ru",
+                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
+                      "title": "Jedi Techniques",
+                      "description": "coming soon",                      
+                      "img": "images/dorofeev.png",
+                      "presentation": "",
+                      "video": ""
+                    },
+                    {
+                        "type": "break",
+                        "time": "15:40",
+                        "title": "Coffee Break",
+                        "icon": "fa-coffee"
+                    },
+                    {
+                      "time": "14:50",
+                      "tags": ["distributed systems", "stress testing", "simian army"],
+                      "name": "Paul Stack",
+                      "twitter": "stack72",
+                      "type": "speech",
+                      "country": "gb",
+                      "bio": "Software Engineer @ Hashicorp, UK",
+                      "long_bio": "Paul Stack is a London based infrastructure coder and has spoken at various events throughout the world about his passion for continuous integration, continuous delivery and good operational procedures and why they should be part of what developers and system administrators do on a day to day basis. He believes that reliably delivering software is more important as its development. Paul’s passions are the DevOps and Continuous Delivery movements and how they help the entire business and its customers.",
+                      "title": "Chaos Engineering",
+                      "description": "coming soon",
+                      "img": "images/pstack.jpg",
+                      "presentation": "",
+                      "video": ""
+                    },
+                    {
+                      "time": "16:00",
                       "tags": ["closing keynote", "software craftsmanship", "career development"],
                       "name": "Sandro Mancuso",
                       "twitter": "sandromancuso",
@@ -385,31 +420,7 @@
                       "img": "images/sandroma.jpg",
                       "presentation": "",
                       "video": ""
-                    },                    
-                    {
-                      "time": "14:50",
-                      "name": "Maxim Dorofeev",
-                      "twitter": "cartmendum",
-                      "type": "speech",
-                      "country": "ru",
-                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
-                      "img": "images/dorofeev.png",
-                      "presentation": "",
-                      "video": ""
-                    },
-                    {
-                        "type": "break",
-                        "time": "15:40",
-                        "title": "Coffee Break",
-                        "icon": "fa-coffee"
-                    },
-                    {
-                      "type": "speech",
-                      "time": "16:00",
-                      "img": "images/hz.png",
-                      "presentation": "",
-                      "video": ""
-                    },
+                    },                      
                     {
                       "type": "speech",
                       "time": "16:00",
