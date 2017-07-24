@@ -68,11 +68,6 @@
           },
           {
             "package": "media",
-            "logo": "devchamps.png",
-            "link": "http://devchampions.com"
-          },
-          {
-            "package": "media",
             "logo": "latcraft.png",
             "link": "http://latcraft.lv"
           }
@@ -155,7 +150,22 @@
                       "presentation": "",
                       "sold_out": false,
                       "video": ""
-                  }
+                  },
+                  {
+                      "product": "HASHI_STACK",
+                      "name": "Paul Stack",
+                      "type": "speech",
+                      "time": "9:00 - 18:00",
+                      "country": "gb",
+                      "bio": "Software Engineer @ Hashicorp, UK",
+                      "long_bio": "Paul Stack is a London based infrastructure coder and has spoken at various events throughout the world about his passion for continuous integration, continuous delivery and good operational procedures and why they should be part of what developers and system administrators do on a day to day basis. He believes that reliably delivering software is more important as its development. Paul’s passions are the DevOps and Continuous Delivery movements and how they help the entire business and its customers.",
+                      "title": "Modern Infrastructure with the HashiStack",
+                      "description": "<p>This is a comprehensive, engineer led course that covers building infrastructure in an IaC (Infrastructure as Code) fashion, using HashiCorp's Packer and Terraform tools. Topics include:<ul><li>Terraform and Packer syntax, internals, and patterns</li><li>Creating and accessing compute instances</li><li>Provisioning resources with Terraform</li><li>Working with remote state</li><li>Managing DNS with Terraform</li><li>Continuous delivery of machine images with Packer</li><li>Learn how to safely provision and manage infrastructure lifecycle with Terraform and Packer!</li></ul></p>",
+                      "img": "images/pstack.jpg",
+                      "presentation": "",
+                      "sold_out": false,
+                      "video": ""
+                  }                  
                 ]
             },
             {
