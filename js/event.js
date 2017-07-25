@@ -435,13 +435,6 @@
                       "img": "images/sandroma.jpg",
                       "presentation": "",
                       "video": ""
-                    },                      
-                    {
-                      "type": "speech",
-                      "time": "16:00",
-                      "img": "images/hz.png",
-                      "presentation": "",
-                      "video": ""
                     },
                     {
                       "type": "speech",
