@@ -408,7 +408,7 @@
                     },
                     {
                       "time": "16:00",
-                      "tags": ["closing keynote", "software craftsmanship", "career development"],
+                      "tags": ["devops", "automation", "patterns"],
                       "name": "Kief Morris",
                       "twitter": "kief",
                       "type": "speech",
