@@ -409,6 +409,21 @@
                     {
                       "time": "16:00",
                       "tags": ["closing keynote", "software craftsmanship", "career development"],
+                      "name": "Kief Morris",
+                      "twitter": "kief",
+                      "type": "speech",
+                      "country": "gb",
+                      "bio": "Cloud Technology Architect at ThoughtWorks, author of <a href=\"https://www.amazon.co.uk/Infrastructure-Code-Managing-Servers-Cloud-ebook/dp/B01GUG9ZNU\">Infrastructure as Code</a>",
+                      "long_bio": "Kief Morris is Cloud Practice Lead at ThoughtWorks, and the author of the O'Reilly book Infrastructure as Code. He works with organisations to understand how to take advantage of cloud, infrastructure automation, DevOps, and Continuous Delivery to become more effective at delivering IT services. Originally from Tennessee, Kief moved to London in the dot-com days and has been there ever since.",
+                      "title": "Implementing Infrastructure as Code",
+                      "description": "Infrastructure as Code (IaC) is the \"A(utomation)\" in the DevOps \"CALMS\" model. It treats dynamic infrastructure as a software system, which means development tools and agile practices like TDD, CI, and CD can be used. Most development and operations teams are making at least some use of IaC tools such as cloud, Chef, Puppet, Ansible, Terraform, etc. But not many are using them to their full potential. This talk explains some of the core challenges of managing infrastructure in a fully automated way, and shares principles and patterns for addressing them. The talk walks through a number of patterns for implementing IaC tools such as AWS, Chef, Puppet, Ansible, and Terraform, to build a change management pipeline to automatically test and apply configuration to infrastructure. The patterns are not tool-specific, so should be useful for any team using these types of tools. Attendees should come away with an understanding of how concepts such as Continuous Integration (CI), Continuous Delivery (CD), Test Driven Development (TDD) can be applied to infrastructure.",
+                      "img": "images/kief.png",
+                      "presentation": "",
+                      "video": ""
+                    },                     
+                    {
+                      "time": "16:00",
+                      "tags": ["closing keynote", "software craftsmanship", "career development"],
                       "name": "Sandro Mancuso",
                       "twitter": "sandromancuso",
                       "type": "speech",
