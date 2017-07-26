@@ -821,7 +821,27 @@ devternity.controller("DiscountController", function($scope) {
 		 .set({
 			 type: "DISCOUNT_REQUESTED",
 			 product: "DT_RIX_17",
-			 email: $scope.email
+			 email: $scope.email,
+			 slack: {
+			 	text: "Discount request",
+			 	attachments: [
+		        {
+		          color: "#36a64f",
+		          fields: [
+		            {
+		              "title": "Email",
+		              "value": $scope.email,
+		              "short": true
+		            },
+		            {
+		              "title": "Product",
+		              "value": "DT_RIX_17",
+		              "short": true
+		            }
+		          ]
+		      	}		  
+			 	]
+			 }	
 		 })
 		 .then(function() {
 			 if ($scope.inst) {
