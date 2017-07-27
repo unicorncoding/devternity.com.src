@@ -42,6 +42,11 @@
             "link": "https://devchampions.com"
           },
           {
+            "package": "gold",
+            "logo": "4finance.png",
+            "link": "http://www.4financeit.com/"
+          },          
+          {
             "package": "others",
             "logo": "likeit.png",
             "link": "http://likeit.lv"
