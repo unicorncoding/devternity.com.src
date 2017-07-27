@@ -809,14 +809,14 @@ devternity.controller("DiscountController", function($scope) {
 	bioEp.init({
 	});
 	bioEp.show = function() {
-			$scope.inst = $("#discountOffer").remodal();
-	  $scope.inst.open();
+		$scope.inst = $("#discountOffer").remodal();
+	    $scope.inst.open();
 	};
 
 	$scope.email = "";
 
 	$scope.askForDiscount = function() {
-		 firebase.database().ref("events")
+		 firebase.database().ref("discounts")
 		 .push()
 		 .set({
 			 type: "DISCOUNT_REQUESTED",
