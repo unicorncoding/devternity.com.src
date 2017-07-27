@@ -75,7 +75,12 @@
             "package": "media",
             "logo": "latcraft.png",
             "link": "http://latcraft.lv"
-          }
+          },
+          {
+            "package": "media",
+            "logo": "4sure.png",
+            "link": "http://4sure.lv/"
+          }          
         ],
         "program": [
             {
