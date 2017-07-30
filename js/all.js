@@ -787,12 +787,11 @@ devternity.filter("trust", ['$sce', function($sce) {
   }
 }]);
 
-devternity.filter("humane", [function() {
+devternity.filter("noOverdue", [function() {
   return function(date){
-    return moment(date).format("MMMM Do");
+    return moment(date).isAfter(new Date());
   }
 }]);
-
 
 devternity.controller("DiscountController", function($scope) {
 

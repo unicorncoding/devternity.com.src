@@ -15,6 +15,8 @@
         "time": "8:00",
         "lanyrd": "http://lanyrd.com/2017/devternity",
         "register": "https://docs.google.com/forms/d/e/1FAIpQLSezFNvjgxEfnxpSvRHy7XHdHlSG2cvTJhULCbvN12OQqUMMPg/viewform",
+        "cfp": "http://bit.ly/devternity_cfp",
+        "cfp_deadline": "2017-07-01",
         "announced": true,
         "venue": "Mūkusalas iela 3, Rīga, LV-1423, Latvia",
         "venue_name": "National Library of Latvia",
