@@ -41,12 +41,14 @@
           {
             "package": "gold",
             "logo": "devchampions.png",
-            "link": "https://devchampions.com"
+            "link": "https://devchampions.com",
+            "info": "DevChampions offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation, Agile methodologies and soft skills. "
           },
           {
             "package": "gold",
             "logo": "4finance.png",
-            "link": "http://www.4financeit.com/"
+            "link": "http://www.4financeit.com/",
+            "info": "<p><a href=\"http://4financeit.com\">4financeIT</a> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance (15 different countries).</p>"
           },          
           {
             "package": "others",
