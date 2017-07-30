@@ -42,7 +42,7 @@
             "package": "gold",
             "logo": "devchampions.png",
             "link": "https://devchampions.com",
-            "info": "DevChampions offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation, Agile methodologies and soft skills. "
+            "info": "<a href=\"https://devchampions.com\">DevChampions</a> offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation, Agile methodologies and soft skills. "
           },
           {
             "package": "gold",
