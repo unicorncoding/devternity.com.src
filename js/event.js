@@ -63,7 +63,7 @@
           {
             "package": "others",
             "logo": "toptal.png",
-            "link": "http://toptal.com"
+            "link": "http://toptal.com/top-3-percent?utm_source=devternityLV&utm_medium=logo&utm_campaign=sponsorships"
           },
           {
             "package": "others",
