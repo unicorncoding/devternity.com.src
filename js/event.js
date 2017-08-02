@@ -26,7 +26,7 @@
             "until": "2017-07-01",
             "products": [
               {
-                "name": "Keynotes",
+                "name": "Inspiring Talks",
                 "price": 199,
                 "speculativePrice": 249
               },
@@ -82,9 +82,14 @@
           },
           {
             "package": "media",
+            "logo": "reactiveconf.png",
+            "link": "https://reactiveconf.com"
+          },
+          {
+            "package": "media",
             "logo": "4sure.png",
             "link": "http://4sure.lv/"
-          }          
+          }
         ],
         "program": [
             {
