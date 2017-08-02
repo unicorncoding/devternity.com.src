@@ -6,12 +6,8 @@ import deploy from 'gulp-gh-pages';
 import connect from 'gulp-connect';
 
 const dirs = {
-  dest: 'build'
-};
-
-gulp.task('copy', () => {
-  return gulp
-      .src([
+  dest: 'build',
+  sources: [
         '2015/**/*',
         '2016/**/*',
         'css/**/*',
@@ -23,8 +19,15 @@ gulp.task('copy', () => {
         'sponsorship/**/*',
         'CNAME',
         '*.html'
-      ], {base: '.'})
-      .pipe(gulp.dest(dirs.dest));
+      ]
+};
+
+gulp.task('copy', () => {
+  return gulp
+      .src(dirs.sources, {base: '.'})
+      .pipe(gulp.dest(dirs.dest))
+      .pipe(connect.reload());
+
 });
 
 gulp.task('connect', () => {
@@ -32,6 +35,10 @@ gulp.task('connect', () => {
     root: 'build', 
     livereload: true
   });
+});
+
+gulp.task('watch', function () {
+  gulp.watch(dirs.sources, ['copy']);
 });
 
 
@@ -48,4 +55,4 @@ gulp.task('ghPages', () => {
           }));
 });
 
-gulp.task('default', ['build', 'connect']);
+gulp.task('default', ['build', 'watch', 'connect']);
