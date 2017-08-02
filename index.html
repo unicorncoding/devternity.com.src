@@ -312,6 +312,7 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 			            <section class="feature 6u 12u$(small) align-left">
 			              <h3>
                       <strong ng-if="speaker.sold_out" class="sold">SOLD OUT</strong>
+                      <strong ng-if="speaker.sold_out_soon" class="sold">FEW TICKETS LEFT</strong>
 			                <i class="fa fa-clock-o" aria-hidden="true"></i> {{speaker.time}} <strong>{{speaker.title}}</strong>
 			              </h3>
 			              <div class="who" ng-bind-html="speaker.description | trust"></div>
