@@ -86,7 +86,7 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 
 		<!-- Banner -->
 			<section id="banner">
-        <img src="images/btc_accepted.png" id="btc" />
+        		<img src="images/btc_accepted.png" id="btc" />
 				<div>
 					<img src="images/logo.png" />
 					<h2>&nbsp; DevTernity.</h2>
@@ -96,22 +96,22 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 				<p>{{event.date}}. {{event.city}}, {{event.country}}.</p>
 				<ul class="actions">
 					<li ng-if="event.status == 'BOOKED'">
-            <a class="button big" >We are fully booked.</a>
-          </li>
-          <li ng-if="event.status == 'BACK_SOON'">
-						<span>DevTernity will come back soon. In the meantime, enjoy <a href="https://www.youtube.com/channel/UCvzMZyJZZ3XYQwbvOACVYrQ/videos">videos</a> from the past event and follow us on the social networks.
-						<br/>
-						<br/>
-						<a href="{{event.subscribe}}" class="button big">Let me know when you're back!</a>
-            </span>
+            			<a class="button big" >We are fully booked.</a>
+          			</li>
+          			<li ng-if="event.status == 'BACK_SOON'">
+							<span>DevTernity will come back soon. In the meantime, enjoy <a href="https://www.youtube.com/channel/UCvzMZyJZZ3XYQwbvOACVYrQ/videos">videos</a> from the past event and follow us on the social networks.
+							<br/>
+							<br/>
+							<a href="{{event.subscribe}}" class="button big">Let me know when you're back!</a>
+            			</span>
 					</li>
-          <li  ng-if="event.status == 'OPEN'">
-            <a ng-click="slideTo('#tickets-container')" class="button big">Take me with you.</a>
-            <br /><br />
-            <timer end-time="registrationClosesIn">
-              Registration closes in <strong style="color: white">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds </strong>
-            </timer>
-          </li>
+		          <li  ng-if="event.status == 'OPEN'">
+		            <a ng-click="slideTo('#tickets-container')" class="button big">Take me with you.</a>
+		            <br /><br />
+		            <timer end-time="registrationClosesIn">
+		              Registration closes in <strong style="color: white">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds </strong>
+		            </timer>
+		          </li>
 				</ul>
 			</section>
 
@@ -190,46 +190,42 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 			</section>
 
 			<section id="program-container" class="wrapper">
-          <div class="container">
-      				<table>
-      					<tr>
-      						<th>&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i></th>
-      						<th class="align-center"><span class="fa-stack fa-1x">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <strong class="fa-stack-1x text-primary">1</strong>
-                      </span> Track
-                  </th>
-      						<th class="align-center"><span class="fa-stack fa-1x">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <strong class="fa-stack-1x text-primary">2</strong>
-                      </span> Track
-                    </th>
-      						<th class="align-center"><span class="fa-stack fa-1x">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <strong class="fa-stack-1x text-primary">3</strong>
-                      </span> Track
-                  </th>
-      					</tr>
 
-      					<tr ng-repeat="time in programTimes" class="evt">
-      							<td>&nbsp;{{time}}</td>
-                    <td class="align-center" ng-if="program[time].length == 1">&nbsp;</td>
-      							<td class="align-center" ng-repeat="event in program[time]">
-      								<a class="pointer" ng-click="popupSpeech(event.uid)" ng-if="event.type === 'speech' && event.title">{{event.name}}{{event.partner ? ' and ' + event.partner.name : ''}}</br><strong>{{event.title}}</strong></br></a>
-                    <span class="tag" ng-repeat="tag in event.tags">&nbsp;&nbsp;{{tag}}&nbsp;&nbsp;</span>
-                      <span ng-if="event.type == 'speech' && !event.title">?</span>
-      								<span ng-if="event.type != 'speech'">
-                        {{event.title}}
-                      </span>
-      							</td>
-                    <td class="align-center" ng-if="program[time].length == 1">&nbsp;</td>
-      					</tr>
-      				</table>
-            </div>
+					
+		          <div class="container">
+		      					<div class="row header">
+	      							<section class="align-center feature 4u"><span class="fa-stack fa-1x">
+				                      <i class="fa fa-circle fa-stack-2x"></i>
+				                      <strong class="fa-stack-1x text-primary">1</strong>
+				                      </span> Track
+				                  	</section>
+		      						<section class="align-center feature 4u"><span class="fa-stack fa-1x">
+				                      <i class="fa fa-circle fa-stack-2x"></i>
+				                      <strong class="fa-stack-1x text-primary">2</strong>
+				                      </span> Track
+				                    </section>
+		      						<section class="align-center feature 4u"><span class="fa-stack fa-1x">
+				                      <i class="fa fa-circle fa-stack-2x"></i>
+				                      <strong class="fa-stack-1x text-primary">3</strong>
+				                      </span> Track
+				                  	</section>
+		      					</div>
+
+		      					<div ng-repeat="time in programTimes" class="evt row" ng-class-even="'even'" ng-class-odd="'odd'">
+	      							<section class="align-center feature {{event.type != 'speech' || program[time].length == 1 ? '12u' : '4u'}}" ng-repeat="event in program[time]">
+	      								{{time}}</br>
+	      								<a class="pointer" ng-click="popupSpeech(event.uid)" ng-if="event.type === 'speech' && event.title">{{event.name}}{{event.partner ? ' and ' + event.partner.name : ''}}</br><strong>{{event.title}}</strong></br></a>
+					                    <span class="tag" ng-repeat="tag in event.tags">#{{tag}}&nbsp;</span>
+				                      <span ng-if="event.type == 'speech' && !event.title">?</span>
+      								  <span ng-if="event.type != 'speech'">{{event.title}}</span>
+	      							</section>
+		      					</div>
+		      				
+		            </div>
 			</section>
 
 
-				<div ng-repeat="yo in program">
+				<div ng-repeat="yo in program" class="container">
 				<section ng-repeat="event in yo" ng-if="event.type === 'speech'" data-remodal-id="{{event.uid}}" class="wrapper speech tickets align-center">
 					<button data-remodal-action="close" class="remodal-close"></button>
 					<div class="row" ng-if="event.partner">

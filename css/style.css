@@ -53,11 +53,8 @@ strong a {
 }
 
 span.tag {
-	background-color: #ededed; color: #929290;
 	margin: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	white-space:nowrap;
+	font-size: 13px;
 }
 
 .discounts {
@@ -125,12 +122,28 @@ span.tag {
 		padding-bottom: 0em;
 }
 
-#program-container td {
+#program-container section {
 	font-size: 0.7em !important;
 }
 
 #program-container a small {
 	font-size: inherit;
+}
+
+#program-container .header {
+	background-color: rgba(144,144,144,0.075);
+	border-top: 1px solid #D3D3D3;
+	padding: 10px;
+}
+
+
+#program-container .even {
+	background-color: rgba(144,144,144,0.075);
+}
+
+#program-container .odd {
+	border-top: 1px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;	
 }
 
 #support-container img {

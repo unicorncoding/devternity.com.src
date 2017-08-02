@@ -204,7 +204,7 @@
                     {
                         "name": "Kevlin Henney",
                         "type": "speech",
-                        "tags": ["opening keynote", "general programming", "impact of our work"],
+                        "tags": ["opening keynote", "general programming", "software issues"],
                         "twitter": "kevlinhenney",
                         "time": "9:15",
                         "country": "gb",
