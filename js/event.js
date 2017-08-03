@@ -399,8 +399,8 @@
                       "type": "speech",
                       "country": "ru",
                       "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
-                      "title": "Jedi Techniques",
-                      "description": "coming soon",                      
+                      "title": "Jedi Techniques of Personal Effectiveness",
+                      "description": "During the last ten years (at least) I was deliberately thinking about what makes us productive, creative and gives us the effectiveness. I came to several counter-intuitive conclusions: – we're often late because we're trying to save time. - we're uncertain about some things, because we have too much information. - we're too slow, because we try to do them faster. During my talk I'm going to illustrate this in more details and show how it can be explained from the point of view of modern cognitive science as well as ancient wisdom. And of course the way to become more productive will be shown.",
                       "img": "images/dorofeev.png",
                       "presentation": "",
                       "video": ""
