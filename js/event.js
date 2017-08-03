@@ -89,6 +89,11 @@
             "package": "media",
             "logo": "4sure.png",
             "link": "http://4sure.lv/"
+          },
+          {
+            "package": "media",
+            "logo": "jguru.png",
+            "link": "http://javaguru.lv/"
           }
         ],
         "program": [
