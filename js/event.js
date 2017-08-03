@@ -169,7 +169,7 @@
                       "country": "pl",
                       "bio": "Software Developer, Trainer @ ‎Bottega IT Minds, DZone's Most-Valuable Blogger",
                       "long_bio": "Passionate programmer with 7 years of experience. DDD, TDD and architecture are my main areas of interest. When I don’t program I run a DDD/architecture training, ride motorbike, ski or grow my beard. Also, here is my DZone MVB awarded blog: pillopl.github.io",
-                      "title": "Building Event-Sourcing and CQRS Applications using Spring Stream",
+                      "title": "Building Event-Sourcing and CQRS Applications with Spring",
                       "description": "<p>In this hands-on workshop, together with Jakub you're gonna build a fully featured distributed system from a scratch using Spring Boot and Spring Cloud Stream. During the whole day we will learn: <ul><li>Why's and How's behind Event Sourcing and CQRS</li><li>How to rewrite a Domain-Driven-Design-like app to event-sourced model</li><li>How to leverage CQRS to eliminate accidental complexity in our domain model</li><li>How to solve problems caused by synchronizing read and write model</li><li>How to use messaging and Spring Stream to achieve loose coupling</li><li>...and much more!</li></ul></p>",
                       "img": "images/jakubpilo.jpg",
                       "presentation": "",
