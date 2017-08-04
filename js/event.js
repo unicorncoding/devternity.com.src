@@ -288,7 +288,7 @@
                         "country": "gb",
                         "bio": "Machine Learning Researcher, PhD @ University of Cambridge, Microsoft MVP",
                         "long_bio": "Evelina is a machine learning researcher working in bioinformatics, trying to reverse-engineer cancer using computational methods. She is also an international conference speaker and enjoys giving talks on all topics data science. Currently, Evelina does most of her programming in R and F#, and got awarded the Microsoft MVP award for her work in the F# community. She originally started as a programmer but got interested in machine learning early on and did a mathematics PhD at the University of Cambridge, where she developed new statistical methods to analyze complex biomedical datasets.",
-                        "title": "Exploring StackOverflow",
+                        "title": "Exploring StackOverflow Data with Machine Learning",
                         "description": "When you’re stuck while programming - who you gonna call? StackOverflow! It’s an invaluable source of daily help to many. Interestingly, you can also download the entire data dump of StackOverflow and let machine learning loose on the dataset. In the talk I’ll look at what we can learn from the crowdsourced knowledge of developers worldwide. Meanwhile, you will also learn about ideas behind some machine learning algorithms that can give us insights into complex data - and also how does it all relate to cancer research! I will use a combination of statistical computing language R with functional language F# to show how you can easily access and process large-scale data the functional way.",
                         "img": "images/evelina.png",
                         "presentation": "",
