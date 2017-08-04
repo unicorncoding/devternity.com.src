@@ -433,6 +433,21 @@
                     },
                     {
                       "time": "16:00",
+                      "tags": ["api", "react", "live demo"],
+                      "name": "Nikolas Burk",
+                      "twitter": "nikolasburk",
+                      "type": "speech",
+                      "country": "de",
+                      "bio": "iOS developer, GraphQL enthusiast & educator",
+                      "long_bio": "Nikolas is a polyglot developer and GraphQL enthusiast. He graduated from university with a Master's degree in Management of Information System and has worked for bigger companies like SAP as well as startups and as a freelancer. He loves learning and sharing his knowledge. He worked as an iOS instructor at the Make School Product College in San Francisco before he joined Graphcool in January where he's now responsible for all educational content around GraphQL.",
+                      "title": "REST in Peace - Modern API Design with GraphQL",
+                      "description": "GraphQL is riding the hype wave right now. Yet many developers don't understand how they could benefit from it or where it fits into their stack. I'll introduce core concepts and give a practical demo how you can use GraphQL with React & Apollo. I'll also outline major advantages of GraphQL so you can convince your manager and developer friends to use it in your next project.",
+                      "img": "images/nburk.png",
+                      "presentation": "",
+                      "video": ""
+                    },                     
+                    {
+                      "time": "16:00",
                       "tags": ["devops", "automation", "patterns"],
                       "name": "Kief Morris",
                       "twitter": "kief",
@@ -458,13 +473,6 @@
                       "title": "The Long Road",
                       "description": "Choosing the next career step in such a diverse and fast-paced industry is not an easy task. But when it comes to our careers, there is no right or wrong. Or there is? How do we know? In this talk we will be talking about different career choices, how can we choose good companies to work for, what we can learn from interviews and selection processes, when should we look for a new job, and how to change our working environment.",
                       "img": "images/sandroma.jpg",
-                      "presentation": "",
-                      "video": ""
-                    },
-                    {
-                      "type": "speech",
-                      "time": "16:00",
-                      "img": "images/hz.png",
                       "presentation": "",
                       "video": ""
                     },
