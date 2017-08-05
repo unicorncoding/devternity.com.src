@@ -7,6 +7,7 @@
         "date": "1-2 December 2017",
         "date_iso": "2017-12-01",
         "duration_days": 2,
+        "attendees": 700,
         "city": "Riga",
         "status": "OPEN",
         "subscribe": "http://sizovs.us12.list-manage1.com/subscribe?u=286cb53c1b1459ca29ad7c933&id=f4321ae910",
@@ -21,6 +22,7 @@
         "venue": "Mūkusalas iela 3, Rīga, LV-1423, Latvia",
         "venue_name": "National Library of Latvia",
         "venue_map": "https://www.google.lv/maps/place/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka/@56.941013,24.096625,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd136321fcd:0xf716266fca1b4d9b",
+        "buzzwords": ['Chaos Engineering', 'Deep Learning', 'Hexagonal Architecture', 'GraphQL', 'Radical Agility', 'Blockchain', 'Resilient Design' ],
         "pricing": {
             "name": "Early Bird",
             "until": "2017-07-01",
@@ -37,12 +39,32 @@
               }
             ]
         },
+        "promos": [
+          {
+            "logo": "4finance.png",
+            "link": "http://www.4financeit.com/",
+            "promo": "4financeIT is proud to sponsor DevTernity 2017 – one of the most valued professional conferences in Riga, which continues to grow in popularity year on year. As an organisation, we invest in the development of our employees both professionally and personally with our flagship ‘SKILLZ Programme’, which aims to promote employee health and well-being as well as career growth. That is why this is our third time sponsoring this valuable annual event. We are very much looking forward to hearing the great speakers at the conference and we are certain we will find them as motivating and engaging as previous years.",
+            "signature": "Alexey Jurchenko, Head of Software Development"            
+          },
+          {
+            "logo": "devchampions.png",
+            "link": "https://devchampions.com",
+            "promo": "---",
+            "signature": "Andrey Adamovich, Co-Founder and Trainer"            
+          },
+          {
+            "logo": "dt_logo.png",
+            "link": "https://devternity.com",
+            "promo": "During the last few years, I have visited about 60 international IT conferences – both as a speaker and as an attendee. DevTernity takes the best parts, improves them, adds a personal touch and brings it all to Riga – our hometown. The search for a top conference is over.",
+            "signature": "Eduards Sizovs, Conference Founder"
+          }
+        ]
         "sponsors": [
           {
             "package": "gold",
             "logo": "devchampions.png",
             "link": "https://devchampions.com",
-            "info": "<a href=\"https://devchampions.com\">DevChampions</a> offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation, Agile methodologies and soft skills. "
+            "info": "<a href=\"https://devchampions.com\">DevChampions</a> offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation, Agile methodologies and soft skills."
           },
           {
             "package": "gold",
@@ -301,11 +323,13 @@
                         "twitter": "aviranm",
                         "type": "speech",
                         "country": "il",
+                        "country_long": "Israel",                                              
                         "bio": "Head of Engineering @ WIX",
                         "long_bio": "Aviran Mordo is the head engineering at Wix. He has over twenty years of experience in the software industry and has filled many engineering roles and leading positions, from designing and building the US national Electronic Records Archives prototype to building search engine infrastructures. Aviran is a tech-savvy and a technology blogger, with vast knowledge of internet technologies, software development, team building, continuous delivery and a dev-centric culture advocate.",
                         "title": "Journey from Monolith to Microservices and DevOps by WIX",
                         "description": "Wix.com started the journey toward DevOps and a microservices solution about 5 years ago when we switched from a monolithic application to a microservices-based system—a transition that took two full years to complete, with many lessons learned along the way. Today, Wix successfully operates over 200 microservices on a battle-tested production environment. In this talk, we will cover why Continuous Delivery and DevOps are important requirements for microservices, discuss guidelines for a good microservice architecture, explain why YAGNI and KISS are important and how operational concerns (DevOps) affect the design of a microservices architecture, as well as give some recommendations on the best way to transition from a monolithic to a microservices architecture.",
                         "img": "images/aviran.png",
+                        "pitch": "Aviran is the head of engineering at Wix – a product house that runs on hunders of micro-services. Aviran will share Wix's challenging journey from a single monolithic app to Microservices and top-notch DevOps culture.",
                         "presentation": "",
                         "video": ""
                     },
@@ -367,10 +391,12 @@
                       "twitter": "glaforge",
                       "type": "speech",
                       "country": "fr",
+                      "country_long": "France",
                       "bio": "Developer Advocate @ Google Cloud Platform, Apache Groovy Chair @ The Apache Software Foundation",
                       "long_bio": "Guillaume Laforge is Developer Advocate at Google, in the Google Cloud Platform team. He's well-known for his decade-long work on the Apache Groovy programming language project, for which he serves as Chair of the Project Management Committee at the Apache Software Foundation. Guillaume is also a co-founder of the French tech podcast \"Les Cast Codeurs\"",
                       "title": "Machine Intelligence at Google Scale: Vision/Speech",
                       "description": "The biggest challenge of Deep Learning technology is the scalability. As long as using single GPU server, you have to wait for hours or days to get the result of your work. This doesn't scale for production service, so you need a Distributed Training on the cloud eventually. Google has been building infrastructure for training the large scale neural network on the cloud for years, and now started to share the technology with external developers. In this session, we will introduce new pre-trained ML services such as Cloud Vision API and Speech API that works without any training. Also, we will look how TensorFlow and Cloud Machine Learning will accelerate custom model training for 10x - 40x with Google's distributed training infrastructure.",
+                      "pitch": "Guillaume is Developer Advocate at Google and a lead developer of Groovy programming language. Guillaume will introduce Machine Learning services such as Vision API and Speech API and shed light on TensorFlow. Live-demo included.",
                       "img": "images/laforge.png",
                       "presentation": "",
                       "video": ""
@@ -453,10 +479,12 @@
                       "twitter": "kief",
                       "type": "speech",
                       "country": "gb",
+                      "country_long": "United Kingdom",                      
                       "bio": "Cloud Technology Architect at ThoughtWorks, author of <a href=\"https://www.amazon.co.uk/Infrastructure-Code-Managing-Servers-Cloud-ebook/dp/B01GUG9ZNU\">Infrastructure as Code</a>",
                       "long_bio": "Kief Morris is Cloud Practice Lead at ThoughtWorks, and the author of the O'Reilly book Infrastructure as Code. He works with organisations to understand how to take advantage of cloud, infrastructure automation, DevOps, and Continuous Delivery to become more effective at delivering IT services. Originally from Tennessee, Kief moved to London in the dot-com days and has been there ever since.",
                       "title": "Implementing Infrastructure as Code",
                       "description": "Infrastructure as Code (IaC) is the \"A(utomation)\" in the DevOps \"CALMS\" model. It treats dynamic infrastructure as a software system, which means development tools and agile practices like TDD, CI, and CD can be used. Most development and operations teams are making at least some use of IaC tools such as cloud, Chef, Puppet, Ansible, Terraform, etc. But not many are using them to their full potential. This talk explains some of the core challenges of managing infrastructure in a fully automated way, and shares principles and patterns for addressing them. The talk walks through a number of patterns for implementing IaC tools such as AWS, Chef, Puppet, Ansible, and Terraform, to build a change management pipeline to automatically test and apply configuration to infrastructure. The patterns are not tool-specific, so should be useful for any team using these types of tools. Attendees should come away with an understanding of how concepts such as Continuous Integration (CI), Continuous Delivery (CD), Test Driven Development (TDD) can be applied to infrastructure.",
+                      "pitch": "Kief Morris is Cloud Practice Lead at ThoughtWorks, and the author of the O'Reilly book “Infrastructure as Code“. Kief will reveal how Continuous Integration, Continuous Deliver and TDD can be applied to your infrastructure.",
                       "img": "images/kief.png",
                       "presentation": "",
                       "video": ""
@@ -468,11 +496,13 @@
                       "twitter": "sandromancuso",
                       "type": "speech",
                       "country": "gb",
+                      "country_long": "United Kingdom",                                            
                       "bio": "Software Craftsman and Founder @ Codurance, author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
                       "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
                       "title": "The Long Road",
                       "description": "Choosing the next career step in such a diverse and fast-paced industry is not an easy task. But when it comes to our careers, there is no right or wrong. Or there is? How do we know? In this talk we will be talking about different career choices, how can we choose good companies to work for, what we can learn from interviews and selection processes, when should we look for a new job, and how to change our working environment.",
                       "img": "images/sandroma.jpg",
+                      "pitch": "Sandro is the founder of the London Software Craftsmanship Community and the author of best-selling book “The Software Craftsman“. After Sandro's talk you will become a better software developer. Sandro will also run a hands-on workshop “Crafting Code“.",
                       "presentation": "",
                       "video": ""
                     },
