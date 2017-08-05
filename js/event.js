@@ -1,13 +1,16 @@
 [
     {
         "theme": "DevTernity 2017",
+        "selfLink": "https://devternity.com",
         "codename": "DT_RIX_17",
         "desc": "The only software development conference you can't miss.",
         "month": "December 2017",
         "date": "1-2 December 2017",
         "date_iso": "2017-12-01",
         "duration_days": 2,
-        "attendees": 700,
+        "attendees_total": 700,
+        "talks_total": 20,
+        "workshops_total": 7,
         "city": "Riga",
         "status": "OPEN",
         "subscribe": "http://sizovs.us12.list-manage1.com/subscribe?u=286cb53c1b1459ca29ad7c933&id=f4321ae910",
