@@ -25,7 +25,7 @@
         "venue": "Mūkusalas iela 3, Rīga, LV-1423, Latvia",
         "venue_name": "National Library of Latvia",
         "venue_map": "https://www.google.lv/maps/place/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka/@56.941013,24.096625,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd136321fcd:0xf716266fca1b4d9b",
-        "buzzwords": ['Chaos Engineering', 'Deep Learning', 'Hexagonal Architecture', 'GraphQL', 'Radical Agility', 'Blockchain', 'Resilient Design' ],
+        "buzzwords": ["Chaos Engineering", "Deep Learning", "Hexagonal Architecture", "GraphQL", "Radical Agility", "Blockchain", "Resilient Design" ],
         "pricing": {
             "name": "Early Bird",
             "until": "2017-07-01",
@@ -61,7 +61,7 @@
             "promo": "During the last few years, I have visited about 60 international IT conferences – both as a speaker and as an attendee. DevTernity takes the best parts, improves them, adds a personal touch and brings it all to Riga – our hometown. The search for a top conference is over.",
             "signature": "Eduards Sizovs, Conference Founder"
           }
-        ]
+        ],
         "sponsors": [
           {
             "package": "gold",
