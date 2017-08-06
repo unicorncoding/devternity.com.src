@@ -52,8 +52,8 @@
           {
             "logo": "latcraft.png",
             "link": "https://latcraft.lv",
-            "promo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "signature": "Jovche Mitrejcevski, Co-Organizer"            
+            "promo": "During the last 3 DevTernity conferences I had the honor to meet and speak face to face with some of the world's greatest people of the IT industry! The conferences boosted my knowledge and forced me to go a step further in the way I was thinking and doing things.",
+            "signature": "Jovche Mitrejcevski, Co-Organizer"
           },
           {
             "logo": "dt_logo.png",
