@@ -50,10 +50,10 @@
             "signature": "Alexey Jurchenko, Head of Software Development"            
           },
           {
-            "logo": "devchampions.png",
-            "link": "https://devchampions.com",
-            "promo": "---",
-            "signature": "Andrey Adamovich, Co-Founder and Trainer"            
+            "logo": "latcraft.png",
+            "link": "https://latcraft.lv",
+            "promo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "signature": "Jovche Mitrejcevski, Co-Organizer"            
           },
           {
             "logo": "dt_logo.png",
