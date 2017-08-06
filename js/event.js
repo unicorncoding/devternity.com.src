@@ -51,9 +51,9 @@
           },
           {
             "logo": "latcraft.png",
-            "link": "https://latcraft.lv",
+            "link": "http://latcraft.lv",
             "promo": "During the last 3 DevTernity conferences I had the honor to meet and speak face to face with some of the world's greatest people of the IT industry! The conferences boosted my knowledge and forced me to go a step further in the way I was thinking and doing things.",
-            "signature": "Jovche Mitrejcevski, Co-Organizer"
+            "signature": "Jovche Mitrejchevski, Co-Organizer"
           },
           {
             "logo": "dt_logo.png",
