@@ -225,7 +225,7 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 	      							<section class="align-center feature {{event.type != 'speech' || program[time].length == 1 ? '12u' : '4u'}}" ng-repeat="event in program[time]">
 	      								{{time}}</br>
 	      								<a class="pointer" ng-click="popupSpeech(event.uid)" ng-if="event.type === 'speech' && event.title">{{event.name}}{{event.partner ? ' and ' + event.partner.name : ''}}</br><strong>{{event.title}}</strong></br></a>
-					                    <span class="tag" ng-repeat="tag in event.tags">#{{tag}}&nbsp;</span>
+					                    <span>{{ event.tags| tags }}</span>
 				                      <span ng-if="event.type == 'speech' && !event.title">?</span>
       								  <span ng-if="event.type != 'speech'">{{event.title}}</span>
 	      							</section>

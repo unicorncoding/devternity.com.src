@@ -793,6 +793,12 @@ devternity.filter("noOverdue", [function() {
   }
 }]);
 
+devternity.filter("tags", function () {
+  return function (tags) {
+    return _.map(tags, function(tag){ return "#" + tag; }).join(" ");
+  }
+});
+
 devternity.controller("DiscountController", function($scope) {
 
 	var config = {

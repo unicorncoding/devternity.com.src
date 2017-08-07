@@ -53,7 +53,6 @@ strong a {
 }
 
 span.tag {
-	margin: 5px;
 	font-size: 13px;
 }
 
@@ -120,6 +119,14 @@ span.tag {
 #program-container {
 		padding-top: 0em;
 		padding-bottom: 0em;
+}
+
+#program-container .row {
+	margin: 0 !important;
+}
+
+#program-container .row>* {
+	padding: 0 !important;
 }
 
 #program-container section {
