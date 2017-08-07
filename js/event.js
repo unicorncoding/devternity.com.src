@@ -83,7 +83,7 @@
           {
             "package": "others",
             "logo": "taxify.png",
-            "link": "http://visma.eu"
+            "link": "https://taxify.eu/careers/"
           },
           {
             "package": "others",
