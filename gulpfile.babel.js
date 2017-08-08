@@ -17,6 +17,7 @@ const dirs = {
         'opening/**/*',
         'shields/**/*',
         'sponsorship/**/*',
+        'sponsorship_rix/**/*',
         'CNAME',
         '*.html'
       ]
