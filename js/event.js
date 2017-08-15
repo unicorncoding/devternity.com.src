@@ -76,6 +76,12 @@
             "info": "<p><a href=\"http://4financeit.com\">4financeIT</a> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance (15 different countries).</p>"
           },          
           {
+            "package": "gold",
+            "logo": "visma.png",
+            "link": "https://www.visma.lv/vakances",
+            "info": "Do you think time and money matter? We at Visma believe so. Therefore we make IT solutions that enable our customers to save both. \"Efficiency experts\", that's how we like to call ourselves. We achieve that by building international teams of smart minds who enjoy being stretched to their limits. Click on the logo and check if you would like to join us."
+          },          
+          {
             "package": "others",
             "logo": "likeit.png",
             "link": "http://likeit.lv"
@@ -89,11 +95,6 @@
             "package": "others",
             "logo": "toptal.png",
             "link": "http://toptal.com/top-3-percent?utm_source=devternityLV&utm_medium=logo&utm_campaign=sponsorships"
-          },
-          {
-            "package": "others",
-            "logo": "visma.png",
-            "link": "http://visma.lv"
           },
           {
             "package": "media",
