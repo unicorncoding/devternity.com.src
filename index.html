@@ -63,18 +63,33 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 
 </head>
-
 	<body class="landing">
 		<!-- Header -->
 			<header id="header">
+				<div>
+					<span xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Event">
+					<span property="v:summary" content="Power Workshops"></span>
+					<span resource="https://devternity.com#workshops" rel="v:url"></span>
+					<span property="v:startDate" content="2017-12-02T00:00:00"></span>
+				</div>
+				<div>
+					<span xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Event">
+					<span property="v:summary" content="Talks"></span>
+					<span resource="https://devternity.com#talks" rel="v:url"></span>
+					<span property="v:startDate" content="2017-12-01T00:00:00"></span>				
+				</div>
 				<nav id="nav">
 					<ul>
-						<li><a ng-click="slideTo('#program-container')">Talks</a></li>
-      			<li><a ng-click="slideTo('#workshops-container')">Workshops</a></li>
-      			<li ng-if="event.sponsors.length > 0"><a ng-click="slideTo('#support-container')">Sponsors</a></li>
-            <li><a href="code_of_conduct.html">Code of Conduct</a></li>
-            <li ng-if="event.cfp_deadline | noOverdue"><a href="{{event.cfp}}">CFP</a></li>
-						<li><strong><a ng-click="slideTo('#tickets-container')">Attend</a></strong></li>
+						<li>
+							<a ng-click="slideTo('#program-container')" alt="Talks">Talks</a>
+						</li>
+      					<li>
+      						<a ng-click="slideTo('#workshops-container')" alt="Workshops">Workshops</a>
+      					</li>
+      					<li ng-if="event.sponsors.length > 0"><a ng-click="slideTo('#support-container')" alt="Sponsors">Sponsors</a></li>
+            			<li><a href="code_of_conduct.html" alt="Code of Conduct">Code of Conduct</a></li>
+            			<li ng-if="event.cfp_deadline | noOverdue"><a href="{{event.cfp}}" alt="CFP">CFP</a></li>
+						<li><strong><a ng-click="slideTo('#tickets-container')">Tickets</a></strong></li>
 						<li><a href="https://twitter.com/devternity" target="_blank"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="https://www.facebook.com/devternity" target="_blank"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="https://www.linkedin.com/grp/home?gid=8371335" target="_blank"><i class="fa fa-linkedin"></i></a></li>
@@ -607,43 +622,6 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
       })();
       </script>
       <!--End of Tawk.to Script-->
-
-      <script type="application/ld+json">
-      {
-              "@context": "http://schema.org",
-              "@type": "EducationEvent",
-              "name": "DevTernity 2017",
-              "startDate": "2017-12-01T9:00",
-              "endDate": "2017-12-02T18:00",
-              "url": "https://devternity.com",
-              "description": "DevTernity is an annual international IT conference in Riga, Latvia with an emphasis on software architecture, software craftsmanship, technical leadership, quality assurance, and operations",
-              "location": {
-                "@type": "Place",
-                "name": "National Library of Latvia",
-                "address": "Mūkusalas iela 3, Zemgales priekšpilsēta, Rīga, LV-1423"
-              },
-              "inLanguage": "English",
-               "offers": [
-                  {
-                    "@type": "Offer",
-                    "name": "Keynote day",
-                    "price": "199",
-                    "priceCurrency": "€",
-                    "availability": "available",
-      	          "url": "https://devternity.typeform.com/to/hxkEy1"
-                  },
-                  {
-                    "@type": "Offer",
-      				"name": "Power workshop",
-      				"price": "249",
-      	            "priceCurrency": "€",
-      	              "availability": "available",
-      				"url": "https://devternity.typeform.com/to/hxkEy1"
-                  }
-                ]
-              }
-            }
-      </script>
 
 	</body>
 </html>
