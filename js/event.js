@@ -82,6 +82,12 @@
             "info": "Do you think time and money matter? We at Visma believe so. Therefore we make IT solutions that enable our customers to save both. \"Efficiency experts\", that's how we like to call ourselves. We achieve that by building international teams of smart minds who enjoy being stretched to their limits. Click on the logo and check if you would like to join us."
           },          
           {
+            "package": "gold",
+            "logo": "pipedrive.png",
+            "link": "https://www.pipedrive.com/en/jobs",
+            "info": "Pipedrive is a tool that gets sales teams organized. Pipedrive employs the brightest talent, with over 20 nationalities represented amongst the staff. We believe that it takes great people to deliver a great product."
+          },                    
+          {
             "package": "others",
             "logo": "likeit.png",
             "link": "http://likeit.lv"
