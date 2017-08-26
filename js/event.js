@@ -31,15 +31,21 @@
             "until": "2017-07-01",
             "products": [
               {
-                "name": "Inspiring Talks",
+                "name": "Main Day",
                 "price": 199,
                 "speculativePrice": 249
               },
               {
-                "name": "Power Workshop",
+                "name": "Workshop",
                 "price": 249,
                 "speculativePrice": 299
-              }
+              },
+              {
+                "name": "All Inclusive",
+                "price": 448,
+                "speculativePrice": 548,
+                "suggested": true
+              }              
             ]
         },
         "promos": [

@@ -378,29 +378,21 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 					</header>
 
 					<div class="row">
-            <section class="feature 3u 12u$(medium) 12u$(small)">&nbsp;</section>
+            			<section class="feature 3u 12u$(medium) 12u$(small)">&nbsp;</section>
 						<section class="tick feature 6u 12u$(medium) 12u$(small)">
-              <div class="row">
-							<h3 class="title">{{event.pricing.name}}</h3>
-              </div>
-                <div class="row nopadding">
-                  <section class="6u" ng-repeat="product in event.pricing.products">
-                      <h3 class="product">
-                        {{product.name}}</br>
-                        {{product.price}} <strike>{{product.speculativePrice}}</strike> € <small>*</small>
-                      </h3>
-                      <h6 class="align-left">
-                      <span ng-if="product.name == 'Inspiring Talks'">
-                      <i class="fa fa-chevron-right"></i> Access to all sessions</br>
-                      <i class="fa fa-chevron-right"></i> Swag bag </br>
-                      <i class="fa fa-chevron-right"></i> After-party pass</br>
-                      </span>
-                      <i class="fa fa-chevron-right"></i> Lunch</br>
-                      <i class="fa fa-chevron-right"></i> Coffee/tea/snacks</br>
-                      <i class="fa fa-chevron-right"></i> Taxify ride
-                    </h6>
-                  </section>
-                </div>
+			              <div class="row">
+										<h3 class="title">{{event.pricing.name}}</h3>
+			              </div>
+	                <div class="row nopadding">
+	                  <section class="4u" ng-repeat="product in event.pricing.products" ng-class="{suggested: event.pricing.suggested}">
+	                      <h3 class="product">
+	                      <i class="fa fa-ticket" aria-hidden="true"></i>
+
+	                        {{product.name}}</br>
+	                        {{product.price}} <strike>{{product.speculativePrice}}</strike> € <small>*</small>
+	                      </h3>
+	                  </section>
+	                </div>
                 <div class="row">
                   <section class="12u">
                   <input type="button" value="Secure a seat now" ng-click="buy(event.register)" />
@@ -422,9 +414,10 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 						<h2>Discounts</h2>
 						<div class="row">
 						<section class="feature 4u 12u$(small)">
-							<h3 class="title">Bitcoin payments | -10% </h3>
+							<h3 class="title"><i class="fa fa-btc" aria-hidden="true"></i>
+ Bitcoin payments | -10% </h3>
 							<div>
-								<p>We make the world a better place by supporting the growth and adoption of cryptocurrencies. By paying with Bitcoin you get 10% discount.</p>
+								<p>We make the world a better place by supporting the growth and adoption of cryptocurrency. By paying with Bitcoin you get 10% discount.</p>
 
                 <p>A major Latvian carrier <i class="fa fa-plane" aria-hidden="true"></i> <a href="https://airbaltic.lv">airBaltic</a> also accepts Bitcoin.</p>
 							</div>
