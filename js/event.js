@@ -109,6 +109,11 @@
             "link": "http://toptal.com/top-3-percent?utm_source=devternityLV&utm_medium=logo&utm_campaign=sponsorships"
           },
           {
+            "package": "others",
+            "logo": "intexsys.png",
+            "link": "http://intexsys.lv/careers"
+          },          
+          {
             "package": "media",
             "logo": "diversity.png",
             "link": "http://diversitycharter.org"
