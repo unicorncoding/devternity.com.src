@@ -120,6 +120,11 @@
             "link": "http://intexsys.lv/careers"
           },          
           {
+            "package": "others",
+            "logo": "neotech.png",
+            "link": "http://www.neotech.com/careers/job-listings/"
+          },                    
+          {
             "package": "media",
             "logo": "diversity.png",
             "link": "http://diversitycharter.org"
