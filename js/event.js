@@ -77,12 +77,6 @@
           },        
           {
             "package": "gold",
-            "logo": "devchampions.png",
-            "link": "https://devchampions.com",
-            "info": "<a href=\"https://devchampions.com\">DevChampions</a> Enterprise Estonia (EAS), established in 2000, promotes business and regional development in Estonia. Enterprise Estonia is one of the largest institutions within the national support system for entrepreneurship, providing financial assistance, advisory, cooperation opportunities and training for entrepreneurs, research establishments, public and third sector."
-          },
-          {
-            "package": "gold",
             "logo": "4finance.png",
             "link": "http://www.4financeit.com/",
             "info": "<p><a href=\"http://4financeit.com\">4financeIT</a> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance (15 different countries).</p>"
