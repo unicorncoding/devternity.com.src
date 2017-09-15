@@ -73,7 +73,7 @@
             "package": "platinum",
             "logo": "eas.png",
             "link": "https://eas.ee",
-            "info": "<a href=\"https://eas.ee\">Enterprise Estonia (EAS)</a>, established in 2000, promotes business and regional development in Estonia. Enterprise Estonia is one of the largest institutions within the national support system for entrepreneurship, providing financial assistance, advisory, cooperation opportunities and training for entrepreneurs, research establishments, public and third sector."
+            "info": "<p><a href=\"https://eas.ee\">Enterprise Estonia (EAS)</a>, established in 2000, promotes business and regional development in Estonia. Enterprise Estonia is one of the largest institutions within the national support system for entrepreneurship, providing financial assistance, advisory, cooperation opportunities and training for entrepreneurs, research establishments, public and third sector.</p>"
           },        
           {
             "package": "gold",
@@ -99,6 +99,12 @@
             "link": "https://www.pipedrive.com/en/jobs",
             "info": "Pipedrive is a tool that gets sales teams organized. Pipedrive employs the brightest talent, with over 20 nationalities represented amongst the staff. We believe that it takes great people to deliver a great product."
           },                    
+          {
+            "package": "gold",
+            "logo": "intrum.png",
+            "link": "https://www.intrum.com/en/intrum-justitia-software-development-centre/",
+            "info": "<p><a href=\"https://www.intrum.com/en/intrum-justitia-software-development-centre/\">Intrum Justitia Software Development Centre</a>, located in Riga, is responsible for software development, implementation and support for the Group needs. The company was established in 2010 and currently employs more than 120 specialists.</p>"
+          },                                        
           {
             "package": "others",
             "logo": "likeit.png",
