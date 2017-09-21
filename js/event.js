@@ -545,6 +545,22 @@
                     },
                     {
                       "time": "17:10",
+                      "tags": ["serverless", "architecture", "live demo"],
+                      "name": "Raj Singh",
+                      "twitter": "rajwilkhu",
+                      "type": "speech",
+                      "country": "gb",
+                      "country_long": "United Kingdom",                                            
+                      "bio": "Technical Lead @ Equal Experts, AWS Certified Solutions Architect",
+                      "long_bio": "A Technical Lead at Equal Experts and co-founder of Baacco.com. An engineer specialising in leading development teams; an implementer of delivery focused architectural, development and continuous deployment methodologies and techniques using agile practices. Dabbles in multiple languages, mainly C#/NodeJS/F#/C++/Swift and is an advocate of multicloud solutions (Azure, AWS and Google Cloud), pushing an idea of writing as little code as possible and using serverless technologies to solve business problems.",
+                      "title": "Using AWS Lambda and Azure Functions to Develop Serverless Apps",
+                      "description": "In this session we will look at how you can develop applications using the two technologies, create a deployment pipeline and monitor your applications written on those two platforms. We will go through real examples of how they are used and share the experience of working with the two technologies in production. The talk will be supported with live demos with tips on setting up a continuous deployment pipeline and working with both technologies.",
+                      "img": "images/raj.png",
+                      "presentation": "",
+                      "video": ""
+                    },
+                    {
+                      "time": "17:10",
                       "tags": ["closing keynote", "software craftsmanship", "career development"],
                       "name": "Sandro Mancuso",
                       "twitter": "sandromancuso",
@@ -557,13 +573,6 @@
                       "description": "Choosing the next career step in such a diverse and fast-paced industry is not an easy task. But when it comes to our careers, there is no right or wrong. Or there is? How do we know? In this talk we will be talking about different career choices, how can we choose good companies to work for, what we can learn from interviews and selection processes, when should we look for a new job, and how to change our working environment.",
                       "img": "images/sandroma.jpg",
                       "pitch": "Sandro is the founder of the London Software Craftsmanship Community and the author of best-selling book “The Software Craftsman“. After Sandro's talk you will become a better software developer. Sandro will also run a hands-on workshop “Crafting Code“.",
-                      "presentation": "",
-                      "video": ""
-                    },
-                    {
-                      "type": "speech",
-                      "time": "17:10",
-                      "img": "images/hz.png",
                       "presentation": "",
                       "video": ""
                     },
