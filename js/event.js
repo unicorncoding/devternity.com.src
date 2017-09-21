@@ -424,7 +424,7 @@
                       "type": "speech",
                       "country": "fr",
                       "country_long": "France",
-                      "bio": "Developer Advocate @ Google Cloud Platform, Apache Groovy Chair @ The Apache Software Foundation",
+                      "bio": "Developer Advocate @ Google Cloud Platform, Groovy Language Lead",
                       "long_bio": "Guillaume Laforge is Developer Advocate at Google, in the Google Cloud Platform team. He's well-known for his decade-long work on the Apache Groovy programming language project, for which he serves as Chair of the Project Management Committee at the Apache Software Foundation. Guillaume is also a co-founder of the French tech podcast \"Les Cast Codeurs\"",
                       "title": "Machine Intelligence at Google Scale: Vision/Speech",
                       "description": "The biggest challenge of Deep Learning technology is the scalability. As long as using single GPU server, you have to wait for hours or days to get the result of your work. This doesn't scale for production service, so you need a Distributed Training on the cloud eventually. Google has been building infrastructure for training the large scale neural network on the cloud for years, and now started to share the technology with external developers. In this session, we will introduce new pre-trained ML services such as Cloud Vision API and Speech API that works without any training. Also, we will look how TensorFlow and Cloud Machine Learning will accelerate custom model training for 10x - 40x with Google's distributed training infrastructure.",
