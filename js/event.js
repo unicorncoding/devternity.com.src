@@ -111,9 +111,9 @@
           },
           {
             "package": "others",
-            "logo": "toptal.png",
-            "link": "http://toptal.com/top-3-percent?utm_source=devternityLV&utm_medium=logo&utm_campaign=sponsorships"
-          },
+            "logo": "also.png",
+            "link": "https://stackoverflow.com/jobs/companies/also-cloud-oy"
+          },  
           {
             "package": "others",
             "logo": "intexsys.png",
@@ -121,9 +121,9 @@
           },          
           {
             "package": "others",
-            "logo": "neotech.png",
-            "link": "http://www.neotech.com/careers/job-listings/"
-          },                    
+            "logo": "toptal.png",
+            "link": "http://toptal.com/top-3-percent?utm_source=devternityLV&utm_medium=logo&utm_campaign=sponsorships"
+          },                            
           {
             "package": "media",
             "logo": "diversity.png",
