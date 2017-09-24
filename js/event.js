@@ -561,6 +561,22 @@
                     },
                     {
                       "time": "17:10",
+                      "tags": ["web", "security", "hacking", "attack examples"],
+                      "name": "Christian Wenz",
+                      "twitter": "chwenz",
+                      "type": "speech",
+                      "country": "de",
+                      "country_long": "Germany",                                            
+                      "bio": "Consultant, Trainer @ Pluralsight, Microsoft MVP",
+                      "long_bio": "Christian Wenz is an author, consultant and trainer focusing on web technologies. He wrote or co-wrote over 100 books, is a fixture at international developer conferences since 2001, is a Microsoft Most Valuable Professional (MVP) for ASP.NET, an ASPInsiders member, and main author of the Zend PHP 5.5 certification. His day job at Munich/London-based Arrabiata Solutions (http://www.arrabiata.com/) includes conducting security audits, migrating old code bases, implementing complex web applications and helping companies choose the right web strategy and web technology mix.",
+                      "title": "Web Application Security Risks: A Look at OWASP Top Ten 2017",
+                      "description": "Since 2003, the Open Web Application Security Project curates a list of the top ten security risks for web applications. After several delays, the 2017 list has finally been released in spring. Time to have a look at what's new, what has changed, and to get an up-to-date refresh on how to create secure web applications.",
+                      "img": "images/wenz.png",
+                      "presentation": "",
+                      "video": ""
+                    },                    
+                    {
+                      "time": "17:10",
                       "tags": ["closing keynote", "software craftsmanship", "career development"],
                       "name": "Sandro Mancuso",
                       "twitter": "sandromancuso",
@@ -573,13 +589,6 @@
                       "description": "Choosing the next career step in such a diverse and fast-paced industry is not an easy task. But when it comes to our careers, there is no right or wrong. Or there is? How do we know? In this talk we will be talking about different career choices, how can we choose good companies to work for, what we can learn from interviews and selection processes, when should we look for a new job, and how to change our working environment.",
                       "img": "images/sandroma.jpg",
                       "pitch": "Sandro is the founder of the London Software Craftsmanship Community and the author of best-selling book “The Software Craftsman“. After Sandro's talk you will become a better software developer. Sandro will also run a hands-on workshop “Crafting Code“.",
-                      "presentation": "",
-                      "video": ""
-                    },
-                    {
-                      "type": "speech",
-                      "time": "17:10",
-                      "img": "images/hz.png",
                       "presentation": "",
                       "video": ""
                     },
