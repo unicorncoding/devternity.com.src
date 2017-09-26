@@ -125,6 +125,11 @@
             "link": "http://toptal.com/top-3-percent?utm_source=devternityLV&utm_medium=logo&utm_campaign=sponsorships"
           },                            
           {
+            "package": "others",
+            "logo": "neotech.png",
+            "link": "http://www.neotech.com/careers/job-listings/"
+          },                   
+          {
             "package": "media",
             "logo": "diversity.png",
             "link": "http://diversitycharter.org"
