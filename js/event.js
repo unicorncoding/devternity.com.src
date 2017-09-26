@@ -200,6 +200,7 @@
                       "title": "Resilient Software Design in Theory and Practice",
                       "description": "<p>To make the complex, distributed and highly interconnected system landscapes of today robust, responsive and highly available, we need to implement resilience into them at application level. Many patterns for implementing resilience into an application exist. The daunting questions are how to slice (design) an application and which patterns to pick and combine in order to match your specific needs best.</p><p>This workshop will address those questions in three parts:<ul><li>In the first part you will learn about the challenges how to design applications in a resilient way, get an overview about the resilience pattern landscape, learn some of the most important patterns and when to apply them.</li><li>In the second part you will have the opportunity to apply the just learned contents to a real-life case study and design and discuss your own resilient solution.</li><li>In the last part we will complete the workshop with a peek in some complementing topics, like some advanced patterns, a resilient design cycle and how to introduce the topic into the software development process.</li></ul></p><p>After this workshop, you will have a much deeper understanding how to design a solution that satisfies your specific robustness needs.</p>",
                       "img": "images/uwe.jpg",
+                      "sold_out_soon": true,                      
                       "presentation": "",
                       "sold_out": false,
                       "video": ""
@@ -216,7 +217,6 @@
                       "description": "<p>This course is designed to help developers get better at Test-Driven Development and write well-crafted code—code that is clean, testable, maintainable, and an expression of the business domain. The course is entirely hands-on, designed to teach developers practical techniques they can immediately apply to real-world projects.</p><p><b>Software Craftsmanship</b> is at the heart of this course. Throughout, you will learn about the Software Craftsmanship attitude to development and how to apply it to your workplace. Writing <b>Clean Code</b> is difficult. Cleaning existing code, even more so. You should attend if you want to:<ul><li>Write clean code that is easy to understand and maintain</li><li>Become more proficient in Test-Driven Development (TDD): using tests to design and build your code base</li><li>Focus your tests and production code according to business requirements using Outside-In TDD (a.k.a. the London School of TDD)</li><li>Understand design principles that lead to clean code</li><li>Avoid over-engineering and large rewrites by incrementally evolving your design using tests</li></ul></p><p>Once you have an understanding of the principles at work, we will apply them to <b>Legacy Code</b> to help you gain confidence in improving legacy projects through testing, refactoring and redesigning. <b>The course is fully hands-on and developers will be writing a lot of code.</b></p>",
                       "img": "images/sandroma.jpg",
                       "presentation": "",
-                      "sold_out_soon": true,
                       "sold_out": false,
                       "video": ""
                   },
@@ -247,6 +247,7 @@
                       "description": "<p>This is a comprehensive, engineer led course that covers building infrastructure in an IaC (Infrastructure as Code) fashion, using HashiCorp's Packer and Terraform tools. Topics include:<ul><li>Terraform and Packer syntax, internals, and patterns</li><li>Creating and accessing compute instances</li><li>Provisioning resources with Terraform</li><li>Working with remote state</li><li>Managing DNS with Terraform</li><li>Continuous delivery of machine images with Packer</li><li>Learn how to safely provision and manage infrastructure lifecycle with Terraform and Packer!</li></ul></p>",
                       "img": "images/pstack.jpg",
                       "presentation": "",
+                      "sold_out_soon": true,                      
                       "sold_out": false,
                       "video": ""
                   }                  
