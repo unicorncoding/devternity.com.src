@@ -127,7 +127,7 @@
           {
             "package": "others",
             "logo": "neotech.png",
-            "link": "http://www.neotech.com/careers/job-listings/"
+            "link": "http://www.neotech.lv"
           },                   
           {
             "package": "media",
