@@ -72,8 +72,8 @@
           {
             "package": "platinum",
             "logo": "eas.png",
-            "link": "https://eas.ee",
-            "info": "<p><a href=\"https://eas.ee\">Enterprise Estonia (EAS)</a>, established in 2000, promotes business and regional development in Estonia. Enterprise Estonia is one of the largest institutions within the national support system for entrepreneurship, providing financial assistance, advisory, cooperation opportunities and training for entrepreneurs, research establishments, public and third sector.</p>"
+            "link": "https://www.workinestonia.com",
+            "info": "<p>Work in Estonia introduces Estonia as an attractive living and working destination to talented potential employees worldwide, particularly in the ICT sector. Come and join the first digital society!</p>"
           },        
           {
             "package": "gold",
@@ -159,6 +159,21 @@
             {
                 "event": "workshops",
                 "schedule": [
+                  {
+                      "product": "ENTERPRISE_DEVOPS",
+                      "name": "Roy Osherove",
+                      "type": "speech",
+                      "time": "9:00 - 18:00",
+                      "country": "il",
+                      "bio": "DevOps Process Lead & Continuous Delivery Architect @ Dell EMC, author of <a href=\"https://www.amazon.com/Elastic-Leadership-Growing-self-organizing-teams/dp/1617293083\">Elastic Leadership</a>, <a href=\"https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890\">The Art of Unit Testing</a>",
+                      "long_bio": "Roy Osherove is the the DevOps Process Lead at Dell EMC, located in the bay area, California.He is the author of The Art Of Unit Testing and Elastic Leadership, as well as the upcoming Enterprise DevOps book.  He consults and trains teams worldwide on the gentle art of unit testing, test-driven development and how to lead software teams. He frequently speaks at international conferences on these topics and others.",
+                      "title": "Patterns and Anti-Patterns of Enterprise DevOps",
+                      "description": "<p>DevOps is the implementation of continuous delivery and agile concepts across the organization, focusing on pipelines as the main building blocks for delivery value internally and to the customer.</p>But getting to that state is complicated because it requires several facets of work: People, process and tools. In large organizations, we have the added complexity. In large organizations, we have the added complexity of:<ul><li>Multiple dependencies and sub systems</li><li>Multiple teams, groups, business units with competing interests</li><li>Varying degrees of agility, culture, tools, technologies and processes</li><li>Security, compliance and policy gates</li></ul>In this workshop, we will discuss main patterns and anti-patterns for adopting and implementing DevOps pipelines throughout the organization, that scale:<ul><li>Defining DevOps and Enterprise DevOps Pipelines</li><li>Defining Current Challenges &amp;amp; Pain points</li><li>Continuous Integration vs Continuous Delivery</li><li>Enterprise vs small scale DevOps challenges</li><li>Software defined everything </li><li>Value Streaming (intro, exercises, bottlenecks, anti-patterns &amp;amp; root causes)</li><li>Infrastructure as Code</li><li>Ephemeral Environments</li><li>Pipelines</li><li>Parent pipelines and child pipelines</li><li>Adoption (proofs of value &amp;amp; Templating, patterns &amp;amp; anti-patterns, planning)</li></ul>",
+                      "img": "images/roy.png",
+                      "presentation": "",
+                      "sold_out": false,
+                      "video": ""
+                  },                
                   {
                       "product": "AGILE_ARCHITECTURE",
                       "name": "Kevlin Henney",
@@ -537,8 +552,8 @@
                       "country_long": "Israel",                                            
                       "bio": "DevOps Process Lead & Continuous Delivery Architect @ Dell EMC, author of <a href=\"https://www.amazon.com/Elastic-Leadership-Growing-self-organizing-teams/dp/1617293083\">Elastic Leadership</a>, <a href=\"https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890\">The Art of Unit Testing</a>",
                       "long_bio": "Roy Osherove is the the DevOps Process Lead at Dell EMC, located in the bay area, California.He is the author of The Art Of Unit Testing and Elastic Leadership, as well as the upcoming Enterprise DevOps book.  He consults and trains teams worldwide on the gentle art of unit testing, test-driven development and how to lead software teams. He frequently speaks at international conferences on these topics and others.",
-                      "title": "Elastic Leadership",
-                      "description": "Coming soon",
+                      "title": "Team Leadership in the Age of Agile",
+                      "description": "In this talk Roy explores the three maturity stages of a software team, and how a team leader can adjust their leadership type based on the current phase the team is in. Roy explores common mistakes and techniques team leaders can take to make sure their team gets on the road to craftsmanship and maturity in software development.",
                       "img": "images/roy.png",
                       "presentation": "",
                       "video": ""
@@ -583,6 +598,28 @@
                     },                    
                     {
                       "time": "17:10",
+                      "tags": ["docker", "unikernels", "technical"],
+                      "name": "Amir Chaudhry",
+                      "twitter": "amirmc",
+                      "type": "speech",
+                      "country": "gb",
+                      "country_long": "United Kingdom",                                            
+                      "bio": "Member of Technical Staff @ Docker Inc.",
+                      "long_bio": "Amir works at Docker and was previously at Unikernel Systems and the OCaml Labs group at the Cambridge University Computer Laboratory. Most of his time is spent on open source efforts around unikernels, including unikernel.org, and he has been involved with MirageOS for many years. Amir has spoken about unikernels at a various conferences, including PolyConf, CodeMesh and SCaLE 14x. Prior to his current role, Amir was involved in a number of startups and has a diverse academic background with an MSci in Physics and a PhD in Neuroscience.",
+                      "title": "Docker – Under the Hood",
+                      "description": "coming soon",
+                      "img": "images/amirch.png",
+                      "presentation": "",
+                      "video": ""
+                    },
+                    {
+                        "type": "break",
+                        "time": "18:00",
+                        "title": "Coffee Break",
+                        "icon": "fa-coffee"
+                    },
+                    {
+                      "time": "18:20",
                       "tags": ["closing keynote", "software craftsmanship", "career development"],
                       "name": "Sandro Mancuso",
                       "twitter": "sandromancuso",
@@ -597,19 +634,6 @@
                       "pitch": "Sandro is the founder of the London Software Craftsmanship Community and the author of best-selling book “The Software Craftsman“. After Sandro's talk you will become a better software developer. Sandro will also run a hands-on workshop “Crafting Code“.",
                       "presentation": "",
                       "video": ""
-                    },
-                    {
-                        "type": "break",
-                        "time": "18:00",
-                        "title": "Coffee Break",
-                        "icon": "fa-coffee"
-                    },
-                    {
-                        "type": "speech",
-                        "time": "18:20",
-                        "img": "images/hz.png",
-                        "presentation": "",
-                        "video": ""
                     },
                     {
                         "type": "break",
