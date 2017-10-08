@@ -388,19 +388,18 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 										<h3 class="title">{{event.pricing.name}}</h3>
 			              </div>
 	                <div class="row nopadding">
-	                  <section class="4u" ng-repeat="product in event.pricing.products" ng-class="{suggested: event.pricing.suggested}">
+	                  <section class="4u 12u$(small)" ng-repeat="product in event.pricing.products" ng-class="{suggested: event.pricing.suggested}">
 	                      <h3 class="product">
 	                      <i class="fa fa-ticket" aria-hidden="true"></i>
 
 	                        {{product.name}}</br>
-	                        {{product.price}} <strike>{{product.speculativePrice}}</strike> € <small>*</small>
+	                        {{product.price}} <strike>{{product.speculativePrice}}</strike> € <small></small>
 	                      </h3>
 	                  </section>
 	                </div>
                 <div class="row">
-                  <section class="12u">
-                  <input type="button" value="Secure a seat now" ng-click="buy(event.register)" />
-                  <h6 class="align-right price">* The price does not include VAT, if applicable.</h6>
+                  <section class="12u 12u$(small)">
+                  <input type="button" value="&nbsp;Secure a seat now&nbsp;" ng-click="buy(event.register)" />
                 </section>
                 </div>
 						</section>
