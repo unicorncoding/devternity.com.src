@@ -943,7 +943,11 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
 					$scope.keynotes = keynotes;
 					$scope.event = body;
 					$scope.registrationClosesIn = moment(body.date_iso).subtract(1, 'days').valueOf();
-					$scope.days = _(body.duration_days).times(function(n){ return moment(body.date_iso).add(n, 'days').format("DD.MM.YYYY"); });
+          $scope.days = _(body.duration_days).times(function(n){ return moment(body.date_iso).add(n, 'days').format("DD.MM.YYYY"); });
+          
+          $('#devternity-loading').fadeOut('slow',function(){
+            $('#devternity-loading').remove();
+        });
     });
 
 });
