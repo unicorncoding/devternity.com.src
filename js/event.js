@@ -247,7 +247,7 @@
                       "description": "<p>In this hands-on workshop, together with Jakub you're gonna build a fully featured distributed system from a scratch using Spring Boot and Spring Cloud Stream. During the whole day we will learn: <ul><li>Why's and How's behind Event Sourcing and CQRS</li><li>How to rewrite a Domain-Driven-Design-like app to event-sourced model</li><li>How to leverage CQRS to eliminate accidental complexity in our domain model</li><li>How to solve problems caused by synchronizing read and write model</li><li>How to use messaging and Spring Stream to achieve loose coupling</li><li>...and much more!</li></ul></p>",
                       "img": "images/jakubpilo.jpg",
                       "presentation": "",
-                      "sold_out": false,
+                      "sold_out": true,
                       "video": ""
                   },
                   {
