@@ -45,7 +45,7 @@
                 "price": 448,
                 "speculativePrice": 548,
                 "suggested": true
-              }              
+              }
             ]
         },
         "promos": [
@@ -53,7 +53,7 @@
             "logo": "4finance.png",
             "link": "http://www.4financeit.com/",
             "promo": "4financeIT is proud to sponsor DevTernity 2017 – one of the most valued professional conferences in Riga, which continues to grow in popularity year on year. As an organisation, we invest in the development of our employees both professionally and personally with our flagship ‘SKILLZ Programme’, which aims to promote employee health and well-being as well as career growth. That is why this is our third time sponsoring this valuable annual event. We are very much looking forward to hearing the great speakers at the conference and we are certain we will find them as motivating and engaging as previous years.",
-            "signature": "Alexey Jurchenko, Head of Software Development"            
+            "signature": "Alexey Jurchenko, Head of Software Development"
           },
           {
             "logo": "latcraft.png",
@@ -74,25 +74,25 @@
             "logo": "eas.png",
             "link": "https://www.workinestonia.com",
             "info": "<p>Work in Estonia introduces Estonia as an attractive living and working destination to talented potential employees worldwide, particularly in the ICT sector. Come and join the first digital society!</p>"
-          },        
+          },
           {
             "package": "gold",
             "logo": "4finance.png",
             "link": "http://www.4financeit.com/",
             "info": "<p><a href=\"http://4financeit.com\">4financeIT</a> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance (15 different countries).</p>"
-          },          
+          },
           {
             "package": "gold",
             "logo": "visma.png",
             "link": "https://www.visma.lv/vakances",
             "info": "Do you think time and money matter? We at Visma believe so. Therefore we make IT solutions that enable our customers to save both. \"Efficiency experts\", that's how we like to call ourselves. We achieve that by building international teams of smart minds who enjoy being stretched to their limits. Click on the logo and check if you would like to join us."
-          },          
+          },
           {
             "package": "gold",
             "logo": "pipedrive.png",
             "link": "https://www.pipedrive.com/en/jobs",
             "info": "Pipedrive is a tool that gets sales teams organized. Pipedrive employs the brightest talent, with over 20 nationalities represented amongst the staff. We believe that it takes great people to deliver a great product."
-          },                    
+          },
           {
             "package": "gold",
             "logo": "intrum.png",
@@ -113,22 +113,22 @@
             "package": "others",
             "logo": "also.png",
             "link": "https://stackoverflow.com/jobs/companies/also-cloud-oy"
-          },  
+          },
           {
             "package": "others",
             "logo": "intexsys.png",
             "link": "http://intexsys.lv/careers"
-          },          
+          },
           {
             "package": "others",
             "logo": "toptal.png",
             "link": "http://toptal.com/top-3-percent?utm_source=devternityLV&utm_medium=logo&utm_campaign=sponsorships"
-          },                            
+          },
           {
             "package": "others",
             "logo": "neotech.png",
             "link": "http://www.neotech.lv"
-          },                   
+          },
           {
             "package": "media",
             "logo": "diversity.png",
@@ -173,7 +173,7 @@
                       "presentation": "",
                       "sold_out": false,
                       "video": ""
-                  },                
+                  },
                   {
                       "product": "AGILE_ARCHITECTURE",
                       "name": "Kevlin Henney",
@@ -215,7 +215,7 @@
                       "title": "Resilient Software Design in Theory and Practice",
                       "description": "<p>To make the complex, distributed and highly interconnected system landscapes of today robust, responsive and highly available, we need to implement resilience into them at application level. Many patterns for implementing resilience into an application exist. The daunting questions are how to slice (design) an application and which patterns to pick and combine in order to match your specific needs best.</p><p>This workshop will address those questions in three parts:<ul><li>In the first part you will learn about the challenges how to design applications in a resilient way, get an overview about the resilience pattern landscape, learn some of the most important patterns and when to apply them.</li><li>In the second part you will have the opportunity to apply the just learned contents to a real-life case study and design and discuss your own resilient solution.</li><li>In the last part we will complete the workshop with a peek in some complementing topics, like some advanced patterns, a resilient design cycle and how to introduce the topic into the software development process.</li></ul></p><p>After this workshop, you will have a much deeper understanding how to design a solution that satisfies your specific robustness needs.</p>",
                       "img": "images/uwe.jpg",
-                      "sold_out_soon": true,                      
+                      "sold_out_soon": true,
                       "presentation": "",
                       "sold_out": false,
                       "video": ""
@@ -262,10 +262,10 @@
                       "description": "<p>This is a comprehensive, engineer led course that covers building infrastructure in an IaC (Infrastructure as Code) fashion, using HashiCorp's Packer and Terraform tools. Topics include:<ul><li>Terraform and Packer syntax, internals, and patterns</li><li>Creating and accessing compute instances</li><li>Provisioning resources with Terraform</li><li>Working with remote state</li><li>Managing DNS with Terraform</li><li>Continuous delivery of machine images with Packer</li><li>Learn how to safely provision and manage infrastructure lifecycle with Terraform and Packer!</li></ul></p>",
                       "img": "images/pstack.jpg",
                       "presentation": "",
-                      "sold_out_soon": true,                      
+                      "sold_out_soon": true,
                       "sold_out": false,
                       "video": ""
-                  }                  
+                  }
                 ]
             },
             {
@@ -368,7 +368,7 @@
                         "img": "images/ianco.png",
                         "presentation": "",
                         "video": ""
-                    },                
+                    },
                     {
                       "time": "11:40",
                       "tags": ["deep learning", "tensorflow", "live demo"],
@@ -385,7 +385,7 @@
                       "img": "images/laforge.png",
                       "presentation": "",
                       "video": ""
-                    },                           
+                    },
                     {
                         "time": "11:40",
                         "tags": ["case study", "software architecture", "organisation scalability"],
@@ -393,7 +393,7 @@
                         "twitter": "aviranm",
                         "type": "speech",
                         "country": "il",
-                        "country_long": "Israel",                                              
+                        "country_long": "Israel",
                         "bio": "Head of Engineering @ WIX",
                         "long_bio": "Aviran Mordo is the head engineering at Wix. He has over twenty years of experience in the software industry and has filled many engineering roles and leading positions, from designing and building the US national Electronic Records Archives prototype to building search engine infrastructures. Aviran is a tech-savvy and a technology blogger, with vast knowledge of internet technologies, software development, team building, continuous delivery and a dev-centric culture advocate.",
                         "title": "Journey from Monolith to Microservices and DevOps by WIX",
@@ -402,7 +402,7 @@
                         "pitch": "Aviran is the head of engineering at Wix – a product house that runs on hunders of micro-services. Aviran will share Wix's challenging journey from a single monolithic app to Microservices and top-notch DevOps culture.",
                         "presentation": "",
                         "video": ""
-                    },                  
+                    },
                     {
                         "type": "break",
                         "time": "12:30",
@@ -423,7 +423,7 @@
                         "img": "images/evelina.png",
                         "presentation": "",
                         "video": ""
-                    },                   
+                    },
                     {
                       "time": "13:40",
                       "tags": ["api", "react", "live demo"],
@@ -438,7 +438,7 @@
                       "img": "images/nburk.png",
                       "presentation": "",
                       "video": ""
-                    },                     
+                    },
                     {
                       "time": "13:40",
                       "tags": ["distributed systems", "stress testing", "simian army"],
@@ -453,13 +453,13 @@
                       "img": "images/pstack.jpg",
                       "presentation": "",
                       "video": ""
-                    },                       
+                    },
                     {
                         "type": "break",
                         "time": "14:30",
                         "title": "Coffee Break",
                         "icon": "fa-coffee"
-                    },                                     
+                    },
                    {
                       "time": "14:50",
                       "tags": ["code organisation", "layering", "java"],
@@ -474,7 +474,7 @@
                       "img": "images/jnb.png",
                       "presentation": "",
                       "video": ""
-                    },                      
+                    },
                     {
                       "time": "14:50",
                       "tags": ["case study", "enterprise architecture", "radical agility"],
@@ -489,13 +489,13 @@
                       "img": "images/felix_mueller.png",
                       "presentation": "",
                       "video": ""
-                    },                      
+                    },
                     {
                         "type": "break",
                         "time": "15:40",
                         "title": "Coffee Break",
                         "icon": "fa-coffee"
-                    }, 
+                    },
                     {
                       "time": "14:50",
                       "tags": ["devops", "automation", "patterns"],
@@ -503,7 +503,7 @@
                       "twitter": "kief",
                       "type": "speech",
                       "country": "gb",
-                      "country_long": "United Kingdom",                      
+                      "country_long": "United Kingdom",
                       "bio": "Cloud Technology Architect at ThoughtWorks, author of <a href=\"https://www.amazon.co.uk/Infrastructure-Code-Managing-Servers-Cloud-ebook/dp/B01GUG9ZNU\">Infrastructure as Code</a>",
                       "long_bio": "Kief Morris is Cloud Practice Lead at ThoughtWorks, and the author of the O'Reilly book Infrastructure as Code. He works with organisations to understand how to take advantage of cloud, infrastructure automation, DevOps, and Continuous Delivery to become more effective at delivering IT services. Originally from Tennessee, Kief moved to London in the dot-com days and has been there ever since.",
                       "title": "Implementing Infrastructure as Code",
@@ -512,7 +512,7 @@
                       "img": "images/kief.png",
                       "presentation": "",
                       "video": ""
-                    },                        
+                    },
                     {
                       "time": "16:00",
                       "tags": ["team leadership", "self-organisation", "soft skills"],
@@ -520,7 +520,7 @@
                       "twitter": "royosherove",
                       "type": "speech",
                       "country": "il",
-                      "country_long": "Israel",                                            
+                      "country_long": "Israel",
                       "bio": "DevOps Process Lead & Continuous Delivery Architect @ Dell EMC, author of <a href=\"https://www.amazon.com/Elastic-Leadership-Growing-self-organizing-teams/dp/1617293083\">Elastic Leadership</a>, <a href=\"https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890\">The Art of Unit Testing</a>",
                       "long_bio": "Roy Osherove is the the DevOps Process Lead at Dell EMC, located in the bay area, California.He is the author of The Art Of Unit Testing and Elastic Leadership, as well as the upcoming Enterprise DevOps book.  He consults and trains teams worldwide on the gentle art of unit testing, test-driven development and how to lead software teams. He frequently speaks at international conferences on these topics and others.",
                       "title": "Team Leadership in the Age of Agile",
@@ -528,7 +528,7 @@
                       "img": "images/roy.png",
                       "presentation": "",
                       "video": ""
-                    },                            
+                    },
                     {
                       "time": "16:00",
                       "tags": ["java", "ddd", "cqrs", "live-coding"],
@@ -543,7 +543,7 @@
                       "img": "images/jakubpilo.jpg",
                       "presentation": "",
                       "video": ""
-                    },                        
+                    },
                     {
                       "time": "16:00",
                       "tags": ["serverless", "architecture", "live demo"],
@@ -551,7 +551,7 @@
                       "twitter": "rajwilkhu",
                       "type": "speech",
                       "country": "gb",
-                      "country_long": "United Kingdom",                                            
+                      "country_long": "United Kingdom",
                       "bio": "Technical Lead @ Equal Experts, AWS Certified Solutions Architect",
                       "long_bio": "A Technical Lead at Equal Experts and co-founder of Baacco.com. An engineer specialising in leading development teams; an implementer of delivery focused architectural, development and continuous deployment methodologies and techniques using agile practices. Dabbles in multiple languages, mainly C#/NodeJS/F#/C++/Swift and is an advocate of multicloud solutions (Azure, AWS and Google Cloud), pushing an idea of writing as little code as possible and using serverless technologies to solve business problems.",
                       "title": "Using AWS Lambda and Azure Functions to Develop Serverless Apps",
@@ -568,7 +568,7 @@
                     },
                     {
                       "time": "17:10",
-                      "tags": ["productivity", "getting things done", "smarter working"],                      
+                      "tags": ["productivity", "getting things done", "smarter working"],
                       "name": "Maxim Dorofeev",
                       "twitter": "cartmendum",
                       "type": "speech",
@@ -579,7 +579,7 @@
                       "img": "images/dorofeev.png",
                       "presentation": "",
                       "video": ""
-                    },           
+                    },
                     {
                       "time": "17:10",
                       "tags": ["docker", "linuxkit", "technical"],
@@ -587,7 +587,7 @@
                       "twitter": "amirmc",
                       "type": "speech",
                       "country": "gb",
-                      "country_long": "United Kingdom",                                            
+                      "country_long": "United Kingdom",
                       "bio": "Member of Technical Staff @ Docker Inc.",
                       "long_bio": "Amir works at Docker and was previously at Unikernel Systems and the OCaml Labs group at the Cambridge University Computer Laboratory. Most of his time is spent on open source efforts around unikernels, including unikernel.org, and he has been involved with MirageOS for many years. Amir has spoken about unikernels at a various conferences, including PolyConf, CodeMesh and SCaLE 14x. Prior to his current role, Amir was involved in a number of startups and has a diverse academic background with an MSci in Physics and a PhD in Neuroscience.",
                       "title": "Docker Under the Hood",
@@ -595,7 +595,7 @@
                       "img": "images/amirch.png",
                       "presentation": "",
                       "video": ""
-                    },                           
+                    },
                     {
                       "time": "17:10",
                       "tags": ["web", "security", "hacking", "attack examples"],
@@ -603,7 +603,7 @@
                       "twitter": "chwenz",
                       "type": "speech",
                       "country": "de",
-                      "country_long": "Germany",                                            
+                      "country_long": "Germany",
                       "bio": "Consultant, Trainer @ Pluralsight, Microsoft MVP",
                       "long_bio": "Christian Wenz is an author, consultant and trainer focusing on web technologies. He wrote or co-wrote over 100 books, is a fixture at international developer conferences since 2001, is a Microsoft Most Valuable Professional (MVP) for ASP.NET, an ASPInsiders member, and main author of the Zend PHP certification. His day job at Munich/London-based Arrabiata Solutions (http://www.arrabiata.com/) includes conducting security audits, migrating old code bases, implementing complex web applications and helping companies choose the right web strategy and web technology mix.",
                       "title": "Web Application Security Risks: A Look at OWASP Top Ten 2017",
@@ -611,7 +611,7 @@
                       "img": "images/wenz.png",
                       "presentation": "",
                       "video": ""
-                    },                    
+                    },
                     {
                         "type": "break",
                         "time": "18:00",
@@ -625,7 +625,7 @@
                       "twitter": "sandromancuso",
                       "type": "speech",
                       "country": "gb",
-                      "country_long": "United Kingdom",                                            
+                      "country_long": "United Kingdom",
                       "bio": "Software Craftsman and Founder @ Codurance, author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
                       "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
                       "title": "The Long Road",
