@@ -97,8 +97,8 @@
             "package": "gold",
             "logo": "intrum.png",
             "link": "https://www.intrum.com/en/intrum-justitia-software-development-centre/",
-            "info": "<p><a href=\"https://www.intrum.com/en/intrum-justitia-software-development-centre/\">Intrum Justitia Software Development Centre</a>, located in Riga, is responsible for software development, implementation and support for the Group needs. The company was established in 2010 and currently employs more than 120 specialists.</p>"
-          },                                        
+            "info": "<p>More than 160 IT Specialists at <a href=\"https://www.intrum.com/en/intrum-justitia-software-development-centre/\">Intrum Justitia Software Development Centre</a> are developing, supporting and maintaining financial systems for Intrum Justitia Group all over the Europe. Various programming languages, tools and methodologies are used to deliver valuable solutions and make work interesting for each person who joins the team.</p>"
+          },
           {
             "package": "others",
             "logo": "likeit.png",
