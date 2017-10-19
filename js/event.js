@@ -201,7 +201,7 @@
                       "description": "<p>Machine Learning and Functional Programming are both very hot topics these days; they are also both rather intimidating for the beginner. In this workshop, we’ll take a 100% hands-on approach, and learn practical ideas from Machine Learning, by tackling real-world problems and implementing solutions in F#, in a functional style. In the process, you will see that once you get beyond the jargon, F# and Machine Learning are actually not all that complicated – and fit beautifully together. So if you are curious about what Machine Learning is about, and want to sharpen your developer skills, come with your laptop and… let’s hack together! What you should expect:</p><ul><li>no F# or Machine Learning prerequisites: complete beginners are totally welcome</li><li>a hands-on introduction to simple Machine Learning ideas you can use, by solving real-world problems</li><li>a practical introduction to writing effective F# code</li><li>lots of coding on fun problems!</li><li>you will need a laptop with an IDE or editor running F#; check www.fsharp.org for instructions on how to get setup.</li></ul>",
                       "img": "images/evelina.png",
                       "presentation": "",
-                      "sold_out": false,
+                      "sold_out": true,
                       "video": ""
                   },
                   {
@@ -232,7 +232,7 @@
                       "description": "<p>This course is designed to help developers get better at Test-Driven Development and write well-crafted code—code that is clean, testable, maintainable, and an expression of the business domain. The course is entirely hands-on, designed to teach developers practical techniques they can immediately apply to real-world projects.</p><p><b>Software Craftsmanship</b> is at the heart of this course. Throughout, you will learn about the Software Craftsmanship attitude to development and how to apply it to your workplace. Writing <b>Clean Code</b> is difficult. Cleaning existing code, even more so. You should attend if you want to:<ul><li>Write clean code that is easy to understand and maintain</li><li>Become more proficient in Test-Driven Development (TDD): using tests to design and build your code base</li><li>Focus your tests and production code according to business requirements using Outside-In TDD (a.k.a. the London School of TDD)</li><li>Understand design principles that lead to clean code</li><li>Avoid over-engineering and large rewrites by incrementally evolving your design using tests</li></ul></p><p>Once you have an understanding of the principles at work, we will apply them to <b>Legacy Code</b> to help you gain confidence in improving legacy projects through testing, refactoring and redesigning. <b>The course is fully hands-on and developers will be writing a lot of code.</b></p>",
                       "img": "images/sandroma.jpg",
                       "presentation": "",
-                      "sold_out": false,
+                      "sold_out": true,
                       "video": ""
                   },
                   {
