@@ -153,6 +153,11 @@
             "package": "media",
             "logo": "jguru.png",
             "link": "http://javaguru.lv/"
+          },
+          {
+            "package": "media",
+            "logo": "devchampions.png",
+            "link": "http://devchampions.com/"
           }
         ],
         "program": [
