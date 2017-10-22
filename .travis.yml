@@ -1,20 +1,19 @@
 language: node_js
 node_js:
-  - "7"
+- '7'
 branches:
   only:
-    - master
-
+  - master
 before_script:
-  - git config --global user.email "travis@devternity.com"
-  - git config --global user.name "Travis"  
-  - npm install -g gulp-cli
-
+- git config --global user.email "travis@devternity.com"
+- git config --global user.name "Travis"
+- npm install -g gulp-cli
 script:
-  - gulp build
-  - gulp deploy
-
-
+- gulp build
+- gulp deploy
 env:
   global:
     secure: gR5VU4DlAknGFWM1wEjxYy+/DieK9dP4uhceO0TziixXKuuhOupD74ODrE8YVyIYj7f4ph4ahEoBlV5LTqYyPjx6NR0wmIdab0bvyi8XMtDb0ipbfm2OyH07b891Wu7j8x2h6PnnR2VRWoIm1HRzM/GjfUTPtpzdZn3QNZraF9XN7/73guPJ3QQbFfh7qE3FU2ITueS2E2uGtiIqKgKTodvH9Hrj136uatweIdeh/CAmNcXClTo2bZzqZlSu4HEWGT/CBLyNAKywrM7y9a7ngOJR14Hzn3/ky87l50dB66ckHVyFT0Z0jgVafECXu2lOp8ArZS7WlirlrumB0Yg+p/vgw7BnrOvymKmaoef0Fq9Ow4KxHtHwQEr5yVNfNQpLWFZ9yYqlEwQNhoT+t04woKkwMKWriIiA+ylS7+rDzluVPYdOjV7gsH3by3m5gilmFAydEFKFuYJWQ5H18WJv1YpfosuHOB/S314sR6plQRCCJJRqFY0Gw9O3TGqScdTWyV4a215Ra1l6tjIjjlUtqQ3gqOgpzx1HgTTvlL9YagL5iVw6iwls2RlNkBV0LYU4XRAfMhy2IedGYdStky5rPQDom1CKonhxmjX413oE3EvuKONQeFwUvibqbhAiURd+VpEgu8vDmvzYIybb1W012y0Bhxex048WnUQGbXxuy4s=
+notifications:
+  slack:
+    secure: AF2IOROTk5BUc3ePTyD8rKBeMXdyuYP7qGgVrPhKmemxBaYXHc7/48XVdcOAoEFPCY59LQfQDTywF0zmgn38v53PBYkJAbkL9phPLQI3LS5dB2nKq0RRlr8AaXSBJ95hWF+ucQfhyIE7MZc4h5zoj0pxpF1dTJUAa8fBv3t63nSiuxvvXhmgVGvt90yXw8FqD2vwYPgcj6Ase10F2AfIkqXCr7N1unRTJFvZdCtcEIGIyv24fCr54OuBpa5K3px5UJkEF76xtjQP/WGcCDdCjqpzE1oZMnj9FP2/cqXtLSI8vWhYFSUclMWKkuAw88wc1cu5r3RyzYl0S0XuClADKzTXYHnwRV4BSapFVFl/c8EVafTE6HAo157/M581sPIHi2ncIFfkMkoqgurDP91ssO42RPnfmv38xVewBfAgxou+9Z/XizsBnbawddWsk039xzYBkkazYJG/9ItEQdJ/gMSoqkUN0hoqFaH5Cbi8Wcw/p6Bwgof9h5m/hHVacCzgIbNxiHdUtwCp74l+rALI29iGIWK9oARTVhA6bKutmHidGRlk4+bNceQs4LthvapoCeGFXkbvmwU9w0jBMzyCet9l4dBe6RRQPoNZIScDKoV2F/kWHkFvUl1e+fYrSCQFHYCdgp+55ki6+dJuTBxtGVghAJExxtxzn9F7zLJ8+go=
