@@ -171,6 +171,7 @@
                       "description": "<p>DevOps is the implementation of continuous delivery and agile concepts across the organization, focusing on pipelines as the main building blocks for delivery value internally and to the customer.</p>But getting to that state is complicated because it requires several facets of work: People, process and tools. In large organizations, we have the added complexity. In large organizations, we have the added complexity of:<ul><li>Multiple dependencies and sub systems</li><li>Multiple teams, groups, business units with competing interests</li><li>Varying degrees of agility, culture, tools, technologies and processes</li><li>Security, compliance and policy gates</li></ul>In this workshop, we will discuss main patterns and anti-patterns for adopting and implementing DevOps pipelines throughout the organization, that scale:<ul><li>Defining DevOps and Enterprise DevOps Pipelines</li><li>Defining Current Challenges &amp;amp; Pain points</li><li>Continuous Integration vs Continuous Delivery</li><li>Enterprise vs small scale DevOps challenges</li><li>Software defined everything </li><li>Value Streaming (intro, exercises, bottlenecks, anti-patterns &amp;amp; root causes)</li><li>Infrastructure as Code</li><li>Ephemeral Environments</li><li>Pipelines</li><li>Parent pipelines and child pipelines</li><li>Adoption (proofs of value &amp;amp; Templating, patterns &amp;amp; anti-patterns, planning)</li></ul>",
                       "img": "images/roy.png",
                       "presentation": "",
+                      "sold_out_soon": true,
                       "sold_out": false,
                       "video": ""
                   },
@@ -186,6 +187,7 @@
                       "description": "<p>Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. This course looks at the relationship between Agile processes and good architecture, taking in development process models, architectural styles, requirements techniques, sufficient modelling techniques, design patterns and testing practices. This course includes a number of practical exercises so that attendees can see how the different activities fit together.</p><p>The course covers a wide range of topics through a number of practical exercises, with plenty of time dedicated to group discussion:</p><ul><li>The relationship between development process and architecture<li>The roles and failure modes of testing, modelling and technology platforms<li>Different architectural styles and design patterns<li>How to transform product vision into architecture<li>Future-proofing your architecture, and accounting for uncertainty<li>How to ground your architecture and avoid overdesign<li>...and much more!</li></ul>",
                       "img": "images/kevlin.png",
                       "presentation": "",
+                      "sold_out_soon": true,                      
                       "sold_out": false,
                       "video": ""
                   },
@@ -201,7 +203,8 @@
                       "description": "<p>Machine Learning and Functional Programming are both very hot topics these days; they are also both rather intimidating for the beginner. In this workshop, we’ll take a 100% hands-on approach, and learn practical ideas from Machine Learning, by tackling real-world problems and implementing solutions in F#, in a functional style. In the process, you will see that once you get beyond the jargon, F# and Machine Learning are actually not all that complicated – and fit beautifully together. So if you are curious about what Machine Learning is about, and want to sharpen your developer skills, come with your laptop and… let’s hack together! What you should expect:</p><ul><li>no F# or Machine Learning prerequisites: complete beginners are totally welcome</li><li>a hands-on introduction to simple Machine Learning ideas you can use, by solving real-world problems</li><li>a practical introduction to writing effective F# code</li><li>lots of coding on fun problems!</li><li>you will need a laptop with an IDE or editor running F#; check www.fsharp.org for instructions on how to get setup.</li></ul>",
                       "img": "images/evelina.png",
                       "presentation": "",
-                      "sold_out": true,
+                      "sold_out_soon": true,                      
+                      "sold_out": false,
                       "video": ""
                   },
                   {
@@ -231,7 +234,7 @@
                       "title": "Crafting Code",
                       "description": "<p>This course is designed to help developers get better at Test-Driven Development and write well-crafted code—code that is clean, testable, maintainable, and an expression of the business domain. The course is entirely hands-on, designed to teach developers practical techniques they can immediately apply to real-world projects.</p><p><b>Software Craftsmanship</b> is at the heart of this course. Throughout, you will learn about the Software Craftsmanship attitude to development and how to apply it to your workplace. Writing <b>Clean Code</b> is difficult. Cleaning existing code, even more so. You should attend if you want to:<ul><li>Write clean code that is easy to understand and maintain</li><li>Become more proficient in Test-Driven Development (TDD): using tests to design and build your code base</li><li>Focus your tests and production code according to business requirements using Outside-In TDD (a.k.a. the London School of TDD)</li><li>Understand design principles that lead to clean code</li><li>Avoid over-engineering and large rewrites by incrementally evolving your design using tests</li></ul></p><p>Once you have an understanding of the principles at work, we will apply them to <b>Legacy Code</b> to help you gain confidence in improving legacy projects through testing, refactoring and redesigning. <b>The course is fully hands-on and developers will be writing a lot of code.</b></p>",
                       "img": "images/sandroma.jpg",
-                      "presentation": "",
+                      "presentation": "",           
                       "sold_out": true,
                       "video": ""
                   },
