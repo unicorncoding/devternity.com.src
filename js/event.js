@@ -208,8 +208,7 @@
                       "description": "<p>Machine Learning and Functional Programming are both very hot topics these days; they are also both rather intimidating for the beginner. In this workshop, we’ll take a 100% hands-on approach, and learn practical ideas from Machine Learning, by tackling real-world problems and implementing solutions in F#, in a functional style. In the process, you will see that once you get beyond the jargon, F# and Machine Learning are actually not all that complicated – and fit beautifully together. So if you are curious about what Machine Learning is about, and want to sharpen your developer skills, come with your laptop and… let’s hack together! What you should expect:</p><ul><li>no F# or Machine Learning prerequisites: complete beginners are totally welcome</li><li>a hands-on introduction to simple Machine Learning ideas you can use, by solving real-world problems</li><li>a practical introduction to writing effective F# code</li><li>lots of coding on fun problems!</li><li>you will need a laptop with an IDE or editor running F#; check www.fsharp.org for instructions on how to get setup.</li></ul>",
                       "img": "images/evelina.png",
                       "presentation": "",
-                      "sold_out_soon": true,                      
-                      "sold_out": false,
+                      "sold_out": true,
                       "video": ""
                   },
                   {
