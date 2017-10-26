@@ -33,7 +33,8 @@
               {
                 "name": "Main Day",
                 "price": 199,
-                "speculativePrice": 249
+                "speculativePrice": 249,
+                "sold_out": true
               },
               {
                 "name": "Workshop",
@@ -44,7 +45,7 @@
                 "name": "All Inclusive",
                 "price": 448,
                 "speculativePrice": 548,
-                "suggested": true
+                "sold_out": true
               }
             ]
         },

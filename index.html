@@ -430,12 +430,17 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 										<h3 class="title">{{event.pricing.name}}</h3>
 			              </div>
 	                <div class="row nopadding">
-	                  <section class="4u 12u$(small)" ng-repeat="product in event.pricing.products" ng-class="{suggested: event.pricing.suggested}">
+	                  <section class="4u 12u$(small)" ng-repeat="product in event.pricing.products">
 	                      <h3 class="product">
 	                      <i class="fa fa-ticket" aria-hidden="true"></i>
 
 	                        {{product.name}}</br>
-	                        {{product.price}} <strike>{{product.speculativePrice}}</strike> € <small></small>
+	                        <span ng-if="!product.sold_out">
+	                        	{{product.price}} <strike>{{product.speculativePrice}}</strike> € <small></small>
+	                        </span>
+	                        <span ng-if="product.sold_out">
+	                        	SOLD OUT
+	                        </span>	                        
 	                      </h3>
 	                  </section>
 	                </div>

@@ -87,9 +87,10 @@ span.tag {
 }
 
 .tick h3.product {
-		background-color: #2d2626;
-		border: 2px solid #3ba666;
+	background-color: #2d2626;
+	border: 2px solid #3ba666;
 }
+
 
 .tick h3.title {
 	width: 100%;
@@ -99,6 +100,7 @@ span.tag {
 .tick section {
 	 padding: 0 10px 0 10px !important;
 }
+
 
 .tick i {
 	line-height: 2em;
