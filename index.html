@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/Organization" ng-app="devternity"  ng-controller="LandingPageController" class="lt-ie9">
+<html lang="en" itemscope itemtype="http://schema.org/Organization" ng-app="devternity" ng-controller="LandingPageController" class="lt-ie9">
   <head>
 
     <link rel="shortcut icon" type="image/png" href="images/logo_2017_filled.png"/>
@@ -8,8 +8,9 @@
 
     <title>🚀 DevTernity 2017 – Software Development Conference</title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author"               content="DevTernity">
-    <meta http-equiv="content-type"   content="text/html; charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">    
     <meta name="description"          content="The premium-quality annual international software development conference. DevTernity is a place where forward-thinking developers, pragmatic architects and engineering leaders grow." />
     <meta name="keywords"             content="software craftsmanship conferences, software development conferences, software developer conferences, developer conference, java conferences" />
     <meta name="robots"               content="index,follow"/>
@@ -24,10 +25,14 @@
     <meta itemprop="description"      content="The premium-quality annual international software development conference. DevTernity is a place where forward-thinking developers, pragmatic architects and engineering leaders grow."/>
     <meta itemprop="image"            content="http://devternity.com/images/logo_2017_filled.png"/>
 
+
+
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
     <script src="js/exit.js"></script>
     <script src="js/all.js"></script>
+
+
 
 
     <script src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
@@ -58,6 +63,7 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 
 <!-- End Facebook Pixel Code -->
 
+   <link rel="icon" type="image/png" href="http://devternity.com/images/logo_2017_filled.png">
    <link rel="stylesheet" href="css/remodal.css" />
 
 	 <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -150,10 +156,10 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
             			<li><a href="code_of_conduct.html" alt="Code of Conduct">Code of Conduct</a></li>
             			<li ng-if="event.cfp_deadline | noOverdue"><a href="{{event.cfp}}" alt="CFP">CFP</a></li>
 						<li><strong><a ng-click="slideTo('#tickets-container')">Tickets</a></strong></li>
-						<li><a href="https://twitter.com/devternity" target="_blank"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://www.facebook.com/devternity" target="_blank"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.linkedin.com/grp/home?gid=8371335" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://www.instagram.com/devternity/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.linkedin.com/grp/home?gid=8371335" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a></li>
             <li><a href="2016" alt="DevTernity 2016">2016</a></li>
             <li><a href="2015" alt="DevTernity 2015">2015</a></li>
 					</ul>
@@ -270,10 +276,10 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 
 							<h5>
 							</br></br>
-						    <a href="https://twitter.com/devternity" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-    						<a href="https://www.facebook.com/devternity" target="_blank"><i class="fa fa-facebook"></i></a>	&nbsp;&nbsp;
-    						<a href="https://www.linkedin.com/grp/home?gid=8371335" target="_blank"><i class="fa fa-linkedin"></i></a>
-    						<a href="https://www.instagram.com/devternity/" target="_blank"><i class="fa fa-instagram"></i></a>
+						    <a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+    						<a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a>	&nbsp;&nbsp;
+    						<a href="https://www.linkedin.com/grp/home?gid=8371335" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a>
+    						<a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a>
 							</h5>
 						</section>
 					</div>
@@ -510,7 +516,7 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
           </header>
           <div class="row align-center" ng-repeat="sponsor in event.sponsors | filter:{package:'platinum'}">
             <section class="12u 12u$(medium) 12u$(small)">
-							<a target="_blank" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
+							<a rel="noopener" target="_blank" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
 							<p ng-bind-html="sponsor.info | trust">
 						  </p>
 						</section>
@@ -531,7 +537,7 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
           </header>
   				<div class="row align-center">
   					<section class="6u 12u$(medium) 12u$(small)" ng-repeat="sponsor in event.sponsors | filter:{package:'gold'}">
-              <a target="_blank" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
+              <a target="_blank" rel="noopener" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
               <p ng-bind-html="sponsor.info | trust">
               </p>
   					</section>
@@ -548,7 +554,7 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
         </header>
 				<div class="row align-center">
 						<section class="4u 12u$(medium) 12$(small)" ng-repeat="sponsor in event.sponsors | filter:{package:'others'}">
-							<a target="_blank" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
+							<a target="_blank" rel="noopener" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
 						</section>
 				</div>
 
@@ -564,7 +570,7 @@ src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1"
 
             <div class="row align-center media">
 						<section class="2u 12u$(small)" ng-repeat="sponsor in event.sponsors | filter:{package:'media'}">
-							<a target="_blank" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
+							<a rel="noopener" target="_blank" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
 						</section>
 						<!-- <section class="2u 12u$(small)">
 							<a target="_blank" href="http://www.boot.lv/"><img src="images/boot.png" /></a>
