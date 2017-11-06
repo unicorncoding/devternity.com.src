@@ -1175,6 +1175,7 @@ table th {
 						color: #cee8d8;
 						display: inline-block;
 						text-decoration: none;
+						font-size: 13px;
 					}
 
 						#header nav > ul > li a:hover {
