@@ -227,9 +227,8 @@
                       "title": "Resilient Software Design in Theory and Practice",
                       "description": "<p>To make the complex, distributed and highly interconnected system landscapes of today robust, responsive and highly available, we need to implement resilience into them at application level. Many patterns for implementing resilience into an application exist. The daunting questions are how to slice (design) an application and which patterns to pick and combine in order to match your specific needs best.</p><p>This workshop will address those questions in three parts:<ul><li>In the first part you will learn about the challenges how to design applications in a resilient way, get an overview about the resilience pattern landscape, learn some of the most important patterns and when to apply them.</li><li>In the second part you will have the opportunity to apply the just learned contents to a real-life case study and design and discuss your own resilient solution.</li><li>In the last part we will complete the workshop with a peek in some complementing topics, like some advanced patterns, a resilient design cycle and how to introduce the topic into the software development process.</li></ul></p><p>After this workshop, you will have a much deeper understanding how to design a solution that satisfies your specific robustness needs.</p>",
                       "img": "images/uwe.jpg",
-                      "sold_out_soon": true,
                       "presentation": "",
-                      "sold_out": false,
+                      "sold_out": true,
                       "video": ""
                   },
                   {
