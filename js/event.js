@@ -13,6 +13,7 @@
         "workshops_total": 7,
         "city": "Riga",
         "slack_channels": "C6X29SJM7,C6WTMHFQ8",
+        "slack_channels_attendees": "C6X29SJM7",
         "hotel_name": "Bellevue Park Hotel Riga",
         "hotel_link": "https://www.booking.com/hotel/lv/bellevue-park-riga.en-gb.html",
         "hotel_to_venue_map": "https://www.google.co.uk/maps/dir/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka,+M%C5%ABkusalas+iela,+R%C4%ABga,+R%C4%ABgas+pils%C4%93ta,+Latvia/Bellevue+Park+Hotel+Riga,+Slokas+iela+1,+Zemgales+priek%C5%A1pils%C4%93ta,+R%C4%ABga,+LV-1048/@56.9408798,24.0802257,15z/data=!4m14!4m13!1m5!1m1!1s0x46eed028bbe816ff:0x4a2fb4e541eacced!2m2!1d24.0960398!2d56.9414915!1m5!1m1!1s0x46eed02233ca36c3:0xc8bcf56beebf7535!2m2!1d24.0815464!2d56.9414617!3e2?hl=en",
