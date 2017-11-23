@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Organization" ng-app="devternity" ng-controller="LandingPageController" class="lt-ie9">
+  <head>
+
+    <link rel="shortcut icon" type="image/png" href="images/logo_2017_filled.png"/>
+    <meta charset="UTF-8">
+
+    <title>🚀 #{data.theme} – Software Development Conference</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author"               content="DevTernity">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">    
+    <meta name="description"          content="The premium-quality annual international software development conference. DevTernity is a place where forward-thinking developers, pragmatic architects and engineering leaders grow." />
+    <meta name="keywords"             content="software craftsmanship conferences, software development conferences, software developer conferences, developer conference, java conferences" />
+    <meta name="robots"               content="index,follow"/>
+    <meta property="og:url"           content="http://devternity.com" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="DevTernity" />
+    <meta property="og:description"   content="The premium-quality annual international software development conference. DevTernity is a place where forward-thinking developers, pragmatic architects and engineering leaders grow." />
+    <meta property="og:image"         content="http://devternity.com/images/logo_2017_filled.png" />
+    <meta property="og:image:width"   content="512" />
+    <meta property="og:image:height"  content="512" />
+    <meta itemprop="name"             content="DevTernity"/>
+    <meta itemprop="description"      content="The premium-quality annual international software development conference. DevTernity is a place where forward-thinking developers, pragmatic architects and engineering leaders grow."/>
+    <meta itemprop="image"            content="http://devternity.com/images/logo_2017_filled.png"/>
+
+
+
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+    <script src="js/exit.js"></script>
+    <script src="js/all.js"></script>
+    <script src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
+
+    script
+      | (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      | (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      | m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      | })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      | ga('create', 'UA-66135177-1', 'auto');
+      | ga('send', 'pageview');
+
+    script
+      | !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      | n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      | n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      | t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      | document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+      | fbq('init', '1655374961370442');
+      | fbq('track', "PageView");
+
+    noscript
+      img(height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1")
+
+    <link rel="icon" type="image/png" href="http://devternity.com/images/logo_2017_filled.png">
+    <link rel="stylesheet" href="css/remodal.css" />
+
+     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+     
+    style(type="text/css")
+      | #devternity-loading {
+      |   z-index: 10001;
+      |   position: fixed;
+      | }
+
+      | #devternity-loading div.loading-container {
+      |   background-color: #333333;
+      |  bottom: 0px;
+      |   left: 0px;
+      |   opacity: 1.0;
+      |   position: fixed;
+      |  right: 0px;
+      |   top: 0px;
+      |   z-index: 999999;
+      | }
+
+      | #devternity-loading div.messaging {
+      |  color: #FFFFFF;
+      |   left: 0px;
+      |   margin-top: -37px;
+      |   position: absolute;
+      |   right: 0px;
+      |   text-align: center;
+      |   top: 50%;
+      | }
+
+  </head>
+  <body class="landing">
+
+    <div id="devternity-loading">         
+        <div class="loading-container">
+            <div class="messaging">
+                <div>
+                    <img src="images/logo_2017.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <div id="fb-root"></div>
+  script
+    | (function(d, s, id) {
+    | var js, fjs = d.getElementsByTagName(s)[0];
+    | if (d.getElementById(id)) return;
+    | js = d.createElement(s); js.id = id;
+    | js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=433199826742778";
+    | fjs.parentNode.insertBefore(js, fjs);
+    | }(document, 'script', 'facebook-jssdk'));
+  <header id="header">
+    <nav id="nav">
+      <ul>
+        <li>
+          <a ng-click="slideTo('#program-container')" alt="Talks">Talks</a>
+        </li>
+        <li>
+          <a ng-click="slideTo('#workshops-container')" alt="Workshops">Workshops</a>
+        </li>
+        <li ng-if="event.sponsors.length > 0"><a ng-click="slideTo('#support-container')" alt="Sponsors">Sponsors</a></li>
+        <li><a href="code_of_conduct.html" alt="Code of Conduct">Code of Conduct</a></li>
+        <li><strong><a href="http://go.devternity.com/rix_volunteer" alt="Call for Volunteers">Volunteer</a></strong></li>
+        <li><strong><a href="http://go.devternity.com/speak" alt="Call for Papers">Speak</a></strong></li>
+        <li><strong><a ng-click="slideTo('#tickets-container')">Attend</a></strong></li>
+        <li><a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="http://go.devternity.com/linkedin" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://youtube.com/c/DevTernity" rel="noopener" target="_blank"><i class="fa fa-youtube"></i></a></li>    
+        each history in data.history
+          <li><a href="../#{history}" alt="DevTernity #{history}">#{history}</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <!-- Banner -->
+      <section id="banner">
+        <img src="images/btc_accepted.png" id="btc" />
+        <div>
+          <img src="images/logo_2017.png" />
+          <h2>&nbsp; DevTernity.</h2>
+        </div>
+
+        <p>#{data.desc}</p>
+        <p>#{data.date}. #{data.city}, #{data.country}.</p>
+        <ul class="actions">
+          <li  ng-if="event.status == 'on_sale'">
+          <a ng-click="slideTo('#tickets-container')" class="button big">Take me with you.</a>
+          <br /><br />
+          <timer end-time="registrationClosesIn"> We start in <strong style="color: white">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds </strong>
+          </timer>
+          </li>
+          <li  ng-if="event.status == 'booked'">
+          <a class="button big">Your favorite conference is fully booked.</a>
+          <br /><br />
+          <timer end-time="registrationClosesIn"> We start in <strong style="color: white">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds </strong>
+          </timer>
+          </li>             
+        </ul>
+      </section>
+
+    <!-- One -->
+      <section class="wrapper style1 align-center">
+        <div class="container intro">
+          <header>
+            <h2></h2>
+            <p> DevTernity is <strong>the premium-quality international software development conference in Riga, Latvia</strong>.
+            </p>
+            <p>
+            </p>
+            <h2></h2>
+
+            <h2></h2>
+            <p>DevTernity does not specialize in a particular framework, technology or language because they come and go. <strong>We focus on fundamental building blocks and practices necessary for building better, modern software systems</strong>.</p>
+            <h2></h2>
+            <p>DevTernity is a place where <strong>forward-thinking developers, pragmatic architects and engineering leaders grow</strong>.</strong>
+            </p>
+            <p>
+            </p>
+            <h2></h2>
+          </header>
+          <div class="row 200%">
+            <section class="3u 12u$(small)">
+              <i class="icon big rounded fa-calendar"></i>
+              <h3>#{data.date}</h3>
+              //- <h5><a href="{{event.lanyrd}}/save-to-calendar/">Save to calendar</a></h5>
+            </section>
+            <section class="3u 12u$(small) hotel">
+              <i class="icon big rounded fa-location-arrow"></i>
+              <h3>#{data.city}, #{data.venue_name}</h3>
+              <h5><a href="#{data.venue_map}">Location on map</a></h5>
+              <h5>The recommended hotel for attendees is {{event.hotel_name}} (<a href="#{data.hotel_link}">book</a>, <a href="#{data.hotel_to_venue_map}">see directions</a>)</h5>
+            </section>
+            <section class="3u 12u$(small)">
+              <i class="icon big rounded fa-users"></i>
+              <h3>700 attendees, 20 talks, 3 tracks</h3>
+            </section>
+            <section class="3u 12u$(small)">
+              <i class="icon big rounded fa-cogs"></i>
+              <h3>Full day of instructor-led workshops</h3>
+            </section>
+          </div>
+          <h2>&nbsp;</h2>
+          <h2>5 things that make DevTernity awesome</h2>
+          <div class="row 200% why">
+
+
+            <section class="6u 12u$(small) align-left">
+              <h3>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <strong class="fa-stack-1x" style="color: #4dac71">1</strong>
+                </span> Fluent, technically skilled and inspiring speakers
+              </h3>
+              <h5>We invite speakers based on their track record and community feedback. No promo, sponsored or filler talks.</h5>                            
+            </section>
+
+
+            <section class="6u 12u$(small) align-left">
+              <h3>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <strong class="fa-stack-1x" style="color: #4dac71">2</strong>
+                </span> Unique, valuable and up-to-date content</h3>
+              <h5>Every talk undergo the rigour review by the content committee. The committee comprise of well-known conference speakers and industry experts.</h5>          
+            </section>      
+
+            <section class="6u 12u$(small) align-left">
+              <h3>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <strong class="fa-stack-1x" style="color: #4dac71">3</strong>
+                </span> Cross-discipline topics
+              </h3>
+              <h5>As a distinguished professional, you need to be comfortable at many topics. Therefore we cover the latest developments in coding, architecture, operations, security, leadership and other relevant IT areas.</h5>              
+            </section>    
+            <section class="6u 12u$(small) align-left">
+              <h3>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <strong class="fa-stack-1x" style="color: #4dac71">4</strong>
+                </span> Intensive and saturated program
+              </h3>
+              <h5>Your time is money, that’s why DevTernity is two-day long. The intensive talks day, followed by practical workshops.</h5>             
+            </section>        
+
+            <section class="6u 12u$(small) align-left">
+              <h3>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <strong class="fa-stack-1x" style="color: #4dac71">5</strong>
+                </span> Excellent location
+              </h3>
+              <h5>DevTernity runs in the heart of Europe and connected by direct flights with most EU airports. The location is both stunning and affordable for foreign visitors.</h5>             
+            </section>      
+          </div>          
+        </div>
+      </section>
+
+      <section id="speakers-container" class="wrapper speakers align-center">
+        <div class="container">
+          <header>
+          <h1>Day I: Inspiring Talks ({{days[0]}})</h1>
+            <h2></h2>
+            <p>We have invited speakers that are <strong>fluent</strong>, <strong>technically skilled</strong> and <strong>inspiring</strong>.</p>
+            <h2></h2>
+            <p>No Agile bullshit bingo and marketing talks permitted. See for yourself:</p>
+          </header>
+
+          <div class="row" ng-repeat="row in speakersInRows">
+            <section class="feature 3u 12u$(small)" ng-repeat="speaker in row" ng-if="speaker.name">
+                <img class="headshot" ng-src="{{speaker.img}}"/>
+                <div class="whoname">
+                  <img ng-if="speaker.country" ng-src="images/flags/{{speaker.country}}.png" alt="{{speaker.country}} flag" /> {{speaker.name ? speaker.name : "Coming soon."}}
+                </div>
+                <div class="who" ng-bind-html="speaker.bio | trust"></div>
+
+                <a href="https://twitter.com/{{speaker.twitter}}" ng-if="speaker.twitter">
+                  <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
+                </a>
+            </section>
+          </div>
+
+
+          <div class="row">
+            <section class="feature 12u 12u$(small)">
+              <h3 class="title" ng-if="(keynotes.schedule | filter:{ type:'speech', name:'undefined' }).length > 0">More coming soon.</h3>
+              <div class="fb-like" data-width="320" data-href="https://www.facebook.com/devternity/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+              <h5>
+                </br></br>
+                <a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+                <a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a> &nbsp;&nbsp;
+                <a href="http://go.devternity.com/linkedin" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+                <a href="https://youtube.com/c/DevTernity" rel="noopener" target="_blank"><i class="fa fa-youtube"></i></a>                
+              </h5>
+            </section>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="program-container" class="wrapper">
+
+
+          <div class="container">
+                <div class="row header">
+                  <section class="align-center feature 4u"><span class="fa-stack fa-1x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <strong class="fa-stack-1x text-primary">1</strong>
+                    </span> Track
+                  </section>
+                  <section class="align-center feature 4u"><span class="fa-stack fa-1x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <strong class="fa-stack-1x text-primary">2</strong>
+                    </span> Track
+                  </section>
+                  <section class="align-center feature 4u"><span class="fa-stack fa-1x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <strong class="fa-stack-1x text-primary">3</strong>
+                    </span> Track
+                  </section>
+                </div>
+
+                <div ng-repeat="time in programTimes" class="evt row" ng-class-even="'even'" ng-class-odd="'odd'">
+                  <section class="align-center feature {{event.type != 'speech' || program[time].length == 1 ? '12u' : '4u'}}" ng-repeat="event in program[time]">{{time}}</br>
+                    <a class="pointer" ng-click="popupSpeech(event.uid)" ng-if="event.type === 'speech' && event.title">{{event.name}}{{event.partner ? ' and ' + event.partner.name : ''}}</br><strong>{{event.title}}</strong></br></a>
+                    <span>{{ event.tags| tags }}</span>
+                    <span ng-if="event.type == 'speech' && !event.title">?</span>
+                    <span ng-if="event.type != 'speech'">{{event.title}}</span>
+                  </section>
+                </div>
+
+          </div>
+      </section>
+
+
+        <div ng-repeat="yo in program" class="container">
+        <section ng-repeat="event in yo" ng-if="event.type === 'speech'" data-remodal-id="{{event.uid}}" class="wrapper speech tickets align-center">
+          <button data-remodal-action="close" class="remodal-close"></button>
+          <div class="row" ng-if="event.partner">
+            <section class="6u">
+              <div>
+                <img class="headshot" ng-src="{{event.img}}"/>
+                <div class="whoname">{{event.name}}</div>
+                <p>{{event.bio}}</p>
+              </div>
+                <p class="speaker">{{event.long_bio}}</p>
+            </section>
+            <section class="6u">
+              <div>
+                <img class="headshot" ng-src="{{event.partner.img}}"/>
+                <div class="whoname">{{event.partner.name}}</div>
+                <p>{{event.partner.bio}}</p>
+              </div>
+                <p class="speaker">{{event.partner.long_bio}}</p>
+            </section>
+          </div>
+          <div class="row" ng-if="event.partner">
+            <section class="12u">
+              <div class="whoname">{{event.title}}</div>
+              <p class="speaker">{{event.description}}</p>
+            </section>
+          </div>
+
+          <div class="row" ng-if="!event.partner">
+            <section class="12u">
+              <div>
+                <img class="headshot" ng-src="{{event.img}}"/>
+                <div class="whoname">
+                  <img ng-if="event.country" ng-src="images/flags/{{event.country}}.png" alt="{{event.country}} flag" /> {{event.name}}
+                </div>
+                <p ng-bind-html="event.bio | trust"></p>
+              </div>
+              <p class="speaker">{{event.long_bio}}</p>
+              <div class="whoname">{{event.title}}</div>
+              <p class="speaker">{{event.description}}</p>
+            </section>
+          </div>
+        </section>
+      </div>
+
+
+
+
+    <section id="workshops-container" class="wrapper workshops align-center">
+        <div class="container">
+          <header>
+            <h1>Day II: Power Workshops ({{days[1]}})</h1>
+            <h2></h2>
+            <p ng-if="workshops.schedule.length">Our instructors are here to deliver <strong>pragmatic and intensive workshops</strong>. Go beyond theory with industry experts:</p>
+            <p ng-if="!workshops.schedule.length">Coming soon...</p>
+          </header>
+
+          <div class="row" ng-repeat="speaker in workshops.schedule">
+            <a name="{{speaker.product}}"></a>
+            <section class="feature 6u 12u$(small)">
+              <img class="headshot" ng-src="{{speaker.img}}"/>
+              <div class="whoname">
+                <img ng-if="speaker.country" ng-src="images/flags/{{speaker.country}}.png" alt="{{speaker.country}} flag" /> {{speaker.name ? speaker.name : "Coming soon."}}
+              </div>
+              <div class="who">
+                <strong ng-bind-html="speaker.bio | trust"></strong></br>{{speaker.long_bio}}
+              </div>
+            </section>
+            <section class="feature 6u 12u$(small) align-left">
+              <h3>
+                <strong ng-if="speaker.sold_out" class="sold">SOLD OUT</strong>
+                <strong ng-if="speaker.sold_out_soon" class="sold">FEW TICKETS LEFT</strong>
+                <i class="fa fa-clock-o" aria-hidden="true"></i> {{speaker.time}} <strong>{{speaker.title}}</strong>
+              </h3>
+              <div class="who" ng-bind-html="speaker.description | trust"></div>
+            </section>
+          </div>
+        </div>
+    </section>
+
+      <section id="tickets-container" class="wrapper style1 tickets align-center">
+        <div class="container">
+          <header>
+            <h1>Tickets</h1>
+            <p> The number of seats is limited and every year we are running out of tickets quickly. Secure your seat now (and feel free to change the information about the participants later).
+            </p>
+          </header>
+
+          <div class="row">
+            <section class="feature 3u 12u$(medium) 12u$(small)">&nbsp;</section>
+            <section class="tick feature 6u 12u$(medium) 12u$(small)">
+              <div class="row">
+                    <h3 class="title">Discount tickets are limited.</h3>
+              </div>
+          <div class="row nopadding">
+            <section class="4u 12u$(small)" ng-repeat="product in event.pricing.products">
+              <h3 class="product">
+              <i class="fa fa-ticket" aria-hidden="true"></i>{{product.name}}</br>
+              <span ng-if="!product.sold_out && event.status == 'on_sale'">{{product.price}} <strike>{{product.price + event.pricing.discount.amount}}</strike> € <small></small>
+              </span>
+              <span ng-if="product.sold_out || event.status == 'booked'">SOLD OUT</span>                         
+              </h3>
+            </section>
+          </div>
+          <div class="row">
+            <section class="12u 12u$(small)">
+              <h5 style="color:black">The discount price is available until {{event.pricing.discount.until | humane}} or with a discount code</h5>
+            </section>
+          </div>          
+          <div class="row">
+            <section class="12u 12u$(small)">
+            <input type="button" value="&nbsp;Secure a seat now&nbsp;" ng-disabled="event.status == 'booked'" ng-click="buy(event.register)" />
+            </section>
+          </div>
+            </section>
+            <section class="feature 3u 12u$(medium) 12u$(small)">&nbsp;</section>
+          </div>
+
+
+          <div>
+          <div class="row">
+            <section class="feature 12u 12u$(small)">
+            </section>
+          </div>
+          <div>
+          <header class="discounts">
+            <h2>Discounts</h2>
+            <div class="row">
+            <section class="feature 4u 12u$(small)">
+              <h3 class="title"><i class="fa fa-btc" aria-hidden="true"></i> Bitcoin payments | -10% </h3>
+              <div>
+                <p>We make the world a better place by supporting the growth and adoption of cryptocurrency. By paying with Bitcoin you get 10% discount.</p>
+              </div>
+            </section>
+            <section class="feature 4u 12u$(small)">
+              <h3 class="title">Evangelists | -10% </h3>
+              <div><p>You are entitled for additional 10% discount if you spread a word about DevTernity on your blog or other relevant social media channels that you manage.</p>
+              </div>
+            </section>
+            <section class="feature 4u 12u$(small)">
+              <h3 class="title">Sponsors</h3>
+              <div>
+                <p>We provide sponsors with a discount for supporting the event. Please <a href="mailto:{{event.contactEmail}}">contact</a> us to receive a sponsorship offer.
+                </p>
+              </div>
+            </section>
+            </div>
+          </header>
+        </div>
+      </section>
+
+
+      <section id="support-container" class="wrapper" ng-if="event.sponsors.length > 0">
+        <div class="container">
+
+          <header class="align-center" ng-if="(event.sponsors | filter:{package:'platinum'}).length > 0">
+            <h2>Backed by <strong>Platinum Sponsor</strong>
+              <i class="fa fa-star" aria-hidden="true" style="color: #C80815"></i>
+              <i class="fa fa-star" aria-hidden="true" style="color: #C80815"></i>
+              <i class="fa fa-star" aria-hidden="true" style="color: #C80815"></i>
+              <i class="fa fa-star" aria-hidden="true" style="color: #C80815"></i>
+              <i class="fa fa-star" aria-hidden="true" style="color: #C80815"></i>
+            </h2>
+          </header>
+          <div class="row align-center" ng-repeat="sponsor in event.sponsors | filter:{package:'platinum'}">
+          <section class="12u 12u$(medium) 12u$(small)">
+              <a rel="noopener" target="_blank" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
+              <p ng-bind-html="sponsor.info | trust">
+              </p>
+          </section>
+          <br/>
+        </div>
+
+        <header class="align-center" ng-if="(event.sponsors | filter:{package:'gold'}).length > 0">
+          <br/>
+          <h2>
+            <strong>Gold Sponsors</strong>
+            <i class="fa fa-star" aria-hidden="true" style="color: orange"></i>
+            <i class="fa fa-star" aria-hidden="true" style="color: orange"></i>
+            <i class="fa fa-star" aria-hidden="true" style="color: orange"></i>
+          </h2>
+          <br/>
+        </header>
+        <div class="row align-center">
+          <section class="6u 12u$(medium) 12u$(small)" ng-repeat="sponsor in event.sponsors | filter:{package:'gold'}">
+            <a target="_blank" rel="noopener" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
+            <p ng-bind-html="sponsor.info | trust"></p>
+          </section>
+          <br/>
+        </div>
+
+
+        <header class="align-center" ng-if="(event.sponsors | filter:{package:'others'}).length > 0">
+          <br/>
+          <h2>...as well as</h2>
+        </header>
+        <div class="row align-center">
+            <section class="4u 12u$(medium) 12$(small)" ng-repeat="sponsor in event.sponsors | filter:{package:'others'}">
+              <a target="_blank" rel="noopener" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
+            </section>
+        </div>
+
+
+        <header class="align-center" ng-if="(event.sponsors | filter:{package:'media'}).length > 0">
+          <br/>
+          <h2>our friends</h2>
+        </header>
+
+
+
+        <div class="row align-center media">
+            <section class="2u 12u$(small)" ng-repeat="sponsor in event.sponsors | filter:{package:'media'}">
+              <a rel="noopener" target="_blank" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
+            </section>
+            <!-- <section class="2u 12u$(small)">
+              <a target="_blank" href="http://www.boot.lv/"><img src="images/boot.png" /></a>
+            </section>
+            <section class="2u 12u$(small)">
+              <a target="_blank" href="http://www.kursors.lv/"><img src="images/kursors.png" /></a>
+            </section>
+            <section class="2u 12u$(small)">
+              <a target="_blank" href="http://devchampions.com"><img src="images/devchamps.png" /></a>
+            </section>
+            <section class="2u 12u$(small)">
+            <a target="_blank" href="http://www.millriga.com/"><img src="images/mill.png" /></a>
+            </section>
+            <section class="2u 12u$(small)">
+            <a target="_blank" href="http://techchill.co/"><img src="images/techchill.png" /></a>
+            </section> -->
+            <!--
+            <section class="2u 12u$(small)">
+              <a target="_blank" href="http://www.labsoflatvia.com/"><img src="images/labsoflatvia.png" /></a>
+            </section>
+            <section class="2u 12u$(small)">
+              <a target="_blank" href="http://bycraft.by/"><img src="images/bycra.png" /></a>
+            </section>
+            <section class="2u 12u$(small)">
+              <a target="_blank" href="https://riga.techhub.com"><img src="images/techhub.png" /></a>
+            </section> -->
+            </div>
+            <p style="margin-top: 100px" class="align-center">Interested in becoming a sponsor and appearing at the event? <a href="mailto:{{event.contactEmail}}">Drop us</a> an email.</p>
+      </section>  
+
+    <!-- Footer -->
+      <footer id="footer">
+        <div class="container">
+          <div class="row">
+            <section class="12u">
+            </section>
+          </div>
+          <div class="row">
+            <section class="6u 12u$(small)">
+              <h3>Organisers</h3>
+              <p>DevTernity is organised with pride, love <i class="fa fa-heart" style="color: red" aria-hidden="true"></i> and care by <a target="_blank" href="http://www.latcraft.lv">Latvian Software Craftsmanship Community</a>.</p>
+              <img src="images/team.jpg" style="width:90%; border: 2px solid black; "/>
+            </section>
+            <section class="6u 12u$(small)">
+              <h3>Follow Us</h3>
+              <ul class="icons">
+                <li><a href="https://twitter.com/devternity" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/devternity" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="http://go.devternity.com/linkedin" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://www.instagram.com/devternity/" class="icon rounded fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://youtube.com/c/DevTernity" class="icon rounded fa-youtube"><span class="label">YouTube</span></a></li>                
+              </ul>
+              <h3>GitHub Shields</h3>
+              <ul style="list-style-type: none;">
+                <li><a href="https://github.com/devternity/graphics/"><img src="shields/attending.svg" /></a></li>
+                <li><a href="https://github.com/devternity/graphics/"><img src="shields/fellow.svg" /></a></li>
+                <li><a href="https://github.com/devternity/graphics/"><img src="shields/speaker.svg" /></a></li>
+                <li><a href="https://github.com/devternity/graphics/"><img src="shields/sponsor.svg" /></a></li>
+                <li><a href="https://github.com/devternity/graphics/"><img src="shields/recommends.svg" /></a></li>
+              </ul>
+              <ul class="tabular">
+                <li>
+                  <h3>Mail</h3>
+                  <a href="mailto:{{event.contactEmail}}">{{event.contactEmail}}</a>
+                </li>
+                <li>
+                  <h3>Phone</h3>(+371) 288 14 170 🇬🇧 🇷🇺 🇱🇻
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+
+    <section id="discountOffer" data-remodal-id="offer" class="wrapper speech tickets align-center">
+      <form ng-controller="DiscountController" name="discountOffer">
+        <h2>Let us make your day –</h2>
+        <div>
+          <input type="email" id="email" placeholder="Email address" ng-model="email"></input>
+        <br />
+        <input type="button" value="Receive personal {{event.pricing.discount.amount}}€ discount code" ng-click="askForDiscount()" ng-disabled="!email || discountOffer.$error.email"/>
+        <br />
+        </div>
+        <a href="#" data-remodal-action="close">No, I don't want a discount</a>
+      </form>
+    </section>
+
+    <ul class="copyright">
+      <li>&copy; DevTernity. All rights reserved.</li>
+    </ul>
+      </footer>
+
+    script(type="text/javascript")
+      | var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      | (function(){
+      | var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      | s1.async=true;
+      | s1.src='https://embed.tawk.to/58ca5310f42d220ab327a8d7/default';
+      | s1.charset='UTF-8';
+      | s1.setAttribute('crossorigin','*');
+      | s0.parentNode.insertBefore(s1,s0);
+      | })();
+  </body>
+</html>
