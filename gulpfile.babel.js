@@ -25,7 +25,10 @@ const events = [
 ];
 
 const dirs = {
-  dest: 'build'
+  dest: 'build',
+  sources: [,
+      'CNAME'
+    ]  
 };
 
 const eventJs = (loc) => {
@@ -38,6 +41,14 @@ const eventJs = (loc) => {
         return {};
     }
 }
+
+gulp.task('copy-statics', () => {
+  return gulp
+      .src(dirs.sources, {base: '.'})
+      .pipe(gulp.dest(dirs.dest));
+
+});
+
 
 gulp.task('copy-events', () => {
   return events.map(event => {
@@ -83,7 +94,7 @@ gulp.task('watch', function () {
 });
 
 
-gulp.task('build', ['copy-events', 'override-events', 'copy-welcome']);
+gulp.task('build', ['copy-events', 'override-events', 'copy-welcome', 'copy-statics']);
 gulp.task('deploy', ['ghPages']);
 
 
