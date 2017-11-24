@@ -7,7 +7,7 @@
         "month": "December 2017",
         "date": "1-2 December 2017",
         "date_iso": "2017-12-01",
-        "date_epoch": "1512111600000",        
+        "date_epoch": "1512111600000",
         "duration_days": 2,
         "attendees_total": 700,
         "talks_total": 20,
@@ -99,7 +99,7 @@
             "package": "gold",
             "logo": "pipedrive.png",
             "link": "https://www.pipedrive.com/en/jobs",
-            "info": "Pipedrive is a tool that gets sales teams organized. Pipedrive employs the brightest talent, with over 20 nationalities represented amongst the staff. We believe that it takes great people to deliver a great product."
+            "info": "<a href=\"https://www.pipedrive.com/en/jobs\">Pipedrive</a> is a tool that gets sales teams organized. Pipedrive employs the brightest talent, with over 20 nationalities represented amongst the staff. We believe that it takes great people to deliver a great product."
           },
           {
             "package": "gold",
@@ -250,7 +250,7 @@
                       "title": "Crafting Code",
                       "description": "<p>This course is designed to help developers get better at Test-Driven Development and write well-crafted code—code that is clean, testable, maintainable, and an expression of the business domain. The course is entirely hands-on, designed to teach developers practical techniques they can immediately apply to real-world projects.</p><p><b>Software Craftsmanship</b> is at the heart of this course. Throughout, you will learn about the Software Craftsmanship attitude to development and how to apply it to your workplace. Writing <b>Clean Code</b> is difficult. Cleaning existing code, even more so. You should attend if you want to:<ul><li>Write clean code that is easy to understand and maintain</li><li>Become more proficient in Test-Driven Development (TDD): using tests to design and build your code base</li><li>Focus your tests and production code according to business requirements using Outside-In TDD (a.k.a. the London School of TDD)</li><li>Understand design principles that lead to clean code</li><li>Avoid over-engineering and large rewrites by incrementally evolving your design using tests</li></ul></p><p>Once you have an understanding of the principles at work, we will apply them to <b>Legacy Code</b> to help you gain confidence in improving legacy projects through testing, refactoring and redesigning. <b>The course is fully hands-on and developers will be writing a lot of code.</b></p>",
                       "img": "images/sandroma.jpg",
-                      "presentation": "",           
+                      "presentation": "",
                       "sold_out": true,
                       "video": ""
                   },
