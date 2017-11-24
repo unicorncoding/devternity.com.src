@@ -111,7 +111,7 @@
             "package": "gold",
             "logo": "ulabs.png",
             "link": "https://ulabs.ubnt.com",
-            "info": "<p>In <a href=\"https://ulabs.ubnt.com\">ULabs Riga</a>, part of global company <a href=\"https://www.ubnt.com\">Ubiquiti Networks Inc.</a> producing wireless networking and consumer product, we are always searching the next big thing - we reinvent existing concepts, create smart solutions and drive innovation. Sponsoring DevTernity 2017 we see as taking steps towards this "next big thing" because ideas are born during the interchange of opinions, knowledge, and inspiration. We are proud to be part of evolving and dynamic platform where professionals meet to broaden their horizons and change perspective.</p>"
+            "info": "<p>In <a href=\"https://ulabs.ubnt.com\">ULabs Riga</a>, part of global company <a href=\"https://www.ubnt.com\">Ubiquiti Networks Inc.</a> producing wireless networking and consumer product, we are always searching the next big thing - we reinvent existing concepts, create smart solutions and drive innovation. Sponsoring DevTernity 2017 we see as taking steps towards this \"next big thing\" because ideas are born during the interchange of opinions, knowledge, and inspiration. We are proud to be part of evolving and dynamic platform where professionals meet to broaden their horizons and change perspective.</p>"
           },
           {
             "package": "others",
