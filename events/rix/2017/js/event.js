@@ -108,6 +108,12 @@
             "info": "<p>More than 160 IT Specialists at <a href=\"https://www.intrum.com/en/intrum-justitia-software-development-centre/\">Intrum Justitia Software Development Centre</a> are developing, supporting and maintaining financial systems for Intrum Justitia Group all over the Europe. Various programming languages, tools and methodologies are used to deliver valuable solutions and make work interesting for each person who joins the team.</p>"
           },
           {
+            "package": "gold",
+            "logo": "ulabs.png",
+            "link": "https://ulabs.ubnt.com",
+            "info": "<p>In <a href=\"https://ulabs.ubnt.com\">ULabs Riga</a>, part of global company <a href=\"https://www.ubnt.com\">Ubiquiti Networks Inc.</a> producing wireless networking and consumer product, we are always searching the next big thing - we reinvent existing concepts, create smart solutions and drive innovation. Sponsoring DevTernity 2017 we see as taking steps towards this "next big thing" because ideas are born during the interchange of opinions, knowledge, and inspiration. We are proud to be part of evolving and dynamic platform where professionals meet to broaden their horizons and change perspective.</p>"
+          },
+          {
             "package": "others",
             "logo": "likeit.png",
             "link": "http://likeit.lv"
