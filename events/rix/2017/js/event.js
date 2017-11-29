@@ -7,7 +7,7 @@
         "month": "December 2017",
         "date": "1-2 December 2017",
         "date_iso": "2017-12-01",
-        "date_epoch": "1512111600000",
+        "date_epoch": "1512118800000",        
         "duration_days": 2,
         "attendees_total": 700,
         "talks_total": 20,

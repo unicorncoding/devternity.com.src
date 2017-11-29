@@ -110,7 +110,7 @@
                         "country": "de",
                         "bio": "Co-founder & Principal Consultant @ innoQ",
                         "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
-                        "title": "Blockchain – The Slowest and most Fascinating Database in the World",
+                        "title": "Blockchain – The Slowest and Most Fascinating Database in the World",
                         "description": "As the foundation of Bitcoin's virtual currency, the blockchain technique is now the starting point for numerous new business ideas. The usual suspects surpass each other with superlatives how \"disruptive\" the Blockchain based startups will be. In this talk, we look first at the technical foundations and then examine the advantages and disadvantages. We then identify practical scenarios and discuss how to implement them in practice.",
                         "img": "images/tilkov.png",
                         "presentation": "",
