@@ -152,12 +152,19 @@
                         "title": "Coffee Break",
                         "icon": "fa-coffee"
                     },
-                    {    
-                       "type": "speech",   
-                       "time": "11:40",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
+                    {
+                      "time": "11:40",
+                      "tags": [],
+                      "name": "Maxim Dorofeev",
+                      "twitter": "cartmendum",
+                      "type": "speech",
+                      "country": "ru",
+                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
+                      "title": "?",
+                      "description": "coming soon...",
+                      "img": "images/dorofeev.png",
+                      "presentation": "",
+                      "video": ""
                     },
                     {    
                        "type": "speech",   
