@@ -19,14 +19,13 @@ import readFile from "fs-readfile-promise"
 const events = [
   { loc: "rix/2015", history: [] },
   { loc: "rix/2016", history: [] },
-  { loc: "rix/2017", front: true, history: ["2016", "2015"] },
-  { loc: "rix/2018", front: true, history: ["2017", "2016", "2015"] }
-  // { loc: "ber/2018", front: true, history: [] }
+  { loc: "rix/2017", history: ["2016", "2015"] },
+  { loc: "rix/2018", history: ["2017", "2016", "2015"], current: true}
 ];
 
 const dirs = {
   dest: 'build',
-  sources: [,
+  statics: [,
       'CNAME'
     ]  
 };
@@ -44,11 +43,10 @@ const eventJs = (loc) => {
 
 gulp.task('copy-statics', () => {
   return gulp
-      .src(dirs.sources, {base: '.'})
+      .src(dirs.statics, {base: '.'})
       .pipe(gulp.dest(dirs.dest));
 
 });
-
 
 gulp.task('copy-events', () => {
   return events.map(event => {
@@ -56,7 +54,8 @@ gulp.task('copy-events', () => {
     gulp
       .src('event-template/**/*', {base: 'event-template'})    
       .pipe(gulpif(/.pug/, pug({data: _.extend({}, eventJs(event.loc), event) })))
-      .pipe(gulp.dest(`build/${event.loc}`))
+      .pipe(gulpif(!event.current, gulp.dest(`build/${event.loc}`)))
+      .pipe(gulpif(event.current, gulp.dest(`build`)))
   })  
  
 });
@@ -64,24 +63,12 @@ gulp.task('copy-events', () => {
 gulp.task('override-events', () => {
   return events.map(event => {
     console.log(`Overriding ${event.loc} with specifics files`)
+    var base = event.current ? `events/${event.loc}` : 'events'
     gulp
-      .src(`events/${event.loc}/**/*`, {base: 'events'})
+      .src(`events/${event.loc}/**/*`, {base: base})
       .pipe(gulp.dest(dirs.dest))
   })  
 })
-
-gulp.task('copy-welcome', () => {
-  var allJsons = events
-    .filter(e => { return e.front })
-    .map(e => { return _.extend({}, eventJs(e.loc), e) });
-
-  return events.map(event => {
-    gulp
-      .src(`welcome/**/*`, {base: 'welcome'})
-      .pipe(gulpif(/.pug/, pug({data: allJsons})))
-      .pipe(gulp.dest(dirs.dest))
-  })  
-});
 
 gulp.task('connect', () => {
   connect.server({
@@ -94,7 +81,7 @@ gulp.task('watch', function () {
 });
 
 
-gulp.task('build', ['copy-events', 'override-events', 'copy-welcome', 'copy-statics']);
+gulp.task('build', ['copy-events', 'override-events', 'copy-statics']);
 gulp.task('deploy', ['ghPages']);
 
 
