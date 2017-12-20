@@ -250,8 +250,15 @@
               </h3>
               <h5>DevTernity runs in the heart of Europe and connected by direct flights with most EU airports. The location is both stunning and affordable for foreign visitors.</h5>             
             </section>      
-          </div>          
+          </div>
         </div>
+        <div id="trailer">        
+          <input type="button" value="&nbsp;Watch Video Trailer&nbsp;" ng-click="watchPromo()" />
+        </div>
+      </section>
+      <section data-remodal-id="trailer-vimeo" class="wrapper align-center">
+          <button data-remodal-action="close" class="remodal-close"></button>
+          <iframe src="https://player.vimeo.com/video/247773795" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>          
       </section>
 
       <section id="speakers-container" class="wrapper speakers align-center">
@@ -335,42 +342,18 @@
         <div ng-repeat="yo in program" class="container">
         <section ng-repeat="event in yo" ng-if="event.type === 'speech'" data-remodal-id="{{event.uid}}" class="wrapper speech tickets align-center">
           <button data-remodal-action="close" class="remodal-close"></button>
-          <div class="row" ng-if="event.partner">
-            <section class="6u">
-              <div>
-                <img class="headshot" ng-src="{{event.img}}"/>
-                <div class="whoname">{{event.name}}</div>
-                <p>{{event.bio}}</p>
-              </div>
-                <p class="speaker">{{event.long_bio}}</p>
-            </section>
-            <section class="6u">
-              <div>
-                <img class="headshot" ng-src="{{event.partner.img}}"/>
-                <div class="whoname">{{event.partner.name}}</div>
-                <p>{{event.partner.bio}}</p>
-              </div>
-                <p class="speaker">{{event.partner.long_bio}}</p>
-            </section>
-          </div>
-          <div class="row" ng-if="event.partner">
-            <section class="12u">
-              <div class="whoname">{{event.title}}</div>
-              <p class="speaker">{{event.description}}</p>
-            </section>
-          </div>
-
-          <div class="row" ng-if="!event.partner">
+          <div class="row">
             <section class="12u">
               <div>
                 <img class="headshot" ng-src="{{event.img}}"/>
-                <div class="whoname">
+                <p class="whoname">
                   <img ng-if="event.country" ng-src="images/flags/{{event.country}}.png" alt="{{event.country}} flag" /> {{event.name}}
-                </div>
+                </p>
                 <p ng-bind-html="event.bio | trust"></p>
               </div>
               <p class="speaker">{{event.long_bio}}</p>
-              <div class="whoname">{{event.title}}</div>
+              <br/>
+              <p class="whoname">{{event.title}}</p>
               <p class="speaker">{{event.description}}</p>
             </section>
           </div>
@@ -429,7 +412,7 @@
           <div class="row nopadding">
             <section class="4u 12u$(small)" ng-repeat="product in event.pricing.products">
               <h3 class="product">
-              <i class="fa fa-ticket" aria-hidden="true"></i>{{product.name}}</br>
+              <i class="fa fa-ticket" aria-hidden="true"></i> {{product.name}}</br>
               <span ng-if="!product.sold_out && event.status == 'on_sale'">{{product.price}} <strike>{{product.price + event.pricing.discount.amount}}</strike> € <small></small>
               </span>
               <span ng-if="product.sold_out || event.status == 'booked'">SOLD OUT</span>                         

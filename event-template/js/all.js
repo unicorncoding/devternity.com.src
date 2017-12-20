@@ -913,6 +913,11 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
     inst.open();
   }
 
+  $scope.watchPromo = function() {
+    var inst = $("[data-remodal-id='trailer-vimeo']").remodal();
+    inst.open();	
+  }
+
   $scope.shorten = function(text) {
     if (text.length <= 50) {
       return text;

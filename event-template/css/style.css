@@ -48,6 +48,10 @@ strong a {
 	font-size: 0.8em;
 }
 
+.speech p {
+	margin: 0 0 0.5em 0;
+}
+
 .evt a, .evt a strong {
 	font-weight: bold;
 }
@@ -154,6 +158,14 @@ span.tag {
 
 #support-container img {
 	max-width: 100%;
+}
+
+#trailer {
+	margin-top: 50px;
+}
+
+#trailer input[type='button'] {
+	border: 1px solid white;
 }
 
 .body .price {
