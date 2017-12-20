@@ -796,6 +796,14 @@ table th {
 			padding-left: 0;
 		}
 
+			ul.actions .links {
+				padding: 0;
+			}
+
+			ul.actions .links a {
+				color: white;
+			}
+
 			ul.actions li {
 				display: inline-block;
 				padding: 0 1em 0 0;
