@@ -144,16 +144,14 @@
         <p>#{data.date}. #{data.city}, #{data.country}.</p>
         <ul class="actions">
           <li  ng-if="event.status == 'on_sale'">
-          <a ng-click="slideTo('#tickets-container')" class="button big">Take me with you.</a>
+          <a ng-click="slideTo('#tickets-container')" class="button big">Take me with you</a>
           <br /><br />
           <timer end-time="#{data.date_epoch}"> We start in <strong style="color: white">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds </strong>
           </timer>
           </li>
           <li  ng-if="event.status == 'booked'">
-          <a class="button big">Your favorite conference is fully booked.</a>
+          <a class="button big">We are fully booked.</a>
           <br /><br />
-          <timer end-time="#{data.date_epoch}"> We start in <strong style="color: white">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds </strong>
-          </timer>
           </li>             
         </ul>
       </section>
