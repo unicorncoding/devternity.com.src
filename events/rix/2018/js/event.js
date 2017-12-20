@@ -41,17 +41,17 @@
             "products": [
               {
                 "name": "Main Day",
-                "price": 199,
+                "price": 249,
                 "sold_out": false
               },
               {
                 "name": "Workshop",
-                "price": 249,
+                "price": 299,
                 "sold_out": false                
               },
               {
                 "name": "All Inclusive",
-                "price": 448,
+                "price": 548,
                 "sold_out": false
               }
             ]

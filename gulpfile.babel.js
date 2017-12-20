@@ -49,25 +49,23 @@ gulp.task('copy-statics', () => {
 });
 
 gulp.task('copy-events', () => {
-  return events.map(event => {
+  return merge(events.map(event => {
     console.log(`Copying event template for ${event.loc}`)
-    gulp
-      .src('event-template/**/*', {base: 'event-template'})    
-      .pipe(gulpif(/.pug/, pug({data: _.extend({}, eventJs(event.loc), event) })))
-      .pipe(gulpif(!event.current, gulp.dest(`build/${event.loc}`)))
-      .pipe(gulpif(event.current, gulp.dest(`build`)))
-  })  
- 
+    return gulp
+        .src('event-template/**/*', {base: 'event-template'})    
+        .pipe(gulpif(/.pug/, pug({data: _.extend({}, eventJs(event.loc), event) })))
+        .pipe(event.current ? gulp.dest(`build`) : gulp.dest(`build/${event.loc}`))
+  }))
 });
 
-gulp.task('override-events', () => {
-  return events.map(event => {
+gulp.task('events', ['copy-events'], () => {
+  return merge(events.map(event => {
     console.log(`Overriding ${event.loc} with specifics files`)
     var base = event.current ? `events/${event.loc}` : 'events'
-    gulp
+    return gulp
       .src(`events/${event.loc}/**/*`, {base: base})
       .pipe(gulp.dest(dirs.dest))
-  })  
+  }))  
 })
 
 gulp.task('connect', () => {
@@ -76,12 +74,12 @@ gulp.task('connect', () => {
   });
 });
 
-gulp.task('watch', function () {
-  gulp.watch(["event-template/**/*", "events/**/*", "welcome/**/*"], ['build']);
+gulp.task('watch', () => {
+  gulp.watch(["event-template/**/*", "events/**/*"], ['build']);
 });
 
 
-gulp.task('build', ['copy-events', 'override-events', 'copy-statics']);
+gulp.task('build', ['events', 'copy-statics']);
 gulp.task('deploy', ['ghPages']);
 
 
