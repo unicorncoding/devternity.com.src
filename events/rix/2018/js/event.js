@@ -46,12 +46,12 @@
               },
               {
                 "name": "Workshop",
-                "price": 299,
+                "price": 249,
                 "sold_out": false                
               },
               {
-                "name": "All Inclusive",
-                "price": 548,
+                "name": "Both Days",
+                "price": 498,
                 "sold_out": false
               }
             ]
