@@ -35,23 +35,25 @@
         "buzzwords": [],
         "pricing": {
             "discount": {
-              "amount": 50,              
-              "until": "2018-08-31"
+              "amount": 50
             },
             "products": [
               {
                 "name": "Main Day",
-                "price": 249,
+                "price": 299,
+                "extra": 30,
                 "sold_out": false
               },
               {
                 "name": "Workshop",
-                "price": 249,
+                "price": 299,
+                "extra": 30,                
                 "sold_out": false                
               },
               {
                 "name": "Both Days",
-                "price": 498,
+                "price": 598,
+                "extra": 60,
                 "sold_out": false
               }
             ]

@@ -244,9 +244,14 @@ table th {
 	display: inline;
 }
 
-#pulse {
+.pulse {
     -webkit-animation: move 2s infinite;
     animation: move 2s infinite;
+}
+
+.pulse:disabled {
+    -webkit-animation: none;
+    animation: none;
 }
 
 @keyframes move {

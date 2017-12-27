@@ -819,13 +819,13 @@ devternity.controller("DiscountController", function($scope, $http) {
 	firebase.initializeApp(config);
 
 
-	bioEp.init({
-	});
+	// bioEp.init({
+	// });
 
-	bioEp.show = function() {
-		$scope.inst = $("#discountOffer").remodal();
-	    $scope.inst.open();
-	};
+	// bioEp.show = function() {
+	// 	$scope.inst = $("#discountOffer").remodal();
+	//     $scope.inst.open();
+	// };
 
 	$scope.email = "";
 

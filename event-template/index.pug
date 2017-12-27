@@ -144,7 +144,7 @@
         <p>#{data.date}. #{data.city}, #{data.country}.</p>
         <ul class="actions">
           <li  ng-if="event.status == 'on_sale'">
-          <a id="pulse" ng-click="slideTo('#tickets-container')" class="button big">Take me with you</a>
+          <a ng-click="slideTo('#tickets-container')" class="button big pulse">Take me with you</a>
           <br /><br />
           <timer end-time="#{data.date_epoch}"> We start in <strong style="color: white">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds </strong>
           </timer>
@@ -414,26 +414,26 @@
             <section class="feature 3u 12u$(medium) 12u$(small)">&nbsp;</section>
             <section class="tick feature 6u 12u$(medium) 12u$(small)">
               <div class="row">
-                    <h3 class="title">Discount tickets are limited.</h3>
+                    <h3 class="title">Tickets are limited.</h3>
               </div>
           <div class="row nopadding">
             <section class="4u 12u$(small)" ng-repeat="product in event.pricing.products">
               <h3 class="product">
               <i class="fa fa-ticket" aria-hidden="true"></i> {{product.name}}</br>
-              <span ng-if="!product.sold_out && event.status == 'on_sale'">{{product.price}} <strike>{{product.price + event.pricing.discount.amount}}</strike> € <small></small>
+              <span ng-if="!product.sold_out && event.status == 'on_sale'">{{product.price}} <strike>{{product.price + product.extra}}</strike> € <small></small>
               </span>
               <span ng-if="product.sold_out || event.status == 'booked'">SOLD OUT</span>                         
               </h3>
             </section>
-          </div>
+          </div>    
           <div class="row">
-            <section class="12u 12u$(small)">
-              <h5 style="color:black"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> The discount price is available until {{event.pricing.discount.until | humane}} or with a discount code</h5>
-            </section>
+          <section class="12u 12u$(small)">
+          <h5 style="color:black"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>     Prices will grow as ticket amount decreases.
+          </section>
           </div>          
           <div class="row">
             <section class="12u 12u$(small)">
-            <input type="button" value="&nbsp;&nbsp;Secure a seat now&nbsp;&nbsp;" ng-disabled="event.status == 'booked'" ng-click="buy(event.register)" />
+            <input class="pulse" type="button" value="&nbsp;&nbsp;Secure a seat now&nbsp;&nbsp;" ng-disabled="event.status == 'booked'" ng-click="buy(event.register)" />
             </section>
           </div>
             </section>
@@ -448,23 +448,23 @@
           </div>
           <div>
           <header class="discounts">
-            <h2>Discounts</h2>
+            <h2>Special discounts</h2>
             <div class="row">
             <section class="feature 4u 12u$(small)">
-              <h3 class="title"><i class="fa fa-btc" aria-hidden="true"></i> Bitcoin payments | -10% </h3>
+              <h3 class="title"><i class="fa fa-btc" aria-hidden="true"></i> Bitcoin payments | -{{event.pricing.discount.amount}}€ per day</h3>
               <div>
-                <p>We make the world a better place by supporting the growth and adoption of cryptocurrency. By paying with Bitcoin you get 10% discount.</p>
+                <p>We make the world a better place by supporting the growth and adoption of cryptocurrency. By paying with Bitcoin you get {{event.pricing.discount.amount}}€ discount per day.</p>
               </div>
             </section>
             <section class="feature 4u 12u$(small)">
-              <h3 class="title">Evangelists | -10% </h3>
-              <div><p>You are entitled for additional 10% discount if you spread a word about DevTernity on your blog or other relevant social media channels that you manage.</p>
+              <h3 class="title">Individuals | -{{event.pricing.discount.amount}}€ per day</h3>
+              <div><p>You are entitled for {{event.pricing.discount.amount}}€ discount per conference day if you are self-funding your participation (not backed by a company).</p>
               </div>
             </section>
             <section class="feature 4u 12u$(small)">
-              <h3 class="title">Sponsors</h3>
+              <h3 class="title">Sponsors | -{{event.pricing.discount.amount}}€ per day</h3>
               <div>
-                <p>We provide sponsors with a discount for supporting the event. Please <a href="mailto:{{event.contactEmail}}">contact</a> us to receive a sponsorship offer.
+                <p>We provide sponsors with discount for supporting the event. Please <a href="mailto:{{event.contactEmail}}">contact</a> us and receive an exclusive sponsorship offer.
                 </p>
               </div>
             </section>
