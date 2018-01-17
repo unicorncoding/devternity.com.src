@@ -66,6 +66,21 @@
             {
                 "event": "workshops",
                 "schedule": [
+                  {
+                      "product": "CRAFTING_CODE",
+                      "name": "Sandro Mancuso",
+                      "type": "speech",
+                      "time": "9:00 - 18:00",
+                      "country": "gb",
+                      "bio": "Software Craftsman and Founder @ Codurance, Author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
+                      "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
+                      "title": "Crafting Code",
+                      "description": "<p>This course is designed to help developers get better at Test-Driven Development and write well-crafted code—code that is clean, testable, maintainable, and an expression of the business domain. The course is entirely hands-on, designed to teach developers practical techniques they can immediately apply to real-world projects.</p><p><b>Software Craftsmanship</b> is at the heart of this course. Throughout, you will learn about the Software Craftsmanship attitude to development and how to apply it to your workplace. Writing <b>Clean Code</b> is difficult. Cleaning existing code, even more so. You should attend if you want to:<ul><li>Write clean code that is easy to understand and maintain</li><li>Become more proficient in Test-Driven Development (TDD): using tests to design and build your code base</li><li>Focus your tests and production code according to business requirements using Outside-In TDD (a.k.a. the London School of TDD)</li><li>Understand design principles that lead to clean code</li><li>Avoid over-engineering and large rewrites by incrementally evolving your design using tests</li></ul></p><p>Once you have an understanding of the principles at work, we will apply them to <b>Legacy Code</b> to help you gain confidence in improving legacy projects through testing, refactoring and redesigning. <b>The course is fully hands-on and developers will be writing a lot of code.</b></p>",
+                      "img": "images/sandroma.png",
+                      "presentation": "",
+                      "sold_out": false,
+                      "video": ""
+                  }          
                 ]
             },
             {
@@ -83,20 +98,20 @@
                         "icon": "fa-bullhorn"
                     },
                     {
-                        "name": "Dave Farley",
-                        "type": "speech",
-                        "tags": ["accelerated delivery", "best practices", "patterns"],
-                        "twitter": "davefarley77",
-                        "time": "9:15",
-                        "country": "gb",
-                        "bio": "Consultant, Trainer, Writer, Co-author of <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/\">Continuous Delivery</a>",
-                        "long_bio": "Dave Farley is a thought-leader in the field of Continuous Delivery, DevOps and Software Development in general. He is co-author of the Jolt-award winning book 'Continuous Delivery', a regular conference speaker and blogger, and one of the authors of the Reactive Manifesto.",
-                        "title": "Acceptance Testing for Continuous Delivery",
-                        "description": "Writing and maintaining a suite acceptance tests that can give you a high level of confidence in the behaviour and configuration of your system is a complex task. In this talk Dave will describe approaches to acceptance testing that allow teams to: work quickly and effectively; build excellent functional coverage for complex enterprise-scale systems; manage and maintain those tests in the face of change, and of evolution in both the codebase and the understanding of the business problem. This talk will answer the following questions, and more: How do you fail fast? How do you make your testing scalable? How do you isolate test cases from one-another? How do you maintain a working body of tests when you radically change the interface to your system?",
-                        "img": "images/farley.png",
-                        "presentation": "",
-                        "video": ""
-                    },
+                      "time": "9:15",
+                      "tags": ["leadership", "teamwork", "tips & tricks"],
+                      "name": "Sven Peters",
+                      "twitter": "svenpet",
+                      "type": "speech",
+                      "country": "de",
+                      "bio": "Technology Evangelist @ Atlassian",
+                      "long_bio": "Sven Peters is a software geek working as an ambassador for Atlassian. He has been developing Java applications for over 12 years and leading small teams using lean methodologies. Sven likes effective software development and cares about the motivation of developers.",
+                      "title": "The Secret Sauce of Successful Teams",
+                      "description": "Every software team writes code, but some teams produce fewer bugs than others. Every software team creates new features, but some teams develop features users love and others don't. What do high performance teams do differently, and why are team members more focused, satisfied and relaxed? They truly work together. No 10x programmer can achieve what a well rounded, enthusiastic team can. Sven Peters, Technical Evangelist, will examine how the best software teams set and follow goals, integrate new members fast, ensure diversity, monitor and continually improve team health, embrace transparency, use a playbook to guide them through every phase of development and much more! He shares techniques including: bugfix rotations, OKRs, feature buddies, open demos, focus days, sanity checks and many more that help teams and team members to work more effectively together, and produce awesome results.",
+                      "img": "images/svenpet.png",
+                      "presentation": "",
+                      "video": ""
+                    },                    
                     {
                         "type": "break",
                         "time": "10:10",
@@ -110,7 +125,7 @@
                         "type": "speech",
                         "twitter": "stilkov",
                         "country": "de",
-                        "bio": "Co-founder & Principal Consultant @ innoQ",
+                        "bio": "Co-founder & Software Architect @ innoQ, Author of <a href=\"https://www.amazon.com/REST-HTTP-Stefan-Tilkov/dp/3864901200/\">REST and HTTP</a>",
                         "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
                         "title": "Blockchain – The Slowest and Most Fascinating Database in the World",
                         "description": "As the foundation of Bitcoin's virtual currency, the blockchain technique is now the starting point for numerous new business ideas. The usual suspects surpass each other with superlatives how \"disruptive\" the Blockchain based startups will be. In this talk, we look first at the technical foundations and then examine the advantages and disadvantages. We then identify practical scenarios and discuss how to implement them in practice.",
@@ -133,20 +148,20 @@
                         "presentation": "",
                         "video": ""
                     },
-                  {
-                      "time": "10:30",
-                      "tags": ["leadership", "teamwork", "tips & tricks"],
-                      "name": "Sven Peters",
-                      "twitter": "svenpet",
-                      "type": "speech",
-                      "country": "de",
-                      "bio": "Technology Evangelist @ Atlassian",
-                      "long_bio": "Sven Peters is a software geek working as an ambassador for Atlassian. He has been developing Java applications for over 12 years and leading small teams using lean methodologies. Sven likes effective software development and cares about the motivation of developers.",
-                      "title": "The Secret Sauce of Successful Teams",
-                      "description": "Every software team writes code, but some teams produce fewer bugs than others. Every software team creates new features, but some teams develop features users love and others don't. What do high performance teams do differently, and why are team members more focused, satisfied and relaxed? They truly work together. No 10x programmer can achieve what a well rounded, enthusiastic team can. Sven Peters, Technical Evangelist, will examine how the best software teams set and follow goals, integrate new members fast, ensure diversity, monitor and continually improve team health, embrace transparency, use a playbook to guide them through every phase of development and much more! He shares techniques including: bugfix rotations, OKRs, feature buddies, open demos, focus days, sanity checks and many more that help teams and team members to work more effectively together, and produce awesome results.",
-                      "img": "images/svenpet.png",
-                      "presentation": "",
-                      "video": ""
+                    {
+                        "name": "Dave Farley",
+                        "type": "speech",
+                        "tags": ["accelerated delivery", "best practices", "patterns"],
+                        "twitter": "davefarley77",
+                        "time": "10:30",
+                        "country": "gb",
+                        "bio": "Consultant, Trainer, Writer, Co-author of <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/\">Continuous Delivery</a>",
+                        "long_bio": "Dave Farley is a thought-leader in the field of Continuous Delivery, DevOps and Software Development in general. He is co-author of the Jolt-award winning book 'Continuous Delivery', a regular conference speaker and blogger, and one of the authors of the Reactive Manifesto.",
+                        "title": "Acceptance Testing for Continuous Delivery",
+                        "description": "Writing and maintaining a suite acceptance tests that can give you a high level of confidence in the behaviour and configuration of your system is a complex task. In this talk Dave will describe approaches to acceptance testing that allow teams to: work quickly and effectively; build excellent functional coverage for complex enterprise-scale systems; manage and maintain those tests in the face of change, and of evolution in both the codebase and the understanding of the business problem. This talk will answer the following questions, and more: How do you fail fast? How do you make your testing scalable? How do you isolate test cases from one-another? How do you maintain a working body of tests when you radically change the interface to your system?",
+                        "img": "images/farley.png",
+                        "presentation": "",
+                        "video": ""
                     },
                     {
                         "type": "break",
@@ -156,31 +171,34 @@
                     },
                     {
                       "time": "11:40",
+                      "tags": ["clean code", "advanced", "no slides"],
+                      "name": "Sandro Mancuso",
+                      "twitter": "sandromancuso",
+                      "type": "speech",
+                      "country": "gb",
+                      "country_long": "United Kingdom",
+                      "bio": "Software Craftsman and Founder @ Codurance, Author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
+                      "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
+                      "title": "Does TDD Really Lead to Good Design?",
+                      "description": "\"TDD is a design tool.\" That’s what Sandro has said for years. But not anymore. After working with different teams and in different organisations, and also carefully inspecting how he works, Sandro changed his mind about the role of TDD in software design. In this talk Sandro will explain the pros and cons of the two main styles of TDD when it comes to software design, he'll discuss why some developers can test-drive well-crafted code while others can’t, and he'll also explain how to reason about design decisions.",
+                      "img": "images/sandroma.png",
+                      "pitch": "Sandro is the founder of the London Software Craftsmanship Community and the author of best-selling book “The Software Craftsman“. After Sandro's talk you will become a better software developer. Sandro will also run a hands-on workshop “Crafting Code“.",
+                      "presentation": "",
+                      "video": ""
+                    },
+                    {
+                      "time": "11:40",
                       "tags": [],
                       "name": "Maxim Dorofeev",
                       "twitter": "cartmendum",
                       "type": "speech",
                       "country": "ru",
-                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
+                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
                       "title": "?",
                       "description": "coming soon...",
                       "img": "images/dorofeev.png",
                       "presentation": "",
                       "video": ""
-                    },
-                    {    
-                       "type": "speech",   
-                       "time": "11:40",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },
-                    {    
-                       "type": "speech",   
-                       "time": "11:40",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
                     },
                     {
                         "type": "break",
