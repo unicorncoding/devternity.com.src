@@ -25,7 +25,7 @@
         "country": "Latvia",
         "classes": "extended_event",
         "time": "8:00",
-        "register": "http://go.devternity.com/RIX",
+        "register": "https://devternity.com/registration/",
         "cfp": "http://bit.ly/devternity_cfp",
         "cfp_deadline": "2018-07-01",
         "announced": true,
