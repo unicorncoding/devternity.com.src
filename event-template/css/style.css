@@ -198,7 +198,11 @@ span.tag {
 }
 
 .who {
-	font-size: 0.8em;
+	font-size: 0.7em;
+}
+
+.who a {
+	font-weight: bold;
 }
 
 .whoname {
