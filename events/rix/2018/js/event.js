@@ -71,6 +71,7 @@
                       "name": "Sandro Mancuso",
                       "type": "speech",
                       "time": "9:00 - 18:00",
+                      "tags": ["clean-code", "tdd", "refactoring"],
                       "country": "gb",
                       "bio": "Software Craftsman and Founder @ Codurance, Author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
                       "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
@@ -80,7 +81,23 @@
                       "presentation": "",
                       "sold_out": false,
                       "video": ""
-                  }          
+                  },
+                  {
+                      "product": "REACTIVE_PROGRAMMING",
+                      "name": "Venkat Subramaniam",
+                      "type": "speech",
+                      "time": "9:00 - 18:00",
+                      "tags": ["java9", "jvm", "rxjava"],                      
+                      "country": "us",
+                      "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
+                      "long_bio": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com.",
+                      "title": "Reactive Programming using Java",
+                      "description": "<p>Reactive Programming is receiving quite a bit of attention and for good reasons. It’s a nice logic next step from functional programming. It takes the concept of function composition and lazy evaluations to the next level. It streamlines handling of many critical issues that are architectural in nature: resilience, scale, responsiveness, and messaging.</p><p>In this workshop, we will start with a quick introduction to reactive programming. We will then dive into code examples and learn how to create reactive applications. We’ll learn to implement observables, to deal with errors in a graceful manner, learn both synchronous and asynchronous solutions, hot vs. cold observables, and dealing with backpressures.</p>",
+                      "img": "images/venkat.png",
+                      "presentation": "",
+                      "sold_out": false,
+                      "video": ""
+                  }                    
                 ]
             },
             {

@@ -395,7 +395,9 @@
                 <strong ng-if="speaker.sold_out" class="sold">SOLD OUT</strong>
                 <strong ng-if="speaker.sold_out_soon" class="sold">FEW TICKETS LEFT</strong>
                 <i class="fa fa-clock-o" aria-hidden="true"></i> {{speaker.time}} <strong>{{speaker.title}}</strong>
+
               </h3>
+              <h5><span>{{ speaker.tags| tags }}</span></h5>
               <div class="who" ng-bind-html="speaker.description | trust"></div>
             </section>
           </div>
