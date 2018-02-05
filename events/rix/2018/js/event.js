@@ -182,20 +182,20 @@
                         "video": ""
                     },
                     {
-                        "name": "Dave Farley",
-                        "type": "speech",
-                        "tags": ["accelerated delivery", "best practices", "patterns"],
-                        "twitter": "davefarley77",
                         "time": "10:30",
+                        "tags": ["aws lambda", "best practices", "case study"],
+                        "name": "Yan Cui",
+                        "type": "speech",
+                        "twitter": "theburningmonk",
                         "country": "gb",
-                        "bio": "Consultant, Trainer, Writer, Co-author of <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/\">Continuous Delivery</a>",
-                        "long_bio": "Dave Farley is a thought-leader in the field of Continuous Delivery, DevOps and Software Development in general. He is co-author of the Jolt-award winning book 'Continuous Delivery', a regular conference speaker and blogger, and one of the authors of the Reactive Manifesto.",
-                        "title": "Acceptance Testing for Continuous Delivery",
-                        "description": "Writing and maintaining a suite acceptance tests that can give you a high level of confidence in the behaviour and configuration of your system is a complex task. In this talk Dave will describe approaches to acceptance testing that allow teams to: work quickly and effectively; build excellent functional coverage for complex enterprise-scale systems; manage and maintain those tests in the face of change, and of evolution in both the codebase and the understanding of the business problem. This talk will answer the following questions, and more: How do you fail fast? How do you make your testing scalable? How do you isolate test cases from one-another? How do you maintain a working body of tests when you radically change the interface to your system?",
-                        "img": "images/farley.png",
+                        "bio": "Developer, Software Architect, Trainer, Author of <a href=\"https://www.manning.com/livevideo/aws-lambda-in-motion/\">AWS Lambda in Motion</a>",
+                        "long_bio": "Yan Cui is a senior server developer at Space Ape Games. A polyglot software architect with over 10 years of development experience, primarily in building scalable backend systems with AWS, Yan has worked for some of the UK’s largest names in gaming and ecommerce. He is a regular speaker at user groups and conferences and keeps an active blog at Theburningmonk.com. Yan is a coauthor of F# Deep Dives.",
+                        "title": "Serverless in Production – An Experience Report",
+                        "description": "In this talk Yan Cui shares his experience of migrating an existing monolithic architecture for a social network to AWS Lambda, and how it empowered a small team to deliver features quickly and how they address operational concerns such as CI/CD, logging, monitoring and config management. This sessions draws on my experience leading a team that transformed our entire architecture in under 6 months, where we also managed to cut cost by over 90%, and increased production deployments from 4-6 per month to 80-100 per month. We did that whilst coming up with solutions to those common operational concerns to ensure we not only run a serverless architecture in production, but we do so responsibly. The audience should have basic understanding of how AWS Lambda works, and are aware of some popular AWS services like DynamoDB, Kinesis, S3. I’m the best person to speak on the subject as I lead the team on this migration and were responsible for large parts of the actual implementation, and as the architect I was also responsible for our entire architecture (and the first one to be woken up at night if things go wrong!). I have written extensively on the operational aspect of working with AWS Lambda, and my work has been regularly referenced by the AWS Lambda team including talks at re:invent, as well as the new Serverless Well Architected whitepaper.",
+                        "img": "images/cui.png",
                         "presentation": "",
                         "video": ""
-                    },
+                    },                    
                     {
                         "type": "break",
                         "time": "11:20",
@@ -221,20 +221,6 @@
                     },
                     {
                       "time": "11:40",
-                      "tags": [],
-                      "name": "Maxim Dorofeev",
-                      "twitter": "cartmendum",
-                      "type": "speech",
-                      "country": "ru",
-                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
-                      "title": "?",
-                      "description": "coming soon...",
-                      "img": "images/dorofeev.png",
-                      "presentation": "",
-                      "video": ""
-                    },
-                    {
-                      "time": "11:40",
                       "tags": ["leadership", "teamwork", "tips & tricks"],
                       "name": "Sven Peters",
                       "twitter": "svenpet",
@@ -247,28 +233,34 @@
                       "img": "images/svenpet.png",
                       "presentation": "",
                       "video": ""
-                    },                     
+                    },                         
+                    {
+                      "time": "11:40",
+                      "tags": [],
+                      "name": "Maxim Dorofeev",
+                      "twitter": "cartmendum",
+                      "type": "speech",
+                      "country": "ru",
+                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
+                      "title": "?",
+                      "description": "coming soon...",
+                      "img": "images/dorofeev.png",
+                      "presentation": "",
+                      "video": ""
+                    },                
                     {
                         "type": "break",
                         "time": "12:30",
                         "title": "Lunch Break",
                         "icon": "fa-cutlery"
                     },
-                    {
-                        "time": "13:40",
-                        "tags": ["aws lambda", "best practices", "case study"],
-                        "name": "Yan Cui",
-                        "type": "speech",
-                        "twitter": "theburningmonk",
-                        "country": "gb",
-                        "bio": "Developer, Software Architect, Trainer, Author of <a href=\"https://www.manning.com/livevideo/aws-lambda-in-motion/\">AWS Lambda in Motion</a>",
-                        "long_bio": "Yan Cui is a senior server developer at Space Ape Games. A polyglot software architect with over 10 years of development experience, primarily in building scalable backend systems with AWS, Yan has worked for some of the UK’s largest names in gaming and ecommerce. He is a regular speaker at user groups and conferences and keeps an active blog at Theburningmonk.com. Yan is a coauthor of F# Deep Dives.",
-                        "title": "Serverless in Production – An Experience Report",
-                        "description": "In this talk Yan Cui shares his experience of migrating an existing monolithic architecture for a social network to AWS Lambda, and how it empowered a small team to deliver features quickly and how they address operational concerns such as CI/CD, logging, monitoring and config management. This sessions draws on my experience leading a team that transformed our entire architecture in under 6 months, where we also managed to cut cost by over 90%, and increased production deployments from 4-6 per month to 80-100 per month. We did that whilst coming up with solutions to those common operational concerns to ensure we not only run a serverless architecture in production, but we do so responsibly. The audience should have basic understanding of how AWS Lambda works, and are aware of some popular AWS services like DynamoDB, Kinesis, S3. I’m the best person to speak on the subject as I lead the team on this migration and were responsible for large parts of the actual implementation, and as the architect I was also responsible for our entire architecture (and the first one to be woken up at night if things go wrong!). I have written extensively on the operational aspect of working with AWS Lambda, and my work has been regularly referenced by the AWS Lambda team including talks at re:invent, as well as the new Serverless Well Architected whitepaper.",
-                        "img": "images/cui.png",
-                        "presentation": "",
-                        "video": ""
-                    },
+                    {    
+                       "type": "speech",   
+                       "time": "13:40",    
+                       "img": "images/hz.png",   
+                       "presentation": "",   
+                       "video": ""   
+                    },                    
                     {    
                        "type": "speech",   
                        "time": "13:40",    
