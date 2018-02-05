@@ -100,7 +100,7 @@
                   },
                   {
                       "product": "SERVERLESS",
-                      "time": "13:40",
+                      "time": "9:00 - 18:00",
                       "tags": ["aws lambda", "amazon web services", "serverless"],
                       "name": "Yan Cui",
                       "type": "speech",
