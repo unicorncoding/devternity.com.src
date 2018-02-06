@@ -45,16 +45,17 @@
                 "sold_out": false
               },
               {
-                "name": "Workshop",
+                "name": "Power Workshop",
                 "price": 299,
                 "extra": 30,                
                 "sold_out": false                
               },
               {
-                "name": "Both Days",
+                "name": "All Inclusive",
                 "price": 598,
                 "extra": 60,
-                "sold_out": false
+                "sold_out": false,
+                "attention": true
               }
             ]
         },

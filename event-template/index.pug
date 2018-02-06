@@ -421,7 +421,7 @@
           <div class="row nopadding">
             <section class="4u 12u$(small)" ng-repeat="product in event.pricing.products">
               <h3 class="product">
-              <i class="fa fa-ticket" aria-hidden="true"></i> {{product.name}}</br>
+              <i ng-if="product.attention" class="fa fa-ticket" aria-hidden="true"></i><i class="fa fa-ticket" aria-hidden="true"></i> {{product.name}} <span ng-if="product.attention">🚀</span></br>
               <span ng-if="!product.sold_out && event.status == 'on_sale'">{{product.price}} <strike>{{product.price + product.extra}}</strike> € <small></small>
               </span>
               <span ng-if="product.sold_out || event.status == 'booked'">SOLD OUT</span>                         
