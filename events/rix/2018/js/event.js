@@ -237,6 +237,27 @@
                     },                         
                     {
                       "time": "11:40",
+                      "tags": ["restful api design", "best practices"],
+                      "name": "Dylan Beattie",
+                      "twitter": "dylanbeattie",
+                      "type": "speech",
+                      "country": "gb",
+                      "bio": "Systems Architect, Co-organiser of London .NET User Group",
+                      "long_bio": "Dylan Beattie is a systems architect and software developer, who has built everything from tiny standalone websites to large-scale distributed systems. By day, he’s the systems architect at Spotlight, where he works on HTTP APIs, distributed systems, and the architectural challenges of delivering cutting-edge online services in a company with nearly ninety years of legacy. He’s been working with Spotlight since 2000, and his first-hand experience of watching an organisation - and their code - evolving over more than a decade has given him a unique insight into how API design, distributed systems, Conway's Law, working with legacy systems, and recruitment can all influence a company’s products and culture. Alongside his work at Spotlight, Dylan is actively involved in the software development community. He’s involved in running the FullStack and Progressive.NET conferences, and is one of the organisers of the the London .NET User Group.",
+                      "title": "Real World REST and Hands-On Hypermedia",
+                      "description": "So you've built your HTTP API, and now that it's live, you're suddenly dealing with a whole new set of problems. Do you really need to PUT the entire Customer just to change someone's email address? Why does it take you 25 API calls just to render a shopping cart? How do you find the bottlenecks when just drawing a web page requires fifty HTTP requests? What happens when one of your API consumers accidentally tries to GET your entire customer database? Most of us are familiar with the architectural style known as REST, but even experienced developers often find it difficult to translate REST's architectural principles into running code. In this talk, we'll explore the elements of REST related to hypermedia and the principle of \"hypermedia as the engine of application state\" (HATEOAS) - we'll talk about why they matter, and when you might want to implement them in your own systems. We'll look at some of the tools that exist to help you design, deliver and debug your HTTP APIs, and we'll do some hands-on coding to show you what these patterns look like in a .NET web application using the HAL hypermedia application language.",
+                      "img": "images/dylan.png",
+                      "presentation": "",
+                      "video": ""
+                    },                
+                    {
+                        "type": "break",
+                        "time": "12:30",
+                        "title": "Lunch Break",
+                        "icon": "fa-cutlery"
+                    },
+                    {
+                      "time": "13:40",
                       "tags": [],
                       "name": "Maxim Dorofeev",
                       "twitter": "cartmendum",
@@ -248,20 +269,7 @@
                       "img": "images/dorofeev.png",
                       "presentation": "",
                       "video": ""
-                    },                
-                    {
-                        "type": "break",
-                        "time": "12:30",
-                        "title": "Lunch Break",
-                        "icon": "fa-cutlery"
-                    },
-                    {    
-                       "type": "speech",   
-                       "time": "13:40",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },                    
+                    },                     
                     {    
                        "type": "speech",   
                        "time": "13:40",    
