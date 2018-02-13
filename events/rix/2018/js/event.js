@@ -259,6 +259,21 @@
                     {
                       "time": "13:40",
                       "tags": [],
+                      "name": "Martin Thompson",
+                      "twitter": "mjpt777",
+                      "type": "speech",
+                      "country": "gb",
+                      "bio": "High-performance & Low-latency Computing Consultant, ex-CTO of LMAX, creator of <a href=\"https://github.com/real-logic/aeron\">Aeron</a>",
+                      "long_bio": "Martin Thompson is a Java Champion with over 2 decades of experience building complex and high-performance computing systems. He is most recently known for his work on Aeron and SBE. Previously at LMAX he was the co-founder and CTO when he created the Disruptor. Prior to LMAX Martin worked for Betfair, three different content companies wrestling with the world largest product catalogues, and was a lead on some of the most significant C++ and Java systems of the 1990s in the automotive and finance domains. He blogs at mechanical-sympathy.blogspot.com, and can be found giving training courses on performance and concurrency when he is not cutting code to make systems better.",
+                      "title": "Designing for Performance",
+                      "description": "What does it really mean to design software for high-performance? Performance is such a generic and misunderstood subject. In this talk the subject of software performance will be explored. We will focus on what is means to achieve sufficient response times, throughput, and scalability. Once the theory is out of the way we will dig into how modern hardware works and what we need to know about abstractions mapping to our software designs. These abstractions are the key to the models our code represents. The author has not meet many abstraction layers he did not enjoyed violating. There is a good reason for this. So many of our abstractions are leaky or just plain wrong.",
+                      "img": "images/thompson.png",
+                      "presentation": "",
+                      "video": ""
+                    },                     
+                    {
+                      "time": "13:40",
+                      "tags": [],
                       "name": "Maxim Dorofeev",
                       "twitter": "cartmendum",
                       "type": "speech",
@@ -269,14 +284,7 @@
                       "img": "images/dorofeev.png",
                       "presentation": "",
                       "video": ""
-                    },                     
-                    {    
-                       "type": "speech",   
-                       "time": "13:40",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },
+                    },    
                     {    
                        "type": "speech",   
                        "time": "13:40",    
