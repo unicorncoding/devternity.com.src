@@ -258,7 +258,7 @@
                     },
                     {
                       "time": "13:40",
-                      "tags": [],
+                      "tags": ["low-latency", "high performance", "best practices"],
                       "name": "Martin Thompson",
                       "twitter": "mjpt777",
                       "type": "speech",
@@ -273,6 +273,20 @@
                     },                     
                     {
                       "time": "13:40",
+                      "tags": ["hololens", "augmented reality", "live demo"],
+                      "name": "René Schulte ",
+                      "twitter": "rschu",
+                      "type": "speech",
+                      "country": "de",
+                      "bio": "Director of Global Innovation, Research & Incubation, Microsoft MVP",
+                      "title": "Advanced Mixed Reality Development and Best Practices",
+                      "description": "The year 2018 is the year of Mixed Reality with devices like the Microsoft HoloLens which are turning science fiction movie technology into reality. Through live code demos, you will leave this session understanding advanced development topics like Hand Proximity Interactions to create even more compelling HoloLens applications. Rene will demonstrate some of the apps he and his team worked on since 2015, and share how they were able to overcome challenges. His best practices and recommendations will help you avoid pit falls, and show you how to take your own Mixed Reality apps to the next level.",
+                      "img": "images/rene.png",
+                      "presentation": "",
+                      "video": ""
+                    },    
+                    {
+                      "time": "13:40",
                       "tags": [],
                       "name": "Maxim Dorofeev",
                       "twitter": "cartmendum",
@@ -285,13 +299,6 @@
                       "presentation": "",
                       "video": ""
                     },    
-                    {    
-                       "type": "speech",   
-                       "time": "13:40",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },
                     {
                         "type": "break",
                         "time": "14:30",
