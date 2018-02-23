@@ -133,7 +133,7 @@
                     },
                     {
                       "time": "9:15",
-                      "tags": ["opening keynote", "well-crafted code", "tips & tricks"],
+                      "tags": ["opening keynote", "clean code", "tips & tricks"],
                       "name": "Venkat Subramaniam",
                       "twitter": "venkat_s",
                       "type": "speech",
@@ -237,7 +237,7 @@
                     },                         
                     {
                       "time": "11:40",
-                      "tags": ["restful api design", "best practices"],
+                      "tags": ["restful api", "best practices"],
                       "name": "Dylan Beattie",
                       "twitter": "dylanbeattie",
                       "type": "speech",
@@ -287,15 +287,15 @@
                     },    
                     {
                       "time": "13:40",
-                      "tags": [],
-                      "name": "Maxim Dorofeev",
-                      "twitter": "cartmendum",
+                      "tags": ["design patterns", "fsharp", "lots of code"],
+                      "name": "Scott Wlaschin",
+                      "twitter": "scottwlaschin",
                       "type": "speech",
-                      "country": "ru",
-                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
-                      "title": "?",
-                      "description": "coming soon...",
-                      "img": "images/dorofeev.png",
+                      "country": "gb",
+                      "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
+                      "title": "Functional Design Patterns",
+                      "description": "In object-oriented development, we are all familiar with design patterns such as the Strategy pattern and Decorator pattern, and design principles such as SOLID. The functional programming community has design patterns and principles as well. This talk will provide an overview of some of these patterns (such as currying, monads), and present some demonstrations of FP design in practice. We'll also look at some of the ways you can use these patterns as part of a domain driven design process, with some simple real world examples in F#. No jargon, no maths, and no prior F# experience necessary.",
+                      "img": "images/scottwla.png",
                       "presentation": "",
                       "video": ""
                     },    
@@ -305,13 +305,20 @@
                         "title": "Coffee Break",
                         "icon": "fa-coffee"
                     },
-                    {    
-                       "type": "speech",   
-                       "time": "14:50",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },
+                  {
+                      "time": "14:50",
+                      "tags": [],
+                      "name": "Maxim Dorofeev",
+                      "twitter": "cartmendum",
+                      "type": "speech",
+                      "country": "ru",
+                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
+                      "title": "coming soon...",
+                      "description": "coming soon...",
+                      "img": "images/dorofeev.png",
+                      "presentation": "",
+                      "video": ""
+                    },    
                     {    
                        "type": "speech",   
                        "time": "14:50",    
