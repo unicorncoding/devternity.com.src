@@ -6,7 +6,7 @@
         "date": "1-2 December, 2015",
         "classes": "extended_event",
         "time": "8:00",
-        "announced": true,
+        "announced": true,        
         "venue": "Mūkusalas iela 3, Rīga, LV-1423, Latvia",
         "program": [
             {

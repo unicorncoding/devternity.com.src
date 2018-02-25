@@ -53,7 +53,9 @@ gulp.task('copy-events', () => {
     console.log(`Copying event template for ${event.loc}`)
     return gulp
         .src('event-template/**/*', {base: 'event-template'})    
-        .pipe(gulpif(/.pug/, pug({data: _.extend({}, eventJs(event.loc), event) })))
+        .pipe(gulpif(/.pug/, pug({data: _.extend({
+          build_time_iso: new Date().toISOString()
+        }, eventJs(event.loc), event) })))
         .pipe(event.current ? gulp.dest(`build`) : gulp.dest(`build/${event.loc}`))
   }))
 });
