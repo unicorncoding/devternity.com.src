@@ -8,6 +8,7 @@
     "gulp-rev": "^7.1.2"
   },
   "dependencies": {
+    "bluebird": "^3.5.1",
     "fs-readfile-promise": "^3.0.0",
     "gulp-data": "^1.2.1",
     "gulp-if": "^2.0.2",
