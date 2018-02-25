@@ -16,6 +16,7 @@
     "gulp-pug": "^3.3.0",
     "gulp-pug2": "^0.0.2",
     "lodash": "^4.17.4",
-    "merge-stream": "^1.0.1"
+    "merge-stream": "^1.0.1",
+    "moment": "^2.20.1"
   }
 }

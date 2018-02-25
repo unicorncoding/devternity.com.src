@@ -248,7 +248,7 @@
               <i class="icon big rounded fa-location-arrow"></i>
               <h3>#{data.city}, #{data.venue_name}</h3>
               <h5><a href="#{data.venue_map}">Location on map</a></h5>
-              <h5>The recommended hotel for attendees is {{event.hotel_name}} (<a href="#{data.hotel_link}">book</a>, <a href="#{data.hotel_to_venue_map}">see directions</a>)</h5>
+              <h5>The recommended hotel for attendees is #{data.hotel_name} (<a href="#{data.hotel_link}">book</a>, <a href="#{data.hotel_to_venue_map}">see directions</a>)</h5>
             </section>
             <section class="3u 12u$(small)">
               <i class="icon big rounded fa-users"></i>
@@ -326,7 +326,7 @@
       <section id="speakers-container" class="wrapper speakers align-center">
         <div class="container">
           <header>
-          <h1>Day I: Inspiring Talks ({{days[0]}})</h1>
+          <h1>Day I: Inspiring Talks (#{data.days[0]})</h1>
             <h2></h2>
             <p>We have invited speakers that are <strong>fluent</strong>, <strong>technically skilled</strong> and <strong>inspiring</strong>.</p>
             <h2></h2>
@@ -428,7 +428,7 @@
     <section id="workshops-container" class="wrapper workshops align-center">
         <div class="container">
           <header>
-            <h1>Day II: Power Workshops ({{days[1]}})</h1>
+            <h1>Day II: Power Workshops (#{data.days[1]})</h1>
             <h2></h2>
             <p ng-if="workshops.schedule.length">Our instructors are here to deliver <strong>pragmatic and intensive workshops</strong>. Go beyond theory with industry experts:</p>
             <p ng-if="!workshops.schedule.length">Coming soon...</p>

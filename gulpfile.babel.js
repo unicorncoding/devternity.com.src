@@ -9,6 +9,7 @@ import connect from 'gulp-connect';
 import merge from 'merge-stream';
 import gulpif from 'gulp-if';
 import gulpIgnore from 'gulp-ignore';
+import moment from 'moment'
 import glob from 'glob';
 import path from 'path';
 import fs from "fs";
@@ -51,11 +52,13 @@ gulp.task('copy-statics', () => {
 gulp.task('copy-events', () => {
   return merge(events.map(event => {
     console.log(`Copying event template for ${event.loc}`)
+    let event_js = eventJs(event.loc)
     return gulp
         .src('event-template/**/*', {base: 'event-template'})    
         .pipe(gulpif(/.pug/, pug({data: _.extend({
-          build_time_iso: new Date().toISOString()
-        }, eventJs(event.loc), event) })))
+          build_time_iso: new Date().toISOString(),
+          days: _(event_js.duration_days).times(n => moment(event_js.date_iso).add(n, 'days').format("D MMM YYYY"))
+        }, event_js, event) })))
         .pipe(event.current ? gulp.dest(`build`) : gulp.dest(`build/${event.loc}`))
   }))
 });
