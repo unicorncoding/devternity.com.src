@@ -1414,23 +1414,3 @@ table th {
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
-
-#discountOffer #email {
-  padding: .5em .6em;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-shadow: inset 0 1px 3px #ddd;
-  border-radius: 4px;
-  vertical-align: middle;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-#discountOffer a {
-  font-size: 13px;
-}
-
-#discountOffer div {
-  margin-bottom: 20px;
-}
