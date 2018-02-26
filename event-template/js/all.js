@@ -943,47 +943,7 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
   $http.get('js/event.js')
        .then(function(response){
           var body = response.data[0];
-          var schedule = _.map(_.find(body.program, { 'event': 'keynotes' }).schedule, function(scheduled) {
-            return _.extend(scheduled, {uid: _.uniqueId()});
-          });
-
-          var speakers = _.chain(schedule)
-            .filter(function(scheduled) { return scheduled.type === "speech"; } )
-            .map(function(num, key, list) { return [num, num.partner] })
-            .flatten()
-            .compact()
-            .value();
-
-          var speakersInRows = _.groupBy(speakers, function(speaker, index) {
-            return Math.floor(index/4);
-          });
-
-
-          var program = _.groupBy(schedule, 'time');
-          var programTimes = _.keys(program);
-
-          $scope.speakersInRows = speakersInRows;
-          $scope.program = program;
-          $scope.programTimes = programTimes;
-
-
-          // Workshops!
-          $scope.instructorsInRows = _.chain(body.workshops)
-                                .filter(function(scheduled) {
-                                    return scheduled.type === "speech";
-                                })
-                                .groupBy(function(_, index) {
-                                  return Math.floor(index/4);
-                                })
-                                .value();
-
-          var workshops = _.find(body.program, { 'event': 'workshops' });
-          $scope.workshops = workshops;
-          var keynotes = _.find(body.program, { 'event': 'keynotes' });
-					$scope.keynotes = keynotes;
-					$scope.event = body;
-					$scope.registrationClosesIn = moment(body.date_iso).subtract(1, 'days').valueOf();
-          
+		  $scope.event = body;
           $('#devternity-loading').fadeOut('slow',function(){
             $('#devternity-loading').remove();
         });

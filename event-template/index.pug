@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+doctype html
 <html lang="en" ng-app="devternity" ng-controller="LandingPageController" class="lt-ie9">
   <head>
 
@@ -218,8 +218,7 @@
         </ul>
       </section>
 
-    <!-- One -->
-      <section class="wrapper style1 align-center">
+      section.wrapper.style1.align-center
         <div class="container intro">
           <header>
             <h2></h2>
@@ -332,25 +331,26 @@
             <h2></h2>
             <p>No Agile bullshit bingo and marketing talks permitted. See for yourself:</p>
           </header>
-
-          <div class="row" ng-repeat="row in speakersInRows">
-            <section class="feature 3u 12u$(small)" ng-repeat="speaker in row" ng-if="speaker.name">
-                <img class="headshot" ng-src="{{speaker.img}}"/>
-                <div class="whoname">
-                  <img ng-if="speaker.country" ng-src="images/flags/{{speaker.country}}.png" alt="{{speaker.country}} flag" /> {{speaker.name ? speaker.name : "Coming soon."}}
-                </div>
-                <div class="who" ng-bind-html="speaker.bio | trust"></div>
-
-                <a href="https://twitter.com/{{speaker.twitter}}" ng-if="speaker.twitter">
-                  <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
-                </a>
-            </section>
-          </div>
-
+          each row in data.speakersInRows
+            div.row
+              each speaker, speakerrIndex in row
+                if speaker.name
+                  <section class="feature 3u 12u$(small)">
+                      <img class="headshot" src="#{speaker.img}"/>
+                      <div class="whoname">
+                        <img src="images/flags/#{speaker.country}.png" alt="#{speaker.country} flag" /> #{speaker.name}
+                      </div>
+                      <div class="who">!{speaker.bio}</div>
+                      if speaker.twitter
+                        <a href="https://twitter.com/#{speaker.twitter}">
+                          <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
+                        </a>
+                  </section>
 
           <div class="row">
             <section class="feature 12u 12u$(small)">
-              <h3 class="title" ng-if="(keynotes.schedule | filter:{ type:'speech', name:'undefined' }).length > 0">More coming soon.</h3>
+              if data.hasUnknownSpeakers
+                <h3 class="title">More coming soon.</h3>
               <div class="fb-like" data-width="320" data-href="https://www.facebook.com/devternity/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
               <h5>
                 </br></br>
@@ -366,171 +366,161 @@
 
       </section>
 
-      <section id="program-container" class="wrapper">
+      section#program-container.wrapper
+          div.container
+                div.row.header
+                  each track in [1, 2, 3]
+                    section(class="align-center feature 4u")
+                      span(class="fa-stack fa-1x")
+                        i(class="fa fa-circle fa-stack-2x")
+                        strong(class="fa-stack-1x text-primary") #{track}
+                      |  Track
+
+                - var index = 0                                  
+                each series, key in data.talks
+                  div(class=`evt row ${++index % 2 == 0 ? 'even' : 'odd'}`)
+                    each event in series
+                      section(class="align-center feature " +  (series.length == 1 ? '12u' : '4u'))
+                        | #{event.time}
+                        br
+                        if event.type == 'speech'
+                          if event.title
+                            a.pointer(ng-click=`popupSpeech(${event.uid})`) #{event.name}
+                              br
+                              strong #{event.title}
+                          else
+                            span ?
+                        else
+                            span #{event.title}
+                        br
+                        span #{event.tagList}
+          each series, key in data.talks
+              each event in series
+                if event.type == 'speech' && event.title
+                  div.container
+                    section.wrapper.speech.tickets.align-center(data-remodal-id=`${event.uid}`)
+                      button.remodal-close(data-remodal-action="close")
+                      div.row
+                        section(class="12u")
+                          div
+                            img.headshot(src=`${event.img}`)
+                            p.whoname
+                              img(src=`images/flags/${event.country}.png` alt=`${event.country} flag`)
+                              |  #{event.name}
+                            p !{event.bio}
+                          p.speaker #{event.long_bio}
+                          br
+                          p.whoname #{event.title}
+                          p.speaker #{event.description}
+
+    section#workshops-container.wrapper.workshops.align-center
+        div.container
+          header
+            h1 Day II: Power Workshops (#{data.days[1]})
+            h2
+            if data.workshops.length
+              p 
+                | Our instructors are here to deliver 
+                strong pragmatic and intensive workshops
+                | . Go beyond theory with industry experts:
+            else
+              p Coming soon...
+
+          each speaker in data.workshops
+            div.row
+              section(class="feature 6u 12u$(small)")
+                img.headshot(src=`${speaker.img}`)
+                div.whoname
+                  img(src=`images/flags/${speaker.country}.png` alt=`${speaker.country}} flag`) 
+                  |  #{speaker.name ? speaker.name : "Coming soon."}
+                div.who
+                  strong !{speaker.bio}
+                  br
+                  | #{speaker.long_bio}
+              section(class="feature 6u 12u$(small) align-left")
+                h3
+                  if speaker.sold_out
+                    strong.sold SOLD OUT
+                  if speaker.sold_out_soon
+                    strong.sold FEW TICKETS LEFT
+                  i.fa.fa-clock-o(aria-hidden="true") 
+                  |  #{speaker.time} 
+                  strong #{speaker.title}
+                h5: span #{speaker.tagList}
+                div.who !{speaker.description}
+
+    section#tickets-container.wrapper.style1.tickets.align-center
+      div.container
+        header
+          h1 Tickets
+          p The number of seats is limited and every year we are running out of tickets quickly. Secure your seat now (and feel free to change the information about the participants later).
+
+        div.row
+          section(class="feature 3u 12u$(medium) 12u$(small)") 
+            | &nbsp;
+          section(class="tick feature 6u 12u$(medium) 12u$(small)")
+            div.row: h3.title Tickets are limited
+            div.row.nopadding
+              each product in data.pricing.products
+                section(class="4u 12u$(small)")
+                  h3.product
+                    if product.attention
+                      i.fa.fa-ticket(aria-hidden="true")
+                    i.fa.fa-ticket(aria-hidden="true")
+                    |  #{product.name}
+                    br
+                    if !product.sold_out && data.status == 'on_sale'
+                      if product.attention
+                        | 🚀                  
+                      span #{product.price} 
+                      strike #{product.price + product.extra}
+                      | €
+                    if product.sold_out || data.status == 'booked'
+                      span SOLD OUT
+            div.row
+              section(class="12u 12u$(small)")
+                h5(style="color:black")
+                  i.fa.fa-exclamation-circle(aria-hidden="true")
+                  |  Prices will grow as ticket amount decreases.
+            div.row
+              section(class="12u 12u$(small)")
+                input.pulse(type="button" value="  Secure a seat now  " disabled=data.status == 'booked' ng-click=`buy('${data.register}')`)
+          section(class="feature 3u 12u$(medium) 12u$(small)")
+            | &nbsp;
+
+        div.row
+          section(class="feature 12u 12u$(small)")
+            header.discounts
+              h2 Special discounts
+              div.row
+                section(class="feature 4u 12u$(small)")
+                  h3.title Individuals
+                  div
+                    p 
+                      | We support people who take responsibility for their education. If you are self-funding your participation, you are entitled for a special discount. Please 
+                      a(href=`mailto:${data.contactEmail}`) drop us
+                      |  an email.
+                section(class="feature 4u 12u$(small)")
+                  h3.title Evangelists
+                  div
+                    p 
+                      | Mention us on your blog/page/user group, rate our 
+                      a(href="https://www.facebook.com/devternity") Facebook page
+                      |  or leave a review on 
+                      a(href="https://trustpilot.com/review/devternity.com") Trustpilot
+                      | . Then 
+                      a(href=`mailto:${data.contactEmail}`) drop us
+                      |  an email and ask for discount.
+                section(class="feature 4u 12u$(small)")
+                  h3.title Sponsors
+                  div
+                    p 
+                      | We provide sponsors with discount for supporting the event. Please 
+                      a(href=`mailto:${data.contactEmail}`) contact us
+                        |  and receive an exclusive sponsorship offer.
 
 
-          <div class="container">
-                <div class="row header">
-                  <section class="align-center feature 4u"><span class="fa-stack fa-1x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <strong class="fa-stack-1x text-primary">1</strong>
-                    </span> Track
-                  </section>
-                  <section class="align-center feature 4u"><span class="fa-stack fa-1x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <strong class="fa-stack-1x text-primary">2</strong>
-                    </span> Track
-                  </section>
-                  <section class="align-center feature 4u"><span class="fa-stack fa-1x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <strong class="fa-stack-1x text-primary">3</strong>
-                    </span> Track
-                  </section>
-                </div>
-
-                <div ng-repeat="time in programTimes" class="evt row" ng-class-even="'even'" ng-class-odd="'odd'">
-                  <section class="align-center feature {{event.type != 'speech' || program[time].length == 1 ? '12u' : '4u'}}" ng-repeat="event in program[time]">{{time}}</br>
-                    <a class="pointer" ng-click="popupSpeech(event.uid)" ng-if="event.type === 'speech' && event.title">{{event.name}}{{event.partner ? ' and ' + event.partner.name : ''}}</br><strong>{{event.title}}</strong></br></a>
-                    <span>{{ event.tags| tags }}</span>
-                    <span ng-if="event.type == 'speech' && !event.title">?</span>
-                    <span ng-if="event.type != 'speech'">{{event.title}}</span>
-                  </section>
-                </div>
-
-          </div>
-      </section>
-
-
-        <div ng-repeat="yo in program" class="container">
-        <section ng-repeat="event in yo" ng-if="event.type === 'speech'" data-remodal-id="{{event.uid}}" class="wrapper speech tickets align-center">
-          <button data-remodal-action="close" class="remodal-close"></button>
-          <div class="row">
-            <section class="12u">
-              <div>
-                <img class="headshot" ng-src="{{event.img}}"/>
-                <p class="whoname">
-                  <img ng-if="event.country" ng-src="images/flags/{{event.country}}.png" alt="{{event.country}} flag" /> {{event.name}}
-                </p>
-                <p ng-bind-html="event.bio | trust"></p>
-              </div>
-              <p class="speaker">{{event.long_bio}}</p>
-              <br/>
-              <p class="whoname">{{event.title}}</p>
-              <p class="speaker">{{event.description}}</p>
-            </section>
-          </div>
-        </section>
-      </div>
-
-
-
-
-    <section id="workshops-container" class="wrapper workshops align-center">
-        <div class="container">
-          <header>
-            <h1>Day II: Power Workshops (#{data.days[1]})</h1>
-            <h2></h2>
-            <p ng-if="workshops.schedule.length">Our instructors are here to deliver <strong>pragmatic and intensive workshops</strong>. Go beyond theory with industry experts:</p>
-            <p ng-if="!workshops.schedule.length">Coming soon...</p>
-          </header>
-
-          <div class="row" ng-repeat="speaker in workshops.schedule">
-            <a name="{{speaker.product}}"></a>
-            <section class="feature 6u 12u$(small)">
-              <img class="headshot" ng-src="{{speaker.img}}"/>
-              <div class="whoname">
-                <img ng-if="speaker.country" ng-src="images/flags/{{speaker.country}}.png" alt="{{speaker.country}} flag" /> {{speaker.name ? speaker.name : "Coming soon."}}
-              </div>
-              <div class="who">
-                <strong ng-bind-html="speaker.bio | trust"></strong></br>{{speaker.long_bio}}
-              </div>
-            </section>
-            <section class="feature 6u 12u$(small) align-left">
-              <h3>
-                <strong ng-if="speaker.sold_out" class="sold">SOLD OUT</strong>
-                <strong ng-if="speaker.sold_out_soon" class="sold">FEW TICKETS LEFT</strong>
-                <i class="fa fa-clock-o" aria-hidden="true"></i> {{speaker.time}} <strong>{{speaker.title}}</strong>
-
-              </h3>
-              <h5><span>{{ speaker.tags| tags }}</span></h5>
-              <div class="who" ng-bind-html="speaker.description | trust"></div>
-            </section>
-          </div>
-        </div>
-    </section>
-
-      <section id="tickets-container" class="wrapper style1 tickets align-center">
-        <div class="container">
-          <header>
-            <h1>Tickets</h1>
-            <p> The number of seats is limited and every year we are running out of tickets quickly. Secure your seat now (and feel free to change the information about the participants later).
-            </p>
-          </header>
-
-          <div class="row">
-            <section class="feature 3u 12u$(medium) 12u$(small)">&nbsp;</section>
-            <section class="tick feature 6u 12u$(medium) 12u$(small)">
-              <div class="row">
-                    <h3 class="title">Tickets are limited.</h3>
-              </div>
-          <div class="row nopadding">
-            <section class="4u 12u$(small)" ng-repeat="product in event.pricing.products">
-              <h3 class="product">
-              <i ng-if="product.attention" class="fa fa-ticket" aria-hidden="true"></i><i class="fa fa-ticket" aria-hidden="true"></i> {{product.name}} <span ng-if="product.attention">🚀</span></br>
-              <span ng-if="!product.sold_out && event.status == 'on_sale'">{{product.price}} <strike>{{product.price + product.extra}}</strike> € <small></small>
-              </span>
-              <span ng-if="product.sold_out || event.status == 'booked'">SOLD OUT</span>                         
-              </h3>
-            </section>
-          </div>    
-          <div class="row">
-          <section class="12u 12u$(small)">
-          <h5 style="color:black"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>     Prices will grow as ticket amount decreases.
-          </section>
-          </div>          
-          <div class="row">
-            <section class="12u 12u$(small)">
-            <input class="pulse" type="button" value="&nbsp;&nbsp;Secure a seat now&nbsp;&nbsp;" ng-disabled="event.status == 'booked'" ng-click="buy(event.register)" />
-            </section>
-          </div>
-            </section>
-            <section class="feature 3u 12u$(medium) 12u$(small)">&nbsp;</section>
-          </div>
-
-
-          <div>
-          <div class="row">
-            <section class="feature 12u 12u$(small)">
-            </section>
-          </div>
-          <div>
-          <header class="discounts">
-            <h2>Special discounts</h2>
-            <div class="row">
-            <section class="feature 4u 12u$(small)">
-              <h3 class="title">Individuals</h3>
-              <div><p>We support people who take responsibility for their education. If you are self-funding your participation, you are entitled for a special discount. Please <a href="mailto:{{event.contactEmail}}">drop us</a> an email.</p>
-              </div>
-            </section>
-            <section class="feature 4u 12u$(small)">
-              <h3 class="title">Evangelists</h3>
-              <div><p>Mention us on your blog/page/user group, rate our <a href="https://www.facebook.com/devternity">Facebook page</a> or leave a review on <a href="https://trustpilot.com/review/devternity.com">Trustpilot</a>. Then <a href="mailto:{{event.contactEmail}}">drop us</a> an email and ask for discount.</p>
-              </div>
-            </section>            
-            <section class="feature 4u 12u$(small)">
-              <h3 class="title">Sponsors</h3>
-              <div>
-                <p>We provide sponsors with discount for supporting the event. Please <a href="mailto:{{event.contactEmail}}">contact us</a> and receive an exclusive sponsorship offer.
-                </p>
-              </div>
-            </section>
-            </div>
-          </header>
-        </div>
-      </section>
-
-
-      <section id="support-container" class="wrapper" ng-if="event.sponsors.length > 0">
+    <section id="support-container" class="wrapper" ng-if="event.sponsors.length > 0">
         <div class="container">
 
           <header class="align-center" ng-if="(event.sponsors | filter:{package:'platinum'}).length > 0">
@@ -619,7 +609,7 @@
             </section> -->
             </div>
             <p style="margin-top: 100px" class="align-center">Interested in becoming a sponsor and appearing at the event? <a href="mailto:{{event.contactEmail}}">Drop us</a> an email.</p>
-      </section>  
+    </section>  
 
     <!-- Footer -->
       <footer id="footer">

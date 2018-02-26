@@ -50,14 +50,37 @@ gulp.task('copy-statics', () => {
 });
 
 gulp.task('copy-events', () => {
-  return merge(events.map(event => {
+  return merge(events.filter(event => !event.loc.includes('2015') && !event.loc.includes('2016')).map(event => {
     console.log(`Copying event template for ${event.loc}`)
     let event_js = eventJs(event.loc)
+    let talks = event_js.program
+                    .find(it => it.event === "keynotes")
+                    .schedule
+                    .map(it => _.extend(it, {uid: _.uniqueId()}))
+
+    let workshops = event_js.program
+                    .find(it => it.event === "workshops")
+                    .schedule
+
+    let speakers = talks
+        .filter(it => it.type === "speech")
+        .map(it => _.extend(it, it.tags ? {tagList: it.tags.map(it => `#${it}`).join(' ')} : {}))
+        .map(it => [it, it.partner])
+        .reduce((it, that) => it.concat(that))
+        .filter(it => it)
+
+    let speakersInRows = _.chunk(speakers, 4)
+    let hasUnknownSpeakers = talks.some(it => it.type === "speech" && !it.name)
+  
     return gulp
         .src('event-template/**/*', {base: 'event-template'})    
         .pipe(gulpif(/.pug/, pug({data: _.extend({
           build_time_iso: new Date().toISOString(),
-          days: _(event_js.duration_days).times(n => moment(event_js.date_iso).add(n, 'days').format("D MMM YYYY"))
+          days: _(event_js.duration_days).times(n => moment(event_js.date_iso).add(n, 'days').format("D MMM YYYY")),
+          speakersInRows: speakersInRows,
+          hasUnknownSpeakers: hasUnknownSpeakers,
+          workshops: workshops,
+          talks: _.groupBy(talks, 'time')
         }, event_js, event) })))
         .pipe(event.current ? gulp.dest(`build`) : gulp.dest(`build/${event.loc}`))
   }))
