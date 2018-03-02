@@ -28,6 +28,7 @@ doctype html
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <script src="js/all.js"></script>
     <script src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
+    script(type="text/javascript" src="//sgwidget.leaderapps.co/js/sendgrid-widget.js")
     script(type="application/ld+json")
       | {
       |   "@context": "http://schema.org",
@@ -343,6 +344,11 @@ doctype html
             section(class="feature 12u 12u$(small)")
               if data.hasUnknownSpeakers
                 h3.title More coming soon. Subscribe for the final announcement alert:
+                div#sendgrid-subscription-widget.sendgrid-subscription-widget
+                  form#sg-widget(style="text-align:center" data-token="9427e227cec782b27ebe0546caf95873" onsubmit="return false;")
+                    div#sg-response.sg-response
+                    input#email(style="width: 200px; margin: 0 auto 0.5em auto; display: inline" type="email" name="email" placeholder="<your email address>")
+                    input#sg-submit-btn(type="submit" value="Subscribe" style="padding: 0 1em 0 1em")
                 h5
                   each link, social in data.socials
                     a(href=link)
@@ -434,6 +440,11 @@ doctype html
           if data.hasUnknownWorkshops
             br
             h3.title More coming soon. Subscribe for the final announcement alert:
+            div#sendgrid-subscription-widget.sendgrid-subscription-widget
+              form#sg-widget(style="text-align:center" data-token="9427e227cec782b27ebe0546caf95873" onsubmit="return false;")
+                div#sg-response.sg-response
+                input#email(style="width: 200px; margin: 0 auto 0.5em auto; display: inline" type="email" name="email" placeholder="<your email address>")
+                input#sg-submit-btn(type="submit" value="Subscribe" style="padding: 0 1em 0 1em")            
             h5
               each link, social in data.socials
                 a(href=link)
@@ -475,7 +486,7 @@ doctype html
                   |  Prices will grow as ticket amount decreases.
             div.row
               section(class="12u 12u$(small)")
-                input.pulse(type="button" value="  Secure a seat now  " disabled=data.status == 'booked' ng-click=`buy('${data.register}')`)
+                input.pulse(type="button" value="Secure a seat now" style="padding: 0 1em" disabled=data.status == 'booked' ng-click=`buy('${data.register}')`)
           section(class="feature 3u 12u$(medium) 12u$(small)")
             | &nbsp;
 
