@@ -35,11 +35,11 @@ doctype html
       |   "name": "DevTernity",
       |   "url": "https://devternity.com",
       |   "sameAs": [
-      |     "https://www.facebook.com/devternity",
-      |     "https://instagram.com/devternity",
-      |     "https://www.linkedin.com/groups/8371335",
-      |     "https://youtube.com/c/DevTernity",
-      |     "https://twitter.com/devternity"
+      - var index = 0
+      each link, social in data.socials
+        | "#{link}"
+        if ++index != Object.keys(data.socials).length
+          |,
       |   ]
       | }      
 
@@ -155,14 +155,6 @@ doctype html
     </div>
 
   <div id="fb-root"></div>
-  script
-    | (function(d, s, id) {
-    | var js, fjs = d.getElementsByTagName(s)[0];
-    | if (d.getElementById(id)) return;
-    | js = d.createElement(s); js.id = id;
-    | js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=433199826742778";
-    | fjs.parentNode.insertBefore(js, fjs);
-    | }(document, 'script', 'facebook-jssdk'));
   <header id="header">
     <nav id="nav">
       <ul>
@@ -176,11 +168,10 @@ doctype html
         <li><a href="code_of_conduct.html" alt="Code of Conduct">Code of Conduct</a></li>
         <li><strong><a href="http://go.devternity.com/rix_volunteer" alt="Call for Volunteers">Volunteer</a></strong></li>
         <li><strong><a ng-click="slideTo('#tickets-container')">Attend</a></strong></li>
-        <li><a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="http://go.devternity.com/linkedin" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="https://youtube.com/c/DevTernity" rel="noopener" target="_blank"><i class="fa fa-youtube"></i></a></li>    
+        each link, social in data.socials
+          li
+            a(href=link)
+              i(class=`fa fa-${social}`)
         each history in data.history
           <li><a href="/rix/#{history}" alt="DevTernity #{history}">#{history}</a></li>
       </ul>
@@ -197,25 +188,26 @@ doctype html
 
         <p>#{data.desc}</p>
         <p>#{data.date}. #{data.city}, #{data.country}.</p>
-        <ul class="actions">
-          <li  ng-if="event.status == 'on_sale'">
-          <a ng-click="slideTo('#tickets-container')" class="button big pulse">Take me with you</a>
-          <br /><br />
-          <timer end-time="#{data.date_epoch}"> We start in <strong style="color: white">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds </strong>
-          </timer>
-          </li>
-          <li  ng-if="event.status == 'booked'">
-          <a class="button big">We are fully booked.</a>
-          <br /><br />
-          <ul class="links">
-            <li><a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="http://go.devternity.com/linkedin" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://youtube.com/c/DevTernity" rel="noopener" target="_blank"><i class="fa fa-youtube"></i></a></li>    
-          </ul>          
-          </li>             
-        </ul>
+        ul.actions
+          if data.status == "on_sale"
+            li
+              a.button.big.pulse(ng-click="slideTo('#tickets-container')") Take me with you
+              br
+              br
+              timer(end-time=`${data.date_epoch}`)
+               | We start in 
+               strong(style="color: white") {{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds
+          if data.status == "booked"
+            li
+              a.button.big We are fully booked
+              br
+              br
+              ul.links
+                li Follow us —
+                each link, social in data.socials
+                  li
+                    a(href=link)
+                      i(class=`fa fa-${social}`)
       </section>
 
       section.wrapper.style1.align-center
@@ -322,8 +314,8 @@ doctype html
           <div class='embed-container'><iframe src='https://player.vimeo.com/video/247773795' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
       </section>
 
-      <section id="speakers-container" class="wrapper speakers align-center">
-        <div class="container">
+      section#speakers-container.wrapper.speakers.align-center
+        div.container
           <header>
           <h1>Day I: Inspiring Talks (#{data.days[0]})</h1>
             <h2></h2>
@@ -347,24 +339,15 @@ doctype html
                         </a>
                   </section>
 
-          <div class="row">
-            <section class="feature 12u 12u$(small)">
+          div.row
+            section(class="feature 12u 12u$(small)")
               if data.hasUnknownSpeakers
-                <h3 class="title">More coming soon.</h3>
-              <div class="fb-like" data-width="320" data-href="https://www.facebook.com/devternity/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-              <h5>
-                </br></br>
-                <a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-                <a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a> &nbsp;&nbsp;
-                <a href="http://go.devternity.com/linkedin" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
-                <a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
-                <a href="https://youtube.com/c/DevTernity" rel="noopener" target="_blank"><i class="fa fa-youtube"></i></a>                
-              </h5>
-            </section>
-          </div>
-        </div>
-
-      </section>
+                h3.title More coming soon. Subscribe for the final announcement alert:
+                h5
+                  each link, social in data.socials
+                    a(href=link)
+                      i(class=`fa fa-${social}`)
+                    |  &nbsp;
 
       section#program-container.wrapper
           div.container
@@ -448,6 +431,14 @@ doctype html
                   strong #{speaker.title}
                 h5: span #{speaker.tagList}
                 div.who !{speaker.description}
+          if data.hasUnknownWorkshops
+            br
+            h3.title More coming soon. Subscribe for the final announcement alert:
+            h5
+              each link, social in data.socials
+                a(href=link)
+                  i(class=`fa fa-${social}`)
+                |  &nbsp;                
 
     section#tickets-container.wrapper.style1.tickets.align-center
       div.container
@@ -627,21 +618,18 @@ doctype html
             <section class="6u 12u$(small)">
               <h3>Follow Us</h3>
               <ul class="icons">
-                <li><a href="https://twitter.com/devternity" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="https://www.facebook.com/devternity" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="http://go.devternity.com/linkedin" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <li><a href="https://www.instagram.com/devternity/" class="icon rounded fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="https://youtube.com/c/DevTernity" class="icon rounded fa-youtube"><span class="label">YouTube</span></a></li>                
+                each link, social in data.socials
+                  li
+                    a(href=link)
+                      i(class=`icon rounded fa fa-${social}`)
               </ul>
-              <ul class="tabular">
-                <li>
-                  <h3>Mail</h3>
-                  <a href="mailto:{{event.contactEmail}}">{{event.contactEmail}}</a>
-                </li>
-                <li>
-                  <h3>Phone</h3>(+371) 288 14 170 🇬🇧 🇷🇺 🇱🇻
-                </li>
-              </ul>
+              ul.tabular
+                li
+                  h3 Mail
+                  a(href=`mailto:${data.contactEmail}`) #{data.contactEmail}
+                li
+                  h3 Phone
+                  | (+371) 288 14 170 🇬🇧 🇷🇺 🇱🇻
             </section>
           </div>
         </div>

@@ -71,6 +71,7 @@ gulp.task('copy-events', () => {
 
     let speakersInRows = _.chunk(speakers, 4)
     let hasUnknownSpeakers = talks.some(it => it.type === "speech" && !it.name)
+    let hasUnknownWorkshops = workshops.length < event_js.workshops_total
   
     return gulp
         .src('event-template/**/*', {base: 'event-template'})    
@@ -79,6 +80,7 @@ gulp.task('copy-events', () => {
           days: _(event_js.duration_days).times(n => moment(event_js.date_iso).add(n, 'days').format("D MMM YYYY")),
           speakersInRows: speakersInRows,
           hasUnknownSpeakers: hasUnknownSpeakers,
+          hasUnknownWorkshops: hasUnknownWorkshops,
           workshops: workshops,
           talks: _.groupBy(talks, 'time')
         }, event_js, event) })))
