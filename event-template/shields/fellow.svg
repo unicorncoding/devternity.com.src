@@ -1,1 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127" height="20"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="127" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path fill="#000000" d="M0 0h84v20H0z"/><path fill="#4DAC5C" d="M84 0h43v20H84z"/><path fill="url(#b)" d="M0 0h127v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><image x="5" y="3" width="14" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozMjk4MDQ3MzI3QTUxMUU3QTA2OEQ1MDUyOTcwMkJFMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozMjk4MDQ3NDI3QTUxMUU3QTA2OEQ1MDUyOTcwMkJFMSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjMyOTgwNDcxMjdBNTExRTdBMDY4RDUwNTI5NzAyQkUxIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjMyOTgwNDcyMjdBNTExRTdBMDY4RDUwNTI5NzAyQkUxIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+jp9R4AAAAfFJREFUeNpkkj9oGnEUx9/vOPXinxpwKU4BcXUoOB2EIAUh4FgyFOnQpWsG2yEG0gSHLAklFjq0iHsmUTuFgnWKOJwFEYIGFcwm/uPE//m+w5ScOXj87u69z3vf936PVqsVsY1GIxoOh5vn4XQ6pSebzWZUKpWMeIlePgK2v1wue7ALBB89d9brdePcBLcQ/BsZs1ar1W2xWGixWJzBAlxFCEHlctkMdjqdAzh0SZLCk8lEZLNZqtVqhoL5fP4ToGDY7/ebwVgspjabTapWq5ROp6lSqRiyAHFPQSg5YTAajZpBOJR4PE75fJ4H03U6nSFIvdY0jaCCE3xBTJDlm0BksyuKQrIsc2AY5x/YB0y23263uT8bBvUDsLQ5nC3ObDQlxIwzOxwOHfB79LwwgiXpDd5P+V1+Br5yuVyrSCQifD7fJTKHbDbbLpR8ZmY8Hhv953K5/UQiEf8PInOx3++/dbvd3O8eft0j+2vASqvVYoC63S7hmm5NUu12+1dd1//yRNGrgNQd9KdkMhlKpVLU6/VaqP4OBT6ZpDYaDa76sVAo3Kqquo1EVCwWaTAY8P9zhHwD+AAVZAK9Xi9P9g4yj5PJ5FUgEOBhaKgcxeb8461ZX5sZ5MVmJ+y7x+PZQ283WOxf+J6ur8vw80Lw8yjAADKHHiE8ZDOaAAAAAElFTkSuQmCC"/><text x="50.5" y="15" fill="#010101" fill-opacity=".3">devternity</text><text x="50.5" y="14">devternity</text><text x="104.5" y="15" fill="#010101" fill-opacity=".3">fellow</text><text x="104.5" y="14">fellow</text></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg30"
+   version="1.1"
+   height="20"
+   width="127">
+  <metadata
+     id="metadata36">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs34">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <linearGradient
+     y2="100%"
+     x2="0"
+     id="b">
+    <stop
+       id="stop2"
+       stop-opacity=".1"
+       stop-color="#bbb"
+       offset="0" />
+    <stop
+       id="stop4"
+       stop-opacity=".1"
+       offset="1" />
+  </linearGradient>
+  <clipPath
+     id="a">
+    <rect
+       id="rect7"
+       fill="#fff"
+       rx="3"
+       height="20"
+       width="127" />
+  </clipPath>
+  <g
+     id="g16"
+     clip-path="url(#a)">
+    <path
+       id="path10"
+       d="M0 0h84v20H0z"
+       fill="#000000" />
+    <path
+       id="path12"
+       d="M84 0h43v20H84z"
+       fill="#4DAC5C" />
+    <path
+       id="path14"
+       d="M0 0h127v20H0z"
+       fill="url(#b)" />
+  </g>
+  <text
+     x="50.5"
+     y="15"
+     id="text20"
+     style="font-size:medium;font-family:'DejaVu Sans', Verdana, Geneva, sans-serif;text-anchor:middle;fill:#010101;fill-opacity:0.3">devternity</text>
+  <text
+     x="50.5"
+     y="14"
+     id="text22"
+     style="font-size:medium;font-family:'DejaVu Sans', Verdana, Geneva, sans-serif;text-anchor:middle;fill:#ffffff">devternity</text>
+  <text
+     x="104.5"
+     y="15"
+     id="text24"
+     style="font-size:medium;font-family:'DejaVu Sans', Verdana, Geneva, sans-serif;text-anchor:middle;fill:#010101;fill-opacity:0.3">fellow</text>
+  <text
+     x="104.5"
+     y="14"
+     id="text26"
+     style="font-size:medium;font-family:'DejaVu Sans', Verdana, Geneva, sans-serif;text-anchor:middle;fill:#ffffff">fellow</text>
+  <g
+     transform="translate(-2.9647814,1.8495711)"
+     id="g866">
+    <path
+       id="path851"
+       d="m 9.5178011,6.374795 v 4.07997 L 11.277788,9.2547737 V 7.4147873 l 1.839987,-1.1999911 v -2.159984 z"
+       style="fill:none;stroke:#ffffff;stroke-width:0.47999644px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path853"
+       d="M 11.917783,15.814725 V 13.574741 L 19.197729,8.934776 V 11.01476 Z M 8.2378106,4.7748069 c 0,1.9999851 0,4.0799697 0,6.0799551 1.1999911,1.679987 2.4799814,3.359975 3.6799724,4.959963 V 13.574741 L 9.5178011,10.454765 v -4.07997 z m 0,0 5.4399594,-3.5999734 5.519959,7.7599425 c -2.479981,1.599988 -4.799964,3.119977 -7.279946,4.639965 -0.719994,-1.039992 -1.599988,-1.999985 -2.3999819,-3.119976 L 11.277788,9.2547737 c 0.399997,0.5599958 0.879994,1.0399923 1.279991,1.5999883 C 13.75777,10.054768 14.957761,9.3347731 16.237751,8.534779 14.797762,6.4547944 13.75777,5.0148051 13.117775,4.0548122 L 9.5178011,6.374795 Z M 13.117775,6.2147962 V 4.0548122 L 16.237751,8.534779 15.03776,9.2547737 Z"
+       style="fill:none;stroke:#ffffff;stroke-width:0.47999644px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
