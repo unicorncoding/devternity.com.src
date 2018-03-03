@@ -342,7 +342,7 @@ doctype html
           div.row
             section(class="feature 12u 12u$(small)")
               if data.hasUnknownSpeakers
-                h3.title More coming soon. Subscribe for the final announcement alert:div
+                h3.title More coming soon. Subscribe for the final announcement alert:
                 form.subscribe(ng-submit="onSubscribe()")
                   div {{subscribeMessage}}
                   input(type="email" ng-model="subscriber" placeholder="<your email address>")
