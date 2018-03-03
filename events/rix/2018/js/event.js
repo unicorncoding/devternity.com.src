@@ -321,7 +321,7 @@
                       "type": "speech",
                       "country": "ru",
                       "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
-                      "title": "coming soon...",
+                      "title": "Advanced Jedi Techniques",
                       "description": "coming soon...",
                       "img": "images/dorofeev.png",
                       "presentation": "",
