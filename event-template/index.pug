@@ -28,7 +28,6 @@ doctype html
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <script src="js/all.js"></script>
     <script src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
-    script(type="text/javascript" src="//sgwidget.leaderapps.co/js/sendgrid-widget.js")
     script(type="application/ld+json")
       | {
       |   "@context": "http://schema.org",
@@ -343,12 +342,11 @@ doctype html
           div.row
             section(class="feature 12u 12u$(small)")
               if data.hasUnknownSpeakers
-                h3.title More coming soon. Subscribe for the final announcement alert:
-                div#sendgrid-subscription-widget.sendgrid-subscription-widget
-                  form#sg-widget(style="text-align:center" data-token="9427e227cec782b27ebe0546caf95873" onsubmit="return false;")
-                    div#sg-response.sg-response
-                    input#email(style="width: 200px; margin: 0 auto 0.5em auto; display: inline" type="email" name="email" placeholder="<your email address>")
-                    input#sg-submit-btn(type="submit" value="Subscribe" style="padding: 0 1em 0 1em")
+                h3.title More coming soon. Subscribe for the final announcement alert:div
+                form.subscribe(ng-submit="onSubscribe()")
+                  div {{subscribeMessage}}
+                  input(type="email" ng-model="subscriber" placeholder="<your email address>")
+                  input(type="submit" value="Subscribe")
                 h5
                   each link, social in data.socials
                     a(href=link)
@@ -440,11 +438,10 @@ doctype html
           if data.hasUnknownWorkshops
             br
             h3.title More coming soon. Subscribe for the final announcement alert:
-            div#sendgrid-subscription-widget.sendgrid-subscription-widget
-              form#sg-widget(style="text-align:center" data-token="9427e227cec782b27ebe0546caf95873" onsubmit="return false;")
-                div#sg-response.sg-response
-                input#email(style="width: 200px; margin: 0 auto 0.5em auto; display: inline" type="email" name="email" placeholder="<your email address>")
-                input#sg-submit-btn(type="submit" value="Subscribe" style="padding: 0 1em 0 1em")            
+            form.subscribe(ng-submit="onSubscribe()")
+              div {{subscribeMessage}}
+              input(type="email" ng-model="subscriber" placeholder="<your email address>")
+              input(type="submit" value="Subscribe")          
             h5
               each link, social in data.socials
                 a(href=link)

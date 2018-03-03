@@ -841,6 +841,18 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
     }
   }
 
+  $scope.onSubscribe = function() {
+  	$http.post('https://newsletter.glitch.me/subscribe', { email: $scope.subscriber })
+  	.then(
+  		function() {
+  			$scope.subscribeMessage = "Well done!"
+  		},
+  		function() {
+			$scope.subscribeMessage = "Sorry, something went wrong. Just follow us on socials."
+  		}
+  	)
+  }
+
   $scope.buy = function(moveTo) {
     $window.location.href = moveTo;
   }
