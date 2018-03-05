@@ -109,7 +109,7 @@
                   {
                       "product": "JEDI",
                       "time": "9:00 - 18:00",
-                      "tags": ["productivity", "getting things done"],
+                      "tags": ["productivity", "getting things done", "smarter working"],
                       "name": "Maxim Dorofeev",
                       "twitter": "cartmendum",
                       "type": "speech",

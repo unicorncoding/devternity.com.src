@@ -61,6 +61,7 @@ gulp.task('copy-events', () => {
     let workshops = event_js.program
                     .find(it => it.event === "workshops")
                     .schedule
+                    .map(it => _.extend(it, it.tags ? {tagList: it.tags.map(it => `#${it}`).join(' ')} : {}))
 
     let speakers = talks
         .filter(it => it.type === "speech")
