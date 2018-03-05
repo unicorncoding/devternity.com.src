@@ -42,6 +42,13 @@
           "instagram": "https://www.instagram.com/devternity",
           "youtube": "https://youtube.com/c/DevTernity"
         },        
+        "benefits": {
+          "Fluent, technically skilled and inspiring speakers": "We invite speakers based on their track record and community feedback. No promo, sponsored or filler talks.",
+          "Unique, valuable and up-to-date content": "Every talk undergo the rigour review by the content committee. The committee comprise of well-known conference speakers and industry experts.",
+          "Cross-discipline topics": "As a distinguished professional, you need to be comfortable at many topics. Therefore we cover the latest developments in coding, architecture, operations, security, leadership and other relevant IT areas.",
+          "Intensive and saturated program": "Your time is money, that’s why DevTernity is two-day long. The intensive talks day, followed by practical workshops.",
+          "Excellent location": "DevTernity runs in the heart of the Baltic and connected by direct flights with most European airports. The location is both stunning and affordable for foreign visitors."
+        },        
         "pricing": {
             "discount": {
               "amount": 50,

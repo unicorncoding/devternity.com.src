@@ -252,56 +252,18 @@ doctype html
           <h2>5 things that make DevTernity awesome</h2>
           <div class="row 200% why">
 
-
-            <section class="6u 12u$(small) align-left">
-              <h3>
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <strong class="fa-stack-1x" style="color: #4dac71">1</strong>
-                </span> Fluent, technically skilled and inspiring speakers
-              </h3>
-              <h5>We invite speakers based on their track record and community feedback. No promo, sponsored or filler talks.</h5>                            
-            </section>
-
-
-            <section class="6u 12u$(small) align-left">
-              <h3>
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <strong class="fa-stack-1x" style="color: #4dac71">2</strong>
-                </span> Unique, valuable and up-to-date content</h3>
-              <h5>Every talk undergo the rigour review by the content committee. The committee comprise of well-known conference speakers and industry experts.</h5>          
-            </section>      
-
-            <section class="6u 12u$(small) align-left">
-              <h3>
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <strong class="fa-stack-1x" style="color: #4dac71">3</strong>
-                </span> Cross-discipline topics
-              </h3>
-              <h5>As a distinguished professional, you need to be comfortable at many topics. Therefore we cover the latest developments in coding, architecture, operations, security, leadership and other relevant IT areas.</h5>              
-            </section>    
-            <section class="6u 12u$(small) align-left">
-              <h3>
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <strong class="fa-stack-1x" style="color: #4dac71">4</strong>
-                </span> Intensive and saturated program
-              </h3>
-              <h5>Your time is money, that’s why DevTernity is two-day long. The intensive talks day, followed by practical workshops.</h5>             
-            </section>        
-
-            section(class="6u 12u$(small) align-left")
-              h3
-                span.fa-stack.fa-lg
-                  i.fa.fa-circle.fa-stack-2x
-                  strong.fa-stack-1x(style="color: #4dac71") 5
-                | Excellent location
-              h5 DevTernity runs in the heart of the Baltic and connected by direct flights with most European airports. The location is both stunning and affordable for foreign visitors.
+            - var index = 1
+            each text, title in data.benefits
+              section(class="6u 12u$(small) align-left")
+                h3
+                  span.fa-stack.fa-lg
+                    i.fa.fa-circle.fa-stack-2x
+                    strong.fa-stack-1x(style="color: #4dac71") #{index++}
+                  |  #{title}
+                p=text
           </div>
         </div>
-        <div id="trailer">        
+        div#trailer
           <input type="button" value="&nbsp;&nbsp;Watch Video Trailer&nbsp;&nbsp;" ng-click="watchPromo()" />
         </div>
       </section>
