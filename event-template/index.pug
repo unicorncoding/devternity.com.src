@@ -391,10 +391,10 @@ doctype html
                               img(src=`images/flags/${event.country}.png` alt=`${event.country} flag`)
                               |  #{event.name}
                             p !{event.bio}
-                          p.speaker #{event.long_bio}
+                          p.speaker !{event.long_bio}
                           br
                           p.whoname #{event.title}
-                          p.speaker #{event.description}
+                          p.speaker !{event.description}
 
     section#workshops-container.wrapper.workshops.align-center
         div.container
@@ -419,7 +419,7 @@ doctype html
                 div.who
                   strong !{speaker.bio}
                   br
-                  | #{speaker.long_bio}
+                  | !{speaker.long_bio}
               section(class="feature 6u 12u$(small) align-left")
                 h3
                   if speaker.sold_out

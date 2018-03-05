@@ -104,9 +104,24 @@
                       "description": "<p>Reactive Programming is receiving quite a bit of attention and for good reasons. It’s a nice logic next step from functional programming. It takes the concept of function composition and lazy evaluations to the next level. It streamlines handling of many critical issues that are architectural in nature: resilience, scale, responsiveness, and messaging.</p><p>In this workshop, we will start with a quick introduction to reactive programming. We will then dive into code examples and learn how to create reactive applications. We’ll learn to implement observables, to deal with errors in a graceful manner, learn both synchronous and asynchronous solutions, hot vs. cold observables, and dealing with backpressures.</p><p>Bring your own laptop, install Java 9 and your favourite IDE and let's get you ready for writing reactive applications!</p>",
                       "img": "images/venkat.png",
                       "presentation": "",
-                      "sold_out": false,
                       "video": ""
                   },
+                  {
+                      "product": "JEDI",
+                      "time": "9:00 - 18:00",
+                      "tags": ["productivity", "getting things done"],
+                      "name": "Maxim Dorofeev",
+                      "twitter": "cartmendum",
+                      "type": "speech",
+                      "country": "ru",
+                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
+                      "long_bio": "Maxim is award-winning trainer and speaker, focused on personal and team efficiency. He has over 15 years of experience in IT under his belt. Maxim is the founder of mnogosdelal.ru, ex-Head of IT Engineering at Kaspersky Lab, and the author author of best-selling <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a> book.",
+                      "title": "Jedi Techniques of Personal Effectiveness",
+                      "description": "<p>This practical workshop will equip you with necessary skills for accomplishing more, with less stress and efforts, and bring you closer to the work-life balance on a win-win basis. After the training, you will know how to achieve more at work and personal life simultaneously (instead of conventional view: “one at the expense of another”).</p>In a simple and entertaining way, you will learn: <ul><li>How do our minds work? Daniel Kahneman’s and Tim Urban’s models.</li><li>What does instant gratification monkey do in my head and how to tame it? </li><li>What cognitive biases are and how they affect our day-to- day work?</li><li>The concept of limited Mindfuel and how to save it</li><li>Why some ToDo lists do not help and how to create ToDo list that (finally) works</li><li>Methods of “Magic fairy” and “Rational flaneur”</li><li>How to succeed in a highly uncertain environment and how to make uncertainty your best friend</li><li> How technology hijack our minds. The concept of information overload and how to prevеnt it.</li><li>How to deal with tasks and commitments under tight deadlines and high uncertaincy</li><li>...and much more!</li></ul><p>More than 50% of workshop time is devoted to practice, exercises and discussions. The workhshop offers concrete, ready-to-use improvement recipes for daily work.</p>",
+                      "img": "images/dorofeev.png",
+                      "presentation": "",
+                      "video": ""
+                  },                    
                   {
                       "product": "SERVERLESS",
                       "time": "9:00 - 18:00",
@@ -315,14 +330,14 @@
                     },
                   {
                       "time": "14:50",
-                      "tags": [],
+                      "tags": ["productivity", "getting things done"],
                       "name": "Maxim Dorofeev",
                       "twitter": "cartmendum",
                       "type": "speech",
                       "country": "ru",
                       "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
                       "title": "Advanced Jedi Techniques",
-                      "description": "coming soon...",
+                      "description": "As for now, there are huge amount of different techniques and methodologies of self-organization and personal effectiveness. However, not all of them takes into account the following: <br><br>1. People are different. There is no any universal “one size fits all” methodology. Straightforward copying of a methodology even of a successful person might be even dangerous.<br>2. There are lot of uncertainties in the world we live and it makes the consequences of our action less predictive than we may think. <br>3. Knowledge is not enough in order to change our behavior. Many of us know how we should create to-do list, set priorities, review deadlines and so on. Nevertheless, we simply do not act this way.<br><br> I am going to address these questions from perspective of personal effectiveness and to show not “yet anotherpersonal effectiveness methodology” but the methodology that may help you to build your own one.",
                       "img": "images/dorofeev.png",
                       "presentation": "",
                       "video": ""
