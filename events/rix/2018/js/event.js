@@ -349,13 +349,20 @@
                       "presentation": "",
                       "video": ""
                     },    
-                    {    
-                       "type": "speech",   
-                       "time": "14:50",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },
+                  {
+                      "time": "14:50",
+                      "tags": ["real experience", "pros and cons"],
+                      "name": "Anton Keks",
+                      "twitter": "antonkeks",
+                      "type": "speech",
+                      "country": "ee",
+                      "bio": "Software Craftsman, Co-Founder, Developer @ Codeborne",
+                      "title": "Kotlin in Real Projects: Pragmatic Opinion on Pragmatic Language",
+                      "description": "Kotlin is a marvelous JVM language that many have waited for. While we already have Java 8 and some people have migrated away from JVM while waiting for a more productive language, Kotlin finally is here, promising lots of good stuff, but still allowing us to use the cross-platform and highly optimized JVM and many of familiar frameworks. However, nothing comes without drawbacks. There have been some controversial decisions while designing the language that affect what is convenient to do in the language and what is not so. Moreover, Kotlin is yet to deliver many of its promises, like compilation speed. In this talk I'll talk about real life experience of using Kotlin in an Agile way, the obstacles that you may encounter and how to overcome them.",
+                      "img": "images/keks.png",
+                      "presentation": "",
+                      "video": ""
+                    },   
                     {    
                        "type": "speech",   
                        "time": "14:50",    
