@@ -343,7 +343,7 @@
                       "type": "speech",
                       "country": "ru",
                       "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
-                      "title": "Advanced Jedi Techniques",
+                      "title": "The Way of a Jedi: How to Get Started",
                       "description": "As for now, there are huge amount of different techniques and methodologies of self-organization and personal effectiveness. However, not all of them takes into account the following: <br><br>1. People are different. There is no any universal “one size fits all” methodology. Straightforward copying of a methodology even of a successful person might be even dangerous.<br>2. There are lot of uncertainties in the world we live and it makes the consequences of our action less predictive than we may think. <br>3. Knowledge is not enough in order to change our behavior. Many of us know how we should create to-do list, set priorities, review deadlines and so on. Nevertheless, we simply do not act this way.<br><br> I am going to address these questions from perspective of personal effectiveness and to show not “yet anotherpersonal effectiveness methodology” but the methodology that may help you to build your own one.",
                       "img": "images/dorofeev.png",
                       "presentation": "",
