@@ -83,7 +83,7 @@ gulp.task('copy-events', () => {
           hasUnknownSpeakers: hasUnknownSpeakers,
           hasUnknownWorkshops: hasUnknownWorkshops,
           workshops: workshops,
-          talks: _.groupBy(talks, 'time')
+          talks: _.groupBy(talks, 'time'),
         }, event_js, event) })))
         .pipe(event.current ? gulp.dest(`build`) : gulp.dest(`build/${event.loc}`))
   }))

@@ -1,41 +1,39 @@
 doctype html
-<html lang="en" ng-app="devternity" ng-controller="LandingPageController" class="lt-ie9">
-  <head>
+html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="lt-ie9")
+  head
+    meta(charset="UTF-8")
+    title 🚀 #{data.theme} – Software Development Conference
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="author" content="DevTernity")
+    meta(http-equiv="x-ua-compatible" content="ie=edge")
+    meta(name="description" content="The premium-quality annual international software development conference. DevTernity is a place where forward-thinking developers, pragmatic architects and engineering leaders grow.")
+    meta(name="keywords" content="software craftsmanship conferences, software development conferences, software developer conferences, developer conference, java conferences")
+    meta(name="robots" content="index,follow")
+    meta(property="og:url" content="http://devternity.com")
+    meta(property="og:type" content="website")
+    meta(property="og:title" content="DevTernity")
+    meta(property="og:description" content="The premium-quality annual international software development conference. DevTernity is a place where forward-thinking developers, pragmatic architects and engineering leaders grow.")
+    meta(property="og:image" content="https://devternity.com/images/logo_2017_filled.png")
+    meta(property="og:image:width" content="512")
+    meta(property="og:image:height" content="512")
+    meta(name="p:domain_verify" content="f56aab43251f5fa394e371ae54ec3d06")
+    link(rel="shortcut icon" type="image/png" href="images/logo_2017_filled.png")
+    link(rel="icon" href="/images/favicon.png")
+    link(rel="shortcut icon" sizes="64x64" href="/images/favicon.png")
 
-    <link rel="shortcut icon" type="image/png" href="images/logo_2017_filled.png"/>
-    <meta charset="UTF-8">
-
-    <title>🚀 #{data.theme} – Software Development Conference</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author"               content="DevTernity">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">    
-    <meta name="description"          content="The premium-quality annual international software development conference. DevTernity is a place where forward-thinking developers, pragmatic architects and engineering leaders grow." />
-    <meta name="keywords"             content="software craftsmanship conferences, software development conferences, software developer conferences, developer conference, java conferences" />
-    <meta name="robots"               content="index,follow"/>
-    <meta property="og:url"           content="http://devternity.com" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="DevTernity" />
-    <meta property="og:description"   content="The premium-quality annual international software development conference. DevTernity is a place where forward-thinking developers, pragmatic architects and engineering leaders grow." />
-    <meta property="og:image"         content="https://devternity.com/images/logo_2017_filled.png" />
-    <meta property="og:image:width"   content="512" />
-    <meta property="og:image:height"  content="512" />
-    <meta name="p:domain_verify" content="f56aab43251f5fa394e371ae54ec3d06"/>
-
-    <link rel="icon" href="/images/favicon.png">
-    <link rel="shortcut icon" sizes="64x64" href="/images/favicon.png">
-
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-timer/1.3.3/angular-timer.min.js" async defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/2.2.0/skel.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js" async defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js" async defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/humanize-duration/3.12.1/humanize-duration.min.js" async defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/skel-layers/2.2.0/skel.min.js" async defer></script>
-    <script src="js/all.js"></script>
-    <script src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
+    |<!--[if lte IE 8]>
+    script(src="css/ie/html5shiv.js")
+    |<![endif]-->
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/angular-timer/1.3.3/angular-timer.min.js" async defer)
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/skel/2.2.0/skel.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js" async defer)
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js" async defer)
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/humanize-duration/3.12.1/humanize-duration.min.js" async defer)
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/skel-layers/2.2.0/skel.min.js" async defer)
+    script(src="js/all.js")
+    script(src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer)
     script(type="application/ld+json")
       | {
       |   "@context": "http://schema.org",
@@ -118,8 +116,8 @@ doctype html
     noscript
       img(height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1")
 
-    <link rel="icon" type="image/png" href="http://devternity.com/images/logo_2017_filled.png">
-    <link rel="stylesheet" href="css/remodal.css" />
+    link(rel="icon" type="image/png" href="http://devternity.com/images/logo_2017_filled.png")
+    link(rel="stylesheet" href="css/remodal.css")
          
     style(type="text/css")
       | #devternity-loading {
@@ -148,52 +146,37 @@ doctype html
       |   top: 50%;
       | }
 
-  </head>
-  <body class="landing">
+  body.landing
 
-    <div id="devternity-loading">         
-        <div class="loading-container">
-            <div class="messaging">
-                <div>
-                    <img src="images/logo_2017.png">
-                </div>
-            </div>
-        </div>
-    </div>
+    div#devternity-loading
+        div.loading-container: div.messaging: div: img(src="images/logo_2017.png")
 
-  <header id="header">
-    <nav id="nav">
-      <ul>
-        <li>
-          <a ng-click="slideTo('#program-container')" alt="Talks">Talks</a>
-        </li>
-        <li>
-          <a ng-click="slideTo('#workshops-container')" alt="Workshops">Workshops</a>
-        </li>
-        <li ng-if="event.sponsors.length > 0"><a ng-click="slideTo('#support-container')" alt="Sponsors">Sponsors</a></li>
-        <li><a href="code_of_conduct.html" alt="Code of Conduct">Code of Conduct</a></li>
-        <li><strong><a href="http://go.devternity.com/rix_volunteer" alt="Call for Volunteers">Volunteer</a></strong></li>
-        <li><strong><a ng-click="slideTo('#tickets-container')">Attend</a></strong></li>
-        each link, social in data.socials
-          li
-            a(href=link)
-              i(class=`fa fa-${social}`)
-        each history in data.history
-          <li><a href="/rix/#{history}" alt="DevTernity #{history}">#{history}</a></li>
-      </ul>
-    </nav>
-  </header>
+    header#header
+      nav#nav
+        ul
+          li: a(ng-click="slideTo('#program-container')" alt="Talks") Talks
+          li: a(ng-click="slideTo('#workshops-container')" alt="Workshops") Workshops
+          if data.sponsorship
+            li: a(ng-click="slideTo('#support-container')" alt="Sponsors") Sponsors
+          li: a(href="code_of_conduct.html" alt="Code of Conduct") Code of Conduct
+          li: strong: a(href="http://go.devternity.com/rix_volunteer" alt="Call for Volunteers") Volunteer
+          li: strong: a(ng-click="slideTo('#tickets-container')") Attend
+          each link, social in data.socials
+            li
+              a(href=link)
+                i(class=`fa fa-${social}`)
+          each history in data.history
+            li: a(href=`/rix/${history}` alt=`DevTernity ${history}`) #{history}
 
     <!-- Banner -->
-      <section id="banner">
-        <img src="images/btc_accepted.png" id="btc" />
-        <div>
-          <img src="images/logo_2017.png" />
-          <h2>&nbsp; DevTernity</h2>
-        </div>
+      section#banner
+        img#btc(src="images/btc_accepted.png")
+        div
+          img(src="images/logo_2017.png")
+          h2 &nbsp;DevTernity
 
-        <p>#{data.desc}</p>
-        <p>#{data.date}. #{data.city}, #{data.country}.</p>
+        p=data.desc
+        p #{data.date}. #{data.city}, #{data.country}.
         ul.actions
           if data.status == "on_sale"
             li
@@ -214,52 +197,52 @@ doctype html
                   li
                     a(href=link)
                       i(class=`fa fa-${social}`)
-      </section>
 
       section.wrapper.style1.align-center
-        <div class="container intro">
-          <header>
-            <h2></h2>
-            <p> DevTernity is <strong>the premium-quality international software development conference in Riga, Latvia</strong>.
-            </p>
-            <p>
-            </p>
-            <h2></h2>
-
-            <h2></h2>
-            <p>DevTernity does not specialize in a particular framework, technology or language because they come and go. <strong>We focus on fundamental building blocks and practices necessary for building better, modern software systems</strong>.</p>
-            <h2></h2>
-            <p>DevTernity is a place where <strong>forward-thinking developers, pragmatic architects and engineering leaders grow</strong>.</strong>
-            </p>
-            <p>
-            </p>
-            <h2></h2>
-          </header>
-          <div class="row 200%">
-            <section class="3u 12u$(small)">
-              <i class="icon big rounded fa-calendar"></i>
-              <h3>#{data.date}</h3>
-              //- <h5><a href="{{event.lanyrd}}/save-to-calendar/">Save to calendar</a></h5>
-            </section>
-            <section class="3u 12u$(small) hotel">
-              <i class="icon big rounded fa-location-arrow"></i>
-              <h3>#{data.city}, #{data.venue_name}</h3>
-              <h5><a href="#{data.venue_map}">Location on map</a></h5>
-              <h5>The recommended hotel for attendees is #{data.hotel_name} (<a href="#{data.hotel_link}">book</a>, <a href="#{data.hotel_to_venue_map}">see directions</a>)</h5>
-            </section>
-            <section class="3u 12u$(small)">
-              <i class="icon big rounded fa-users"></i>
-              <h3>700 attendees, 20 talks, 3 tracks</h3>
-            </section>
-            <section class="3u 12u$(small)">
-              <i class="icon big rounded fa-cogs"></i>
-              <h3>Full day of instructor-led workshops</h3>
-            </section>
-          </div>
-          <h2>&nbsp;</h2>
-          <h2>5 things that make DevTernity awesome</h2>
-          <div class="row 200% why">
-
+        div.container.intro
+          header
+            h2
+            p 
+              | DevTernity is 
+              strong the premium-quality international software development conference in Riga, Latvia
+              |.
+            p
+            h2
+            h2
+            p 
+              | DevTernity does not specialize in a particular framework, technology or language because they come and go. 
+              strong We focus on fundamental building blocks and practices necessary for building better, modern software systems
+              |.
+            h2
+            p 
+              | DevTernity is a place where 
+              strong forward-thinking developers, pragmatic architects and engineering leaders grow
+              |.
+            p
+            h2
+          div(class="row 200%")
+            section(class="3u 12u$(small)")
+              i.icon.big.rounded.fa-calendar
+              h3=data.date
+            section.hotel(class="3u 12u$(small)")
+              i.icon.big.rounded.fa-location-arrow
+              h3 #{data.city}, #{data.venue_name}
+              h5: a(href="#{data.venue_map}") Location on map
+              h5 
+                | The recommended hotel for attendees is #{data.hotel_name} (
+                a(href="#{data.hotel_link}") book
+                |, 
+                a(href="#{data.hotel_to_venue_map}") see directions
+                | )
+            section(class="3u 12u$(small)")
+              i.icon.big.rounded.fa-users
+              h3 700 attendees, 20 talks, 3 tracks
+            section(class="3u 12u$(small)")
+              i.icon.big.rounded.fa-cogs
+              h3 Full day of instructor-led workshops
+          h2 &nbsp;
+          h2 5 things that make DevTernity awesome
+          div(class="row 200% why")
             - var index = 1
             each text, title in data.benefits
               section(class="6u 12u$(small) align-left")
@@ -269,41 +252,42 @@ doctype html
                     strong.fa-stack-1x(style="color: #4dac71") #{index++}
                   |  #{title}
                 p=text
-          </div>
-        </div>
         div#trailer
-          <input type="button" value="&nbsp;&nbsp;Watch Video Trailer&nbsp;&nbsp;" ng-click="watchPromo()" />
-        </div>
-      </section>
-      <section data-remodal-id="trailer-vimeo" class="wrapper align-center">
-          <button data-remodal-action="close" class="remodal-close"></button>
-          <div class='embed-container'><iframe src='https://player.vimeo.com/video/247773795' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
-      </section>
+          input(type="button" value="Watch Video Trailer" style="padding: 0 1em" ng-click="watchPromo()")
+
+      section.wrapper.align-center(data-remodal-id="trailer-vimeo")
+          button.remodal-close(data-remodal-action="close")
+          div.embed-container
+            iframe(src='https://player.vimeo.com/video/247773795' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen)
 
       section#speakers-container.wrapper.speakers.align-center
         div.container
-          <header>
-          <h1>Day I: Inspiring Talks (#{data.days[0]})</h1>
-            <h2></h2>
-            <p>We have invited speakers that are <strong>fluent</strong>, <strong>technically skilled</strong> and <strong>inspiring</strong>.</p>
-            <h2></h2>
-            <p>No Agile bullshit bingo and marketing talks permitted. See for yourself:</p>
-          </header>
+          header
+            h1 Day I: Inspiring Talks (#{data.days[0]})
+            h2
+            p 
+              | We have invited speakers that are 
+              strong fluent
+              |, 
+              strong technically skilled
+              |  and 
+              strong inspiring
+              |.
+            h2
+            p No Agile bullshit bingo and marketing talks permitted. See for yourself:
           each row in data.speakersInRows
             div.row
               each speaker, speakerrIndex in row
                 if speaker.name
-                  <section class="feature 3u 12u$(small)">
-                      <img class="headshot" src="#{speaker.img}"/>
-                      <div class="whoname">
-                        <img src="images/flags/#{speaker.country}.png" alt="#{speaker.country} flag" /> #{speaker.name}
-                      </div>
-                      <div class="who">!{speaker.bio}</div>
+                  section(class="feature 3u 12u$(small)")
+                      img.headshot(src=speaker.img, alt=speaker.name)
+                      div.whoname
+                        img(src=`images/flags/${speaker.country}.png` alt=`${speaker.country} flag`) 
+                        |  #{speaker.name}
+                      div.who !{speaker.bio}
                       if speaker.twitter
-                        <a href="https://twitter.com/#{speaker.twitter}">
-                          <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
-                        </a>
-                  </section>
+                        a(href=`https://twitter.com/${speaker.twitter}`)
+                          i.fa.fa-twitter.follow-speaker(aria-hidden="true")
 
           div.row
             section(class="feature 12u 12u$(small)")
@@ -396,8 +380,9 @@ doctype html
                     strong.sold SOLD OUT
                   if speaker.sold_out_soon
                     strong.sold FEW TICKETS LEFT
+                  | 
                   i.fa.fa-clock-o(aria-hidden="true") 
-                  |  #{speaker.time} 
+                  | #{speaker.time} 
                   strong #{speaker.title}
                 h5: span #{speaker.tagList}
                 div.who !{speaker.description}
@@ -485,133 +470,62 @@ doctype html
                         |  and receive an exclusive sponsorship offer.
 
 
-    <section id="support-container" class="wrapper" ng-if="event.sponsors.length > 0">
-        <div class="container">
 
-          <header class="align-center" ng-if="(event.sponsors | filter:{package:'platinum'}).length > 0">
-            <h2>Backed by <strong>Platinum Sponsor</strong>
-              <i class="fa fa-star" aria-hidden="true" style="color: #C80815"></i>
-              <i class="fa fa-star" aria-hidden="true" style="color: #C80815"></i>
-              <i class="fa fa-star" aria-hidden="true" style="color: #C80815"></i>
-              <i class="fa fa-star" aria-hidden="true" style="color: #C80815"></i>
-              <i class="fa fa-star" aria-hidden="true" style="color: #C80815"></i>
-            </h2>
-          </header>
-          <div class="row align-center" ng-repeat="sponsor in event.sponsors | filter:{package:'platinum'}">
-          <section class="12u 12u$(medium) 12u$(small)">
-              <a rel="noopener" target="_blank" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
-              <p ng-bind-html="sponsor.info | trust">
-              </p>
-          </section>
-          <br/>
-        </div>
+    if data.sponsorship                  
+      section#support-container.wrapper
+          div.container
+            each package, key in data.sponsorship 
+              header.align-center
+                br
+                h2
+                  strong=package.title
+                  - var star = 0
+                  while star++ < package.stars
+                    i.fa.fa-star(aria-hidden="true" style="color: orange")
+                br
+                div.row.align-center
+                  each sponsor, index in package.sponsors
+                    section(class=`${12 / package.sponsorsPerLine}u`)
+                      a(target="_blank" rel="noopener" href=sponsor.link)
+                        img(class=`${package.grayscale ? 'grayscale' : ''}` src=`images/${sponsor.logo}`)
+                      p !{sponsor.info}
+                  br
+            p.align-center(style="margin-top: 100px")
+              | Interested in becoming a sponsor and appearing at the event? 
+              strong: a(href=`mailto:${data.contactEmail}`) Drop us
+              |  an email.
 
-        <header class="align-center" ng-if="(event.sponsors | filter:{package:'gold'}).length > 0">
-          <br/>
-          <h2>
-            <strong>Gold Sponsors</strong>
-            <i class="fa fa-star" aria-hidden="true" style="color: orange"></i>
-            <i class="fa fa-star" aria-hidden="true" style="color: orange"></i>
-            <i class="fa fa-star" aria-hidden="true" style="color: orange"></i>
-          </h2>
-          <br/>
-        </header>
-        <div class="row align-center">
-          <section class="6u 12u$(medium) 12u$(small)" ng-repeat="sponsor in event.sponsors | filter:{package:'gold'}">
-            <a target="_blank" rel="noopener" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
-            <p ng-bind-html="sponsor.info | trust"></p>
-          </section>
-          <br/>
-        </div>
-
-
-        <header class="align-center" ng-if="(event.sponsors | filter:{package:'others'}).length > 0">
-          <br/>
-          <h2>...as well as</h2>
-        </header>
-        <div class="row align-center">
-            <section class="4u 12u$(medium) 12$(small)" ng-repeat="sponsor in event.sponsors | filter:{package:'others'}">
-              <a target="_blank" rel="noopener" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
-            </section>
-        </div>
-
-
-        <header class="align-center" ng-if="(event.sponsors | filter:{package:'media'}).length > 0">
-          <br/>
-          <h2>our friends</h2>
-        </header>
-
-
-
-        <div class="row align-center media">
-            <section class="2u 12u$(small)" ng-repeat="sponsor in event.sponsors | filter:{package:'media'}">
-              <a rel="noopener" target="_blank" href="{{sponsor.link}}"><img ng-src="images/{{sponsor.logo}}" /></a>
-            </section>
-            <!-- <section class="2u 12u$(small)">
-              <a target="_blank" href="http://www.boot.lv/"><img src="images/boot.png" /></a>
-            </section>
-            <section class="2u 12u$(small)">
-              <a target="_blank" href="http://www.kursors.lv/"><img src="images/kursors.png" /></a>
-            </section>
-            <section class="2u 12u$(small)">
-              <a target="_blank" href="http://devchampions.com"><img src="images/devchamps.png" /></a>
-            </section>
-            <section class="2u 12u$(small)">
-            <a target="_blank" href="http://www.millriga.com/"><img src="images/mill.png" /></a>
-            </section>
-            <section class="2u 12u$(small)">
-            <a target="_blank" href="http://techchill.co/"><img src="images/techchill.png" /></a>
-            </section> -->
-            <!--
-            <section class="2u 12u$(small)">
-              <a target="_blank" href="http://www.labsoflatvia.com/"><img src="images/labsoflatvia.png" /></a>
-            </section>
-            <section class="2u 12u$(small)">
-              <a target="_blank" href="http://bycraft.by/"><img src="images/bycra.png" /></a>
-            </section>
-            <section class="2u 12u$(small)">
-              <a target="_blank" href="https://riga.techhub.com"><img src="images/techhub.png" /></a>
-            </section> -->
-            </div>
-            <p style="margin-top: 100px" class="align-center">Interested in becoming a sponsor and appearing at the event? <a href="mailto:{{event.contactEmail}}">Drop us</a> an email.</p>
-    </section>  
-
-    <!-- Footer -->
-      <footer id="footer">
-        <div class="container">
-          <div class="row">
-            <section class="12u">
-            </section>
-          </div>
-          <div class="row">
-            <section class="6u 12u$(small)">
-              <h3>Organisers</h3>
-              <p>DevTernity is organised with pride, love <i class="fa fa-heart" style="color: red" aria-hidden="true"></i> and care by <a target="_blank" href="http://www.latcraft.lv">Latvian Software Craftsmanship Community</a>.</p>
-              <img src="images/team.jpg" style="width:90%; border: 2px solid black; "/>
-            </section>
-            <section class="6u 12u$(small)">
-              <h3>Follow Us</h3>
-              <ul class="icons">
-                each link, social in data.socials
-                  li
-                    a(href=link)
-                      i(class=`icon rounded fa fa-${social}`)
-              </ul>
-              ul.tabular
+    footer#footer
+      div.container
+        div.row
+          section(class="12u")
+        div.row
+          section(class="6u 12u$(small)")
+            h3 Organisers
+            p
+              | DevTernity is organised with pride, love 
+              i.fa.fa-heart(style="color: red" aria-hidden="true")
+              |  and care by 
+              a(target="_blank" href="http://www.latcraft.lv") Latvian Software Craftsmanship Community
+              | .
+            img(src="images/team.jpg" style="width:90%; border: 2px solid black; ")
+          section(class="6u 12u$(small)")
+            h3 Follow Us
+            ul.icons
+              each link, social in data.socials
                 li
-                  h3 Mail
-                  a(href=`mailto:${data.contactEmail}`) #{data.contactEmail}
-                li
-                  h3 Phone
-                  | (+371) 288 14 170 🇬🇧 🇷🇺 🇱🇻
-            </section>
-          </div>
-        </div>
+                  a(href=link)
+                    i(class=`icon rounded fa fa-${social}`)
+            ul.tabular
+              li
+                h3 Mail
+                a(href=`mailto:${data.contactEmail}`) #{data.contactEmail}
+              li
+                h3 Phone
+                | (+371) 288 14 170 🇬🇧 🇷🇺 🇱🇻
 
-    <ul class="copyright">
-      <li>&copy; DevTernity. All rights reserved.</li>
-    </ul>
-      </footer>
+      ul.copyright
+        li &copy; DevTernity. All rights reserved
 
     script(type="text/javascript")
       | var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -629,5 +543,3 @@ doctype html
     noscript
       div
         img(src="https://mc.yandex.ru/watch/47893700" style="position:absolute; left:-9999px;" alt="")
-  </body>
-</html>

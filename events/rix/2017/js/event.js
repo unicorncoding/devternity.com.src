@@ -91,104 +91,127 @@
             "signature": "Eduards Sizovs, Conference Founder"
           }
         ],
-        "sponsors": [
-          {
-            "package": "platinum",
-            "logo": "eas.png",
-            "link": "https://www.workinestonia.com",
-            "info": "<p>Work in Estonia introduces Estonia as an attractive living and working destination to talented potential employees worldwide, particularly in the ICT sector. Come and join the first digital society!</p>"
+        "sponsorship": {
+          "platinum": {
+            "title": "Platinum Sponsors",            
+            "stars": 5,
+            "sponsorsPerLine": 1,
+            "sponsors": [
+              {
+                "logo": "eas.png",
+                "link": "https://www.workinestonia.com",
+                "info": "<p>Work in Estonia introduces Estonia as an attractive living and working destination to talented potential employees worldwide, particularly in the ICT sector. Come and join the first digital society!</p>"                
+              }
+            ]
           },
-          {
-            "package": "gold",
-            "logo": "4finance.png",
-            "link": "http://www.4financeit.com/",
-            "info": "<p><a href=\"http://4financeit.com\">4financeIT</a> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance (15 different countries).</p>"
+          "gold": {
+            "title": "Gold Sponsors",            
+            "stars": 3,
+            "sponsorsPerLine": 2,            
+            "sponsors": [
+              {
+                "logo": "4finance.png",
+                "link": "http://www.4financeit.com/",
+                "info": "<p><a href=\"http://4financeit.com\">4financeIT</a> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance (15 different countries).</p>"
+              },
+              {
+                "logo": "visma.png",
+                "link": "https://www.visma.lv/vakances",
+                "info": "Do you think time and money matter? We at Visma believe so. Therefore we make IT solutions that enable our customers to save both. \"Efficiency experts\", that's how we like to call ourselves. We achieve that by building international teams of smart minds who enjoy being stretched to their limits. Click on the logo and check if you would like to join us."
+              },
+              {
+                "logo": "pipedrive.png",
+                "link": "https://www.pipedrive.com/en/jobs",
+                "info": "<a href=\"https://www.pipedrive.com/en/jobs\">Pipedrive</a> is a tool that gets sales teams organized. Pipedrive employs the brightest talent, with over 20 nationalities represented amongst the staff. We believe that it takes great people to deliver a great product."
+              },
+              {
+                "logo": "intrum.png",
+                "link": "https://www.intrum.com/en/intrum-justitia-software-development-centre/",
+                "info": "<p>More than 160 IT Specialists at <a href=\"https://www.intrum.com/en/intrum-justitia-software-development-centre/\">Intrum Justitia Software Development Centre</a> are developing, supporting and maintaining financial systems for Intrum Justitia Group all over the Europe. Various programming languages, tools and methodologies are used to deliver valuable solutions and make work interesting for each person who joins the team.</p>"
+              },
+              {
+                "logo": "ulabs.png",
+                "link": "https://ulabs.ubnt.com",
+                "info": "<p>In <a href=\"https://ulabs.ubnt.com\">ULabs Riga</a>, part of global company <a href=\"https://www.ubnt.com\">Ubiquiti Networks Inc.</a> producing wireless networking and consumer product, we are always searching the next big thing - we reinvent existing concepts, create smart solutions and drive innovation. Sponsoring DevTernity 2017 we see as taking steps towards this \"next big thing\" because ideas are born during the interchange of opinions, knowledge, and inspiration. We are proud to be part of evolving and dynamic platform where professionals meet to broaden their horizons and change perspective.</p>"
+              }
+            ]
           },
-          {
-            "package": "gold",
-            "logo": "visma.png",
-            "link": "https://www.visma.lv/vakances",
-            "info": "Do you think time and money matter? We at Visma believe so. Therefore we make IT solutions that enable our customers to save both. \"Efficiency experts\", that's how we like to call ourselves. We achieve that by building international teams of smart minds who enjoy being stretched to their limits. Click on the logo and check if you would like to join us."
+          "others": {
+            "title": "...as well as",
+            "stars": 0,
+            "sponsorsPerLine": 3,            
+            "sponsors": [
+              {
+                "package": "others",
+                "logo": "likeit.png",
+                "link": "http://likeit.lv"
+              },
+              {
+                "package": "others",
+                "logo": "taxify.png",
+                "link": "https://taxify.eu/careers/"
+              },
+              {
+                "package": "others",
+                "logo": "also.png",
+                "link": "https://stackoverflow.com/jobs/companies/also-cloud-oy"
+              },
+              {
+                "package": "others",
+                "logo": "intexsys.png",
+                "link": "http://intexsys.lv/careers"
+              },
+              {
+                "package": "others",
+                "logo": "toptal.png",
+                "link": "http://toptal.com/top-3-percent?utm_source=devternityLV&utm_medium=logo&utm_campaign=sponsorships"
+              },
+              {
+                "package": "others",
+                "logo": "neotech.png",
+                "link": "http://www.neotech.lv"
+              }            
+            ]
           },
-          {
-            "package": "gold",
-            "logo": "pipedrive.png",
-            "link": "https://www.pipedrive.com/en/jobs",
-            "info": "<a href=\"https://www.pipedrive.com/en/jobs\">Pipedrive</a> is a tool that gets sales teams organized. Pipedrive employs the brightest talent, with over 20 nationalities represented amongst the staff. We believe that it takes great people to deliver a great product."
-          },
-          {
-            "package": "gold",
-            "logo": "intrum.png",
-            "link": "https://www.intrum.com/en/intrum-justitia-software-development-centre/",
-            "info": "<p>More than 160 IT Specialists at <a href=\"https://www.intrum.com/en/intrum-justitia-software-development-centre/\">Intrum Justitia Software Development Centre</a> are developing, supporting and maintaining financial systems for Intrum Justitia Group all over the Europe. Various programming languages, tools and methodologies are used to deliver valuable solutions and make work interesting for each person who joins the team.</p>"
-          },
-          {
-            "package": "gold",
-            "logo": "ulabs.png",
-            "link": "https://ulabs.ubnt.com",
-            "info": "<p>In <a href=\"https://ulabs.ubnt.com\">ULabs Riga</a>, part of global company <a href=\"https://www.ubnt.com\">Ubiquiti Networks Inc.</a> producing wireless networking and consumer product, we are always searching the next big thing - we reinvent existing concepts, create smart solutions and drive innovation. Sponsoring DevTernity 2017 we see as taking steps towards this \"next big thing\" because ideas are born during the interchange of opinions, knowledge, and inspiration. We are proud to be part of evolving and dynamic platform where professionals meet to broaden their horizons and change perspective.</p>"
-          },
-          {
-            "package": "others",
-            "logo": "likeit.png",
-            "link": "http://likeit.lv"
-          },
-          {
-            "package": "others",
-            "logo": "taxify.png",
-            "link": "https://taxify.eu/careers/"
-          },
-          {
-            "package": "others",
-            "logo": "also.png",
-            "link": "https://stackoverflow.com/jobs/companies/also-cloud-oy"
-          },
-          {
-            "package": "others",
-            "logo": "intexsys.png",
-            "link": "http://intexsys.lv/careers"
-          },
-          {
-            "package": "others",
-            "logo": "toptal.png",
-            "link": "http://toptal.com/top-3-percent?utm_source=devternityLV&utm_medium=logo&utm_campaign=sponsorships"
-          },
-          {
-            "package": "others",
-            "logo": "neotech.png",
-            "link": "http://www.neotech.lv"
-          },
-          {
-            "package": "media",
-            "logo": "diversity.png",
-            "link": "http://diversitycharter.org"
-          },
-          {
-            "package": "media",
-            "logo": "latcraft.png",
-            "link": "http://latcraft.lv"
-          },
-          {
-            "package": "media",
-            "logo": "reactiveconf.png",
-            "link": "https://reactiveconf.com"
-          },
-          {
-            "package": "media",
-            "logo": "4sure.png",
-            "link": "http://4sure.lv/"
-          },
-          {
-            "package": "media",
-            "logo": "jguru.png",
-            "link": "http://javaguru.lv/"
-          },
-          {
-            "package": "media",
-            "logo": "devchampions.png",
-            "link": "http://devchampions.com/"
+          "media": {
+            "title": "media friends",            
+            "stars": 0,
+            "grayscale": true,
+            "sponsorsPerLine": 6,
+            "sponsors": [
+                {
+                  "package": "media",
+                  "logo": "diversity.png",
+                  "link": "http://diversitycharter.org"
+                },
+                {
+                  "package": "media",
+                  "logo": "latcraft.png",
+                  "link": "http://latcraft.lv"
+                },
+                {
+                  "package": "media",
+                  "logo": "reactiveconf.png",
+                  "link": "https://reactiveconf.com"
+                },
+                {
+                  "package": "media",
+                  "logo": "4sure.png",
+                  "link": "http://4sure.lv/"
+                },
+                {
+                  "package": "media",
+                  "logo": "jguru.png",
+                  "link": "http://javaguru.lv/"
+                },
+                {
+                  "package": "media",
+                  "logo": "devchampions.png",
+                  "link": "http://devchampions.com/"
+                }            
+            ]
           }
-        ],
+        },
         "program": [
             {
                 "event": "workshops",

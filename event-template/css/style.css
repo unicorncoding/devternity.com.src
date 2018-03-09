@@ -1422,7 +1422,7 @@ form.subscribe input[type='submit'] {
 	width: 80px !important;
 }
 
-.media img {
+img.grayscale {
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
