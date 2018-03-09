@@ -382,9 +382,15 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                     strong.sold FEW TICKETS LEFT
                   | 
                   i.fa.fa-clock-o(aria-hidden="true") 
-                  | #{speaker.time} 
+                  |  #{speaker.time} 
                   strong #{speaker.title}
-                h5: span #{speaker.tagList}
+                h5 
+                  span
+                    if speaker.tags
+                      each tag, index in speaker.tags
+                        span.tag ##{tag}
+                        if index != speaker.tags.length - 1 
+                          |  
                 div.who !{speaker.description}
           if data.hasUnknownWorkshops
             br

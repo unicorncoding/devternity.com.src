@@ -40,6 +40,18 @@ strong a {
 	margin-top: 50px;
 }
 
+#workshops-container span.tag {
+	color: white;
+	background-color: #4dac71;
+	padding: 0.3em 1em;
+	line-height: 2em;
+	border-radius: 5px;
+	white-space: nowrap;
+	display: inline;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
 #tickets-container {
 	padding-top: 30px !important;
 }
@@ -56,7 +68,7 @@ strong a {
 	font-weight: bold;
 }
 
-span.tag {
+.evt span.tag {
 	font-size: 13px;
 }
 
