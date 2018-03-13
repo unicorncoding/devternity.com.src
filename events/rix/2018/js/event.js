@@ -39,7 +39,8 @@
           "facebook": "https://www.facebook.com/devternity",
           "linkedin": "http://go.devternity.com/linkedin",
           "instagram": "https://www.instagram.com/devternity",
-          "youtube": "https://youtube.com/c/DevTernity"
+          "youtube": "https://youtube.com/c/DevTernity",
+          "wikipedia-w": "https://en.wikipedia.org/wiki/DevTernity_Conference"
         },
         "benefits": {
           "Fluent and inspiring speakers": "We invite speakers based on their track record and community feedback. No promo, sponsored or filler talks.",
