@@ -280,9 +280,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               each speaker, speakerrIndex in row
                 if speaker.name
                   section(class="feature 3u 12u$(small)")
-                      img.headshot(src=speaker.img, alt=speaker.name)
+                      img.lazy.headshot(data-src=speaker.img, alt=speaker.name)
                       div.whoname
-                        img(src=`images/flags/${speaker.country}.png` alt=`${speaker.country} flag`) 
+                        img.lazy(data-src=`images/flags/${speaker.country}.png` alt=`${speaker.country} flag`) 
                         |  #{speaker.name}
                       div.who !{speaker.bio}
                       if speaker.twitter
@@ -340,9 +340,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       div.row
                         section(class="12u")
                           div
-                            img.headshot(src=`${event.img}`)
+                            img.lazy.headshot(data-src=`${event.img}`)
                             p.whoname
-                              img(src=`images/flags/${event.country}.png` alt=`${event.country} flag`)
+                              img.lazy(data-src=`images/flags/${event.country}.png` alt=`${event.country} flag`)
                               |  #{event.name}
                             p !{event.bio}
                           p.speaker !{event.long_bio}
@@ -366,9 +366,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           each speaker in data.workshops
             div.row
               section(class="feature 6u 12u$(small)")
-                img.headshot(src=`${speaker.img}`)
+                img.lazy.headshot(data-src=`${speaker.img}`)
                 div.whoname
-                  img(src=`images/flags/${speaker.country}.png` alt=`${speaker.country}} flag`) 
+                  img.lazy(data-src=`images/flags/${speaker.country}.png` alt=`${speaker.country}} flag`) 
                   |  #{speaker.name ? speaker.name : "Coming soon."}
                 div.who
                   strong !{speaker.bio}
@@ -493,7 +493,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                   each sponsor, index in package.sponsors
                     section(class=`${12 / package.sponsorsPerLine}u`)
                       a(target="_blank" rel="noopener" href=sponsor.link)
-                        img(class=`${package.grayscale ? 'grayscale' : ''}` src=`images/${sponsor.logo}`)
+                        img.lazy(class=`${package.grayscale ? 'grayscale' : ''}` data-src=`images/${sponsor.logo}`)
                       p !{sponsor.info}
                   br
             p.align-center(style="margin-top: 100px")
@@ -514,7 +514,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               |  and care by 
               a(target="_blank" href="http://www.latcraft.lv") Latvian Software Craftsmanship Community
               | .
-            img(src="images/team.jpg" style="width:90%; border: 2px solid black; ")
+            img.lazy(data-src="images/team.jpg" style="width:90%; border: 2px solid black; ")
           section(class="6u 12u$(small)")
             h3 Follow Us
             ul.icons
@@ -549,3 +549,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     noscript
       div
         img(src="https://mc.yandex.ru/watch/47893700" style="position:absolute; left:-9999px;" alt="")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.6.0/lazyload.min.js")
+    script.
+        new LazyLoad({
+            elements_selector: 'img.lazy',
+            treshold: 500
+        });
