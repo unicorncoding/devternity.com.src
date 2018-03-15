@@ -117,7 +117,7 @@
                       "video": ""
                   },
                   {
-                      "product": "REACTIVE_PROGRAMMING",
+                      "product": "KOTLIN",
                       "name": "Venkat Subramaniam",
                       "type": "speech",
                       "time": "9:00 - 18:00",
