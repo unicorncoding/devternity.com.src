@@ -152,7 +152,7 @@ gulp.task('watch', () => {
     gulp.watch(["event-template/**/*", "events/**/*"], ['build']);
 });
 
-gulp.task('min', ['purgecss', 'imagemin']);
+gulp.task('min', ['imagemin']);
 // gulp.task('build', ['events', 'copy-statics']);
 
 // it is important, that purgecss runs after there are files in ./build

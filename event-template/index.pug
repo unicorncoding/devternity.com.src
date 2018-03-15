@@ -340,9 +340,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       div.row
                         section(class="12u")
                           div
-                            img.lazy.headshot(data-src=`${event.img}`)
+                            img.headshot(src=`${event.img}`)
                             p.whoname
-                              img.lazy(data-src=`images/flags/${event.country}.png` alt=`${event.country} flag`)
+                              img(src=`images/flags/${event.country}.png` alt=`${event.country} flag`)
                               |  #{event.name}
                             p !{event.bio}
                           p.speaker !{event.long_bio}
@@ -551,7 +551,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
         img(src="https://mc.yandex.ru/watch/47893700" style="position:absolute; left:-9999px;" alt="")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.6.0/lazyload.min.js")
     script.
-        new LazyLoad({
+        window.lazyLoad = new LazyLoad({
             elements_selector: 'img.lazy',
             treshold: 500
         });
