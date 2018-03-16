@@ -43,11 +43,11 @@
           "wikipedia-w": "https://en.wikipedia.org/wiki/DevTernity_Conference"
         },
         "benefits": {
-          "Fluent and inspiring speakers": "We invite speakers based on their track record and community feedback. No promo, sponsored or filler talks.",
-          "Unique and valuable content": "Every talk undergo the rigour review by the content committee. The committee comprise of well-known conference speakers and industry experts.",
-          "Cross-discipline topics": "As a distinguished professional, you need to be comfortable at many topics. Therefore we cover the latest developments in coding, architecture, operations, security, leadership and other relevant IT areas.",
-          "Intensive and saturated program": "Your time is money, that’s why DevTernity is two-day long. The intensive talks day, followed by practical workshops.",
-          "Excellent location": "DevTernity runs in the heart of the Baltic and connected by direct flights with most European airports. The location is both stunning and affordable for foreign visitors."
+          "Best speakers": "We carefully cherry-pick speakers based on their track record and community feedback. No promo, sponsored and Agile bullshit permitted.",
+          "Inspiring talks": "We only choose talks that are relevant and blazingly good. Each talk undergoes the rigourous review process by the content committee. The committee comprise of well-known conference speakers and industry experts.",
+          "Versatile topics": "It takes more than one skill to be a great developer. DevTernity is cross-discipline and covers the latest developments in coding, architecture, operations, security, leadership and other core IT areas.",
+          "Perfect theory & practice balance": "DevTernity starts with a day full of inspiring talks, followed by set of practical workshops.",
+          "Excellent location": "DevTernity runs in the heart of the Baltics, connected by direct flights with most European airports. The location is both stunning and affordable for foreign visitors."
         },
         "pricing": {
             "discount": {

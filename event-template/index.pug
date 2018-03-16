@@ -227,12 +227,12 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             section.hotel(class="3u 12u$(small)")
               i.icon.big.rounded.fa-location-arrow
               h3 #{data.city}, #{data.venue_name}
-              h5: a(href="#{data.venue_map}") Location on map
+              h5: strong: a(href="#{data.venue_map}") Location on map
               h5 
                 | The recommended hotel for attendees is #{data.hotel_name} (
-                a(href="#{data.hotel_link}") book
+                strong: a(href="#{data.hotel_link}") book
                 |, 
-                a(href="#{data.hotel_to_venue_map}") see directions
+                strong: a(href="#{data.hotel_to_venue_map}") see directions
                 | )
             section(class="3u 12u$(small)")
               i.icon.big.rounded.fa-users
@@ -454,26 +454,26 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                   div
                     p 
                       | We support people who take responsibility for their education. If you are self-funding your participation, you are entitled for a special discount. Please 
-                      a(href=`mailto:${data.contactEmail}`) drop us
+                      strong: a(href=`mailto:${data.contactEmail}`) drop us
                       |  an email.
                 section(class="feature 4u 12u$(small)")
                   h3.title Evangelists
                   div
                     p 
                       | Mention us on your blog/page/user group, rate our 
-                      a(href="https://www.facebook.com/devternity") Facebook page
+                      strong: a(href="https://www.facebook.com/devternity") Facebook page
                       |  or leave a review on 
-                      a(href="https://trustpilot.com/review/devternity.com") Trustpilot
+                      strong: a(href="https://trustpilot.com/review/devternity.com") Trustpilot
                       | . Then 
-                      a(href=`mailto:${data.contactEmail}`) drop us
+                      strong: a(href=`mailto:${data.contactEmail}`) drop us
                       |  an email and ask for discount.
                 section(class="feature 4u 12u$(small)")
                   h3.title Sponsors
                   div
                     p 
                       | We provide sponsors with discount for supporting the event. Please 
-                      a(href=`mailto:${data.contactEmail}`) contact us
-                        |  and receive an exclusive sponsorship offer.
+                      strong: a(href=`mailto:${data.contactEmail}`) contact us
+                      |  and receive an exclusive sponsorship offer.
 
 
 
@@ -512,7 +512,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               | DevTernity is organised with pride, love 
               i.fa.fa-heart(style="color: red" aria-hidden="true")
               |  and care by 
-              a(target="_blank" href="http://www.latcraft.lv") Latvian Software Craftsmanship Community
+              strong: a(target="_blank" href="http://www.latcraft.lv") Latvian Software Craftsmanship Community
               | .
             img.lazy(data-src="images/team.jpg" style="width:90%; border: 2px solid black; ")
           section(class="6u 12u$(small)")
@@ -525,7 +525,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             ul.tabular
               li
                 h3 Mail
-                a(href=`mailto:${data.contactEmail}`) #{data.contactEmail}
+                strong: a(href=`mailto:${data.contactEmail}`) #{data.contactEmail}
               li
                 h3 Phone
                 | (+371) 288 14 170 🇬🇧 🇷🇺 🇱🇻
