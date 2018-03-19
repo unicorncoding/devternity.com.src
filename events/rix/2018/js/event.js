@@ -43,7 +43,7 @@
           "wikipedia-w": "https://en.wikipedia.org/wiki/DevTernity_Conference"
         },
         "benefits": {
-          "Top quality": "Everything from talks to organisation is of premium quality. We are rated <i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> <strong>️Excellent</strong> on <a href=\"trustpilot.com/review/devternity.com\">TrustPilot</a>.",
+          "Top quality": "Everything from talks to organisation is of premium quality. We are rated <i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> <strong>️Excellent</strong> on <a href=\"https://trustpilot.com/review/devternity.com\">TrustPilot</a>.",
           "Best speakers": "We carefully cherry-pick speakers based on the track record and community feedback. No self-promotion, marketing and Agile bullshit permitted.",
           "Versatile topics": "It takes more than one skill to be a great developer. That's why DevTernity is cross-discipline and covers the latest developments in coding, architecture, operations, security, leadership and other core IT areas.",
           "Perfect theory & practice balance": "DevTernity is blend of inspiring talks and hands-on, instructor-led power workshops.",
