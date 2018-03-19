@@ -243,15 +243,12 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           h2 &nbsp;
           h2 Why DevTernity?
           div(class="row 200% why")
-            - var index = 1
             each text, title in data.benefits
               section(class="6u 12u$(small) align-left")
                 h3
-                  span.fa-stack.fa-lg
-                    i.fa.fa-circle.fa-stack-2x
-                    strong.fa-stack-1x(style="color: #4dac71") #{index++}
+                  i.fa.fa-check-circle(aria-hidden="true")
                   |  #{title}
-                p=text
+                p!=text
         div#trailer
           input(type="button" value="Watch Video Trailer" style="padding: 0 1em" ng-click="watchPromo()")
 
