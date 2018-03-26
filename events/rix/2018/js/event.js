@@ -89,6 +89,11 @@
                 "info": "<p><strong><a href=\"http://4financeit.com\">4financeIT</a></strong> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance (15 different countries).</p>"
               },
               {
+                "logo": "ulabs.png",
+                "link": "https://ulabs.ubnt.com",
+                "info": "<p>In <strong><a href=\"https://ulabs.ubnt.com\">ULabs Riga</a></strong>, part of global company <strong><a href=\"https://www.ubnt.com\">Ubiquiti Networks Inc.</a></strong> producing wireless networking and consumer product, we are always searching the next big thing – we reinvent existing concepts, create smart solutions and drive innovation. Sponsoring DevTernity 2018 we see as taking steps towards this \"next big thing\" because ideas are born during the interchange of opinions, knowledge, and inspiration. We are proud to be part of evolving and dynamic platform where professionals meet to broaden their horizons and change perspective.</p>"
+              },
+              {
                 "logo": "devchampions.png",
                 "link": "https://devchampions.com/",
                 "info": "<p><strong><a href=\"https://devchampions.com\">DevChampions</a></strong> offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation, Agile methodologies and soft skills.</p>"
