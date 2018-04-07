@@ -45,6 +45,23 @@ strong a {
 	margin-top: 50px;
 }
 
+#workshops-container ul {
+  list-style: none;
+  padding: 0;	
+}
+
+#workshops-container li {
+  padding-left: 1.3em;
+}
+
+#workshops-container li:before {
+  content: "\f058"; 
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em; 
+}
+
 #workshops-container span.tag {
 	color: white;
 	background-color: #4dac71;
