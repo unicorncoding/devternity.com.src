@@ -20,6 +20,11 @@ select {
 	margin: 0 0 1em 0
 }
 
+span.nowrap {
+	white-space: nowrap;
+	display: inline;
+}
+
 .button {
 	padding: 0 0.7em !important;
 }
@@ -32,7 +37,7 @@ strong a {
 	font-weight: bold;
 }
 
-#speakers-container .follow-speaker {
+.follow-speaker {
 	color: #666;
 }
 
@@ -340,6 +345,13 @@ form.subscribe input[type='submit'] {
 
 	.intro strong, .intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6 {
 		color: white;
+	}
+
+	.intro em, #tickets-container em {
+		font-style: normal;
+		padding: 1px 5px 3px;
+		background-color: white;
+		color: #3ba666;
 	}
 	
 

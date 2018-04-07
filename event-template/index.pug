@@ -206,14 +206,20 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             h2
             p 
               | DevTernity is 
-              strong the premium-quality international software development conference in Riga, Latvia
-              |.
+              em the premium-quality
+              |  international software development conference in Riga, Latvia.
             p
             h2
             h2
             p 
-              | DevTernity does not specialize in a particular framework, technology or language because they come and go. 
-              strong We focus on the core building blocks and practices necessary for building better, modern software systems
+              | DevTernity focuses on the core principles of 
+              em software architecture
+              |  
+              em clean code
+              |  
+              em technical leadership
+              |  and 
+              em operations
               |.
             p
             h2
@@ -233,10 +239,18 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 | )
             section(class="3u 12u$(small)")
               i.icon.big.rounded.fa-users
-              h3 700 attendees, 20 talks, 3 tracks
+              h3 
+                strong 700
+                |  developers
+                br 
+                strong 20
+                |  talks
+                br 
+                strong 3
+                |  parallel tracks
             section(class="3u 12u$(small)")
               i.icon.big.rounded.fa-cogs
-              h3 Full day of instructor-led workshops
+              h3 Full day of hands-on workshops
           h2 &nbsp;
           h2 Why DevTernity?
           div(class="row 200% why")
@@ -260,15 +274,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             h1 Day I: Inspiring Talks (#{data.days[0]})
             h2
             p 
-              | We have invited speakers that are 
-              strong fluent
-              |, 
-              strong technically skilled
-              |  and 
-              strong inspiring
-              |.
-            h2
-            p No Agile bullshit bingo and marketing talks permitted. See for yourself:
+              em No Agile bullshit bingo and marketing talks permitted. See for yourself:
           each row in data.speakersInRows
             div.row
               each speaker, speakerrIndex in row
@@ -350,10 +356,8 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             h1 Day II: Power Workshops (#{data.days[1]})
             h2
             if data.workshops.length
-              p 
-                | Our instructors are here to deliver 
-                strong pragmatic and intensive workshops
-                | . Go beyond theory with industry experts:
+              p
+                em Our instructors are here to deliver full-day workshops. Go beyond theory with industry experts:
             else
               p Coming soon...
 
@@ -363,21 +367,23 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 img.lazy.headshot(data-src=`${speaker.img}`)
                 div.whoname
                   img.lazy(data-src=`images/flags/${speaker.country}.png` alt=`${speaker.country}} flag`) 
-                  |  #{speaker.name ? speaker.name : "Coming soon."}
+                  |  #{speaker.name ? speaker.name : "Coming soon."} 
+                  if speaker.twitter
+                    a(href=`https://twitter.com/${speaker.twitter}`)
+                      i.fa.fa-twitter.follow-speaker(aria-hidden="true")              
                 div.who
                   strong !{speaker.bio}
                   br
                   | !{speaker.long_bio}
               section(class="feature 6u 12u$(small) align-left")
                 h3
+                  strong 
+                    i.icon.rounded.fa-cogs
+                    |  #{speaker.title} 
                   if speaker.sold_out
                     strong.sold SOLD OUT
                   if speaker.sold_out_soon
-                    strong.sold FEW TICKETS LEFT
-                  | 
-                  i.fa.fa-clock-o(aria-hidden="true") 
-                  |  #{speaker.time} 
-                  strong #{speaker.title}
+                    strong.sold FEW TICKETS LEFT                    
                 h5 
                   span
                     if speaker.tags
@@ -403,13 +409,18 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
       div.container
         header
           h1 Tickets
-          p The number of seats is limited and every year we are running out of tickets quickly. Secure your seat now (and feel free to change the information about the participants later).
+          h2
+          p
+            | Every year 
+            em we quickly run out of tickets.
+            br
+            |  Secure your seat now and feel free to change the information about the participants later.
 
         div.row
           section(class="feature 3u 12u$(medium) 12u$(small)") 
             | &nbsp;
           section(class="tick feature 6u 12u$(medium) 12u$(small)")
-            div.row: h3.title Tickets are limited
+            div.row: h3.title Discount tickets are limited
             div.row.nopadding
               each product in data.pricing.products
                 section(class="4u 12u$(small)")
@@ -478,7 +489,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               header.align-center
                 br
                 h2
-                  strong=package.title
+                  strong=package.title 
                   - var star = 0
                   while star++ < package.stars
                     i.fa.fa-star(aria-hidden="true" style="color: orange")

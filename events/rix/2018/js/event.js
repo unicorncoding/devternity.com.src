@@ -43,7 +43,7 @@
           "wikipedia-w": "https://en.wikipedia.org/wiki/DevTernity_Conference"
         },
         "benefits": {
-          "Top quality": "Everything from talks to organisation is of premium quality. We are rated <i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> <strong>Excellent</strong> on <a href=\"https://trustpilot.com/review/devternity.com\">TrustPilot</a>.",
+          "Top quality": "Everything from talks to organisation is of premium quality. We are rated <span class=\"nowrap\"><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> <em>Excellent</em></span> on <strong><a href=\"https://trustpilot.com/review/devternity.com\">TrustPilot</a></strong>.",
           "Best speakers": "We carefully cherry-pick speakers based on the track record and community feedback. No self-promotion, marketing and Agile bullshit permitted.",
           "Versatile topics": "It takes more than one skill to be a great developer. That's why DevTernity is cross-discipline and covers the latest developments in coding, architecture, operations, security, leadership and other core IT areas.",
           "Perfect theory & practice balance": "DevTernity is blend of inspiring talks and hands-on, instructor-led power workshops.",
@@ -109,6 +109,7 @@
                       "product": "CRAFTING_CODE",
                       "name": "Sandro Mancuso",
                       "type": "speech",
+                      "twitter": "sandromancuso",                      
                       "time": "9:00 - 18:00",
                       "tags": ["clean-code", "tdd", "refactoring"],
                       "country": "gb",
@@ -119,14 +120,16 @@
                       "img": "images/sandroma.png",
                       "presentation": "",
                       "sold_out": false,
+                      "sold_out_soon": true,                      
                       "video": ""
                   },
                   {
                       "product": "KOTLIN",
                       "name": "Venkat Subramaniam",
                       "type": "speech",
+                      "twitter": "venkat_s",                      
                       "time": "9:00 - 18:00",
-                      "tags": ["kotlin"],                      
+                      "tags": ["kotlin", "jvm", "java developers"],                      
                       "country": "us",
                       "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
                       "long_bio": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com.",
