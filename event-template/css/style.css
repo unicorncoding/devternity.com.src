@@ -51,10 +51,10 @@ strong a {
 	padding: 0.3em 1em;
 	line-height: 2em;
 	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;		
 	white-space: nowrap;
 	display: inline;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;	
 }
 
 #tickets-container {
@@ -1190,9 +1190,7 @@ form.subscribe input[type='submit'] {
 	}
 
 	.sold {
-		padding: 5px 10px;
-		background-color: #C80815;
-		color: white;
+		background-color: #C80815 !important;
 	}
 
 	body.landing #header {

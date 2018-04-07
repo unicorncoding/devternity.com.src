@@ -380,13 +380,15 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                   strong 
                     i.icon.rounded.fa-cogs
                     |  #{speaker.title} 
-                  if speaker.sold_out
-                    strong.sold SOLD OUT
-                  if speaker.sold_out_soon
-                    strong.sold FEW TICKETS LEFT                    
                 h5 
                   span
                     if speaker.tags
+                      if speaker.sold_out
+                        span.tag.sold SOLD OUT
+                        | 
+                      if speaker.sold_out_soon
+                        span.tag.sold FEW TICKETS LEFT
+                        | 
                       each tag, index in speaker.tags
                         span.tag ##{tag}
                         if index != speaker.tags.length - 1 
