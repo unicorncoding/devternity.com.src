@@ -379,6 +379,8 @@ form.subscribe input[type='submit'] {
 		padding: 1px 5px 3px;
 		background-color: white;
 		color: #3ba666;
+		white-space: nowrap;
+		display: inline;		
 	}
 	
 
@@ -1425,6 +1427,8 @@ form.subscribe input[type='submit'] {
 			font-style: normal;
 			padding: 1px 5px 3px;
 			background-color: #4dac71;
+			white-space: nowrap;
+			display: inline;			
 		}
 
 		#footer h2, #footer h3, #footer h4 {
