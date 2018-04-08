@@ -128,18 +128,18 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
       | }
 
       | #devternity-loading div.loading-container {
-      |   background-color: #333333;
-      |  bottom: 0px;
+      |   background-color: #353c46;
+      |   bottom: 0px;
       |   left: 0px;
       |   opacity: 1.0;
       |   position: fixed;
-      |  right: 0px;
+      |   right: 0px;
       |   top: 0px;
       |   z-index: 999999;
       | }
 
       | #devternity-loading div.messaging {
-      |  color: #FFFFFF;
+      |   color: #FFFFFF;
       |   left: 0px;
       |   margin-top: -37px;
       |   position: absolute;
@@ -344,10 +344,8 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                             p.whoname
                               img(src=`images/flags/${event.country}.png` alt=`${event.country} flag`)
                               |  #{event.name}
-                            p !{event.bio}
-                          p.speaker !{event.long_bio}
-                          br
-                          p.whoname #{event.title}
+                            p.speaker-bio !{event.bio}
+                          p.whoname: em #{event.title}
                           p.speaker !{event.description}
 
     section#workshops-container.wrapper.workshops.align-center
@@ -422,7 +420,6 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           section(class="feature 3u 12u$(medium) 12u$(small)") 
             | &nbsp;
           section(class="tick feature 6u 12u$(medium) 12u$(small)")
-            div.row: h3.title Discount tickets are limited
             div.row.nopadding
               each product in data.pricing.products
                 section(class="4u 12u$(small)")
@@ -442,29 +439,28 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       span SOLD OUT
             div.row
               section(class="12u 12u$(small)")
-                h5(style="color:black")
-                  i.fa.fa-exclamation-circle(aria-hidden="true")
-                  |  Prices will grow as ticket amount decreases.
-            div.row
-              section(class="12u 12u$(small)")
-                input.pulse(type="button" value="Secure a seat now" style="padding: 0 1em" disabled=data.status == 'booked' ng-click=`buy('${data.register}')`)
+                if data.status != 'booked'
+                  input.pulse(type="button" value="Registration" style="padding: 0 1em" ng-click=`buy('${data.register}')`)
           section(class="feature 3u 12u$(medium) 12u$(small)")
             | &nbsp;
 
         div.row
           section(class="feature 12u 12u$(small)")
             header.discounts
-              h2 Special discounts
               div.row
                 section(class="feature 4u 12u$(small)")
-                  h3.title Individuals
+                  h3.title 
+                    i.fa.fa-percent
+                    |  Discount for individuals
                   div
                     p 
                       | We support people who take responsibility for their education. If you are self-funding your participation, you are entitled for a special discount. Please 
                       strong: a(href=`mailto:${data.contactEmail}`) drop us
                       |  an email.
                 section(class="feature 4u 12u$(small)")
-                  h3.title Evangelists
+                  h3.title 
+                    i.fa.fa-percent
+                    |  Discount for evangelists
                   div
                     p 
                       | Mention us on your blog/page/user group, rate our 
@@ -475,7 +471,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       strong: a(href=`mailto:${data.contactEmail}`) drop us
                       |  an email and ask for discount.
                 section(class="feature 4u 12u$(small)")
-                  h3.title Sponsors
+                  h3.title 
+                    i.fa.fa-percent
+                    |  Discount for sponsors
                   div
                     p 
                       | We provide sponsors with discount for supporting the event. Please 
@@ -504,9 +502,10 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       p !{sponsor.info}
                   br
             p.align-center(style="margin-top: 100px")
-              | Interested in becoming a sponsor and appearing at the event? 
-              strong: a(href=`mailto:${data.contactEmail}`) Drop us
-              |  an email.
+              em 
+                | Interested in becoming a sponsor? 
+                strong: a(href=`mailto:${data.contactEmail}`) Drop us
+                |  an email.
 
     footer#footer
       div.container
@@ -516,14 +515,16 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           section(class="6u 12u$(small)")
             h3 Organisers
             p
-              | DevTernity is organised with pride, love 
+              | DevTernity is organised with love 
               i.fa.fa-heart(style="color: red" aria-hidden="true")
-              |  and care by 
-              strong: a(target="_blank" href="http://www.latcraft.lv") Latvian Software Craftsmanship Community
-              | .
-            img.lazy(data-src="images/team.jpg" style="width:90%; border: 2px solid black; ")
+              |  and care 
+              i.fa.fa-leaf(style="color: #4dac71" aria-hidden="true")
+              |   by your peers: 
+            img.lazy(data-src="images/team.jpg" style="width:85%")
           section(class="6u 12u$(small)")
-            h3 Follow Us
+            h3 
+              | Join the community and 
+              em stay informed
             ul.icons
               each link, social in data.socials
                 li
@@ -532,13 +533,15 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             ul.tabular
               li
                 h3 Mail
-                strong: a(href=`mailto:${data.contactEmail}`) #{data.contactEmail}
+                a(href=`mailto:${data.contactEmail}`) #{data.contactEmail}
               li
                 h3 Phone
-                | (+371) 288 14 170 🇬🇧 🇷🇺 🇱🇻
+                | (+371) 28814170
 
       ul.copyright
-        li &copy; DevTernity. All rights reserved
+        li &copy; DevTernity OÜ, 14226860, Mõisavahe tn 38-129 Tartu, Estonia. 
+        br 
+        | All rights reserved.
 
     script(type="text/javascript")
       | var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

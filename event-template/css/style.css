@@ -82,6 +82,25 @@ strong a {
 	font-size: 0.8em;
 }
 
+.speech em {
+	font-style: normal;
+	padding: 1px 5px 3px;
+	background-color: #4dac71;
+	color: #fff;
+}
+
+.speech .speaker-bio {
+	text-align: center;
+	font-size: 0.8em;
+	padding: 0 100px;
+	margin-bottom: 20px;
+}
+
+.speech .speaker-bio a {
+	font-weight: bold;
+}
+
+
 .speech p {
 	margin: 0 0 0.5em 0;
 }
@@ -106,18 +125,13 @@ strong a {
 	padding: 0 !important;
 }
 
-.tick {
-	background-color: white;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border: 2px solid #fff;
-}
-
-
 .tick h3 {
 		/*padding:0 !important; margin: 0 !important;*/
 		margin: 0 0 20px 0;
+}
+
+.tick input[type="button"] {
+	width: 100%;
 }
 
 .tick .price {
@@ -125,7 +139,7 @@ strong a {
 }
 
 .tick h3.product {
-	background-color: #2d2626;
+	background-color: #353c46;
 	border: 2px solid #3ba666;
 }
 
@@ -197,10 +211,6 @@ strong a {
 
 #trailer {
 	margin-top: 50px;
-}
-
-#trailer input[type='button'] {
-	border: 1px solid white;
 }
 
 .body .price {
@@ -1309,7 +1319,7 @@ form.subscribe input[type='submit'] {
 /* Banner */
 
 	#banner {
-		background: url("images/overlay.png"), url("../images/splash.jpg");
+		background: url("../images/splash.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -1365,6 +1375,10 @@ form.subscribe input[type='submit'] {
 			color: #ffffff;
 		}
 
+			.wrapper.style1 input[type='button'] {
+				border: 1px solid white;
+			}
+
 			.wrapper.style1 header {
 				margin-bottom: 4em;
 			}
@@ -1402,22 +1416,29 @@ form.subscribe input[type='submit'] {
 /* Footer */
 
 	#footer {
-		background: #202222;
-		color: #888;
+		color: #fff;
+		background: #353c46;
 		padding: 6em 0em 4em;
 	}
+
+		#footer em {
+			font-style: normal;
+			padding: 1px 5px 3px;
+			background-color: #4dac71;
+		}
 
 		#footer h2, #footer h3, #footer h4 {
 			color: #ffffff;
 		}
 
 		#footer a {
+			color: #fff;
+			text-decoration: none;
 			-moz-transition: all 0.2s ease-in-out;
 			-webkit-transition: all 0.2s ease-in-out;
 			-o-transition: all 0.2s ease-in-out;
 			-ms-transition: all 0.2s ease-in-out;
 			transition: all 0.2s ease-in-out;
-			color: #888;
 		}
 
 			#footer a:active, #footer a:hover {

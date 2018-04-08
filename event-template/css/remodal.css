@@ -152,7 +152,7 @@ html.remodal-is-locked {
   transform: translate3d(0, 0, 0);
 
   color: #2b2e38;
-  background: black;
+  background: #353c46;
 }
 
 .remodal p {
