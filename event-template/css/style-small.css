@@ -28,6 +28,18 @@
 			padding: 1em 1em 0 1em;
 		}
 
+.speech .speaker-bio {
+	padding: 0px;
+}
+
+.speakers h1, .workshops h1 {
+	font-size: 2em;
+}
+
+.intro h3, .intro p {
+	text-align: center;
+}
+
 /* Banner */
 
 	#banner {
@@ -61,6 +73,7 @@
 
 	#footer {
 		padding: 4em 0em 4em;
+		text-align: center;
 	}
 
 		#footer .copyright li {

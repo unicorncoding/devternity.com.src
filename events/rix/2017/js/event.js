@@ -93,7 +93,7 @@
         ],
         "sponsorship": {
           "platinum": {
-            "title": "Platinum Sponsors",            
+            "title": "Platinum Sponsor",            
             "stars": 5,
             "sponsorsPerLine": 1,
             "sponsors": [
@@ -105,7 +105,7 @@
             ]
           },
           "gold": {
-            "title": "Gold Sponsors",            
+            "title": "Gold Sponsor",            
             "stars": 3,
             "sponsorsPerLine": 2,            
             "sponsors": [
@@ -137,7 +137,6 @@
             ]
           },
           "others": {
-            "title": "...as well as",
             "stars": 0,
             "sponsorsPerLine": 3,            
             "sponsors": [
@@ -171,44 +170,6 @@
                 "logo": "neotech.png",
                 "link": "http://www.neotech.lv"
               }            
-            ]
-          },
-          "media": {
-            "title": "media friends",            
-            "stars": 0,
-            "grayscale": true,
-            "sponsorsPerLine": 6,
-            "sponsors": [
-                {
-                  "package": "media",
-                  "logo": "diversity.png",
-                  "link": "http://diversitycharter.org"
-                },
-                {
-                  "package": "media",
-                  "logo": "latcraft.png",
-                  "link": "http://latcraft.lv"
-                },
-                {
-                  "package": "media",
-                  "logo": "reactiveconf.png",
-                  "link": "https://reactiveconf.com"
-                },
-                {
-                  "package": "media",
-                  "logo": "4sure.png",
-                  "link": "http://4sure.lv/"
-                },
-                {
-                  "package": "media",
-                  "logo": "jguru.png",
-                  "link": "http://javaguru.lv/"
-                },
-                {
-                  "package": "media",
-                  "logo": "devchampions.png",
-                  "link": "http://devchampions.com/"
-                }            
             ]
           }
         },

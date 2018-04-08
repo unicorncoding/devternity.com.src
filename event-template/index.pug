@@ -219,39 +219,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               |  
               em technical leadership
               |  and 
-              em operations
-              |.
-            p
-            h2
-          div(class="row 200%")
-            section(class="3u 12u$(small)")
-              i.icon.big.rounded.fa-calendar
-              h3=data.date
-            section.hotel(class="3u 12u$(small)")
-              i.icon.big.rounded.fa-location-arrow
-              h3 #{data.city}, #{data.venue_name}
-              h5: strong: a(href="#{data.venue_map}") Location on map
-              h5 
-                | The recommended hotel for attendees is #{data.hotel_name} (
-                strong: a(href="#{data.hotel_link}") book
-                |, 
-                strong: a(href="#{data.hotel_to_venue_map}") see directions
-                | )
-            section(class="3u 12u$(small)")
-              i.icon.big.rounded.fa-users
-              h3 
-                strong 700
-                |  developers
-                br 
-                strong 20
-                |  talks
-                br 
-                strong 3
-                |  parallel tracks
-            section(class="3u 12u$(small)")
-              i.icon.big.rounded.fa-cogs
-              h3 Full day of hands-on workshops
-          h2 &nbsp;
+              em operations.
           h2 Why DevTernity?
           div(class="row 200% why")
             each text, title in data.benefits
@@ -271,8 +239,11 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
       section#speakers-container.wrapper.speakers.align-center
         div.container
           header
-            h1 Day I: Inspiring Talks (#{data.days[0]})
-            h2
+            h1 
+              | Inspiring Talks 
+              i.separator.fa.fa-ellipsis-v 
+              |  Day I, #{data.days[0]}
+            h2 
             p 
               em No Agile bullshit bingo and marketing talks permitted. See for yourself:
           each row in data.speakersInRows
@@ -351,8 +322,11 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     section#workshops-container.wrapper.workshops.align-center
         div.container
           header
-            h1 Day II: Power Workshops (#{data.days[1]})
-            h2
+            h1             
+              | Power Workshops 
+              i.separator.fa.fa-ellipsis-v 
+              |  Day II, #{data.days[1]}
+            h2 
             if data.workshops.length
               p
                 em Our instructors are here to deliver full-day workshops. Go beyond theory with industry experts:
@@ -485,28 +459,31 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     if data.sponsorship                  
       section#support-container.wrapper
           div.container
-            each package, key in data.sponsorship 
-              header.align-center
-                br
-                h2
-                  strong=package.title 
-                  - var star = 0
-                  while star++ < package.stars
-                    i.fa.fa-star(aria-hidden="true" style="color: orange")
+            header.align-center
+              h1 Sponsors            
+              h2 
+              p
+                em We are partnering with amazing companies that have continuous learning and innovation in their DNA:              
+              each package, key in data.sponsorship 
                 br
                 div.row.align-center
                   each sponsor, index in package.sponsors
-                    section(class=`${12 / package.sponsorsPerLine}u`)
+                    section(class=`${12 / package.sponsorsPerLine}u 12u$(medium)`)
                       a(target="_blank" rel="noopener" href=sponsor.link)
-                        img.lazy(class=`${package.grayscale ? 'grayscale' : ''}` data-src=`images/${sponsor.logo}`)
+                        img.lazy(style="max-width: 250px; max-height: 100px" class=`${package.grayscale ? 'grayscale' : ''}` data-src=`images/${sponsor.logo}`)
+                      br
+                      - var star = 0
+                      while star++ < package.stars
+                        i.fa.fa-star(aria-hidden="true" style="color: orange")
+                      em
+                        if package.title  
+                          |  #{package.title} 
+                        if sponsor.since
+                          |  (since #{sponsor.since})
                       p !{sponsor.info}
                   br
             p.align-center(style="margin-top: 100px")
-              em 
-                | Interested in becoming a sponsor? 
-                strong: a(href=`mailto:${data.contactEmail}`) Drop us
-                |  an email.
-
+              input.pulse(type="button" value="Become a sponsor" style="padding: 0 1em" ng-click=`buy('mailto:${data.contactEmail}?subject=Sponsorship')`)                      
     footer#footer
       div.container
         div.row
@@ -519,7 +496,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               i.fa.fa-heart(style="color: red" aria-hidden="true")
               |  and care 
               i.fa.fa-leaf(style="color: #4dac71" aria-hidden="true")
-              |   by your peers: 
+              |   by leaders of Latvian software craftsmanship community: 
             img.lazy(data-src="images/team.jpg" style="width:85%")
           section(class="6u 12u$(small)")
             h3 

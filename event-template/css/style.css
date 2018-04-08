@@ -29,6 +29,10 @@ span.nowrap {
 	padding: 0 0.7em !important;
 }
 
+.separator {
+    color: rgba(144, 144, 144, 0.25);
+}
+
 small {
 	font-size: 0.7em;
 }

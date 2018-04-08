@@ -44,10 +44,10 @@
         },
         "benefits": {
           "Top quality": "Everything from talks to organisation is of premium quality. We are rated <span class=\"nowrap\"><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> <em>Excellent</em></span> on <strong><a href=\"https://trustpilot.com/review/devternity.com\">TrustPilot</a></strong>.",
-          "Best speakers": "We carefully cherry-pick speakers based on the track record and community feedback. No self-promotion, marketing and Agile bullshit permitted.",
-          "Versatile topics": "It takes more than one skill to be a great developer. That's why DevTernity is cross-discipline and covers the latest developments in coding, architecture, operations, security, leadership and other core IT areas.",
+          "Best speakers": "We carefully cherry-pick speakers based on technical and public speaking skills. No self-promotion, marketing and Agile bullshit permitted.",
+          "Versatile topics": "It takes more than one skill to be a great developer. DevTernity is cross-discipline and covers the latest developments in coding, architecture, operations, security, soft skills and other important areas.",
           "Perfect theory & practice balance": "DevTernity is blend of inspiring talks and hands-on, instructor-led power workshops.",
-          "Excellent location": "DevTernity runs in the heart of the Baltics, connected by direct flights with most European airports. The location is both stunning and affordable for foreign visitors."
+          "Excellent location": "DevTernity runs in Riga – the heart of the Baltics. Riga is beautiful, affordable and easy to reach. The venue is stunning <i class=\"fa fa-map-marker\"></i> <strong><a href=\"https://www.google.lv/maps/place/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka/@56.941013,24.096625,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd136321fcd:0xf716266fca1b4d9b\">National Library of Latvia</a></strong>."
         },
         "pricing": {
             "discount": {
@@ -79,22 +79,25 @@
         ],
         "sponsorship": {
           "gold": {
-            "title": "Gold Sponsors",
+            "title": "Gold Sponsor",
             "stars": 3,
             "sponsorsPerLine": 2,            
             "sponsors": [
               {
                 "logo": "4finance.png",
+                "since": "2015",
                 "link": "http://www.4financeit.com/",
-                "info": "<p><strong><a href=\"http://4financeit.com\">4financeIT</a></strong> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance (15 different countries).</p>"
+                "info": "<p><strong><a href=\"http://4financeit.com\">4financeIT</a></strong> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance in 15 different countries.</p>"
               },
               {
                 "logo": "ulabs.png",
+                "since": "2017",                
                 "link": "https://ulabs.ubnt.com",
                 "info": "<p>In <strong><a href=\"https://ulabs.ubnt.com\">ULabs Riga</a></strong>, part of global company <strong><a href=\"https://www.ubnt.com\">Ubiquiti Networks Inc.</a></strong> producing wireless networking and consumer product, we are always searching the next big thing – we reinvent existing concepts, create smart solutions and drive innovation. Sponsoring DevTernity 2018 we see as taking steps towards this \"next big thing\" because ideas are born during the interchange of opinions, knowledge, and inspiration. We are proud to be part of evolving and dynamic platform where professionals meet to broaden their horizons and change perspective.</p>"
               },
               {
                 "logo": "devchampions.png",
+                "since": "2016",
                 "link": "https://devchampions.com/",
                 "info": "<p><strong><a href=\"https://devchampions.com\">DevChampions</a></strong> offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation, Agile methodologies and soft skills.</p>"
               }
