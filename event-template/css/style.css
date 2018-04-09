@@ -15,6 +15,29 @@
 */
 
 
+#exitOffer h2, #exitOffer input, #exitOffer p {
+	color: white;
+}
+
+#exitOffer p {
+	font-size: 0.8em;
+}
+
+#exitOffer input[type="button"]:disabled {
+	border: 1px solid white;
+	background-color: #4dac71;
+}
+
+#exitOffer a {
+	font-size: 0.8em;
+	color: rgba(144, 144, 144, 0.45);
+}
+
+#exitOffer a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
 select {
 	color: #666 !important;
 	margin: 0 0 1em 0
@@ -211,6 +234,10 @@ strong a {
 
 #support-container img {
 	max-width: 100%;
+}
+
+#support-container {
+	padding: 6em 0em 0em
 }
 
 #trailer {

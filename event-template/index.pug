@@ -34,6 +34,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     script(src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js" async defer)
     script(src="https://cdnjs.cloudflare.com/ajax/libs/humanize-duration/3.12.1/humanize-duration.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/skel-layers/2.2.0/skel.min.js")
+    script(src="js/exit.js")
     script(src="js/all.js")
     script(src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer)
     script(type="application/ld+json")
@@ -496,12 +497,12 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               i.fa.fa-heart(style="color: red" aria-hidden="true")
               |  and care 
               i.fa.fa-leaf(style="color: #4dac71" aria-hidden="true")
-              |   by leaders of Latvian software craftsmanship community: 
+              |   by the leaders of Latvian software craftsmanship community: 
             img.lazy(data-src="images/team.jpg" style="width:85%")
           section(class="6u 12u$(small)")
             h3 
               | Join the community and 
-              em stay informed
+              em stay informed:
             ul.icons
               each link, social in data.socials
                 li
@@ -515,6 +516,19 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 h3 Phone
                 | (+371) 28814170
 
+      section#exitOffer(data-remodal-id="exitOffer")
+        form(ng-controller="ExitOfferController" name="exitOffer")
+          h2 
+            | Let us make you happier 
+            i.fa.fa-leaf(style="color: #4dac71" aria-hidden="true")
+          div
+            input#email(type="email" ng-model="email")
+            br
+            input(type="button" value="Receive 60€ discount" ng-click="onDiscount()" ng-disabled="!email || exitOffer.$error.email")
+            br
+            br
+            p {{subscribeMessage}}
+            strong: a(href="#" data-remodal-action="close") No, I don't want a discount.
       ul.copyright
         li &copy; DevTernity OÜ, 14226860, Mõisavahe tn 38-129 Tartu, Estonia. 
         br 

@@ -100,6 +100,29 @@ devternity.filter("humane", [function() {
   }
 }]);
 
+devternity.controller("ExitOfferController", function($scope, $http) {
+	bioEp.init({
+		cookieExp: 30
+	});
+
+	bioEp.show = function() {
+		$scope.inst = $("#exitOffer").remodal();
+	    $scope.inst.open();
+	};
+
+
+	$scope.onDiscount = function() {
+		$http
+  			.post('https://us-central1-devternity-22e74.cloudfunctions.net/api/send-discount', { email: $scope.email })
+  			.then(function() {
+  				$scope.inst.close();
+		})
+	}
+
+  $scope.email = "your@email.address";
+
+});
+
 devternity.controller('LandingPageController', function ($window, $http, $scope, $q) {
 	$scope.timerRunning = true;
 
