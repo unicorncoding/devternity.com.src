@@ -34,6 +34,8 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     script(src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js" async defer)
     script(src="https://cdnjs.cloudflare.com/ajax/libs/humanize-duration/3.12.1/humanize-duration.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/skel-layers/2.2.0/skel.min.js")
+    script(defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous")
+
     script(src="js/exit.js")
     script(src="js/all.js")
     script(src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer)
@@ -157,17 +159,11 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     header#header
       nav#nav
         ul
-          li: a(ng-click="slideTo('#program-container')" alt="Talks") Talks
-          li: a(ng-click="slideTo('#workshops-container')" alt="Workshops") Workshops
-          if data.sponsorship
-            li: a(ng-click="slideTo('#support-container')" alt="Sponsors") Sponsors
           li: a(href="code_of_conduct.html" alt="Code of Conduct") Code of Conduct
-          li: strong: a(href="http://go.devternity.com/rix_volunteer" alt="Call for Volunteers") Volunteer
-          li: strong: a(ng-click="slideTo('#tickets-container')") Attend
           each link, social in data.socials
             li
               a(href=link)
-                i(class=`fa fa-${social}`)
+                i(class=`fab fa-${social}`)
           each history in data.history
             li: a(href=`/rix/${history}` alt=`DevTernity ${history}`) #{history}
 
@@ -199,7 +195,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 each link, social in data.socials
                   li
                     a(href=link)
-                      i(class=`fa fa-${social}`)
+                      i(class=`fab fa-${social}`)
 
       section.wrapper.style1.align-center
         div.container.intro
@@ -259,7 +255,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       div.who !{speaker.bio}
                       if speaker.twitter
                         a(href=`https://twitter.com/${speaker.twitter}`)
-                          i.fa.fa-twitter.follow-speaker(aria-hidden="true")
+                          i.fab.fa-twitter.follow-speaker(aria-hidden="true")
 
           div.row
             section(class="feature 12u 12u$(small)")
@@ -272,7 +268,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 h5
                   each link, social in data.socials
                     a(href=link)
-                      i(class=`fa fa-${social}`)
+                      i(class=`fab fa-${social}`)
                     |  &nbsp;
 
       section#program-container.wrapper
@@ -280,9 +276,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 div.row.header
                   each track in [1, 2, 3]
                     section(class="align-center feature 4u")
-                      span(class="fa-stack fa-1x")
-                        i(class="fa fa-circle fa-stack-2x")
-                        strong(class="fa-stack-1x text-primary") #{track}
+                      span.fa-layers.fa-2x
+                        i.fa.fa-circle
+                        strong.fa-layers-text.fa-inverse(data-fa-transform="shrink-7") #{track}
                       |  Track
 
                 - var index = 0                                  
@@ -326,7 +322,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             h1             
               | Power Workshops 
               i.separator.fa.fa-ellipsis-v 
-              |  Day II, #{data.days[1]}
+              |  Day II, #{data.days[1]} 
             h2 
             if data.workshops.length
               p
@@ -343,7 +339,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                   |  #{speaker.name ? speaker.name : "Coming soon."} 
                   if speaker.twitter
                     a(href=`https://twitter.com/${speaker.twitter}`)
-                      i.fa.fa-twitter.follow-speaker(aria-hidden="true")              
+                      i.fab.fa-twitter.follow-speaker(aria-hidden="true")              
                 div.who
                   strong !{speaker.bio}
                   br
@@ -351,7 +347,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               section(class="feature 6u 12u$(small) align-left")
                 h3
                   strong 
-                    i.icon.rounded.fa-cogs
+                    i.fas.fa-code
                     |  #{speaker.title} 
                 h5 
                   span
@@ -360,7 +356,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                         span.tag.sold SOLD OUT
                         | 
                       if speaker.sold_out_soon
-                        span.tag.sold FEW TICKETS LEFT
+                        span.tag.sold 
+                          i.fab.fa-hotjar
+                          |  FEW TICKETS LEFT
                         | 
                       each tag, index in speaker.tags
                         span.tag ##{tag}
@@ -377,7 +375,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             h5
               each link, social in data.socials
                 a(href=link)
-                  i(class=`fa fa-${social}`)
+                  i(class=`fab fa-${social}`)
                 |  &nbsp;                
 
     section#tickets-container.wrapper.style1.tickets.align-center
@@ -397,16 +395,18 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           section(class="tick feature 6u 12u$(medium) 12u$(small)")
             div.row.nopadding
               each product in data.pricing.products
-                section(class="4u 12u$(small)")
-                  h3.product
-                    if product.attention
-                      i.fa.fa-ticket(aria-hidden="true")
-                    i.fa.fa-ticket(aria-hidden="true")
-                    |  #{product.name}
+                section(class="4u 12u$(small)" style="position: relative")
+                  h3.product(class=`${product.attention ? 'attention' : 'fade-attention' }`)
+                    | #{product.name}
                     br
                     if !product.sold_out && data.status == 'on_sale'
                       if product.attention
-                        | 🚀                  
+                        | 🚀
+                        <span style="position: absolute; top: -20px; right: -20px" class="fa-layers fa-fw fa-3x">
+                            <i class="fas fa-certificate" style="color:white"></i>
+                            <i class="fas fa-certificate" style="color:#e2333f" data-fa-transform="shrink-1"></i>
+                            <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">BEST</span>
+                        </span>                                       
                       span #{product.price} 
                       strike #{product.price + product.extra}
                       | €
@@ -501,13 +501,12 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             img.lazy(data-src="images/team.jpg" style="width: 100%")
           section(class="6u 12u$(small)")
             h3 
-              | Join the community and 
-              em stay informed:
+              em Join the movement:
             ul.icons
               each link, social in data.socials
                 li
                   a(href=link)
-                    i(class=`icon rounded fa fa-${social}`)
+                    i(class=`fab fa-${social}`)
             ul.tabular
               li
                 h3 Mail
