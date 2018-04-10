@@ -169,7 +169,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
 
     <!-- Banner -->
       section#banner
-        img#btc(src="images/btc_accepted.png")
+        img#trust(src="images/trustpilot.png")
         div
           img(src="images/logo_2017.png")
           h2 &nbsp;DevTernity
@@ -349,6 +349,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                   strong 
                     i.fas.fa-code
                     |  #{speaker.title} 
+                  em (limited seats)
                 h5 
                   span
                     if speaker.tags
@@ -395,18 +396,17 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           section(class="tick feature 6u 12u$(medium) 12u$(small)")
             div.row.nopadding
               each product in data.pricing.products
-                section(class="4u 12u$(small)" style="position: relative")
+                section(class="4u 12u$(small)")
                   h3.product(class=`${product.attention ? 'attention' : 'fade-attention' }`)
                     | #{product.name}
                     br
                     if !product.sold_out && data.status == 'on_sale'
                       if product.attention
                         | 🚀
-                        <span style="position: absolute; top: -20px; right: -20px" class="fa-layers fa-fw fa-3x">
-                            <i class="fas fa-certificate" style="color:white"></i>
-                            <i class="fas fa-certificate" style="color:#e2333f" data-fa-transform="shrink-1"></i>
-                            <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">BEST</span>
-                        </span>                                       
+                        span.fa-layers.fa-fw.fa-3x.best
+                            i.fas.fa-certificate(style="color:#ffffff")
+                            i.fas.fa-certificate(style="color:#e2333f" data-fa-transform="shrink-1")
+                            span.fa-layers-text.fa-inverse(data-fa-transform="shrink-11.5 rotate--30") BEST             
                       span #{product.price} 
                       strike #{product.price + product.extra}
                       | €
@@ -501,7 +501,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             img.lazy(data-src="images/team.jpg" style="width: 100%")
           section(class="6u 12u$(small)")
             h3 
-              em Join the movement:
+              em Connect on socials:
             ul.icons
               each link, social in data.socials
                 li

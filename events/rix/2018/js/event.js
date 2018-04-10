@@ -36,6 +36,7 @@
         "buzzwords": [],
         "socials": {
           "twitter": "https://twitter.com/devternity",
+          "meetup": "https://meetup.com/devternity",
           "facebook": "https://www.facebook.com/devternity",
           "linkedin": "http://go.devternity.com/linkedin",
           "instagram": "https://www.instagram.com/devternity",

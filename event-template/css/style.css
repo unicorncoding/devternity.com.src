@@ -147,12 +147,18 @@ strong a {
 .tick h3.product {
 	background-color: #353c46;
 	border: 2px solid #3ba666;
+	position: relative;
 }
 
 .tick h3.fade-attention {
-	background-color: #353c46ab
+	background-color: #353c46ab;
 }
 
+.tick h3.attention span.best {
+	position: absolute;
+	top: -20px; 
+	right: -20px;
+}
 
 .tick h3.title {
 	width: 100%;
@@ -1494,10 +1500,10 @@ form.subscribe input[type='submit'] {
 				}
 
 
-#btc {
+#trust {
 	position: absolute;
 	top: -10px; left: 25px;
-	width: 80px !important;
+	width: 120px !important;
 }
 
 img.grayscale {
