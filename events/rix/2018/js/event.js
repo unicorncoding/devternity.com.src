@@ -144,6 +144,22 @@
                       "video": ""
                   },
                   {
+                      "product": "DDD",
+                      "name": "Jakub Nabrdalik",
+                      "type": "speech",
+                      "twitter": "jnabrdalik",                      
+                      "time": "9:00 - 18:00",
+                      "tags": ["software architecture", "domain-driven design", "cqrs", "spring"],                      
+                      "country": "pl",
+                      "bio": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
+                      "long_bio": "A software developer with 12 years of professional experience in IT, as an architect, programmer, designer, analyst, project leader, project manager, and lately as a Head of Software Development. Down to the ground kind of guy, who hates corporate bullshit, people in general, and shiny theories not tested in practice, but have to deal with all of them on a daily basis.",
+                      "title": "Practical DDD for Java Developers",
+                      "description": "<p>Domain-Driven Design (aka DDD) is a methodology and set of architectural best practices aimed to reduce complexity of sophisticated business applications.  This course is designed to get you familiarised with the key principles of DDD using practical examples in modern Java and Spring Framework.</p><p>During this course designed for Java developers and architects, you will learn and understand:</p> <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>What is DDD, why it’s important and how to use it effectively</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>What is CQRS and Event Sourcing and how it fits nicely with DDD</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How domain modelling in DDD is different to classic relational data modelling</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>DDD building blocks – Aggregate Roots, Value Objects and how to map them with JPA</li>  <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to drive application state through interfaces</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to craft Domain Specific Languages (DSLs) that simplify our code (and where is it worth the effort)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use Bounded Contexts to split your app into smaller services</li> <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to integrate Bounded Contexts using Domain Events, Shared Kernel and Anticorruption Layer</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to talk with domain experts using Ubiquitous Language</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>…and much more!</li></ul>",
+                      "img": "images/jnb2.png",
+                      "presentation": "",
+                      "video": ""
+                  },                  
+                  {
                       "product": "JEDI",
                       "time": "9:00 - 18:00",
                       "tags": ["productivity", "getting things done", "smarter working"],
