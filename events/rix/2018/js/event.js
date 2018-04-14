@@ -423,26 +423,32 @@
                         "presentation": "",
                         "video": ""
                       },                         
-                    {
-                        "type": "break",
-                        "time": "15:40",
-                        "title": "Coffee Break",
-                        "icon": "fa-coffee"
-                    },                    
-                    {    
-                       "type": "speech",   
-                       "time": "16:00",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },
-                    {    
-                       "type": "speech",   
-                       "time": "16:00",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },
+                      {
+                          "type": "break",
+                          "time": "15:40",
+                          "title": "Coffee Break",
+                          "icon": "fa-coffee"
+                      },             
+                      {                           
+                        "time": "16:00",                            
+                        "name": "Jakub Nabrdalik",
+                        "type": "speech",
+                        "twitter": "jnabrdalik",                      
+                        "country": "pl",
+                        "bio": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
+                        "img": "images/jnb2.png", 
+                        "title": "<i class=\"fas fa-clock\"></i> architecture talk confirmation pending"
+                      },
+                      {                           
+                        "time": "16:00",                            
+                        "name": "Ray Tsang",
+                        "type": "speech",
+                        "twitter": "saturnism",                      
+                        "country": "us",
+                        "bio": "Technology Architect, Developer Advocate @ Google. Creator of <a href=\"https://github.com/jdeferred/jdeferred\">@JDeferred</a> library",
+                        "img": "images/tsang.png", 
+                        "title": "<i class=\"fas fa-clock\"></i> kubernetes talk confirmation pending"
+                      },
                     {    
                        "type": "speech",   
                        "time": "16:00",    

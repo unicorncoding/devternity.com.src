@@ -292,11 +292,13 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                           if event.title
                             a.pointer(ng-click=`popupSpeech(${event.uid})`) #{event.name}
                               br
-                              strong #{event.title}
+                              strong!=event.title
                           else
-                            span ?
+                            span
+                              i.fas.fa-clock 
+                              |  amazing talk confirmation pending
                         else
-                            span #{event.title}
+                            span!=event.title
                         br
                         span #{event.tagList}
           each series, key in data.talks
@@ -313,7 +315,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                               img(src=`images/flags/${event.country}.png` alt=`${event.country} flag`)
                               |  #{event.name}
                             p.speaker-bio !{event.bio}
-                          p.whoname: em #{event.title}
+                          p.whoname: em !{event.title}
                           p.speaker !{event.description}
 
     section#workshops-container.wrapper.workshops.align-center
