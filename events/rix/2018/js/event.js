@@ -3,7 +3,7 @@
         "theme": "DevTernity 2018",
         "selfLink": "https://devternity.com",
         "codename": "DT_RIX_18",
-        "desc": "The place where forward-thinking developers, pragmatic architects and engineering leaders grow.",
+        "desc": "Where developers, architects and engineering leaders grow.",
         "month": "December 2018",
         "date": "30 Nov – 1 Dec 2018",
         "date_iso": "2018-11-30",
@@ -14,7 +14,7 @@
         "workshops_total": 7,
         "city": "Riga",
         "city_img": "riga.png",        
-        "contactEmail": "riga@devternity.com",
+        "contactEmail": "hello@devternity.com",
         "slack_channels": "C6X29SJM7,C6WTMHFQ8",
         "slack_channels_attendees": "C6X29SJM7",
         "hotel_name": "Bellevue Park Hotel Riga",
@@ -437,7 +437,7 @@
                         "country": "pl",
                         "bio": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
                         "img": "images/jnb2.png", 
-                        "title": "<i class=\"fas fa-clock\"></i> architecture talk confirmation pending"
+                        "title": "<i class=\"fas fa-clock\"></i> architecture talk pending"
                       },
                       {                           
                         "time": "16:00",                            
@@ -447,7 +447,7 @@
                         "country": "us",
                         "bio": "Technology Architect, Developer Advocate @ Google. Creator of <a href=\"https://github.com/jdeferred/jdeferred\">@JDeferred</a> library",
                         "img": "images/tsang.png", 
-                        "title": "<i class=\"fas fa-clock\"></i> kubernetes talk confirmation pending"
+                        "title": "<i class=\"fas fa-clock\"></i> kubernetes talk pending"
                       },
                     {    
                        "type": "speech",   
