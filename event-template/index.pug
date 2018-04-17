@@ -202,22 +202,21 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           header
             h2
             p 
-              | DevTernity is 
-              em the premium-quality
-              |  international software development conference in Riga, Latvia.
+              | DevTernity is the top international conference in Europe. 
+            h2
+            p 
+              | We turn developers into architects and engineering leaders since 2015.
             p
             h2
             h2
             p 
-              | DevTernity focuses on the core principles of 
+              | We focus on the core principles of 
               em software architecture
               |  
               em clean code
-              |  
-              em technical leadership
               |  and 
-              em operations.
-          h2 Why DevTernity?
+              em technical leadership.
+          h2 Why the best developers choose DevTernity?
           div(class="row 200% why")
             each text, title in data.benefits
               section(class="6u 12u$(small) align-left")
@@ -387,8 +386,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           h1 Tickets
           h2
           p
-            | Every year 
-            em we quickly run out of tickets.
+            em We quickly run out of tickets.
             br
             |  Secure your seat now and feel free to change the information about the participants later.
 
@@ -417,7 +415,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             div.row
               section(class="12u 12u$(small)")
                 if data.status != 'booked'
-                  input.pulse(type="button" value="Registration" style="padding: 0 1em" ng-click=`buy('${data.register}')`)
+                  input.pulse(type="button" value=`Register now and save ${data.pricing.products[2].extra}€` style="padding: 0 1em" ng-click=`buy('${data.register}')`)
           section(class="feature 3u 12u$(medium) 12u$(small)")
             | &nbsp;
 

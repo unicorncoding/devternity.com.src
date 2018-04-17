@@ -3,7 +3,7 @@
         "theme": "DevTernity 2018",
         "selfLink": "https://devternity.com",
         "codename": "DT_RIX_18",
-        "desc": "Where developers, architects and engineering leaders grow.",
+        "desc": "Where best developers, architects and engineering leaders grow.",
         "month": "December 2018",
         "date": "30 Nov – 1 Dec 2018",
         "date_iso": "2018-11-30",
@@ -44,11 +44,11 @@
           "wikipedia-w": "https://en.wikipedia.org/wiki/DevTernity_Conference"
         },
         "benefits": {
-          "Top quality": "Everything from talks to organisation is of premium quality. We are rated <span class=\"nowrap\"><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> <em>Excellent</em></span> on <strong><a href=\"https://trustpilot.com/review/devternity.com\">TrustPilot</a></strong>.",
-          "Best speakers": "We carefully cherry-pick speakers based on technical and public speaking skills. No self-promotion, marketing and Agile bullshit permitted.",
-          "Versatile topics": "It takes more than one skill to be a great developer. DevTernity is cross-discipline and covers the latest developments in coding, architecture, operations, security, soft skills and other important areas.",
-          "Perfect theory & practice balance": "DevTernity is blend of inspiring talks and hands-on, instructor-led power workshops.",
-          "Excellent location": "DevTernity runs in Riga – the heart of the Baltics. Riga is beautiful, affordable and easy to reach. The venue is stunning <i class=\"fas fa-map-marker-alt\"></i> <strong><a href=\"https://www.google.lv/maps/place/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka/@56.941013,24.096625,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd136321fcd:0xf716266fca1b4d9b\">National Library of Latvia</a></strong>."
+          "Top quality": "You will be excited with the excellent quality at all levels. We are the only conference with <span class=\"nowrap\"><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> 5-star rating</span> on <strong><a href=\"https://trustpilot.com/review/devternity.com\">TrustPilot</a></strong>.",
+          "Learn from industry influencers": "We only invite speakers with outstanding technical and public speaking skills. No \"captain obvious\", marketing and Agile bullshit permitted.",
+          "The most important topics in one place": "In just two days, you will learn much more than your competitors, who attend narrow-focused conferences. Start preparing for the role of software architect, engineering leader or CTO today.",
+          "Perfect theory & practice balance": "In just two days, you become a better professional. The formula is simple: the knockout dose of inspiring talks, reinforced by a hands-on, power workshop. Works like a charm. Guaranteed.",
+          "Excellent location": "Riga, the capital of Latvia, is one of the top destinations in Europe. Beautiful, well-located, top 10 fastest internet city in the world. <br>Our stunning venue – <i class=\"fas fa-map-marker-alt\"></i> <strong><a href=\"https://www.google.lv/maps/place/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka/@56.941013,24.096625,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd136321fcd:0xf716266fca1b4d9b\">Castle of Light</a></strong> has won International Excellence Award in category \"Library of the Year 2018\"."
         },
         "pricing": {
             "discount": {
@@ -58,19 +58,19 @@
               {
                 "name": "Main Day",
                 "price": 299,
-                "extra": 30,
+                "extra": 100,
                 "sold_out": false
               },
               {
                 "name": "Power Workshop",
                 "price": 299,
-                "extra": 30,                
+                "extra": 100,                
                 "sold_out": false                
               },
               {
                 "name": "All Inclusive",
                 "price": 598,
-                "extra": 60,
+                "extra": 200,
                 "sold_out": false,
                 "attention": true
               }
