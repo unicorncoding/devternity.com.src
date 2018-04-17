@@ -175,7 +175,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           h2 &nbsp;DevTernity
 
         p=data.desc
-        p #{data.date}. #{data.city}, #{data.country}.
+        p Once in a year. #{data.date}. #{data.city}, #{data.country}.
         ul.actions
           if data.status == "on_sale"
             li
@@ -225,7 +225,16 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                   |  #{title}
                 p!=text
         div#trailer
-          input(type="button" value="Watch Video Trailer" style="padding: 0 1em" ng-click="watchPromo()")
+          input(type="button" value="See in Action" style="padding: 0 1em" ng-click="watchPromo()")
+
+      section.wrapper.align-center(data-remodal-id="venue-location")
+          button.remodal-close(data-remodal-action="close")
+          div.embed-container
+            div
+              p 
+                | #{data.venue_name}, #{data.venue_address}, #{data.city}, #{data.venue_postal_code} 
+                a(href=data.venue_map target="_blank"): i.fas.fa-map-marker-alt
+              img(src="images/libka.jpg" alt="National Library of Latvia" style="width:100%")
 
       section.wrapper.align-center(data-remodal-id="trailer-vimeo")
           button.remodal-close(data-remodal-action="close")
@@ -258,7 +267,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
 
           div.row
             section(class="feature 12u 12u$(small)")
-              if data.hasUnknownSpeakers
+              if data.subscribeEnabled && data.hasUnknownSpeakers
                 h3.title More coming soon. Subscribe for the final announcement alert:
                 form.subscribe(ng-submit="onSubscribe()")
                   div {{subscribeMessage}}
@@ -367,7 +376,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                         if index != speaker.tags.length - 1 
                           |  
                 div.who !{speaker.description}
-          if data.hasUnknownWorkshops
+          if data.subscribeEnabled && data.hasUnknownWorkshops
             br
             h3.title More coming soon. Subscribe for the final announcement alert:
             form.subscribe(ng-submit="onSubscribe()")
@@ -383,12 +392,13 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     section#tickets-container.wrapper.style1.tickets.align-center
       div.container
         header
-          h1 Tickets
+          h1 Tickets to the key event of the year.
           h2
           p
-            em We quickly run out of tickets.
+            em This is the limited offer.
             br
-            |  Secure your seat now and feel free to change the information about the participants later.
+            br 
+            |  There is no point to wait until the last moment, because we'll charge you more. Secure your seat now. You will be able to change the information about the participants later. Free of charge.
 
         div.row
           section(class="feature 3u 12u$(medium) 12u$(small)") 
@@ -415,35 +425,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             div.row
               section(class="12u 12u$(small)")
                 if data.status != 'booked'
-                  input.pulse(type="button" value=`Register now and save ${data.pricing.products[2].extra}€` style="padding: 0 1em" ng-click=`buy('${data.register}')`)
+                  input.pulse(type="button" value=`Get your ticket now and save ${data.pricing.products[2].extra}€` style="padding: 0 1em" ng-click=`buy('${data.register}')`)
           section(class="feature 3u 12u$(medium) 12u$(small)")
             | &nbsp;
-
-        div.row
-          section(class="feature 12u 12u$(small)")
-            header.discounts
-              div.row
-                section(class="feature 4u 12u$(small)")
-                  h3.title 
-                    i.fa.fa-percent
-                    |  Discount for individuals
-                  div
-                    p Not backed by a company? Get in touch!
-                section(class="feature 4u 12u$(small)")
-                  h3.title 
-                    i.fa.fa-percent
-                    |  Discount for meetup organisers
-                  div
-                    p Have a blog or a meetup? Get in touch!
-                section(class="feature 4u 12u$(small)")
-                  h3.title 
-                    i.fa.fa-percent
-                    |  Discount for sponsors
-                  div
-                    p Want to get sponsor discount? Get in touch!
-                      
-
-
 
     if data.sponsorship                  
       section#support-container.wrapper
@@ -511,7 +495,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           div
             input#email(type="email" ng-model="email")
             br
-            input(type="button" value="Receive 60€ discount" ng-click="onDiscount()" ng-disabled="!email || exitOffer.$error.email")
+            input(type="button" value="Receive exclusive 60€ discount" ng-click="onDiscount()" ng-disabled="!email || exitOffer.$error.email")
             br
             br
             p {{subscribeMessage}}

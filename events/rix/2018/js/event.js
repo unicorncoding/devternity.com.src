@@ -28,11 +28,12 @@
         "register": "https://devternity.com/registration",
         "cfp": "http://bit.ly/devternity_cfp",
         "cfp_deadline": "2018-07-01",
+        "subscribeEnabled": false,        
         "announced": true,
         "venue_address": "Mūkusalas iela 3",
         "venue_postal_code": "LV-1423", 
-        "venue_name": "National Library of Latvia",
-        "venue_map": "https://www.google.lv/maps/place/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka/@56.941013,24.096625,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd136321fcd:0xf716266fca1b4d9b",
+        "venue_name": "The Castle of Light",
+        "venue_map": "https://www.google.lv/maps/place/National+Library+of+Latvia/@56.9496618,24.1108501,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNJHWS2JofoHRZPUTb8Y65dlsRJImv6sHSsSUIo!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNJHWS2JofoHRZPUTb8Y65dlsRJImv6sHSsSUIo%3Dw203-h152-k-no!7i4032!8i3024!4m5!3m4!1s0x46eecfd136321fcd:0xf716266fca1b4d9b!8m2!3d56.941013!4d24.096625",
         "buzzwords": [],
         "socials": {
           "twitter": "https://twitter.com/devternity",
@@ -48,7 +49,7 @@
           "Learn from industry influencers": "We only invite speakers with outstanding technical and public speaking skills. No \"captain obvious\", marketing and Agile bullshit permitted.",
           "The most important topics in one place": "In just two days, you will learn much more than your competitors, who attend narrow-focused conferences. Start preparing for the role of software architect, engineering leader or CTO today.",
           "Perfect theory & practice balance": "In just two days, you will become a better professional. The formula is simple: the knockout dose of inspiring talks, reinforced by a hands-on, power workshop. Works like a charm. Guaranteed.",
-          "Excellent location": "Riga, the capital of Latvia, is one of the top destinations in Europe. Beautiful, well-located, top 10 fastest internet city in the world. <br>Our stunning venue – <i class=\"fas fa-map-marker-alt\"></i> <strong><a href=\"https://www.google.lv/maps/place/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka/@56.941013,24.096625,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd136321fcd:0xf716266fca1b4d9b\">Castle of Light</a></strong> has won International Excellence Award in category \"Library of the Year 2018\"."
+          "Excellent location": "Riga, the capital of Latvia, is one of the top destinations in Europe. Beautiful, well-located, top 10 fastest internet city in the world. <br>Our stunning venue – <strong><a ng-click=\"seeVenue()\">the Castle of Light</a></strong> has won International Excellence Award in category \"Library of the Year 2018\"."
         },
         "pricing": {
             "discount": {

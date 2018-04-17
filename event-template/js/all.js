@@ -150,6 +150,12 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
     inst.open();	
   }
 
+  $scope.seeVenue = function() {
+    var inst = $("[data-remodal-id='venue-location']").remodal();
+    inst.open();	
+  }
+
+
   $scope.shorten = function(text) {
     if (text.length <= 50) {
       return text;
