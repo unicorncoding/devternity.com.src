@@ -45,7 +45,7 @@
           "wikipedia-w": "https://en.wikipedia.org/wiki/DevTernity_Conference"
         },
         "benefits": {
-          "Top quality": "You will be excited with the excellent quality at all levels. We are the only conference with <span class=\"nowrap\"><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> 5-star rating</span> according to TrustPilot.",
+          "Top quality": "You will be excited about the excellent quality at all levels. We are the only conference with <span class=\"nowrap\"><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> 5-star rating</span> according to TrustPilot.",
           "Learn from industry influencers": "Tired of Captain Obvious, marketing and Agile bullshit? We, too. We only invite speakers with outstanding technical and public speaking skills.",
           "The most important topics in one place": "In just two days, you will learn much more than your competitors, who attend narrow-focused conferences. Start preparing for the role of software architect, engineering leader or CTO today.",
           "Perfect theory & practice balance": "In just two days, you will become a better professional. The formula is simple: the knockout dose of inspiring talks, reinforced by a hands-on, power workshop. Works like a charm. Guaranteed.",
