@@ -3,7 +3,7 @@
         "theme": "DevTernity 2018",
         "selfLink": "https://devternity.com",
         "codename": "DT_RIX_18",
-        "desc": "Where best developers, architects and engineering leaders grow.",
+        "desc": "Turning developers into architects and engineering leaders since 2015.",
         "month": "December 2018",
         "date": "30 Nov – 1 Dec 2018",
         "date_iso": "2018-11-30",
