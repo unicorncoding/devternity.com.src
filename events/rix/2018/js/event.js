@@ -45,11 +45,11 @@
           "wikipedia-w": "https://en.wikipedia.org/wiki/DevTernity_Conference"
         },
         "benefits": {
-          "Top quality": "You will be excited with the excellent quality at all levels. We are the only conference with <span class=\"nowrap\"><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> 5-star rating</span> on <strong><a href=\"https://trustpilot.com/review/devternity.com\">TrustPilot</a></strong>.",
-          "Learn from industry influencers": "We only invite speakers with outstanding technical and public speaking skills. No \"captain obvious\", marketing and Agile bullshit permitted.",
+          "Top quality": "You will be excited with the excellent quality at all levels. We are the only conference with <span class=\"nowrap\"><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> 5-star rating</span> according to TrustPilot.",
+          "Learn from industry influencers": "Tired of Captain Obvious, marketing and Agile bullshit? We, too. We only invite speakers with outstanding technical and public speaking skills.",
           "The most important topics in one place": "In just two days, you will learn much more than your competitors, who attend narrow-focused conferences. Start preparing for the role of software architect, engineering leader or CTO today.",
           "Perfect theory & practice balance": "In just two days, you will become a better professional. The formula is simple: the knockout dose of inspiring talks, reinforced by a hands-on, power workshop. Works like a charm. Guaranteed.",
-          "Excellent location": "Riga, the capital of Latvia, is one of the top destinations in Europe. Beautiful, well-located, top 10 fastest internet city in the world. <br>Our stunning venue – <strong><a ng-click=\"seeVenue()\">the Castle of Light</a></strong> has won International Excellence Award in category \"Library of the Year 2018\"."
+          "Excellent location": "Riga, the capital of Latvia, is one of the top destinations in Europe. Beautiful, well-located, top 10 fastest internet city in the world. Our venue, <strong><a ng-click=\"seeVenue()\">the Castle of Light</a></strong>, has won International Excellence Award 2018."
         },
         "pricing": {
             "discount": {
