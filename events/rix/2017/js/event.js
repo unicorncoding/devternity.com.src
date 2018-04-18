@@ -3,7 +3,7 @@
         "theme": "DevTernity 2017",
         "selfLink": "https://devternity.com",
         "codename": "DT_RIX_17",
-        "desc": "The place where forward-thinking developers, pragmatic architects and engineering leaders grow.",
+        "desc": "Where best developers, architects and engineering leaders grow.",
         "month": "December 2017",
         "date": "1-2 December 2017",
         "date_iso": "2017-12-01",
