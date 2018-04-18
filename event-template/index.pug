@@ -425,11 +425,11 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             div.row
               section(class="12u 12u$(small)")
                 if data.status != 'booked'
-                  input.pulse(type="button" value=`Get your ticket now and save ${data.pricing.products[2].extra}€` style="padding: 0 1em" ng-click=`buy('${data.register}')`)
+                  a.button.pulse(href=data.register style="padding: 0 0.5em") Get your ticket now and save #{data.pricing.products[2].extra}€
           section(class="feature 3u 12u$(medium) 12u$(small)")
             | &nbsp;
 
-    if data.sponsorship                  
+    if data.sponsorship
       section#support-container.wrapper
           div.container
             header.align-center
@@ -456,7 +456,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       p !{sponsor.info}
                   br
             p.align-center(style="margin-top: 100px")
-              input.pulse(type="button" value="Become a sponsor" style="padding: 0 1em" ng-click=`buy('mailto:${data.contactEmail}?subject=Sponsorship')`)                      
+              a.button.pulse(style="padding: 0 1em" href=`mailto:${data.contactEmail}?subject=Sponsorship`) Become a sponsor                      
     footer#footer
       div.container
         div.row

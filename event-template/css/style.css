@@ -123,10 +123,6 @@ strong a {
 	margin-top: 40px;
 }
 
-.inactive .button {
-
-}
-
 .nopadding section {
 	padding: 0 !important;
 }
@@ -136,7 +132,7 @@ strong a {
 		margin: 0 0 20px 0;
 }
 
-.tick input[type="button"] {
+.tick a.button {
 	width: 100%;
 }
 
@@ -353,7 +349,7 @@ form.subscribe input[type='submit'] {
 		background: #fff;
 	}
 
-	body, input, select, textarea {
+	body, input, select, textarea, .button {
 		color: #444;
 		font-family: "Lato", Helvetica, sans-serif;
 		font-size: 15pt;
@@ -1397,7 +1393,7 @@ form.subscribe input[type='submit'] {
 			color: #ffffff;
 		}
 
-			.wrapper.style1 input[type='button'] {
+			.wrapper.style1 input[type='button'], .wrapper.style1 .button {
 				border: 1px solid white;
 			}
 
