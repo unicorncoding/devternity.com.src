@@ -176,12 +176,14 @@
         "program": [
             {
                 "event": "workshops",
+                "date_iso": "2017-12-02",
                 "schedule": [
                   {
                       "product": "ENTERPRISE_DEVOPS",
                       "name": "Roy Osherove",
                       "type": "speech",
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",                      
                       "country": "il",
                       "bio": "DevOps Process Lead & Continuous Delivery Architect @ Dell EMC, author of <a href=\"https://www.amazon.com/Elastic-Leadership-Growing-self-organizing-teams/dp/1617293083\">Elastic Leadership</a>, <a href=\"https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890\">The Art of Unit Testing</a>",
                       "long_bio": "Roy Osherove is the the DevOps Process Lead at Dell EMC, located in the bay area, California.He is the author of The Art Of Unit Testing and Elastic Leadership, as well as the upcoming Enterprise DevOps book.  He consults and trains teams worldwide on the gentle art of unit testing, test-driven development and how to lead software teams. He frequently speaks at international conferences on these topics and others.",
@@ -197,7 +199,8 @@
                       "product": "AGILE_ARCHITECTURE",
                       "name": "Kevlin Henney",
                       "type": "speech",
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",                      
                       "country": "gb",
                       "bio": "Consultant, Trainer, Writer, Author of 97 Things Every Programmer Should Know",
                       "long_bio": "Kevlin is an independent consultant and trainer based in the UK. His development interests are in patterns, programming, practice and process. He has been a columnist for various magazines and web sites, including Better Software, The Register, Application Development Advisor, Java Report and the C/C++ Users Journal. Kevlin is co-author of A Pattern Language for Distributed Computing and On Patterns and Pattern Languages, two volumes in the Pattern-Oriented Software Architecture series. He is also editor of the 97 Things Every Programmer Should Know site and book.",
@@ -212,7 +215,8 @@
                       "product": "MACHINE_LEARNING",
                       "name": "Evelina Gabasova",
                       "type": "speech",
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",                      
                       "country": "gb",
                       "bio": "Machine Learning Researcher, PhD @ University of Cambridge",
                       "long_bio": "Evelina is a machine learning researcher working in bioinformatics, trying to reverse-engineer cancer using computational methods. She is also an international conference speaker and enjoys giving talks on all topics data science. Currently, Evelina does most of her programming in R and F#, and got awarded the Microsoft MVP award for her work in the F# community. She originally started as a programmer but got interested in machine learning early on and did a mathematics PhD at the University of Cambridge, where she developed new statistical methods to analyze complex biomedical datasets.",
@@ -227,7 +231,8 @@
                       "product": "RESILIENT_DESIGN",
                       "name": "Uwe Friedrichsen",
                       "type": "speech",
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",                      
                       "country": "de",
                       "bio": "CTO @ Codecentric, Fellow, Speaker, Nerd, Consultant",
                       "long_bio": "Uwe Friedrichsen travels the IT world for many years. As a fellow of codecentric AG he is always in search of innovative ideas and concepts. His current focus areas are resilience, scalability and the IT of (the day after) tomorrow. Often, you can find him on conferences sharing his ideas, or as author of articles, blog posts, tweets and more.",
@@ -242,7 +247,8 @@
                       "product": "CRAFTING_CODE",
                       "name": "Sandro Mancuso",
                       "type": "speech",
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",                      
                       "country": "gb",
                       "bio": "Software Craftsman and Founder @ Codurance, author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
                       "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
@@ -257,7 +263,8 @@
                       "product": "ES_&_CQRS",
                       "name": "Jakub Pilimon",
                       "type": "speech",
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",                      
                       "country": "pl",
                       "bio": "Software Developer, Trainer @ ‎Bottega IT Minds, DZone's Most-Valuable Blogger",
                       "long_bio": "Passionate programmer with 7 years of experience. DDD, TDD and architecture are my main areas of interest. When I don’t program I run a DDD/architecture training, ride motorbike, ski or grow my beard. Also, here is my DZone MVB awarded blog: pillopl.github.io",
@@ -272,7 +279,8 @@
                       "product": "HASHI_STACK",
                       "name": "Paul Stack",
                       "type": "speech",
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",                      
                       "country": "gb",
                       "bio": "Software Engineer @ Joyent, ex-Software Engineer @ HashiCorp",
                       "long_bio": "Paul Stack is a London based infrastructure coder and has spoken at various events throughout the world about his passion for continuous integration, continuous delivery and good operational procedures and why they should be part of what developers and system administrators do on a day to day basis. He believes that reliably delivering software is more important as its development. Paul’s passions are the DevOps and Continuous Delivery movements and how they help the entire business and its customers.",
@@ -287,6 +295,7 @@
             },
             {
                 "event": "keynotes",
+                "date_iso": "2017-12-01",                
                 "schedule": [
                     {
                         "type": "start",
@@ -660,6 +669,7 @@
                     {
                         "type": "finish",
                         "time": "19:30",
+                        "endTime": "23:00",                        
                         "title": "Beer Afterparty",
                         "icon": "fa-beer"
                     }

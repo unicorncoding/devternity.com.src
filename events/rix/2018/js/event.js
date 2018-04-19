@@ -109,13 +109,15 @@
         "program": [
             {
                 "event": "workshops",
+                "date_iso": "2018-12-01",
                 "schedule": [
                   {
                       "product": "CRAFTING_CODE",
                       "name": "Sandro Mancuso",
                       "type": "speech",
                       "twitter": "sandromancuso",                      
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",                      
                       "tags": ["clean-code", "tdd", "refactoring"],
                       "country": "gb",
                       "bio": "Software Craftsman and Founder @ Codurance, Author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
@@ -133,7 +135,8 @@
                       "name": "Venkat Subramaniam",
                       "type": "speech",
                       "twitter": "venkat_s",                      
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",                      
                       "tags": ["kotlin", "jvm", "java developers"],                      
                       "country": "us",
                       "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
@@ -149,7 +152,8 @@
                       "name": "Jakub Nabrdalik",
                       "type": "speech",
                       "twitter": "jnabrdalik",                      
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",                      
                       "tags": ["software architecture", "domain-driven design", "cqrs", "spring"],                      
                       "country": "pl",
                       "bio": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
@@ -162,7 +166,8 @@
                   },                  
                   {
                       "product": "JEDI",
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",
                       "tags": ["productivity", "getting things done", "smarter working"],
                       "name": "Maxim Dorofeev",
                       "twitter": "cartmendum",
@@ -178,7 +183,8 @@
                   },                    
                   {
                       "product": "SERVERLESS",
-                      "time": "9:00 - 18:00",
+                      "time": "9:00",
+                      "endTime": "18:00",                      
                       "tags": ["aws lambda", "amazon web services", "serverless"],
                       "name": "Yan Cui",
                       "type": "speech",
@@ -196,6 +202,7 @@
             },
             {
                 "event": "keynotes",
+                "date_iso": "2018-11-30",                
                 "schedule": [
                     {
                         "type": "start",
@@ -329,7 +336,7 @@
                     {
                         "type": "break",
                         "time": "12:30",
-                        "title": "Lunch Break",
+                        "title": "Long Break",
                         "icon": "fa-cutlery"
                     },
                     {
@@ -505,6 +512,8 @@
                     {
                         "type": "finish",
                         "time": "19:30",
+                        "endTime": "23:00",
+                        "location": "Stargorod Riga — Czech brewery, Republikas Laukums 1, Central District, Riga",
                         "title": "Beer Afterparty",
                         "icon": "fa-beer"
                     }

@@ -2,12 +2,12 @@ doctype html
 html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="lt-ie9")
   head
     meta(charset="UTF-8")
-    title 🚀 #{data.theme} – Software Development Conference
+    title 🚀 #{data.theme} – The Top Tech Conference in Europe
     meta(name="viewport" content="width=device-width, initial-scale=1")
     meta(name="author" content="DevTernity")
     meta(http-equiv="x-ua-compatible" content="ie=edge")
     meta(name="google-site-verification" content="b0JWvPtZAQJNl2DMy0flSRjC7xxN9g10Yhu_hSszLLw")
-    meta(name="description" content="The premium-quality annual international software development conference. DevTernity is the place where developers, architects and engineering leaders grow.")
+    meta(name="description" content="The top tech conference in Europe. We turn developers into architects and engineering leaders since 2015.")
     meta(name="keywords" content="software craftsmanship conferences, software development conferences, software developer conferences, developer conference, java conferences")
     meta(name="robots" content="index,follow")
     meta(property="og:url" content="http://devternity.com")
@@ -81,7 +81,6 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
       |         "@type": "Offer",
       |         "name": "Workshop",        
       |         "url": "#{data.register}?workshop",
-      |         "validFrom": "#{data.build_time_iso}",
       |         "price": "#{data.pricing ? data.pricing.products[1].price : ''}",
       |         "priceCurrency": "EUR",
       |         "availability": "http://schema.org/InStock"
