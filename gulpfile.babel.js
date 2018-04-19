@@ -143,7 +143,7 @@ gulp.task('generate-calendar', () => {
     })
 })
 
-gulp.task('events', ['copy-events', 'generate-calendar'], () => {
+gulp.task('events', ['copy-events'], () => {
     return merge(events.map(event => {
         console.log(`Overriding ${event.loc} with specifics files`)
         var base = event.current ? `events/${event.loc}` : 'events'
@@ -194,7 +194,7 @@ gulp.task('min', ['imagemin']);
 
 // it is important, that purgecss runs after there are files in ./build
 gulp.task('build', function (cb) {
-    runSequence('events', 'copy-statics', 'min', cb)
+    runSequence('events', 'generate-calendar', 'copy-statics', 'min', cb)
 });
 
 gulp.task('deploy', ['ghPages']);
