@@ -70,7 +70,7 @@
               },
               {
                 "name": "All Inclusive",
-                "price": 598,
+                "price": 599,
                 "extra": 200,
                 "sold_out": false,
                 "attention": true
