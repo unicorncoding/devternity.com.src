@@ -65,7 +65,7 @@
               {
                 "name": "Power Workshop",
                 "price": 299,
-                "extra": 100,                
+                "extra": 116,                
                 "sold_out": false                
               },
               {
