@@ -60,19 +60,22 @@
                 "name": "Main Day",
                 "price": 299,
                 "extra": 100,
+                "battery": "fa-battery-half",
                 "sold_out": false
               },
               {
                 "name": "Power Workshop",
                 "price": 299,
-                "extra": 116,                
-                "sold_out": false                
+                "extra": 116,
+                "battery": "fa-battery-quarter",
+                "sold_out": false
               },
               {
-                "name": "All Inclusive",
+                "name": "2-Days Super Pack",
                 "price": 599,
                 "extra": 200,
                 "sold_out": false,
+                "battery": "fa-battery-quarter",
                 "attention": true
               }
             ]

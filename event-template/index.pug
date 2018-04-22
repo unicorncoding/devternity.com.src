@@ -404,14 +404,14 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             |  There is no point to wait until the last moment, because we'll charge you more. Secure your seat now. You will be able to change the information about the participants later. Free of charge.
 
         div.row
-          section(class="feature 3u 12u$(medium) 12u$(small)") 
+          section(class="feature 2u 12u$(medium) 12u$(small)") 
             | &nbsp;
-          section(class="tick feature 6u 12u$(medium) 12u$(small)")
+          section(class="tick feature 8u 12u$(medium) 12u$(small)")
             div.row.nopadding
               each product in data.pricing.products
                 section(class="4u 12u$(small)")
                   h3.product(class=`${product.attention ? 'attention' : 'fade-attention' }`)
-                    | #{product.name}
+                    | #{product.name} 
                     br
                     if !product.sold_out && data.status == 'on_sale'
                       if product.attention
@@ -423,13 +423,15 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       span #{product.price} 
                       strike #{product.price + product.extra}
                       | €
+                      br
+                      i.fas(class=product.battery)
                     if product.sold_out || data.status == 'booked'
                       span SOLD OUT
             div.row
               section(class="12u 12u$(small)")
                 if data.status != 'booked'
                   a.button.pulse(href=data.register style="padding: 0 0.5em") Register now and save #{data.pricing.products[2].extra}€
-          section(class="feature 3u 12u$(medium) 12u$(small)")
+          section(class="feature 2u 12u$(medium) 12u$(small)")
             | &nbsp;
 
     if data.sponsorship
