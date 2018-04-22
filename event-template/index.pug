@@ -229,11 +229,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
       section.wrapper.align-center(data-remodal-id="venue-location")
           button.remodal-close(data-remodal-action="close")
           div.embed-container
-            div
-              p(style="font-size: 12px; margin: 0") 
-                | #{data.venue_name}, #{data.venue_address}, #{data.city}, #{data.venue_postal_code} 
-                a(href=data.venue_map target="_blank"): i.fas.fa-map-marker-alt
-              img(src="images/libka.jpg" alt="National Library of Latvia" style="width:100%")
+            iframe(src='https://player.vimeo.com/video/265964598' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen)
 
       section.wrapper.align-center(data-remodal-id="trailer-vimeo")
           button.remodal-close(data-remodal-action="close")
