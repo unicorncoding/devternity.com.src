@@ -448,7 +448,7 @@
                         "country": "de",
                         "bio": "Principal Architect @ Senacor Technologies",
                         "img": "images/schmitz.png", 
-                        "title": "10 Tips for Failing at Microservices",
+                        "title": "10 Tips for Failing Badly at Microservices",
                         "description": "Microservices are just a bunch hip new framework plus some AngularJS frontend or React, right? So, if you want to make sure that you absolutely and definitely fail at your Microservice project, then watch this talk and learn how. Using real world experience from multiple green field and brown field projects, I can show you how to ignore the mandatory organizational impact, how to focus on the code only without any regard towards ops and testing, why continuous deployment is for losers, why jumping onto every new and untested framework is a must, why event-sourcing and CQRS are both free lunches and now you can add complexity without any real need, and more! <br>If you mind my tips, then surely you will fail at Microservices and your boss will never again try to move away from your beloved vintage monolith.",
                         "tags": ["architecture", "anti-patterns", "rant"]
                       },                         
