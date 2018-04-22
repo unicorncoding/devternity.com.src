@@ -163,7 +163,7 @@
                       "long_bio": "A software developer with 12 years of professional experience in IT, as an architect, programmer, designer, analyst, project leader, project manager, and lately as a Head of Software Development. Down to the ground kind of guy, who hates corporate bullshit, people in general, and shiny theories not tested in practice, but have to deal with all of them on a daily basis.",
                       "title": "Practical DDD for Java Developers",
                       "description": "<p>Domain-Driven Design (aka DDD) is a methodology and set of architectural best practices aimed to reduce complexity of sophisticated business applications.  This course is designed to get you familiarised with the key principles of DDD using practical examples in modern Java and Spring Framework.</p><p>During this course designed for Java developers and architects, you will learn and understand:</p> <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>What is DDD, why it’s important and how to use it effectively</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>What is CQRS and Event Sourcing and how it fits nicely with DDD</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How domain modelling in DDD is different to classic relational data modelling</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>DDD building blocks – Aggregate Roots, Value Objects and how to map them with JPA</li>  <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to drive application state through interfaces</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to craft Domain Specific Languages (DSLs) that simplify our code (and where is it worth the effort)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use Bounded Contexts to split your app into smaller services</li> <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to integrate Bounded Contexts using Domain Events, Shared Kernel and Anticorruption Layer</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to talk with domain experts using Ubiquitous Language</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>…and much more!</li></ul><p>Bring your own laptop, and let's get you ready for writing amazing DDD/CQRS applications!</p>",
-                      "img": "images/jnb2.png",
+                      "img": "images/jnb.png",
                       "presentation": "",
                       "video": ""
                   },                  
@@ -439,7 +439,19 @@
                           "time": "15:40",
                           "title": "Coffee Break",
                           "icon": "fa-coffee"
-                      },             
+                      },          
+                      {                           
+                        "time": "16:00",                            
+                        "name": "David Schmitz",
+                        "type": "speech",
+                        "twitter": "koenighotze",                      
+                        "country": "de",
+                        "bio": "Principal Architect @ Senacor Technologies",
+                        "img": "images/schmitz.png", 
+                        "title": "10 Tips for Failing at Microservices",
+                        "description": "Microservices are just a bunch hip new framework plus some AngularJS frontend or React, right? So, if you want to make sure that you absolutely and definitely fail at your Microservice project, then watch this talk and learn how. Using real world experience from multiple green field and brown field projects, I can show you how to ignore the mandatory organizational impact, how to focus on the code only without any regard towards ops and testing, why continuous deployment is for losers, why jumping onto every new and untested framework is a must, why event-sourcing and CQRS are both free lunches and now you can add complexity without any real need, and more! <br>If you mind my tips, then surely you will fail at Microservices and your boss will never again try to move away from your beloved vintage monolith.",
+                        "tags": ["architecture", "anti-patterns", "rant"]
+                      },                         
                       {                           
                         "time": "16:00",                            
                         "name": "Jakub Nabrdalik",
@@ -447,7 +459,7 @@
                         "twitter": "jnabrdalik",                      
                         "country": "pl",
                         "bio": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
-                        "img": "images/jnb2.png", 
+                        "img": "images/jnb.png", 
                         "title": "<i class=\"fas fa-clock\"></i> architecture talk pending"
                       },
                       {                           
@@ -460,13 +472,6 @@
                         "img": "images/tsang.png", 
                         "title": "<i class=\"fas fa-clock\"></i> kubernetes talk pending"
                       },
-                    {    
-                       "type": "speech",   
-                       "time": "16:00",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },
                     {
                         "type": "break",
                         "time": "16:50",
