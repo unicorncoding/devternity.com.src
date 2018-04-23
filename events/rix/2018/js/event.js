@@ -454,14 +454,16 @@
                       },                         
                       {                           
                         "time": "16:00",                            
-                        "name": "Jakub Nabrdalik",
+                        "name": "Marco Heimeshoff",
                         "type": "speech",
-                        "twitter": "jnabrdalik",                      
-                        "country": "pl",
-                        "bio": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
-                        "img": "images/jnb.png", 
-                        "title": "<i class=\"fas fa-clock\"></i> architecture talk pending"
-                      },
+                        "twitter": "heimeshoff",                      
+                        "country": "de",
+                        "bio": "Independent consultant, Domain-Driven Design and Event-Sourcing expert",
+                        "img": "images/heisen.png", 
+                        "title": "The Pillars of Domain-Driven Design",
+                        "description": "Domain Driven Design is neither a method nor a technology, it is a culture, a way of thinking about the needs of the customers first and putting an emphasis on their language and human interactions. The promise of DDD is to tackle complexity in the heart of software, and the means are plentiful and can be overwhelming. There are three pillars though, on which the whole approach stands. A focus on learning, language and empathy. With the right mindset it becomes simple to derive good models, keep them pure and aligned with the business. Simple is not easy, but done right Domain Driven Design transforms everything in your organisation from code to culture, from agile to architecture.",
+                        "tags": ["architecture", "domain modeling", "ddd"]
+                      },   
                       {                           
                         "time": "16:00",                            
                         "name": "Ray Tsang",
@@ -472,19 +474,22 @@
                         "img": "images/tsang.png", 
                         "title": "<i class=\"fas fa-clock\"></i> kubernetes talk pending"
                       },
-                    {
-                        "type": "break",
-                        "time": "16:50",
-                        "title": "Coffee Break",
-                        "icon": "fa-coffee"
-                    },
-                    {    
-                       "type": "speech",   
-                       "time": "17:10",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },
+                      {
+                          "type": "break",
+                          "time": "16:50",
+                          "title": "Coffee Break",
+                          "icon": "fa-coffee"
+                      },
+                      {                           
+                        "time": "17:10",                            
+                        "name": "Jakub Nabrdalik",
+                        "type": "speech",
+                        "twitter": "jnabrdalik",                      
+                        "country": "pl",
+                        "bio": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
+                        "img": "images/jnb.png", 
+                        "title": "<i class=\"fas fa-clock\"></i> architecture talk pending"
+                      },
                     {    
                        "type": "speech",   
                        "time": "17:10",    
