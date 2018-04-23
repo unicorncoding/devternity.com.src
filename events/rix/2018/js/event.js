@@ -458,7 +458,7 @@
                         "type": "speech",
                         "twitter": "heimeshoff",                      
                         "country": "de",
-                        "bio": "Independent consultant, Domain-Driven Design and Event-Sourcing expert",
+                        "bio": "Independent Consultant, Domain-Driven Design and Event-Sourcing Expert",
                         "img": "images/heisen.png", 
                         "title": "The Pillars of Domain-Driven Design",
                         "description": "Domain Driven Design is neither a method nor a technology, it is a culture, a way of thinking about the needs of the customers first and putting an emphasis on their language and human interactions. The promise of DDD is to tackle complexity in the heart of software, and the means are plentiful and can be overwhelming. There are three pillars though, on which the whole approach stands. A focus on learning, language and empathy. With the right mindset it becomes simple to derive good models, keep them pure and aligned with the business. Simple is not easy, but done right Domain Driven Design transforms everything in your organisation from code to culture, from agile to architecture.",
