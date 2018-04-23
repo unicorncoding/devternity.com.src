@@ -188,7 +188,7 @@
                       "product": "SERVERLESS",
                       "time": "9:00",
                       "endTime": "18:00",                      
-                      "tags": ["aws lambda", "amazon web services", "serverless"],
+                      "tags": ["devops", "aws", "serverless"],
                       "name": "Yan Cui",
                       "type": "speech",
                       "twitter": "theburningmonk",
