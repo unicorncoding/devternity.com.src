@@ -1,51 +1,158 @@
 doctype html
 html(lang="en")
 	head
+		- var no = 20
 		meta(charset="UTF-8")
-		title DevTernity — 99 Reasons Why You Must be Here
+		title DevTernity — #{no} Reasons Why You Must be Here
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 		meta(http-equiv="x-ua-compatible" content="ie=edge")
 		meta(name="description" content="There are at least 99 reasons why you must be present at DevTernity.")
 		meta(name="keywords" content="")
 		meta(name="robots" content="index,follow")
 		script(src="https://cdnjs.cloudflare.com/ajax/libs/page.js/1.8.6/page.min.js")
+		script(defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous")
 		link(rel="shortcut icon" type="image/png" href="images/logo_2017_filled.png")
 		link(rel="icon" href="/images/favicon.png")
 		link(rel="shortcut icon" sizes="64x64" href="/images/favicon.png")
 		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css")
 		style
-			| img { margin: 20px }
+			| img.logo { margin: 20px }
 			| .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 	body
 		section.hero.is-success.is-bold
 			.hero-head
 				.container
-					img.image.is-96x96(src="/images/dt_logo_rect.png")
+					img.logo.image.is-96x96(src="/images/dt_logo_rect.png")
 			.hero-body
 				.container
-					h1.title 99 reasons why you must attend DevTernity
+					h1.title #{no} reasons why you must attend DevTernity
 					h2.subtitle ...and why missing DevTernity is a BAD idea.
 		section.section
+			.container
+				.tile.is-ancestor
+					.tile.is-6.is-vertical.is-parent
+						.tile.is-child
+							p.title Trust the choice of architects and engineering leaders
+							p 83% of conference attendees are top-level professionals — senior developers, software architects and engineering leaders. How they have become successful? They are great at making choices. The conference is an important choice that will influence your career. Trust those who is already at the top.
+						.tile.is-child
+							p.title Know more than your competitors
+							p In just two days, you will learn much more than your competitors, who attend narrow-focused conferences. Start preparing for the role of software architect, engineering leader or CTO today.
+						.tile.is-child
+							p.title Earn certificate of attendance 
+								i.has-text-warning.fas.fa-trophy(aria-hidden="true")
+							p After the conference, we issue an official, nice, laminated certificate of accomplishment, confirming the attendance of the conference. Use it for for boosting your credibility. Or just prove your parner you weren't swimming on Bali.	
+						.tile.is-child
+							p.title Enjoy perfect coffee by 
+								img.is-inline.image.is-96x96(src="/images/illy.png")
+							p What's the best coffee on the planet? It's Illy. Illy coffees are blended from arabica beans from multiple sources. The grounds are packaged in steel canisters and pressurized with an inert gas rather than air. DevTernity runs on Illy. And, like all best things in life, it's free.
+						.tile.is-child
+							p.title Download the whole internet
+							p Our hometown – Riga, is ranked among the top 10 fastest internet cities in the world. Urgent video call? Unfinished work? Millions of JS dependencies? No problem! Enjoy lightning-fast and free 4G and Wi-Fi everywhere – at the conference, in the hotel or a cozy coffee shop.
+					.tile.is-vertical.is-parent
+						.tile.is-child
+							p.title The venue that will make your heart dance
+							p
+								| Bored of conferences that run in hotels, decorated with Soviet-style red carpets? Or spending the whole day in a dark cinema that make your eyes bleed? We feel your pain. Our venue, 
+								b the Castle of Light
+								|  – the winner of International Excellence Award 2018, is designed from scratch for stunning events. It's modern, light and has outstanding audio and video quality that will make your heart dance.
+								.embed-container
+									iframe#video(name="video" src='https://player.vimeo.com/video/265964598' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen)
+						.tile.is-child
+							p.title Have fun			
+							p After the conference, we enjoy unlimited supply of craft beer at Stargorod – the authentic Czech brewery. It's an amazing opportunity to meet old friends, teammates and, of course, argue with speakers until midnight.
+							img.image(src="/images/stargorod.jpg")
 			.container.content
 				.columns
-					.column.is-half
-						h2.title #3 Trust the choice of architects and engineering leaders
-						p 83% of conference attendees are top-level professionals — senior developers, software architects and engineering leaders. How they have become successful? They are great at making choices. The conference is an important choice that will influence your career. Trust those who is already at the top.
-					.column.is-half
-						h2.title #2 The venue that will make your heart dance
-						p 
-							| Bored of conferences that run in hotels, decorated with Soviet-style red carpets? Or spending the whole day in a dark cinema that make your eyes bleed? We feel your pain. Our venue, 
-							b the Castle of Light
-							|  – the winner of International Excellence Award 2018, is designed from scratch for stunning events. It's modern, light and has outstanding audio and video quality that will make your heart dance.
-						.embed-container
-							iframe#video(name="video" src='https://player.vimeo.com/video/265964598' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen)
 				.columns
 					.column.is-half
-						h2.title #1 Lightning-fast internet
-						p Our hometown – Riga, is ranked among the top 10 fastest internet cities in the world. Urgent video call? Unfinished work? No problem! Enjoy lightning-fast and free 4G and Wi-Fi everywhere – at the conference, in the hotel or a cozy coffee shop.						
+						h2.title
+							| #5 Ranked 
+							i.has-text-warning.fa.fa-star(aria-hidden="true")
+							i.has-text-warning.fa.fa-star(aria-hidden="true")
+							i.has-text-warning.fa.fa-star(aria-hidden="true")
+							i.has-text-warning.fa.fa-star(aria-hidden="true")
+							i.has-text-warning.fa.fa-star(aria-hidden="true")
+							|  by TrustPilot
+						p DevTernity is the only tech conference on the market with 5-stars granted by TrustPilot. It's like being awarded with Michelin Stars for excellence and attention to details.
+				.columns
+					.column.is-half
+						h2.title #7 Perfect theory &amp; practice balance
+						p In just two days, you will become a better professional. The formula is simple: the knockout dose of inspiring talks, reinforced by a hands-on, power workshop of your choice. Works like a charm. Guaranteed.
+					.column.is-half
+						h2.title #8 Learn directly from industry influencers
+						p Tired of Captain Obvious, marketing and Agile bullshit? We, too. We only invite speakers with outstanding technical and public speaking skills. Any exceptions, such as sponsored talks? Sorry, not at this conference.
+				.columns
+					.column.is-half
+						h2.title #9 Get energised by 1500 minutes of inspiration
+						p There are 1500 minutes of talks, practice and experience scattered across 2 days and 3 parallel tracks. Just enough to get inspired for new career achievements.
+				.columns
+					.column.is-half
+						h2.title #10 For developers by dev... Oh, stop it!
+						p 
+							blockquote The conference for developers by developers.
+							| Have you heard this boo-boo? We, too. Truth is that it takes a cross-functional, diverse team to organize truly great conference. Moreover, in order to succeed as an industry, we must invite our partners in crime – managers, QA ninjas, system engineers. Let's start breaking walls together!
+				.columns
+					.column.is-half
+						h2.title #11 Organizers who spoke at 100 events
+						p We attended 300 events all over the world. We spoke at 100 at least. The number is still counting. We saw it all from the bottom to the top. We talked to hunders of happy and frustrated attendees. We picked the best parts and dropped the nonsense. This is how DevTernity was born.
+						//- img.image(src="/images/organizers_speak.jpg")
+					.column.is-half
+						h2.title #11 The easiest way to support diversity
+						p 
+							| Every paid ticket helps to support members of underrepresented groups who may not otherwise have the opportunity to attend the conference. This includes, but is not limited to women, students, people of colour, LGBTQIA+ people, disabled people. Only together we can build supportive and humane community. Don't stand aside.
+							img.image(src="/images/diversity.png")
+				.columns
+					.column.is-half
+						h2.title Be part of respectful community
+						p 
+							| We are committed to providing a welcoming and harassment-free environment for participants of all races, gender and trans statuses, sexual orientations, physical abilities, physical appearances, and beliefs. 
+							a(href="https://devternity.com/code_of_conduct.html") Here
+							|  is our public commitment to doing all we can to ensure your safety.
+					.column.is-half
+						h2.title Get your iPhone, PS4 or VR glasses. For free.
+						p Every year, our participants win premium prices brought by our sponsors. Our sponsors are committed to make the event memorable. In fact, we work only with the sponsors who understand what developers like. Forget "exchange your email for a chocolate" type of things. Play big.
+						img.image(src="/images/prizes.jpg")
+				.columns
+					.column.is-half
+						h2.title Addictive like a BMW ride.
+						p 80% of our attendees continue visiting the conference year after year. Other conferenes are out. It' like riding BMW. Try it once, and other cars do not exist anymore.
+				.columns
+					.column.is-half
+						h2.title Make yourself a Christmas present
+						p You worked so hard throughout the year. You want to celebrate your efforts, don't you? Make yourself the best Christmas present. Because you deserve it.
+							img.image(src="/images/present.jpg")
+				.columns
+					.column.is-half
+						h2.title Win the best IT books. Signed by authors.
+						p Reading is the key to success. During the event, you will get a chance to win a deck of trending IT bestseller books. All books are authored by our speakers. Signed exclusively for you.
+				.columns
+					.column.is-half
+						h2.title Get salary raise
+						p We talk to our permanent attendees and many report salary improvement. Depending on the market, architects earn 25-70% than developers. Want to turn your 3K into 5K? Jump on the bus and learn things that matter.
+					.column.is-half
+						h2.title We buy you a lunch
+						p You have only one stomack, but many conferences try to kill you with a baguette made of stone. We serve tasty, freshly cooked, organic food. Meat eater? Vegetarian? Vegan? We won't leave you hungry.
+				.columns
+					.column.is-half
+						h2.title Money back guarantee
+						p We are responsible for what we say. It never happened before, but if we won't deliver to our promises – you get your money back. As simple as that.
+					.column.is-half
+						h2.title All talks in English
+						p Have you attended the conference where some talks are in local language? It's when you listen for a talk and can't understand a damn thing. At DevTernity, we want you to understand everything, from A to Z. All talks are delivered in fluent, easy-to-understand English.
+				.columns
+					.column.is-half
+						h2.title Visiting from other country? You are super welcome.
+						p We welcome attendees from Germany, Austria, Scandinavia, Estonia and many other amazing places. We make your arriving experience easy and smooth. You get everything you need, including city arrival guide, taxi coupons, Google maps directions. Who else is having a 24/7 service for travel assistance? 
+							a(href="mailto:travel@devternity.com") 
+								i.fas.fa-envelope-open 
+								|  travel@devternity.com
+					.column.is-half
+						h2.title Visit beautiful Riga
+						p Riga, the capital of Latvia, is one of the top destinations in Europe and the largest of all three Baltic capitals. Art Nouveau architecture makes up roughly one third of all buildings, making Riga the city with the highest concentration of Art Nouveau architecture in the world. A must-see.
+						img.image(src="/images/riga.jpg")
 		section.section
 			.container.has-text-centered
-				a.button.is-danger(href="https://devternity.com/registration") Omg, count me in already!
+				a.button.is-danger(href=data.register) Omg, count me in already!
 		footer.footer
 			.container
 				.content.has-text-centered
