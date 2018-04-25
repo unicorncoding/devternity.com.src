@@ -35,6 +35,104 @@
         "venue_name": "The Castle of Light",
         "venue_map": "https://www.google.lv/maps/place/National+Library+of+Latvia/@56.9496618,24.1108501,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNJHWS2JofoHRZPUTb8Y65dlsRJImv6sHSsSUIo!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNJHWS2JofoHRZPUTb8Y65dlsRJImv6sHSsSUIo%3Dw203-h152-k-no!7i4032!8i3024!4m5!3m4!1s0x46eecfd136321fcd:0xf716266fca1b4d9b!8m2!3d56.941013!4d24.096625",
         "buzzwords": [],
+        "team": [
+          {
+            "name":  "Eduards",
+            "flag": "lv",
+            "job": "I wrote this article",
+            "pic": "eduards.png"
+          },        
+          {
+            "name": "Andrey",
+            "flag": "lv",
+            "job": "eXtreme Automator",
+            "pic": "adamovich.png"
+          },
+          {
+            "name": "Romans",
+            "flag": "ee",
+            "job": "iOS guy @ Pipedrive",
+            "pic": "karpelcev.png"
+          },
+          {
+            "name": "Artjom",
+            "flag": "ee",
+            "job": "iOS dev @ Pipedrive",
+            "pic": "tjoma.png"
+          },
+          {
+            "name": "Ilaha",
+            "flag": "lv",
+            "job": "Happiness Officer",
+            "pic": "ilaha.png"
+          },
+          {
+            "name": "Leo",
+            "flag": "lv",
+            "job": "Technical Hero",
+            "pic": "leo.png"
+          },                    
+          {
+            "name": "Ilya",
+            "flag": "lv",
+            "job": " ‎iOS dev @ ‎Ubiquiti",
+            "pic": "ilya.png"
+          },
+          {
+            "name": "Inta",
+            "flag": "lv",
+            "job": "Chief Designer",
+            "pic": "inta.png"
+          },
+          {
+            "name": "Jānis",
+            "flag": "lv",
+            "job": "Dev @ Attido",
+            "pic": "cimbis.png"
+          },
+          {
+            "name": "Jovche",
+            "flag": "nl",
+            "job": "Tech Lead @ ‎Attenza",
+            "pic": "jovche.png"
+          },
+          {
+            "name": "Albert",
+            "flag": "lv",
+            "job": ".NET Ninja",
+            "pic": "albert.png"
+          },
+          {
+            "name": "Jelena",
+            "flag": "lv",
+            "job": "Chief of Foodification",
+            "pic": "jelena.png"
+          },
+          {
+            "name": "Alex",
+            "flag": "lv",
+            "job": "Dev @ Ask.fm",
+            "pic": "nazaroff.png"
+          },
+          {
+            "name": "Darja",
+            "flag": "lv",
+            "job": "Volunteer Coordinator",
+            "pic": "darya.png"
+          },
+          {
+            "name": "Pavel",
+            "flag": "lv",
+            "job": "Video Expert",
+            "pic": "pavel.png"
+          },
+          {
+            "name": "Vitaly",
+            "flag": "lv",
+            "job": "Analyst @ Primera Air",
+            "pic": "vitaly.png"
+          }          
+        ],
         "socials": {
           "twitter": "https://twitter.com/devternity",
           "meetup": "https://meetup.com/devternity",

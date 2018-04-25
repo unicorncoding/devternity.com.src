@@ -35,6 +35,7 @@
         "venue_name": "National Library of Latvia",
         "venue_map": "https://www.google.lv/maps/place/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka/@56.941013,24.096625,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd136321fcd:0xf716266fca1b4d9b",
         "buzzwords": ["Chaos Engineering", "Deep Learning", "Hexagonal Architecture", "GraphQL", "Radical Agility", "Blockchain", "Resilient Design" ],
+        "team": [],
         "socials": {
           "twitter": "https://twitter.com/devternity",
           "facebook": "https://www.facebook.com/devternity",
