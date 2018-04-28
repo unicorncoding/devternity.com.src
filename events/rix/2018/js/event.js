@@ -143,9 +143,9 @@
           "wikipedia-w": "https://en.wikipedia.org/wiki/DevTernity_Conference"
         },
         "benefits": {
-          "Top quality": "You will be excited about the excellent quality at all levels. We are the only conference with <span class=\"nowrap\"><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> 5-star rating</span> according to TrustPilot.",
+          "Trusted by architects and engineering leaders": "83% of conference attendees are top-level professionals — senior developers, software architects and engineering leaders. How they have become successful? They are great at making choices. The conference is an important choice that will influence your career. Trust those who is already at the top.",
           "Learn from industry influencers": "Tired of Captain Obvious, marketing and Agile bullshit? We, too. We only invite speakers with outstanding technical and public speaking skills. Any exceptions, such as sponsored talks? Sorry, not at this conference.",
-          "The most important topics in one place": "In just two days, you will learn much more than your competitors, who attend narrow-focused conferences. Start preparing for the role of software architect, engineering leader or CTO today.",
+          "Know more than your competitors": "In just two days, you will learn much more than your competitors, who attend narrow-focused conferences. Start preparing for the role of software architect, engineering leader or CTO today.",
           "Perfect theory & practice balance": "In just two days, you will become a better professional. The formula is simple: the knockout dose of inspiring talks, reinforced by a hands-on, power workshop of your choice. Works like a charm. Guaranteed.",
           "Excellent location": "Riga, the capital of Latvia, is one of the top destinations in Europe. Beautiful, well-located, ranked among the top 10 fastest internet cities in the world. Our venue, <strong><a ng-click=\"seeVenue()\">the Castle of Light</a></strong>, has won International Excellence Award 2018."
         },
