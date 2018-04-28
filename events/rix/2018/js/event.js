@@ -143,11 +143,12 @@
           "wikipedia-w": "https://en.wikipedia.org/wiki/DevTernity_Conference"
         },
         "benefits": {
-          "Trusted by architects and engineering leaders": "83% of conference attendees are top-level professionals — senior developers, software architects and engineering leaders. How they have become successful? They are great at making choices. The conference is an important choice that will influence your career. Trust those who is already at the top.",
+          "Trusted by architects and engineering leaders": "83% of conference attendees are top-level professionals — senior developers, software architects and engineering leaders. They are great at making choices. Trust those who is already at the top.",
           "Learn from industry influencers": "Tired of Captain Obvious, marketing and Agile bullshit? We, too. We only invite speakers with outstanding technical and public speaking skills. Any exceptions, such as sponsored talks? Sorry, not at this conference.",
           "Know more than your competitors": "In just two days, you will learn much more than your competitors, who attend narrow-focused conferences. Start preparing for the role of software architect, engineering leader or CTO today.",
-          "Perfect theory & practice balance": "In just two days, you will become a better professional. The formula is simple: the knockout dose of inspiring talks, reinforced by a hands-on, power workshop of your choice. Works like a charm. Guaranteed.",
-          "Excellent location": "Riga, the capital of Latvia, is one of the top destinations in Europe. Beautiful, well-located, ranked among the top 10 fastest internet cities in the world. Our venue, <strong><a ng-click=\"seeVenue()\">the Castle of Light</a></strong>, has won International Excellence Award 2018."
+          "Earn certificate of attendance": "After the conference, we issue an official, nice, laminated certificate of accomplishment, confirming the attendance of the conference. Use it for for boosting your credibility, enrich your LinkedIn profile or build a nice certificate wall.",
+          "Visit beautiful Riga": "Riga, the capital of Latvia, is one of the top destinations in Europe. Beautiful, well-located, ranked among the top 10 fastest internet cities in the world. Our venue, <strong><a ng-click=\"seeVenue()\">the Castle of Light</a></strong>, has won International Excellence Award 2018. This is a must-see.",
+          "And more!": "<a class=\"button\" href=\"why.html\">25 reasons why you must be here</a>"
         },
         "pricing": {
             "discount": {
