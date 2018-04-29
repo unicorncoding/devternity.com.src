@@ -591,13 +591,18 @@
                         "description": "I’ve been using TDD/BDD at work for the last 12 years, I also teach and mentor teams on this subject. I’ve found that misconceptions and errors in this field are shared, and that most of us make the same mistakes. Give me 45 minutes of your time, and I’ll try to address the most common problems, hoping to improve your TDD/BDD situation as much as possible. I’ll try to solve: long running tests problem, by bringing back the correct shape of test-pyramid with power of Hexagonal Architecture (Ports & Adapters) with practical examples in Spring, miscommunication and lost art of requirement gathering, by focusing on readability, introducing just enough of Domain Specific Language, and sorting out what is important with the power of Spock, difficult test setup and environment requirements, by using command and conquer, modularity, monitoring, mock abuse, by showing what are the benefits of in-memory implementations, and hopefully more. Most teams that do not write tests first do it, because it’s hard for them. I’ll try to show you, how to make it easy. Real life examples included. If you are not using TDD/BDD, this might also interest you - you’ll know how to start the right way.",
                         "tags": ["tdd", "bdd", "java examples"]
                       },
-                    {    
-                       "type": "speech",   
-                       "time": "17:10",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },
+                      {                           
+                        "time": "17:10",                            
+                        "name": "Alex Petrov",
+                        "type": "speech",
+                        "twitter": "ifesdjeen",                      
+                        "country": "de",
+                        "bio": "Senior Software Engineer at DataStax, Cassandra Team",
+                        "img": "images/petrov.png",
+                        "title": "What Every Programmer Has to Know About Database Storage",
+                        "description": "In the world of Big Data, it’s important to know how the Database Storage works in order to be able to pick a right tool right job. The talk covers evaluation techniques, to choose storage with best read, write or memory overhead, best suitable for your data. This information will help you to navigate the world of databases and stream processing engines, each of which uses a specific storage type or offers multiple different possibilities. You will gain understanding the trade-offs different Storage types bring as you scale out your data and plan for growth.",
+                        "tags": ["under-the-hood", "technical", "algorithms"]
+                      },
                     {    
                        "type": "speech",   
                        "time": "17:10",    
