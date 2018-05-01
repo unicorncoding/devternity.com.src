@@ -597,7 +597,7 @@
                         "type": "speech",
                         "twitter": "ifesdjeen",                      
                         "country": "de",
-                        "bio": "Senior Software Engineer at DataStax, Cassandra Team",
+                        "bio": "Senior Software Engineer, Apache Cassandra Committer",
                         "img": "images/petrov.png",
                         "title": "What Every Programmer Has to Know About Database Storage",
                         "description": "In the world of Big Data, it’s important to know how the Database Storage works in order to be able to pick a right tool right job. The talk covers evaluation techniques, to choose storage with best read, write or memory overhead, best suitable for your data. This information will help you to navigate the world of databases and stream processing engines, each of which uses a specific storage type or offers multiple different possibilities. You will gain understanding the trade-offs different Storage types bring as you scale out your data and plan for growth.",
