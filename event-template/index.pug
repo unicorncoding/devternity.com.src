@@ -485,16 +485,16 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
       section#exitOffer(data-remodal-id="exitOffer")
         form(ng-controller="ExitOfferController" name="exitOffer")
           h2 
-            | Let us make you happier 
-            i.fa.fa-leaf(style="color: #4dac71" aria-hidden="true")
+            | Lucky you! Here is the secret deal 
+            i.fas.fa-user-secret(aria-hidden="true")
           div
             input#email(type="email" ng-model="email")
             br
-            input(type="button" value="Receive exclusive 60€ discount" ng-click="onDiscount()" ng-disabled="!email || exitOffer.$error.email")
+            input(type="button" value="Receive limited 60€ discount" ng-click="onDiscount()" ng-disabled="!email || exitOffer.$error.email")
             br
             br
             p {{subscribeMessage}}
-            strong: a(href="#" data-remodal-action="close") No, I don't want a discount.
+            strong: a(href="#" data-remodal-action="close") No, thanks. Already have a my ticket.
       ul.copyright
         li &copy; DevTernity OÜ, 14226860, Mõisavahe tn 38-129 Tartu, Estonia. 
         br 
