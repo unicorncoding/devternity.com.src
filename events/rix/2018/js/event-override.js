@@ -1,26 +1,20 @@
 [
     {
         "pricing": {
-            "discount": {
-              "amount": 50
-            },
-            "products": [
-              {
-                "name": "Main Day",
-                "price": 399,
-                "extra": 100
+            "packages": {
+              "Main Day Only": {
+                  "price": 299,
+                  "extra": 100,
               },
-              {
-                "name": "Power Workshop",
-                "price": 399,
-                "extra": 116
+              "Power Workshop Only": {
+                  "price": 299,
+                  "extra": 116,
               },
-              {
-                "name": "2-Days Super Pack",
-                "price": 799,
-                "extra": 200
+              "2-Days Super Pack": {
+                  "price": 599,
+                  "extra": 200,
               }
-            ]
+            },
         }
     }
 ]

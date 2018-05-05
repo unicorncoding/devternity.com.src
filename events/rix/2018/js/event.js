@@ -151,8 +151,26 @@
           "And more!": "<a class=\"button\" href=\"why.html\">25 reasons why you must be here</a>"
         },
         "pricing": {
-            "discount": {
-              "amount": 50
+            "packages": {
+              "Main Day Only": {
+                  "price": 299,
+                  "extra": 100,
+                  "battery": "fa-battery-half",
+                  "sold_out": false
+              },
+              "Power Workshop Only": {
+                  "price": 299,
+                  "extra": 116,
+                  "battery": "fa-battery-quarter",
+                  "sold_out": false
+              },
+              "2-Days Super Pack": {
+                  "price": 599,
+                  "extra": 200,
+                  "sold_out": false,
+                  "battery": "fa-battery-quarter",
+                  "attention": true
+              }
             },
             "products": [
               {

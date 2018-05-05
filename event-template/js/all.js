@@ -100,6 +100,21 @@ devternity.filter("humane", [function() {
   }
 }]);
 
+devternity.filter("packages", [function() {
+  return function(objects){
+      if (!(objects instanceof Object)) return objects;
+      var keys = Object.keys(objects);
+      var array = [];
+      for (var i = 0; i < keys.length; i++) {
+        var k = keys[i];
+        var v = objects[k];
+        v["name"] = k;
+        array.push(v);
+      }
+      return array;
+  }
+}]);
+
 devternity.controller("ExitOfferController", function($scope, $http) {
 	bioEp.init({
 		cookieExp: 30

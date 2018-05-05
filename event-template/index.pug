@@ -380,7 +380,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             | &nbsp;
           section(class="tick feature 8u 12u$(medium) 12u$(small)")
             div.row.nopadding
-                section(class="4u 12u$(small)" ng-repeat="product in event.pricing.products")
+                section(class="4u 12u$(small)" ng-repeat="product in event.pricing.packages | packages")
                   h3.product(ng-class="{'attention' : product.attention, 'fade-attention': !product.attention}")
                     | {{product.name}}
                     br
@@ -398,7 +398,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                     span(ng-if="product.sold_out || event.status == 'booked'") SOLD OUT
             div.row
               section(class="12u 12u$(small)")
-                a.button.pulse(ng-if="event.status != 'booked'" href="{{event.register}}" style="padding: 0 0.5em") Register now and save {{event.pricing.products[2].extra}}€
+                a.button.pulse(ng-if="event.status != 'booked'" href="{{event.register}}" style="padding: 0 0.5em") Register now and save 200€
           section(class="feature 2u 12u$(medium) 12u$(small)")
             | &nbsp;
 
