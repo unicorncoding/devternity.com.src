@@ -205,7 +205,7 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
     $scope.slideTo('#tickets-container');
   }
 
-  $http.get('js/event.js')
+  $http.get('js/event.js?purge')
        .then(function(response){
           var body = response.data[0];
 		      $scope.event = body;
