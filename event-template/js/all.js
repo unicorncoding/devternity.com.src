@@ -193,7 +193,7 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
   $http.get('js/event.js')
        .then(function(response){
           var body = response.data[0];
-		  $scope.event = body;
+		      $scope.event = body;
           $('#devternity-loading').fadeOut('slow',function(){
             $('#devternity-loading').remove();
         });

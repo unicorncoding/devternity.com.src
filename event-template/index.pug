@@ -67,25 +67,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
       |     "@type": "Organization",
       |     "name": "DevTernity",
       |     "sameAs": "https://devternity.com/"
-      |   },  
-      |   "offers": [
-      |     {
-      |         "@type": "Offer",
-      |         "url": "#{data.register}?main",
-      |         "name": "Main Day",
-      |         "price": "#{data.pricing ? data.pricing.products[0].price : ''}",
-      |         "priceCurrency": "EUR",
-      |         "availability": "http://schema.org/InStock"
-      |       },  
-      |     {
-      |         "@type": "Offer",
-      |         "name": "Workshop",        
-      |         "url": "#{data.register}?workshop",
-      |         "price": "#{data.pricing ? data.pricing.products[1].price : ''}",
-      |         "priceCurrency": "EUR",
-      |         "availability": "http://schema.org/InStock"
-      |       }      
-      |   ],
+      |   },
       |   "location": {
       |     "@type": "Place",
       |     "address": {
@@ -398,29 +380,25 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             | &nbsp;
           section(class="tick feature 8u 12u$(medium) 12u$(small)")
             div.row.nopadding
-              each product in data.pricing.products
-                section(class="4u 12u$(small)")
-                  h3.product(class=`${product.attention ? 'attention' : 'fade-attention' }`)
-                    | #{product.name} 
+                section(class="4u 12u$(small)" ng-repeat="product in event.pricing.products")
+                  h3.product(ng-class="{'attention' : product.attention, 'fade-attention': !product.attention}")
+                    | {{product.name}}
                     br
-                    if !product.sold_out && data.status == 'on_sale'
-                      if product.attention
-                        | 🚀
-                        span.fa-layers.fa-fw.fa-3x.best
-                            i.fas.fa-certificate(style="color:#ffffff")
-                            i.fas.fa-certificate(style="color:#e2333f" data-fa-transform="shrink-1")
-                            span.fa-layers-text.fa-inverse(data-fa-transform="shrink-11.5 rotate--30") BEST             
-                      span #{product.price} 
-                      strike #{product.price + product.extra}
+                    span(ng-if="!product.sold_out && event.status == 'on_sale'")
+                      span(ng-if="product.attention") 🚀
+                      span.fa-layers.fa-fw.fa-3x.best(ng-if="product.attention")
+                          i.fas.fa-certificate(style="color:#ffffff")
+                          i.fas.fa-certificate(style="color:#e2333f" data-fa-transform="shrink-1")
+                          span.fa-layers-text.fa-inverse(data-fa-transform="shrink-11.5 rotate--30") BEST
+                      span {{product.price}} 
+                      strike {{product.price + product.extra}}
                       | €
                       br
-                      i.fas(class=product.battery)
-                    if product.sold_out || data.status == 'booked'
-                      span SOLD OUT
+                      i.fas(ng-class="product.battery")
+                    span(ng-if="product.sold_out || event.status == 'booked'") SOLD OUT
             div.row
               section(class="12u 12u$(small)")
-                if data.status != 'booked'
-                  a.button.pulse(href=data.register style="padding: 0 0.5em") Register now and save #{data.pricing.products[2].extra}€
+                a.button.pulse(ng-if="event.status != 'booked'" href="{{event.register}}" style="padding: 0 0.5em") Register now and save {{event.pricing.products[2].extra}}€
           section(class="feature 2u 12u$(medium) 12u$(small)")
             | &nbsp;
 
