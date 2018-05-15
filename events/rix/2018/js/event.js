@@ -218,6 +218,12 @@
                 "info": "<p>In <strong><a href=\"https://ulabs.ubnt.com\">ULabs Riga</a></strong>, part of global company <strong><a href=\"https://www.ubnt.com\">Ubiquiti Networks Inc.</a></strong> producing wireless networking and consumer product, we are always searching the next big thing – we reinvent existing concepts, create smart solutions and drive innovation. Sponsoring DevTernity 2018 we see as taking steps towards this \"next big thing\" because ideas are born during the interchange of opinions, knowledge, and inspiration. We are proud to be part of evolving and dynamic platform where professionals meet to broaden their horizons and change perspective.</p>"
               },
               {
+                "logo": "playtech.jpg",
+                "since": "2018",                
+                "link": "http://www.playtech.ee/?nav=karjaar&lang=en",
+                "info": "<p><strong><a href=\"http://www.playtech.ee/?nav=karjaar&lang=en\">Playtech</a></strong> offers top technology products in online IT industry and an extensive range of business services that enable us to reach and maintain collaboration with the most reputable gaming operators and industry leading partners in the world. Born and started in Estonia, company is now 5000 people strong and present in 17 different geographical locations worldwide. For any engineer, QA, devops, et al, it is truly a place to grow, innovate and perform! Come and meet us at the Playtech booth!</p>"
+              },              
+              {
                 "logo": "devchampions.png",
                 "since": "2016",
                 "link": "https://devchampions.com/",
