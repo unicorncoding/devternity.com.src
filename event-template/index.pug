@@ -160,7 +160,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
         ul.actions
           if data.status == "on_sale"
             li
-              a.button.big.pulse(ng-click="slideTo('#tickets-container')") Take me with you
+              a.button.big.pulse(ng-click="slideTo('#tickets-container')") Get tickets
               br
               br
               timer(end-time=`${data.date_epoch}`)
@@ -183,25 +183,28 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           header
             h2
             p 
-              | DevTernity is the top tech conference in Europe. 
+              | DevTernity is the top tech conference in Latvia, ranked among Top 20 tech conferences in Europe.
             h2
             p 
               | We turn developers into architects and engineering leaders since 2015.
             p
             h2
-            h2
-            p Here you learn more than on other conferences. We focus on the core areas that are paramount to your success — software architecture, clean code and leadership. All noise is removed and can be learned elsewhere.
-          h2 Why the best developers choose DevTernity?
-          div(class="row 200% why")
-            each text, title in data.benefits
-              section(class="6u 12u$(small) align-left")
-                h3
-                  i.fa.fa-check-circle(aria-hidden="true")
-                  |  #{title}
-                p!=text
-        div#trailer
-          input(type="button" value="See in Action" style="padding: 0 1em" ng-click="watchPromo()")
-
+            p Here you learn more than on other conferences. We focus on the core areas that are paramount to your success — 
+              em software architecture
+              |  
+              em clean code
+              |  and 
+              em leadership
+              | . All noise is removed and can be learned elsewhere.
+          //- h2 Why the best developers choose DevTernity?
+          //- div(class="row 200% why")
+          //-   each text, title in data.benefits
+          //-     section(class="6u 12u$(small) align-left")
+          //-       h3
+          //-         i.fa.fa-check-circle(aria-hidden="true")
+          //-         |  #{title}
+        div
+          a.button(href="why.html") 25 reasons why developers choose DevTernity
       section.wrapper.align-center(data-remodal-id="venue-location")
           button.remodal-close(data-remodal-action="close")
           div.embed-container
@@ -376,13 +379,11 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             |  There is no point to wait until the last moment, because we'll charge you more. Secure your seat now. You will be able to change the information about the participants later. Free of charge.
 
         div.row
-          section(class="feature 2u 12u$(medium) 12u$(small)") 
-            | &nbsp;
-          section(class="tick feature 8u 12u$(medium) 12u$(small)")
-            div.row.nopadding
+          section(class="tick feature 12u 12u$(medium) 12u$(small)")
+            div.row
                 section(class="4u 12u$(small)" ng-repeat="product in event.pricing.packages | packages")
                   h3.product(ng-class="{'attention' : product.attention, 'fade-attention': !product.attention}")
-                    | {{product.name}}
+                    span(style="font-weight: bolder") {{product.name}}
                     br
                     span(ng-if="!product.sold_out && event.status == 'on_sale'")
                       span(ng-if="product.attention") 🚀
@@ -394,13 +395,11 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       strike {{product.price + product.extra}}
                       | €
                       br
-                      i.fas(ng-class="product.battery")
+                      i.fas(style="font-size: 40px" ng-class="product.battery")
+                      br
+                      //- remove width auto after CDN cache expires
+                      a.button(ng-if="event.status != 'booked'" href="{{event.register}}" style="padding: 0 0.5em; width: auto") Buy
                     span(ng-if="product.sold_out || event.status == 'booked'") SOLD OUT
-            div.row
-              section(class="12u 12u$(small)")
-                a.button.pulse(ng-if="event.status != 'booked'" href="{{event.register}}" style="padding: 0 0.5em") Register now and save 200€
-          section(class="feature 2u 12u$(medium) 12u$(small)")
-            | &nbsp;
 
     if data.sponsorship
       section#support-container.wrapper
@@ -445,8 +444,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               |   by the leaders of Latvian software craftsmanship community: 
             img.lazy(data-src="images/team.jpg" style="width: 100%")
           section(class="6u 12u$(small)")
-            h3 
-              em Connect on socials:
+            h3 Let's stay connected:
             ul.icons
               each link, social in data.socials
                 li
