@@ -310,42 +310,68 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             else
               p Coming soon...
 
+
+                //- h5 
+                //-   span
+                //-     if speaker.tags
+                //-       if speaker.sold_out
+                //-         span.tag.sold SOLD OUT
+                //-         | 
+                //-       if speaker.sold_out_soon
+                //-         span.tag.sold 
+                //-           i.fab.fa-hotjar
+                //-           |  FEW TICKETS LEFT
+                //-         | 
+                //-       each tag, index in speaker.tags
+                //-         span.tag ##{tag}
+                //-         if index != speaker.tags.length - 1 
+                //-           |  
+
+
           each speaker in data.workshops
-            div.row
-              section(class="feature 6u 12u$(small)")
-                img.lazy.headshot(data-src=`${speaker.img}`)
-                div.whoname
-                  img.lazy(data-src=`images/flags/${speaker.country}.png` alt=`${speaker.country}} flag`) 
-                  |  #{speaker.name ? speaker.name : "Coming soon."} 
-                  if speaker.twitter
-                    a(href=`https://twitter.com/${speaker.twitter}`)
-                      i.fab.fa-twitter.follow-speaker(aria-hidden="true")              
-                div.who
-                  strong !{speaker.bio}
-                  br
-                  | !{speaker.long_bio}
-              section(class="feature 6u 12u$(small) align-left")
+            .row
+              section(class="feature 12u 12u$(small) align-left")
                 h3
-                  strong 
-                    i.fas.fa-code
-                    |  #{speaker.title} 
-                  em (limited seats)
-                h5 
-                  span
-                    if speaker.tags
-                      if speaker.sold_out
-                        span.tag.sold SOLD OUT
-                        | 
-                      if speaker.sold_out_soon
-                        span.tag.sold 
-                          i.fab.fa-hotjar
-                          |  FEW TICKETS LEFT
-                        | 
-                      each tag, index in speaker.tags
-                        span.tag ##{tag}
-                        if index != speaker.tags.length - 1 
-                          |  
-                div.who !{speaker.description}
+                  i.far.fa-clock
+                  |  9:00 – 18:00 
+                  strong #{speaker.title} 
+                  em  (limited seats)
+                if speaker.tags
+                  h5 
+                  if speaker.sold_out
+                    span.tag.sold SOLD OUT 
+                    | &nbsp;
+                  else if speaker.sold_out_soon
+                    span.tag.sold 
+                      i.fab.fa-hotjar
+                      |  FEW TICKETS LEFT 
+                    | &nbsp;
+                  each tag, index in speaker.tags
+                    span.tag ##{tag}
+                    if index != speaker.tags.length - 1 
+                      | 
+            .row
+              section(class="feature 6u 12u$(small) align-left")
+                if speaker.brief_description
+                  h3 Course description
+                  p!=speaker.brief_description
+                else
+                  p!=speaker.description
+                h3(style="margin: 0") Instructor   
+                table
+                  tr
+                    td(style="vertical-align:middle; padding: 1em")
+                      img.lazy.headshot(style="width: 100px" data-src=`${speaker.img}`)
+                    td(style="vertical-align:middle")
+                      a(href=`https://twitter.com/${speaker.twitter}`): i.fab.fa-twitter
+                      b  #{speaker.name}
+                      .who
+                        strong !{speaker.bio}
+              section(class="feature 6u 12u$(small) align-left")
+                | !{speaker.description}
+                unless speaker.sold_out
+                  div
+                    a.button(ng-click="slideTo('#tickets-container')") Book
           if data.subscribeEnabled && data.hasUnknownWorkshops
             br
             h3.title More coming soon. Subscribe for the final announcement alert:
