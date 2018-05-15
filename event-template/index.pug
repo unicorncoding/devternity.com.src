@@ -205,15 +205,11 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           //-         |  #{title}
         div
           a.button(href="why.html") 25 reasons why developers choose DevTernity
+        .fb-like(data-width="320px" data-href="https://www.facebook.com/devternity" data-layout="standard" data-action="like" data-show-faces="true" style="min-height: 100px; margin-top: 30px")                    
       section.wrapper.align-center(data-remodal-id="venue-location")
           button.remodal-close(data-remodal-action="close")
           div.embed-container
             iframe(src='https://player.vimeo.com/video/265964598' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen)
-
-      section.wrapper.align-center(data-remodal-id="trailer-vimeo")
-          button.remodal-close(data-remodal-action="close")
-          div.embed-container
-            iframe(src='https://player.vimeo.com/video/247773795' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen)
 
       section#speakers-container.wrapper.speakers.align-center
         div.container
@@ -364,9 +360,6 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 |  &nbsp;        
           #fb-root
             script (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
-
-          .fb-like(data-width="320px" data-href="https://www.facebook.com/devternity" data-layout="standard" data-action="like" data-show-faces="true")                        
-
     section#tickets-container.wrapper.style1.tickets.align-center
       div.container
         header
