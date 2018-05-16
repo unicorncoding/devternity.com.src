@@ -229,6 +229,18 @@
                 "info": "<p><strong><a href=\"https://devchampions.com\">DevChampions</a></strong> offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation, Agile methodologies and soft skills.</p>"
               }
             ]
+          },
+          "silver": {
+            "title": "Silver Sponsor",
+            "stars": 0,
+            "sponsorsPerLine": 2,
+            "sponsors": [
+              {
+                "logo": "bilderlings.jpg",
+                "since": "2018",
+                "link": "https://www.bilderlingspay.com"
+              }
+            ]
           }
         },
         "program": [

@@ -196,16 +196,10 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               |  and 
               em leadership
               | . All noise is removed and can be learned elsewhere.
-          //- h2 Why the best developers choose DevTernity?
-          //- div(class="row 200% why")
-          //-   each text, title in data.benefits
-          //-     section(class="6u 12u$(small) align-left")
-          //-       h3
-          //-         i.fa.fa-check-circle(aria-hidden="true")
-          //-         |  #{title}
-        div
-          a.button(href="why.html") 25 reasons why developers choose DevTernity
-        .fb-like(data-width="320px" data-href="https://www.facebook.com/devternity" data-layout="standard" data-action="like" data-show-faces="true" style="min-height: 100px; margin-top: 30px")                    
+          a.button(href="why.html") 25 reasons why devs choose DevTernity
+          br
+          br
+        .fb-like(data-width="320px" data-href="https://www.facebook.com/devternity" data-layout="standard" data-action="like" data-show-faces="true" style="min-height: 100px")
       section.wrapper.align-center(data-remodal-id="venue-location")
           button.remodal-close(data-remodal-action="close")
           div.embed-container
@@ -434,7 +428,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                   each sponsor, index in package.sponsors
                     section(class=`${12 / package.sponsorsPerLine}u 12u$(medium)`)
                       a(target="_blank" rel="noopener" href=sponsor.link)
-                        img.lazy(style="max-width: 250px; max-height: 100px" class=`${package.grayscale ? 'grayscale' : ''}` data-src=`images/${sponsor.logo}`)
+                        img.lazy(style="max-width: 250px; max-height: 120px" class=`${package.grayscale ? 'grayscale' : ''}` data-src=`images/${sponsor.logo}`)
                       br
                       - var star = 0
                       while star++ < package.stars
