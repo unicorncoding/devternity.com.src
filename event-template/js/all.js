@@ -120,10 +120,10 @@ devternity.controller("ExitOfferController", function($scope, $http) {
 		cookieExp: 30
 	});
 
-	bioEp.show = function() {
-		$scope.inst = $("#exitOffer").remodal();
-	    $scope.inst.open();
-	};
+	// bioEp.show = function() {
+	// 	$scope.inst = $("#exitOffer").remodal();
+	//   $scope.inst.open();
+	// };
 
 
 	$scope.onDiscount = function() {
