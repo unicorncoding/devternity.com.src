@@ -80,7 +80,11 @@ $(document).on('closed', '.remodal', function () {
 	$("#navButton").show();
 });
 
-var devternity = angular.module('devternity', ['timer']);
+var devternity = angular
+  .module('devternity', ['timer', 'ngRoute'])
+  .config(function($locationProvider, $routeProvider) {
+      $locationProvider.html5Mode(true);
+  });
 
 devternity.filter("trust", ['$sce', function($sce) {
   return function(htmlCode){
@@ -138,7 +142,7 @@ devternity.controller("ExitOfferController", function($scope, $http) {
 
 });
 
-devternity.controller('LandingPageController', function ($window, $http, $scope, $q) {
+devternity.controller('LandingPageController', function ($window, $http, $scope, $location, $routeParams) {
 	$scope.timerRunning = true;
 
     $scope.startTimer = function (){
@@ -193,6 +197,14 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
 
   $scope.buy = function(moveTo) {
     $window.location.href = moveTo;
+  }
+
+  $scope.moveTo = function(moveTo) {
+    var referral = $location.search().r
+    if (referral) {
+      moveTo = moveTo + '?ref=' + referral
+    }
+    $window.location.href = moveTo
   }
 
 

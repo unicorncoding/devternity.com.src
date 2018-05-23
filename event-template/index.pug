@@ -1,6 +1,7 @@
 doctype html
 html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="lt-ie9")
   head
+    base(href="/")
     meta(charset="UTF-8")
     title 🚀 #{data.theme} – The Top Tech Conference in Europe
     meta(name="viewport" content="width=device-width, initial-scale=1")
@@ -28,6 +29,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     |<![endif]-->
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/angular-timer/1.3.3/angular-timer.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/skel/2.2.0/skel.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js")
@@ -37,7 +39,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     script(defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous")
 
     script(src="js/exit.js")
-    script(src="js/all.js?purge")
+    script(src="js/all.js?purgee")
     script(src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer)
     script(type="application/ld+json")
       | {
@@ -411,7 +413,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       i.fas(style="font-size: 40px" ng-class="product.battery")
                       br
                       //- remove width auto after CDN cache expires
-                      a.button(ng-if="event.status != 'booked'" href="{{event.register}}" style="padding: 0 0.5em; width: auto") Buy
+                      a.button(ng-if="event.status != 'booked'" ng-click="moveTo(event.register)" style="padding: 0 0.5em; width: auto") Buy
                     span(ng-if="product.sold_out || event.status == 'booked'") SOLD OUT
 
     if data.sponsorship
