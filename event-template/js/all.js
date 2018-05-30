@@ -81,10 +81,7 @@ $(document).on('closed', '.remodal', function () {
 });
 
 var devternity = angular
-  .module('devternity', ['timer', 'ngRoute'])
-  .config(function($locationProvider, $routeProvider) {
-      $locationProvider.html5Mode(true);
-  });
+  .module('devternity', ['timer', 'ngCookies'])
 
 devternity.filter("trust", ['$sce', function($sce) {
   return function(htmlCode){
@@ -142,22 +139,30 @@ devternity.controller("ExitOfferController", function($scope, $http) {
 
 });
 
-devternity.controller('LandingPageController', function ($window, $http, $scope, $location, $routeParams) {
+devternity.controller('LandingPageController', function ($window, $http, $scope, $cookies) {
+
 	$scope.timerRunning = true;
 
-    $scope.startTimer = function (){
-        $scope.$broadcast('timer-start');
-        $scope.timerRunning = true;
-    };
+  var url = $window.location.href
+  var parts = url.split('r=')
+  if (parts.length > 1) {
+    var referral = parts[1];
+    $cookies.referral = referral
+  }
 
-    $scope.stopTimer = function (){
-        $scope.$broadcast('timer-stop');
-        $scope.timerRunning = false;
-    };
+  $scope.startTimer = function (){
+      $scope.$broadcast('timer-start');
+      $scope.timerRunning = true;
+  };
 
-    $scope.$on('timer-stopped', function (event, data){
-        console.log('Timer Stopped - data = ', data);
-    });
+  $scope.stopTimer = function (){
+      $scope.$broadcast('timer-stop');
+      $scope.timerRunning = false;
+  };
+
+  $scope.$on('timer-stopped', function (event, data){
+      console.log('Timer Stopped - data = ', data);
+  });
 
   $scope.popupSpeech = function(uid) {
     var inst = $('[data-remodal-id=' + uid + ']').remodal();
@@ -200,10 +205,6 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
   }
 
   $scope.moveTo = function(moveTo) {
-    var referral = $location.search().r
-    if (referral) {
-      moveTo = moveTo + '?ref=' + referral
-    }
     $window.location.href = moveTo
   }
 
