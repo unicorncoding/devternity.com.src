@@ -14,6 +14,7 @@ html(lang="en")
     script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
     script(src="//cdn.auth0.com/js/auth0/9.5.1/auth0.min.js")
     script(src="//cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.1/localStorage.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.1/clipboard.min.js")
     script(src="//connect.facebook.net/en_US/all.js#xfbml=1" async defer)
     link(rel="shortcut icon" type="image/png" href="images/logo_2017_filled.png")
     link(rel="icon" href="/images/favicon.png")
@@ -65,6 +66,7 @@ html(lang="en")
             .step-details
               p.step-title Get a unique sharing link
               p.logged-only#uniqueLink
+              button.button.is-hidden.logged-only#copyLink Copy to clipboard
           .step-item.is-info
             .step-marker 3
             .step-details
@@ -155,6 +157,12 @@ html(lang="en")
     var uniqueLink = $('#uniqueLink');
     var profile = $('#profile')
 
+    new ClipboardJS('#copyLink', {
+        text: function(trigger) {
+            return uniqueLink.text();
+        }
+    });
+
     function isAuthenticated() {
       var expiresAt = JSON.parse(localStorage.getItem('expires_at'));
       return new Date().getTime() < expiresAt;
@@ -192,12 +200,11 @@ html(lang="en")
         $('.logged-only').removeClass('is-hidden');
         $('.step-item').addClass('is-completed');
         profile.text('Hey ' + localStorage.getItem('name') + '!')
-        uniqueLink.text(theLink())
+        uniqueLink.text(theLink())          
       } else {
         $('.step-item').removeClass('is-completed');               
         $('.anonym-only').removeClass('is-hidden');
         $('.logged-only').addClass('is-hidden');
-      
       }
     }    
 
