@@ -283,7 +283,7 @@
                       "img": "images/sandroma.png",
                       "presentation": "",
                       "sold_out": false,
-                      "sold_out_soon": true,                      
+                      "sold_out_soon": false,
                       "video": ""
                   },
                   {
