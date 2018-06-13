@@ -164,7 +164,7 @@
                   "sold_out": false
               },
               "2-Days Super Pack": {
-                  "price": 599,
+                  "price": 598,
                   "extra": 200,
                   "sold_out": false,
                   "battery": "fa-battery-quarter",
@@ -188,7 +188,7 @@
               },
               {
                 "name": "2-Days Super Pack",
-                "price": 599,
+                "price": 598,
                 "extra": 200,
                 "sold_out": false,
                 "battery": "fa-battery-quarter",
