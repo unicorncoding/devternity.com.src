@@ -304,24 +304,6 @@
                       "sold_out": false,
                       "sold_out_soon": false,
                       "video": ""
-                  },                  
-                  {
-                      "product": "KOTLIN",
-                      "name": "Venkat Subramaniam",
-                      "type": "speech",
-                      "twitter": "venkat_s",                      
-                      "time": "9:00",
-                      "endTime": "18:00",                      
-                      "tags": ["kotlin", "jvm", "android", "java developers"],                      
-                      "country": "us",
-                      "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
-                      "long_bio": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com.",
-                      "title": "Programming with Kotlin",
-                      "brief_description": "Kotlin popularity is booming. The strength of Kotlin is that it has drawn from wonderful features that have been teased out and tried successfully in many languages. Kotlin provides sensible syntax and semantics to create highly concise code. It is a language that just feels right in many areas. <p>This hands-on workshop walks you through the fundamentals and advanced concepts of Kotlin language.</p>",
-                      "description": "<h3>After the training, you will:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understand why Kotlin is important and how it fits Java ecosystem</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understand Kotlin language fundamentals and design principles</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understand how to write well-tested production code using Kotlin</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understand advanced Kotlin concepts</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Have enough knowledge to use Kotlin for you existing or new applications</li></ul><p><b>Bring your own laptop, and let's get you ready for writing Kotlin applications!</b>",
-                      "img": "images/venkat.png",
-                      "presentation": "",
-                      "video": ""
                   },
                   {
                       "product": "JNB",
