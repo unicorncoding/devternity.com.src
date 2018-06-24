@@ -42,7 +42,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     script(defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous")
 
     script(src="js/exit.js")
-    script(src="js/all.js?purgee")
+    script(src="js/all.js?purgeeeee")
     script(src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer)
     script(type="application/ld+json")
       | {
@@ -169,7 +169,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               a.button.big.pulse(ng-click="slideTo('#tickets-container')") Get tickets
               br
               br
-              timer(end-time=`${data.date_epoch}`)
+              timer(ng-show="showCountdown(event.date_epoch)" end-time=`${data.date_epoch}`)
                | We start in 
                strong(style="color: white") {{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds
           if data.status == "booked"

@@ -174,6 +174,12 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
     inst.open();	
   }
 
+  $scope.showCountdown = function(epoch) {
+    var current = moment().startOf('day');
+    var given = moment(parseInt(epoch));
+    return moment.duration(given.diff(current)).asDays() < 100
+  }
+
   $scope.seeVenue = function() {
     var inst = $("[data-remodal-id='venue-location']").remodal();
     inst.open();	
@@ -218,7 +224,7 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
     $scope.slideTo('#tickets-container');
   }
 
-  $http.get('js/event.js?purge')
+  $http.get('js/event.js?purgeeee')
        .then(function(response){
           var body = response.data[0];
 		      $scope.event = body;
