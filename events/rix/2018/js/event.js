@@ -671,7 +671,7 @@
                         "twitter": "eduardsi",                      
                         "country": "lv",
                         "bio": "DevTernity Founder, Trainer",
-                        "img": "images/eduards.png",
+                        "img": "images/eduards.png?nocache",
                         "title": "Is Your Career Antifragile?",
                         "description": "Antifragile we call the things that gain from stress — volatility, risk, and uncertainty. Our technology careers have quite a few stressors. Frameworks change at speed of light, the amount of information to keep track of is growing, remote workers become cheaper, companies go out of business. These all seems to be drawbacks. Or are they? Can we turn drawbacks into our own benefit? The answer is yes, if you apply some Antifragililty. In this talk, Eduards will explain how to build Antifragile technical career. The career that gains from market volatility and other drawbacks.",
                         "tags": ["career advice", "lifehacks", "antifragility"]
