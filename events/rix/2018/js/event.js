@@ -32,7 +32,7 @@
         "announced": true,
         "venue_address": "Mūkusalas iela 3",
         "venue_postal_code": "LV-1423", 
-        "venue_name": "The Castle of Light",
+        "venue_name": "National Library of Latvia",
         "venue_map": "https://www.google.lv/maps/place/National+Library+of+Latvia/@56.9496618,24.1108501,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNJHWS2JofoHRZPUTb8Y65dlsRJImv6sHSsSUIo!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNJHWS2JofoHRZPUTb8Y65dlsRJImv6sHSsSUIo%3Dw203-h152-k-no!7i4032!8i3024!4m5!3m4!1s0x46eecfd136321fcd:0xf716266fca1b4d9b!8m2!3d56.941013!4d24.096625",
         "buzzwords": [],
         "team": [
