@@ -287,6 +287,25 @@
                       "video": ""
                   },
                   {
+                      "product": "JBRAINS",
+                      "name": "J.B. Rainsberger",
+                      "type": "speech",
+                      "twitter": "jbrains",                      
+                      "time": "9:00",
+                      "endTime": "18:00",                      
+                      "tags": ["evolutionary design", "legacy code", "clean code"],
+                      "country": "ca",
+                      "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
+                      "title": "Surviving Legacy Code",
+                      "brief_description": "We all have legacy code, meaning profitable code that we’re afraid to change. It doesn’t matter who wrote it, in which language, nor when. It matters that we feel the fear now and need to deal with it. Rewrite or refactor? How do we write tests? There’s so much to change; how do we get started? In the typical programmer’s day job, there’s no time to learn how to do this. We’re already behind schedule and the cost of fixing the legacy code is crushing us. We need a way to learn how to do this safely, correctly, and eventually, even quickly. That’s what Surviving Legacy Code is about.",
+                      "description": "<h3>What you’ll learn:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>When to refactor and when to rewrite, and how to do that safely.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>The killer technique for exposing in glorious detail exactly where the code wants us to break it apart.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use statistical sampling and logs to cobble together the beginnings of a test suite.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to sterilise a legacy environment before even trying to change the code.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to crack the chicken-and-egg problem: I need to write tests in order to refactor, and I need to refactor in order to write tests.</li></ul></p><p>We will work in short sessions on a diabolical-but-fun code base (available in at least 20 programming languages), practise micro-committing, a key technique to changing difficult code safely, practise a handful of refactoring and testing exercises that <b>develop the most essential legacy code rescue skills and disciplines.</b>",
+                      "img": "images/jbrains.png",
+                      "presentation": "",
+                      "sold_out": false,
+                      "sold_out_soon": false,
+                      "video": ""
+                  },                  
+                  {
                       "product": "AWS",
                       "name": "Juris Pavlyuchenkov",
                       "type": "speech",
@@ -664,8 +683,26 @@
                         "description": "In the world of Big Data, it’s important to know how the Database Storage works in order to be able to pick a right tool right job. The talk covers evaluation techniques, to choose storage with best read, write or memory overhead, best suitable for your data. This information will help you to navigate the world of databases and stream processing engines, each of which uses a specific storage type or offers multiple different possibilities. You will gain understanding the trade-offs different Storage types bring as you scale out your data and plan for growth.",
                         "tags": ["under-the-hood", "technical", "algorithms"]
                       },
-{                           
+                      {                           
                         "time": "17:10",                            
+                        "name": "J.B. Rainsberger",
+                        "type": "speech",
+                        "twitter": "jbrains",                      
+                        "country": "ca",
+                        "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
+                        "img": "images/jbrains.png",
+                        "title": "The Economics of Software Design",
+                        "description": "Every month, someone new asks me the question, \"How do I convince my manager to let me refactor?\" While it's true that a manager shouldn't constrain the programmer's plans to deliver high-quality code, the fact remains that some organisations allow their managers to assert this level of micro-control. In this talk I outline a set of models for justifying evolutionary design with basic economic concepts that relate directly to delivering, planning, and funding software projects. This talk will provide you with a solid argument to meet any skeptic's rational objections to writing tests first and letting both low-level design and architecture emerge.",
+                        "tags": ["code quality", "refactoring", "evolutionary design"]
+                      },
+                    {
+                        "type": "break",
+                        "time": "18:00",
+                        "title": "Coffee Break",
+                        "icon": "fa-coffee"
+                    },
+                        {                           
+                        "time": "18:20",                            
                         "name": "Eduards Sizovs",
                         "type": "speech",
                         "twitter": "eduardsi",                      
@@ -676,19 +713,6 @@
                         "description": "Antifragile we call the things that gain from stress — volatility, risk, and uncertainty. Our technology careers have quite a few stressors. Frameworks change at speed of light, the amount of information to keep track of is growing, remote workers become cheaper, companies go out of business. These all seems to be drawbacks. Or are they? Can we turn drawbacks into our own benefit? The answer is yes, if you apply some Antifragililty. In this talk, Eduards will explain how to build Antifragile technical career. The career that gains from market volatility and other drawbacks.",
                         "tags": ["career advice", "lifehacks", "antifragility"]
                       },
-                    {
-                        "type": "break",
-                        "time": "18:00",
-                        "title": "Coffee Break",
-                        "icon": "fa-coffee"
-                    },
-                    {    
-                       "type": "speech",   
-                       "time": "18:20",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
-                    },
                     {
                         "type": "break",
                         "time": "19:10",
