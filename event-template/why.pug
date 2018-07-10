@@ -269,14 +269,12 @@ html(lang="en")
               p.title And finally. Meet us at the conference!
               p We are a super-diverse team of technology, design, management, life enthusiasts. We organize DevTernity because we believe that our industry needs more amazing events. DevTernity is manifestation of our values and beliefs. Here we are. It's really nice to meet you!
               br
-              .columns.is-multiline
+              .columns.is-multiline.is-mobile
                 each a in data.team
-                  .column.is-2.has-text-centered
-                    .box
-                      img.image.is-64x64.is-rounded(src=`/images/${a.pic}` style="margin-left: auto; margin-right: auto")
-                      p.is-size-7
-                        h1.title.is-size-5 #{a.name}
-                        h2.subtitle.is-size-6 #{a.job}
+                  .column.is-narrow.is-one-third-mobile
+                    .box.is-shadowless
+                      img.image.is-64x64.is-rounded(src=`/images/${a.pic}`)
+                      p #{a.name}
     section.section
       .container
         .buttons.is-centered

@@ -430,7 +430,7 @@
                         "img": "images/tilkov.png",
                         "presentation": "",
                         "video": ""
-                  },
+                  },               
                   {
                         "time": "10:30",
                         "tags": ["key principles", "best practices", "architecture"],
@@ -445,31 +445,77 @@
                         "img": "images/eoin.png",
                         "presentation": "",
                         "video": ""
-                    },
-                    {
+                    },                                                                                                        
+                  {
                         "time": "10:30",
-                        "tags": ["aws lambda", "best practices", "case study"],
+                        "tags": ["best practices", "experience report", "aws lambda"],
                         "name": "Yan Cui",
                         "type": "speech",
                         "twitter": "theburningmonk",
                         "country": "gb",
                         "bio": "Developer, Software Architect, Trainer, Author of <a href=\"https://www.manning.com/livevideo/aws-lambda-in-motion/\">AWS Lambda in Motion</a>",
                         "long_bio": "Yan Cui is a senior server developer at Space Ape Games. A polyglot software architect with over 10 years of development experience, primarily in building scalable backend systems with AWS, Yan has worked for some of the UK’s largest names in gaming and ecommerce. He is a regular speaker at user groups and conferences and keeps an active blog at Theburningmonk.com. Yan is a coauthor of F# Deep Dives.",
-                        "title": "Serverless in Production – an Experience Report",
+                        "title": "Serverless in Production",
                         "description": "In this talk Yan Cui shares his experience of migrating an existing monolithic architecture for a social network to AWS Lambda, and how it empowered a small team to deliver features quickly and how they address operational concerns such as CI/CD, logging, monitoring and config management. This sessions draws on my experience leading a team that transformed our entire architecture in under 6 months, where we also managed to cut cost by over 90%, and increased production deployments from 4-6 per month to 80-100 per month. We did that whilst coming up with solutions to those common operational concerns to ensure we not only run a serverless architecture in production, but we do so responsibly. The audience should have basic understanding of how AWS Lambda works, and are aware of some popular AWS services like DynamoDB, Kinesis, S3. I’m the best person to speak on the subject as I lead the team on this migration and were responsible for large parts of the actual implementation, and as the architect I was also responsible for our entire architecture (and the first one to be woken up at night if things go wrong!). I have written extensively on the operational aspect of working with AWS Lambda, and my work has been regularly referenced by the AWS Lambda team including talks at re:invent, as well as the new Serverless Well Architected whitepaper.",
                         "img": "images/cui.png",
                         "presentation": "",
                         "video": ""
-                    },                    
+                    },  
                     {
                         "type": "break",
                         "time": "11:20",
                         "title": "Coffee Break",
                         "icon": "fa-coffee"
+                    }, 
+                    {
+                        "time": "11:40",
+                        "tags": ["design patterns", "functional programming", "deep dive"],
+                        "name": "Scott Wlaschin",
+                        "twitter": "scottwlaschin",
+                        "type": "speech",
+                        "country": "gb",
+                        "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
+                        "title": "Functional Design Patterns",
+                        "description": "In object-oriented development, we are all familiar with design patterns such as the Strategy pattern and Decorator pattern, and design principles such as SOLID. The functional programming community has design patterns and principles as well. This talk will provide an overview of some of these patterns (such as currying, monads), and present some demonstrations of FP design in practice. We'll also look at some of the ways you can use these patterns as part of a domain driven design process, with some simple real world examples in F#. No jargon, no maths, and no prior F# experience necessary.",
+                        "img": "images/scottwla.png",
+                        "presentation": "",
+                        "video": ""
+                      },  
+                      {                           
+                        "time": "11:40",                            
+                        "name": "Alex Petrov",
+                        "type": "speech",
+                        "twitter": "ifesdjeen",                      
+                        "country": "de",
+                        "bio": "Senior Software Engineer, Apache Cassandra Committer",
+                        "img": "images/petrov.png",
+                        "title": "What Every Programmer Has to Know About Database Storage",
+                        "description": "In the world of Big Data, it’s important to know how the Database Storage works in order to be able to pick a right tool right job. The talk covers evaluation techniques, to choose storage with best read, write or memory overhead, best suitable for your data. This information will help you to navigate the world of databases and stream processing engines, each of which uses a specific storage type or offers multiple different possibilities. You will gain understanding the trade-offs different Storage types bring as you scale out your data and plan for growth.",
+                        "tags": ["under-the-hood", "technical", "algorithms"]
+                      },                                       
+                      {
+                        "time": "11:40",
+                        "tags": ["real experience", "pros and cons"],
+                        "name": "Anton Keks",
+                        "twitter": "antonkeks",
+                        "type": "speech",
+                        "country": "ee",
+                        "bio": "Software Craftsman, Co-Founder, Developer @ Codeborne",
+                        "title": "Kotlin in Real Projects: Pragmatic Opinion on Pragmatic Language",
+                        "description": "Kotlin is a marvelous JVM language that many have waited for. While we already have Java 8 and some people have migrated away from JVM while waiting for a more productive language, Kotlin finally is here, promising lots of good stuff, but still allowing us to use the cross-platform and highly optimized JVM and many of familiar frameworks. However, nothing comes without drawbacks. There have been some controversial decisions while designing the language that affect what is convenient to do in the language and what is not so. Moreover, Kotlin is yet to deliver many of its promises, like compilation speed. In this talk I'll talk about real life experience of using Kotlin in an Agile way, the obstacles that you may encounter and how to overcome them.",
+                        "img": "images/keks.png",
+                        "presentation": "",
+                        "video": ""
+                      },    
+                    {
+                        "type": "break",
+                        "time": "12:30",
+                        "title": "Long Break",
+                        "icon": "fa-cutlery"
                     },
                     {
-                      "time": "11:40",
-                      "tags": ["clean code", "advanced", "no slides"],
+                      "time": "13:40",
+                      "tags": ["tdd styles", "advanced", "no slides"],
                       "name": "Sandro Mancuso",
                       "twitter": "sandromancuso",
                       "type": "speech",
@@ -484,23 +530,115 @@
                       "presentation": "",
                       "video": ""
                     },
-                    {
-                      "time": "11:40",
-                      "tags": ["leadership", "teamwork", "tips & tricks"],
-                      "name": "Sven Peters",
-                      "twitter": "svenpet",
+                  {
+                      "time": "13:40",
+                      "tags": ["productivity", "getting things done"],
+                      "name": "Maxim Dorofeev",
+                      "twitter": "cartmendum",
                       "type": "speech",
-                      "country": "de",
-                      "bio": "Technology Evangelist @ Atlassian",
-                      "long_bio": "Sven Peters is a software geek working as an ambassador for Atlassian. He has been developing Java applications for over 12 years and leading small teams using lean methodologies. Sven likes effective software development and cares about the motivation of developers.",
-                      "title": "The Secret Sauce of Successful Teams",
-                      "description": "Every software team writes code, but some teams produce fewer bugs than others. Every software team creates new features, but some teams develop features users love and others don't. What do high performance teams do differently, and why are team members more focused, satisfied and relaxed? They truly work together. No 10x programmer can achieve what a well rounded, enthusiastic team can. Sven Peters, Technical Evangelist, will examine how the best software teams set and follow goals, integrate new members fast, ensure diversity, monitor and continually improve team health, embrace transparency, use a playbook to guide them through every phase of development and much more! He shares techniques including: bugfix rotations, OKRs, feature buddies, open demos, focus days, sanity checks and many more that help teams and team members to work more effectively together, and produce awesome results.",
-                      "img": "images/svenpet.png",
+                      "country": "ru",
+                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
+                      "title": "The Way of a Jedi: How to Get Started",
+                      "description": "There are huge amount of different techniques and methodologies of self-organisation and personal effectiveness. However,  most of them are flawed, because they do not take into account that the world is unpredictable, people are different and “knowing how to be effective” and “being affective” are not quite the same thing. In this talk, Maxim will show not “yet another personal effectiveness methodology” but the methodology that may help you to build your own one. Be ready to become more productive after this talk!",
+                      "img": "images/dorofeev.png",
                       "presentation": "",
                       "video": ""
-                    },                         
+                    },          
+                   {
+                        "time": "13:40",
+                        "tags": ["api design", "best practices", "csharp examples"],
+                        "name": "Dylan Beattie",
+                        "twitter": "dylanbeattie",
+                        "type": "speech",
+                        "country": "gb",
+                        "bio": "Systems Architect, Co-organiser of London .NET User Group",
+                        "long_bio": "Dylan Beattie is a systems architect and software developer, who has built everything from tiny standalone websites to large-scale distributed systems. By day, he’s the systems architect at Spotlight, where he works on HTTP APIs, distributed systems, and the architectural challenges of delivering cutting-edge online services in a company with nearly ninety years of legacy. He’s been working with Spotlight since 2000, and his first-hand experience of watching an organisation - and their code - evolving over more than a decade has given him a unique insight into how API design, distributed systems, Conway's Law, working with legacy systems, and recruitment can all influence a company’s products and culture. Alongside his work at Spotlight, Dylan is actively involved in the software development community. He’s involved in running the FullStack and Progressive.NET conferences, and is one of the organisers of the the London .NET User Group.",
+                        "title": "Real World REST and Hands-On Hypermedia",
+                        "description": "So you've built your HTTP API, and now that it's live, you're suddenly dealing with a whole new set of problems. Do you really need to PUT the entire Customer just to change someone's email address? Why does it take you 25 API calls just to render a shopping cart? How do you find the bottlenecks when just drawing a web page requires fifty HTTP requests? What happens when one of your API consumers accidentally tries to GET your entire customer database? Most of us are familiar with the architectural style known as REST, but even experienced developers often find it difficult to translate REST's architectural principles into running code. In this talk, we'll explore the elements of REST related to hypermedia and the principle of \"hypermedia as the engine of application state\" (HATEOAS) - we'll talk about why they matter, and when you might want to implement them in your own systems. We'll look at some of the tools that exist to help you design, deliver and debug your HTTP APIs, and we'll do some hands-on coding to show you what these patterns look like in a .NET web application using the HAL hypermedia application language.",
+                        "img": "images/dylan.png",
+                        "presentation": "",
+                        "video": ""
+                      },                                                    
+            
+
                     {
-                      "time": "11:40",
+                        "type": "break",
+                        "time": "14:30",
+                        "title": "Coffee Break",
+                        "icon": "fa-coffee"
+                    },
+                      {
+                        "time": "14:50",
+                        "tags": ["leadership", "teamwork", "tips & tricks"],
+                        "name": "Sven Peters",
+                        "twitter": "svenpet",
+                        "type": "speech",
+                        "country": "de",
+                        "bio": "Technology Evangelist @ Atlassian",
+                        "long_bio": "Sven Peters is a software geek working as an ambassador for Atlassian. He has been developing Java applications for over 12 years and leading small teams using lean methodologies. Sven likes effective software development and cares about the motivation of developers.",
+                        "title": "The Secret Sauce of Successful Teams",
+                        "description": "Every software team writes code, but some teams produce fewer bugs than others. Every software team creates new features, but some teams develop features users love and others don't. What do high performance teams do differently, and why are team members more focused, satisfied and relaxed? They truly work together. No 10x programmer can achieve what a well rounded, enthusiastic team can. Sven Peters, Technical Evangelist, will examine how the best software teams set and follow goals, integrate new members fast, ensure diversity, monitor and continually improve team health, embrace transparency, use a playbook to guide them through every phase of development and much more! He shares techniques including: bugfix rotations, OKRs, feature buddies, open demos, focus days, sanity checks and many more that help teams and team members to work more effectively together, and produce awesome results.",
+                        "img": "images/svenpet.png",
+                        "presentation": "",
+                        "video": ""
+                      },                     
+                    {                           
+                      "time": "14:50",                            
+                      "name": "Jakub Nabrdalik",
+                      "type": "speech",
+                      "twitter": "jnabrdalik",                      
+                      "country": "pl",
+                      "bio": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
+                      "img": "images/jnb.png", 
+                      "title": "Making Your Tests Rock in Just 45 Minutes",
+                      "description": "I’ve been using TDD/BDD at work for the last 12 years, I also teach and mentor teams on this subject. I’ve found that misconceptions and errors in this field are shared, and that most of us make the same mistakes. Give me 45 minutes of your time, and I’ll try to address the most common problems, hoping to improve your TDD/BDD situation as much as possible. I’ll try to solve: long running tests problem, by bringing back the correct shape of test-pyramid with power of Hexagonal Architecture (Ports & Adapters) with practical examples in Spring, miscommunication and lost art of requirement gathering, by focusing on readability, introducing just enough of Domain Specific Language, and sorting out what is important with the power of Spock, difficult test setup and environment requirements, by using command and conquer, modularity, monitoring, mock abuse, by showing what are the benefits of in-memory implementations, and hopefully more. Most teams that do not write tests first do it, because it’s hard for them. I’ll try to show you, how to make it easy. Real life examples included. If you are not using TDD/BDD, this might also interest you - you’ll know how to start the right way.",
+                      "tags": ["tdd", "bdd", "java examples"]
+                    },                                                              
+                      {                           
+                        "time": "14:50",                            
+                        "name": "Marco Heimeshoff",
+                        "type": "speech",
+                        "twitter": "heimeshoff",                      
+                        "country": "de",
+                        "bio": "Independent Consultant, Domain-Driven Design and Event-Sourcing Expert",
+                        "img": "images/heisen.png", 
+                        "title": "The Pillars of Domain-Driven Design",
+                        "description": "Domain Driven Design is neither a method nor a technology, it is a culture, a way of thinking about the needs of the customers first and putting an emphasis on their language and human interactions. The promise of DDD is to tackle complexity in the heart of software, and the means are plentiful and can be overwhelming. There are three pillars though, on which the whole approach stands. A focus on learning, language and empathy. With the right mindset it becomes simple to derive good models, keep them pure and aligned with the business. Simple is not easy, but done right Domain Driven Design transforms everything in your organisation from code to culture, from agile to architecture.",
+                        "tags": ["architecture", "domain modeling", "ddd"]
+                      },                                      
+                      {
+                          "type": "break",
+                          "time": "15:40",
+                          "title": "Coffee Break",
+                          "icon": "fa-coffee"
+                      },          
+                    {                           
+                        "time": "16:00",                            
+                        "name": "J.B. Rainsberger",
+                        "type": "speech",
+                        "twitter": "jbrains",                      
+                        "country": "ca",
+                        "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
+                        "img": "images/jbrains.png",
+                        "title": "The Economics of Software Design",
+                        "description": "Every month, someone new asks me the question, \"How do I convince my manager to let me refactor?\" While it's true that a manager shouldn't constrain the programmer's plans to deliver high-quality code, the fact remains that some organisations allow their managers to assert this level of micro-control. In this talk I outline a set of models for justifying evolutionary design with basic economic concepts that relate directly to delivering, planning, and funding software projects. This talk will provide you with a solid argument to meet any skeptic's rational objections to writing tests first and letting both low-level design and architecture emerge.",
+                        "tags": ["code quality", "refactoring", "evolutionary design"]
+                      },            
+                                     
+                    {                           
+                        "time": "16:00",                            
+                        "name": "David Schmitz",
+                        "type": "speech",
+                        "twitter": "koenighotze",                      
+                        "country": "de",
+                        "bio": "Principal Architect @ Senacor Technologies",
+                        "img": "images/schmitz.png", 
+                        "title": "10 Tips for Failing Badly at Microservices",
+                        "description": "Microservices are just a bunch hip new framework plus some AngularJS frontend or React, right? So, if you want to make sure that you absolutely and definitely fail at your Microservice project, then watch this talk and learn how. Using real world experience from multiple green field and brown field projects, I can show you how to ignore the mandatory organizational impact, how to focus on the code only without any regard towards ops and testing, why continuous deployment is for losers, why jumping onto every new and untested framework is a must, why event-sourcing and CQRS are both free lunches and now you can add complexity without any real need, and more! <br>If you mind my tips, then surely you will fail at Microservices and your boss will never again try to move away from your beloved vintage monolith.",
+                        "tags": ["architecture", "anti-patterns", "rant"]
+                      },                      
+                    {
+                      "time": "16:00",
                       "tags": ["startups", "soft skills", "career"],
                       "name": "Svetlana Bozhko",
                       "twitter": "sbozhko",
@@ -512,15 +650,15 @@
                       "img": "images/sveta.png",
                       "presentation": "",
                       "video": ""
-                    },               
+                    },                        
+                      {
+                          "type": "break",
+                          "time": "16:50",
+                          "title": "Coffee Break",
+                          "icon": "fa-coffee"
+                      },
                     {
-                        "type": "break",
-                        "time": "12:30",
-                        "title": "Long Break",
-                        "icon": "fa-cutlery"
-                    },
-                    {
-                      "time": "13:40",
+                      "time": "17:10",
                       "tags": ["low-latency", "high performance", "best practices"],
                       "name": "Martin Thompson",
                       "twitter": "mjpt777",
@@ -533,9 +671,9 @@
                       "img": "images/thompson.png",
                       "presentation": "",
                       "video": ""
-                    },                     
-                    {
-                      "time": "13:40",
+                    },             
+                   {
+                      "time": "17:10",
                       "tags": ["hololens", "augmented reality", "live demo"],
                       "name": "René Schulte ",
                       "twitter": "rschu",
@@ -547,102 +685,9 @@
                       "img": "images/rene.png",
                       "presentation": "",
                       "video": ""
-                    },    
-                    {
-                      "time": "13:40",
-                      "tags": ["design patterns", "fsharp", "lots of code"],
-                      "name": "Scott Wlaschin",
-                      "twitter": "scottwlaschin",
-                      "type": "speech",
-                      "country": "gb",
-                      "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
-                      "title": "Functional Design Patterns",
-                      "description": "In object-oriented development, we are all familiar with design patterns such as the Strategy pattern and Decorator pattern, and design principles such as SOLID. The functional programming community has design patterns and principles as well. This talk will provide an overview of some of these patterns (such as currying, monads), and present some demonstrations of FP design in practice. We'll also look at some of the ways you can use these patterns as part of a domain driven design process, with some simple real world examples in F#. No jargon, no maths, and no prior F# experience necessary.",
-                      "img": "images/scottwla.png",
-                      "presentation": "",
-                      "video": ""
-                    },    
-                    {
-                        "type": "break",
-                        "time": "14:30",
-                        "title": "Coffee Break",
-                        "icon": "fa-coffee"
-                    },
-                  {
-                      "time": "14:50",
-                      "tags": ["productivity", "getting things done"],
-                      "name": "Maxim Dorofeev",
-                      "twitter": "cartmendum",
-                      "type": "speech",
-                      "country": "ru",
-                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
-                      "title": "The Way of a Jedi: How to Get Started",
-                      "description": "There are huge amount of different techniques and methodologies of self-organisation and personal effectiveness. However,  most of them are flawed, because they do not take into account that the world is unpredictable, people are different and “knowing how to be effective” and “being affective” are not quite the same thing. In this talk, Maxim will show not “yet another personal effectiveness methodology” but the methodology that may help you to build your own one. Be ready to become more productive after this talk!",
-                      "img": "images/dorofeev.png",
-                      "presentation": "",
-                      "video": ""
-                    },    
-                    {
-                        "time": "14:50",
-                        "tags": ["real experience", "pros and cons"],
-                        "name": "Anton Keks",
-                        "twitter": "antonkeks",
-                        "type": "speech",
-                        "country": "ee",
-                        "bio": "Software Craftsman, Co-Founder, Developer @ Codeborne",
-                        "title": "Kotlin in Real Projects: Pragmatic Opinion on Pragmatic Language",
-                        "description": "Kotlin is a marvelous JVM language that many have waited for. While we already have Java 8 and some people have migrated away from JVM while waiting for a more productive language, Kotlin finally is here, promising lots of good stuff, but still allowing us to use the cross-platform and highly optimized JVM and many of familiar frameworks. However, nothing comes without drawbacks. There have been some controversial decisions while designing the language that affect what is convenient to do in the language and what is not so. Moreover, Kotlin is yet to deliver many of its promises, like compilation speed. In this talk I'll talk about real life experience of using Kotlin in an Agile way, the obstacles that you may encounter and how to overcome them.",
-                        "img": "images/keks.png",
-                        "presentation": "",
-                        "video": ""
-                      },     
-                      {
-                        "time": "14:50",
-                        "tags": ["restful api", "best practices"],
-                        "name": "Dylan Beattie",
-                        "twitter": "dylanbeattie",
-                        "type": "speech",
-                        "country": "gb",
-                        "bio": "Systems Architect, Co-organiser of London .NET User Group",
-                        "long_bio": "Dylan Beattie is a systems architect and software developer, who has built everything from tiny standalone websites to large-scale distributed systems. By day, he’s the systems architect at Spotlight, where he works on HTTP APIs, distributed systems, and the architectural challenges of delivering cutting-edge online services in a company with nearly ninety years of legacy. He’s been working with Spotlight since 2000, and his first-hand experience of watching an organisation - and their code - evolving over more than a decade has given him a unique insight into how API design, distributed systems, Conway's Law, working with legacy systems, and recruitment can all influence a company’s products and culture. Alongside his work at Spotlight, Dylan is actively involved in the software development community. He’s involved in running the FullStack and Progressive.NET conferences, and is one of the organisers of the the London .NET User Group.",
-                        "title": "Real World REST and Hands-On Hypermedia",
-                        "description": "So you've built your HTTP API, and now that it's live, you're suddenly dealing with a whole new set of problems. Do you really need to PUT the entire Customer just to change someone's email address? Why does it take you 25 API calls just to render a shopping cart? How do you find the bottlenecks when just drawing a web page requires fifty HTTP requests? What happens when one of your API consumers accidentally tries to GET your entire customer database? Most of us are familiar with the architectural style known as REST, but even experienced developers often find it difficult to translate REST's architectural principles into running code. In this talk, we'll explore the elements of REST related to hypermedia and the principle of \"hypermedia as the engine of application state\" (HATEOAS) - we'll talk about why they matter, and when you might want to implement them in your own systems. We'll look at some of the tools that exist to help you design, deliver and debug your HTTP APIs, and we'll do some hands-on coding to show you what these patterns look like in a .NET web application using the HAL hypermedia application language.",
-                        "img": "images/dylan.png",
-                        "presentation": "",
-                        "video": ""
-                      },                         
-                      {
-                          "type": "break",
-                          "time": "15:40",
-                          "title": "Coffee Break",
-                          "icon": "fa-coffee"
-                      },          
+                    },                                                                                                                                          
                       {                           
-                        "time": "16:00",                            
-                        "name": "David Schmitz",
-                        "type": "speech",
-                        "twitter": "koenighotze",                      
-                        "country": "de",
-                        "bio": "Principal Architect @ Senacor Technologies",
-                        "img": "images/schmitz.png", 
-                        "title": "10 Tips for Failing Badly at Microservices",
-                        "description": "Microservices are just a bunch hip new framework plus some AngularJS frontend or React, right? So, if you want to make sure that you absolutely and definitely fail at your Microservice project, then watch this talk and learn how. Using real world experience from multiple green field and brown field projects, I can show you how to ignore the mandatory organizational impact, how to focus on the code only without any regard towards ops and testing, why continuous deployment is for losers, why jumping onto every new and untested framework is a must, why event-sourcing and CQRS are both free lunches and now you can add complexity without any real need, and more! <br>If you mind my tips, then surely you will fail at Microservices and your boss will never again try to move away from your beloved vintage monolith.",
-                        "tags": ["architecture", "anti-patterns", "rant"]
-                      },                         
-                      {                           
-                        "time": "16:00",                            
-                        "name": "Marco Heimeshoff",
-                        "type": "speech",
-                        "twitter": "heimeshoff",                      
-                        "country": "de",
-                        "bio": "Independent Consultant, Domain-Driven Design and Event-Sourcing Expert",
-                        "img": "images/heisen.png", 
-                        "title": "The Pillars of Domain-Driven Design",
-                        "description": "Domain Driven Design is neither a method nor a technology, it is a culture, a way of thinking about the needs of the customers first and putting an emphasis on their language and human interactions. The promise of DDD is to tackle complexity in the heart of software, and the means are plentiful and can be overwhelming. There are three pillars though, on which the whole approach stands. A focus on learning, language and empathy. With the right mindset it becomes simple to derive good models, keep them pure and aligned with the business. Simple is not easy, but done right Domain Driven Design transforms everything in your organisation from code to culture, from agile to architecture.",
-                        "tags": ["architecture", "domain modeling", "ddd"]
-                      },   
-                      {                           
-                        "time": "16:00",                            
+                        "time": "17:10",                            
                         "name": "Ray Tsang",
                         "type": "speech",
                         "twitter": "saturnism",                      
@@ -652,49 +697,7 @@
                         "title": "Deploying & Managing Microservices with Containers and Kubernetes",
                         "description": "A quick overview on Docker containers, usages, and how to scale up from a single container to a fleet of containers working together with Kubernetes for real-life workloads, such as running java-based applications! Join this session to see how to use Kubernetes to launch, manage, and rolling-upgrade a fleet of Java application instances with session replication. Kubernetes builds on top of Docker to construct a clustered container scheduling service. Kubernetes enables users to ask a cluster to run a set of containers. The system will automatically pick worker nodes to run those containers on, which we think of more as “scheduling” than “orchestration”. Kubernetes also provides ways for containers to find and communicate with each other and ways to manage both tightly coupled and loosely coupled sets of cooperating containers. In this session, you’ll learn: how to containerize different Java-based microservice workloads using Docker and different build tool plugins, deploying and managing a fleet of Java-based microservices in Kubernetes, service discovery 101 in Kubernetes, how to perform critical DevOps steps, such as canary, rolling update, roll backs, and some tips and tricks!",
                         "tags": ["docker", "devops", "live demo"]
-                      },
-                      {
-                          "type": "break",
-                          "time": "16:50",
-                          "title": "Coffee Break",
-                          "icon": "fa-coffee"
-                      },
-                      {                           
-                        "time": "17:10",                            
-                        "name": "Jakub Nabrdalik",
-                        "type": "speech",
-                        "twitter": "jnabrdalik",                      
-                        "country": "pl",
-                        "bio": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
-                        "img": "images/jnb.png", 
-                        "title": "Making Your Tests Rock in Just 45 Minutes",
-                        "description": "I’ve been using TDD/BDD at work for the last 12 years, I also teach and mentor teams on this subject. I’ve found that misconceptions and errors in this field are shared, and that most of us make the same mistakes. Give me 45 minutes of your time, and I’ll try to address the most common problems, hoping to improve your TDD/BDD situation as much as possible. I’ll try to solve: long running tests problem, by bringing back the correct shape of test-pyramid with power of Hexagonal Architecture (Ports & Adapters) with practical examples in Spring, miscommunication and lost art of requirement gathering, by focusing on readability, introducing just enough of Domain Specific Language, and sorting out what is important with the power of Spock, difficult test setup and environment requirements, by using command and conquer, modularity, monitoring, mock abuse, by showing what are the benefits of in-memory implementations, and hopefully more. Most teams that do not write tests first do it, because it’s hard for them. I’ll try to show you, how to make it easy. Real life examples included. If you are not using TDD/BDD, this might also interest you - you’ll know how to start the right way.",
-                        "tags": ["tdd", "bdd", "java examples"]
-                      },
-                      {                           
-                        "time": "17:10",                            
-                        "name": "Alex Petrov",
-                        "type": "speech",
-                        "twitter": "ifesdjeen",                      
-                        "country": "de",
-                        "bio": "Senior Software Engineer, Apache Cassandra Committer",
-                        "img": "images/petrov.png",
-                        "title": "What Every Programmer Has to Know About Database Storage",
-                        "description": "In the world of Big Data, it’s important to know how the Database Storage works in order to be able to pick a right tool right job. The talk covers evaluation techniques, to choose storage with best read, write or memory overhead, best suitable for your data. This information will help you to navigate the world of databases and stream processing engines, each of which uses a specific storage type or offers multiple different possibilities. You will gain understanding the trade-offs different Storage types bring as you scale out your data and plan for growth.",
-                        "tags": ["under-the-hood", "technical", "algorithms"]
-                      },
-                      {                           
-                        "time": "17:10",                            
-                        "name": "J.B. Rainsberger",
-                        "type": "speech",
-                        "twitter": "jbrains",                      
-                        "country": "ca",
-                        "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
-                        "img": "images/jbrains.png",
-                        "title": "The Economics of Software Design",
-                        "description": "Every month, someone new asks me the question, \"How do I convince my manager to let me refactor?\" While it's true that a manager shouldn't constrain the programmer's plans to deliver high-quality code, the fact remains that some organisations allow their managers to assert this level of micro-control. In this talk I outline a set of models for justifying evolutionary design with basic economic concepts that relate directly to delivering, planning, and funding software projects. This talk will provide you with a solid argument to meet any skeptic's rational objections to writing tests first and letting both low-level design and architecture emerge.",
-                        "tags": ["code quality", "refactoring", "evolutionary design"]
-                      },
+                      },                                           
                     {
                         "type": "break",
                         "time": "18:00",
@@ -711,7 +714,7 @@
                         "img": "images/eduards.png?nocache",
                         "title": "Is Your Career Antifragile?",
                         "description": "Antifragile we call the things that gain from stress — volatility, risk, and uncertainty. Our technology careers have quite a few stressors. Frameworks change at speed of light, the amount of information to keep track of is growing, remote workers become cheaper, companies go out of business. These all seems to be drawbacks. Or are they? Can we turn drawbacks into our own benefit? The answer is yes, if you apply some Antifragililty. In this talk, Eduards will explain how to build Antifragile technical career. The career that gains from market volatility and other drawbacks.",
-                        "tags": ["career advice", "lifehacks", "antifragility"]
+                        "tags": ["career boost", "lifehacks", "antifragility"]
                       },
                     {
                         "type": "break",
