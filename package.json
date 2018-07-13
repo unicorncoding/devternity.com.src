@@ -16,7 +16,7 @@
     "gulp-newer": "^1.4.0",
     "gulp-purgecss": "^0.20.0",
     "html-to-text": "^4.0.0",
-    "ics": "^2.4.1",
+    "ical-toolkit": "^1.0.9",
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
