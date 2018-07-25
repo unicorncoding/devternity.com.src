@@ -42,7 +42,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     script(defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous")
 
     script(src="js/exit.js")
-    script(src="js/all.js?purgeeeee")
+    script(src="js/all.js?pg")
     script(src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer)
     script(type="application/ld+json")
       | {
@@ -117,7 +117,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
       | }
 
       | #devternity-loading div.loading-container {
-      |   background-color: #353c46;
+      |   background-color: black;
       |   bottom: 0px;
       |   left: 0px;
       |   opacity: 1.0;
@@ -145,7 +145,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     header#header
       nav#nav
         ul
-          li: a(href="fellows.html" alt="Affiliates") Affiliates 💰 
+          li: a(href="fellows.html" alt="Affiliates") Affiliates
           li: a(href="code_of_conduct.html" alt="Code of Conduct") Code of Conduct
           each link, social in data.socials
             li
@@ -156,33 +156,39 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
 
     <!-- Banner -->
       section#banner
-        img#trust(src="images/trustpilot.png")
-        div
-          img(src="images/logo_2017.png")
-          h2 &nbsp;DevTernity
+        video#video(autoplay="" loop="" muted="")
+          source(src="images/video.mp4" type="video/mp4")
 
-        p=data.desc
-        p #{data.date}. #{data.city}, #{data.venue_name}.
-        ul.actions
-          if data.status == "on_sale"
-            li
-              a.button.big.pulse(ng-click="slideTo('#tickets-container')") Get tickets
-              br
-              br
-              timer(ng-show="showCountdown(event.date_epoch)" end-time=`${data.date_epoch}`)
-               | We start in 
-               strong(style="color: white") {{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds
-          if data.status == "booked"
-            li
-              a.button.big We are fully booked
-              br
-              br
-              ul.links
-                li Follow us —
-                each link, social in data.socials
-                  li
-                    a(href=link)
-                      i(class=`fab fa-${social}`)
+        a#trust(href="https://itconference.top")
+          img(src="images/trustpilot.png")
+
+        .info
+          div
+            img(src="images/logo_2017.png")
+            h2 &nbsp;DevTernity
+
+          p=data.desc
+          p #{data.date}. #{data.venue_name}.
+          ul.actions
+            if data.status == "on_sale"
+              li
+                a.button.big.pulse(ng-click="slideTo('#tickets-container')") Get tickets
+                br
+                br
+                timer(ng-show="showCountdown(event.date_epoch)" end-time=`${data.date_epoch}`)
+                 | We start in 
+                 strong(style="color: white") {{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds
+            if data.status == "booked"
+              li
+                a.button.big We are fully booked
+                br
+                br
+                ul.links
+                  li Follow us —
+                  each link, social in data.socials
+                    li
+                      a(href=link)
+                        i(class=`fab fa-${social}`)
 
       section.wrapper.style1.align-center
         div.container.intro
@@ -190,24 +196,14 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             h2
             p 
               | DevTernity is 
-              a(href="//itconference.top" target="_blank"): em the top 3
-              |  international software development conference in Europe.
+              a(href="//itconference.top" target="_blank"): strong the top 3
+              |  international software development conference in Europe. 
             h2
-            p 
-              | We turn developers into architects and engineering leaders since 2015.
-            p
-            h2
-            p Here you learn more than on other conferences. We focus on the core areas that are paramount to your success — 
-              em software architecture
-              |  
-              em clean code
-              |  and 
-              em leadership
-              | . All noise is removed and can be learned elsewhere.
-          a.button(href="why.html") 25 reasons why DevTernity rocks
+            p Here you learn more than on other conferences. We focus on the core areas that are paramount to your success — software architecture, clean code and leadership. All noise is removed and can be learned elsewhere.
+          a.button(href="why.html") 25 reasons to attend
           br
           br
-        .fb-like(data-width="320px" data-href="https://www.facebook.com/devternity" data-layout="standard" data-action="like" data-show-faces="true" style="min-height: 100px")
+        //- .fb-like(data-width="320px" data-href="https://www.facebook.com/devternity" data-layout="standard" data-action="like" data-show-faces="true" style="min-height: 100px")
       section.wrapper.align-center(data-remodal-id="venue-location")
           button.remodal-close(data-remodal-action="close")
           div.embed-container
@@ -365,7 +361,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                     td(style="vertical-align:middle; padding: 1em")
                       img.lazy.headshot(style="width: 100px" data-src=`${speaker.img}`)
                     td(style="vertical-align:middle")
-                      a(href=`https://twitter.com/${speaker.twitter}`): i.fab.fa-twitter
+                      a.follow-speaker(href=`https://twitter.com/${speaker.twitter}`): i.fab.fa-twitter
                       b  #{speaker.name}
                       .who
                         strong !{speaker.bio}
@@ -393,11 +389,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
         header
           h1 Tickets to the key event of the year.
           h2
-          p
-            em This is the limited offer.
-            br
-            br 
-            |  There is no point to wait until the last moment, because we'll charge you more. Secure your seat now. You will be able to change the information about the participants later. Free of charge.
+          p There is no point to wait until the last moment, because this is the limited offer. Secure your seat now. You will be able to change the information about the participants later. Free of charge.
 
         div.row
           section(class="tick feature 12u 12u$(medium) 12u$(small)")
@@ -462,8 +454,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               i.fa.fa-heart(style="color: red" aria-hidden="true")
               |  and care 
               i.fa.fa-leaf(style="color: #4dac71" aria-hidden="true")
-              |   by the leaders of Latvian software craftsmanship community: 
-            img.lazy(data-src="images/team.jpg" style="width: 100%")
+              |   by the leaders of Latvian software craftsmanship community.
           section(class="6u 12u$(small)")
             h3 Let's stay connected:
             ul.icons

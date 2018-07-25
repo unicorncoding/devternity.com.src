@@ -56,8 +56,8 @@ strong a {
 	font-weight: bold;
 }
 
-.follow-speaker {
-	color: #666;
+.follow-speaker, .follow-speaker i {
+	color: #666 !important;
 }
 
 #workshops-container section {
@@ -66,7 +66,7 @@ strong a {
 
 #workshops-container span.tag {
 	color: white;
-	background-color: #4dac71;
+	background-color: #131212;
 	padding: 0.3em 1em;
 	line-height: 2em;
 	border-radius: 5px;
@@ -388,11 +388,15 @@ form.subscribe input[type='submit'] {
 		color: white;
 	}
 
+  .intro a {
+    text-decoration: none;
+  }
+
 	.intro em, #tickets-container em {
 		font-style: normal;
 		padding: 1px 5px 3px;
 		background-color: white;
-		color: #3ba666;
+		color: black;
 		white-space: nowrap;
 		display: inline;		
 	}
@@ -1086,7 +1090,7 @@ form.subscribe input[type='submit'] {
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #3ba666;
+		background-color: #131212;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff !important;
@@ -1296,7 +1300,7 @@ form.subscribe input[type='submit'] {
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #cee8d8;
+						color: white;
 						display: inline-block;
 						text-decoration: none;
 						font-size: 13px;
@@ -1332,17 +1336,40 @@ form.subscribe input[type='submit'] {
 				right: 0;
 			}
 
-/* Banner */
-
 	#banner {
-		background: url("../images/splash.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
+    background-color: black;
 		color: #ffffff;
-		padding: 16em 0em 14em;
+		padding: 16em 0em 9em;
 		text-align: center;
 	}
+
+    #banner #trust {
+      position: absolute;
+      top: -10px; left: 25px;
+    }
+
+    #banner #trust img {
+      width: 100px;
+    }  
+
+    #banner #video {
+      overflow: hidden;
+      position: absolute;
+      display: block;
+      top: 0px;
+      right: 0px;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: 10;
+      opacity: 0.4;    
+    }
+
+    #banner .info {
+      position: relative;
+      z-index: 20;
+    }
 
 		#banner h2 {
 			color: #ffffff;
@@ -1382,12 +1409,12 @@ form.subscribe input[type='submit'] {
 	}
 
 		.wrapper.style1 {
-			background-color: #3ba666;
-			-moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-webkit-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+			background-color: #1b1b1b;
+			-moz-background-image: linear-gradient(60deg, #131212 50%, #1b1b1b 50%);
+			-webkit-background-image: linear-gradient(60deg, #131212 50%, #1b1b1b 50%);
+			-o-background-image: linear-gradient(60deg, #131212 50%, #1b1b1b 50%);
+			-ms-background-image: linear-gradient(60deg, #131212 50%, #1b1b1b 50%);
+			background-image: linear-gradient(60deg, #131212 50%, #1b1b1b 50%);
 			color: #ffffff;
 		}
 
@@ -1433,7 +1460,7 @@ form.subscribe input[type='submit'] {
 
 	#footer {
 		color: #fff;
-		background: #353c46;
+		background: #131212;
 		padding: 6em 0em 4em;
 	}
 
@@ -1493,12 +1520,6 @@ form.subscribe input[type='submit'] {
 					padding-left: 0;
 				}
 
-
-#trust {
-	position: absolute;
-	top: -10px; left: 25px;
-	width: 120px !important;
-}
 
 img.grayscale {
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
