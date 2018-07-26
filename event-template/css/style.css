@@ -1361,9 +1361,9 @@ form.subscribe input[type='submit'] {
       top: 0px;
       right: 0px;
       min-width: 100%;
-      min-height: 100%;
+      height: 100%;
       width: auto;
-      height: auto;
+      height: 100%;
       z-index: 10;
       opacity: 0.4;    
     }
