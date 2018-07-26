@@ -1339,11 +1339,13 @@ form.subscribe input[type='submit'] {
 	#banner {
     background-color: black;
 		color: #ffffff;
-		padding: 16em 0em 9em;
+		padding-top: 16em;
 		text-align: center;
+    height: 800px;
 	}
 
     #banner #trust {
+      z-index: 20;
       position: absolute;
       top: -10px; left: 25px;
     }

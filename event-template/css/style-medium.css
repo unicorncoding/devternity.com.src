@@ -25,7 +25,9 @@
 /* Banner */
 
 	#banner {
-		padding: 12em 2em 15em;
+		padding-top: 12em;
+    padding-right: 1em;
+    padding-left: 1em;
 	}
 
 /* Layers */
