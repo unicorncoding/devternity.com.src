@@ -699,9 +699,9 @@
                         "country": "lv",
                         "bio": "The Founder of DevTernity and <a href=\"https://dev.tube\">Dev.Tube</a>",
                         "img": "images/eduards.png?nocache",
-                        "title": "Is Your Career Antifragile?",
-                        "description": "Antifragile we call the things that gain from stress — volatility, risk, and uncertainty. Our technology careers have quite a few stressors. Frameworks change at speed of light, the amount of information to keep track of is growing, remote workers become cheaper, companies go out of business. These all seems to be drawbacks. Or are they? Can we turn drawbacks into our own benefit? The answer is yes, if you apply some Antifragililty. In this talk, Eduards will explain how to build Antifragile technical career. The career that gains from market volatility and other drawbacks.",
-                        "tags": ["career boost", "lifehacks", "antifragility"]
+                        "title": "How We Built Dev.Tube",
+                        "description": "Built by 2 developers in only 2 months, Dev.Tube is gradually becoming the primary hub of developer videos. In this entertaining, but practical session, Eduards and Andrey will tell what went wrong, what went well and what can we learn from Dev.Tube launch. We’ll cover: how we attracted 1 million monthly visitors? how we maintain infrastructure (and how much does it cost $$$)? why experienced java developers ended up writing javascript? why sometimes we do not write unit tests? how to make OSS contributors happy (or angry)? how SaaS vendors helped us survive the load (and why)? and much more! After this session, you’ll be equipped with interesting real-world take-aways. Great mood guaranteed!",
+                        "tags": ["lean startup", "architecture", "case study"]
                       },
                     {
                         "type": "break",
