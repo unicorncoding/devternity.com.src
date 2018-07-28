@@ -221,7 +221,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               em No Agile bullshit bingo and marketing talks permitted. See for yourself:
           each row in data.speakersInRows
             div.row
-              each speaker, speakerrIndex in row
+              each speaker, speakerIndex in row
                 if speaker.name
                   section(class="feature 3u 12u$(small)")
                       img.lazy.headshot(data-src=speaker.img, alt=speaker.name)
@@ -266,7 +266,10 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                         br
                         if event.type == 'speech'
                           if event.title
-                            a.pointer(ng-click=`popupSpeech(${event.uid})`) #{event.name}
+                            a.pointer(ng-click=`popupSpeech(${event.uid})`) 
+                              | #{event.name}
+                              if event.partner
+                                |  &amp; #{event.partner.name}
                               br
                               strong!=event.title
                           else
@@ -287,11 +290,17 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                         section(class="12u")
                           div
                             img.headshot(src=`${event.img}`)
+                            if event.partner
+                              img.headshot(src=`${event.partner.img}` style="position:relative; right: 20px")
                             p.whoname
                               img(src=`images/flags/${event.country}.png` alt=`${event.country} flag`)
-                              |  #{event.name}
-                            p.speaker-bio !{event.bio}
-                          p.whoname: em !{event.title}
+                              |  #{event.name} 
+                              if event.partner
+                                |  &amp; #{event.partner.name}
+                            if !event.partner                                
+                              p.speaker-bio !{event.bio}
+                          p.whoname
+                            em !{event.title}
                           p.speaker !{event.description}
 
     section#workshops-container.wrapper.workshops.align-center
