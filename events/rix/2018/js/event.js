@@ -661,14 +661,14 @@
                     },             
                    {
                       "time": "17:10",
-                      "tags": ["hololens", "augmented reality", "live demo"],
+                      "tags": ["hololens", "mixed reality", "ai"],
                       "name": "René Schulte ",
                       "twitter": "rschu",
                       "type": "speech",
                       "country": "de",
-                      "bio": "Director of Global Innovation, Research & Incubation, Microsoft MVP",
+                      "bio": "Director, Global Innovation Microsoft RD &amp; MVP",
                       "title": "Mixed Reality Development and Best Practices",
-                      "description": "The year 2018 is the year of Mixed Reality with devices like the Microsoft HoloLens which are turning science fiction movie technology into reality. Through live code demos, you will leave this session understanding advanced development topics like Hand Proximity Interactions to create even more compelling HoloLens applications. Rene will demonstrate some of the apps he and his team worked on since 2015, and share how they were able to overcome challenges. His best practices and recommendations will help you avoid pit falls, and show you how to get your own Mixed Reality apps to the next level.",
+                      "description": "The year 2018 is the year of Mixed Reality with devices like the Microsoft HoloLens which are turning science fiction movie technology into reality. It’s an amazing time to be a developer and to be part of the fourth industrial revolution where XR is dramatically changing work processes. Rene will demonstrate some of the HoloLens projects he and his team worked on since 2015 and share how they were able to overcome challenges. His best practices and recommendations will help you avoid pit falls and might provide inspiration for your next XR projects. He will also provide you with a future perspective of Mixed Reality combining AI + MR using Windows Machine Learning in Unity.",
                       "img": "images/rene_vec.png",
                       "presentation": "",
                       "video": ""
