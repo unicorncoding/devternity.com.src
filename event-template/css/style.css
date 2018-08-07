@@ -254,6 +254,7 @@ strong a {
 .headshot {
 	-moz-border-radius: 100% !important;
 	border-radius: 100% !important;
+	width: 100px;
 }
 
 .who {
