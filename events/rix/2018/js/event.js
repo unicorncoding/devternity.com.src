@@ -217,11 +217,17 @@
                 "info": "<p><strong><a href=\"http://www.playtech.ee/?nav=karjaar&lang=en\">Playtech</a></strong> offers top technology products in online IT industry and an extensive range of business services that enable us to reach and maintain collaboration with the most reputable gaming operators and industry leading partners in the world. Born and started in Estonia, company is now 5000 people strong and present in 17 different geographical locations worldwide. For any engineer, QA, devops, et al, it is truly a place to grow, innovate and perform! Come and meet us at the Playtech booth!</p>"
               },
               {
-                "logo": "visma.png",
+                "logo": "visma.jpg",
                 "since": "2015",
                 "link": "https://www.visma.lv/vakances/",
                 "info": "<p>Do you think time and money matter? We at Visma believe so. Therefore we make IT solutions that enable our customers to save both. \"Efficiency experts\", that's how we like to call ourselves. We achieve that by building international teams of smart minds who enjoy being stretched to their limits. <p>Click <strong><a href=\"https://www.visma.lv/vakances/\">here</a></strong> to check if you would like to join us.</p></p>"
               },
+              {
+                "logo": "printify.png",
+                "since": "2018",
+                "link": "https://printify.com/",
+                "info": "<p><p>At Printify we are building the world’s largest print on demand marketplace.<br>We’re a cross-functional and highly autonomous teams with pair programming, refactoring, TDD and Continuous Delivery deeply embedded in our development process. Our HQ is based in Riga.<br><br>Want to build a highly scalable SaaS platform? Be part of professional team? Want to level up your career? <a href=\"mailto:yury+devternity@printify.com?subject=Looking for devs?\">Drop us an email</a>!</p>"
+              },              
               {
                 "logo": "devchampions.png",
                 "since": "2016",
