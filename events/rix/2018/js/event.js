@@ -199,6 +199,19 @@
         "promos": [
         ],
         "sponsorship": {
+          "platinum": {
+            "title": "Platinum Sponsor",
+            "stars": 5,
+            "sponsorsPerLine": 1,
+            "sponsors": [
+              {
+                "logo": "cognizant.png",
+                "since": "2018",
+                "link": "https://cognizant.lv",
+                "info": "<p><strong><a href=\"http://cognizant.lv\">Cognizant</a></strong> is a multinational corporation born in the USA, providing a range of IT services. We were the first company to be listed on NASDAQ 100, and today we have over two decades of experience and 260 000 employees worldwide. In 2011, we made our way into Fortune 500 list. In 2015, the Fortune magazine named us the world’s 4th most admired IT services company. In 2017, we jumped into Fortune’s Future 50 list. Where does the digital drive take us next? Join our journey to find out - <strong><a href=\"http://cognizant.lv\">cognizant.lv</a></strong></p>"
+              }
+            ]
+          },          
           "gold": {
             "title": "Gold Sponsor",
             "stars": 3,
