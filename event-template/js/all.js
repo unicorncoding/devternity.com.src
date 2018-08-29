@@ -117,9 +117,9 @@ devternity.filter("packages", [function() {
 }]);
 
 devternity.controller("ExitOfferController", function($scope, $http) {
-	bioEp.init({
-		cookieExp: 30
-	});
+	// bioEp.init({
+	// 	cookieExp: 30
+	// });
 
 	// bioEp.show = function() {
 	// 	$scope.inst = $("#exitOffer").remodal();
@@ -127,15 +127,15 @@ devternity.controller("ExitOfferController", function($scope, $http) {
 	// };
 
 
-	$scope.onDiscount = function() {
-		$http
-  			.post('https://us-central1-devternity-22e74.cloudfunctions.net/api/send-discount', { email: $scope.email })
-  			.then(function() {
-  				$scope.inst.close();
-		})
-	}
+// 	$scope.onDiscount = function() {
+// 		$http
+//   			.post('https://us-central1-devternity-22e74.cloudfunctions.net/api/send-discount', { email: $scope.email })
+//   			.then(function() {
+//   				$scope.inst.close();
+// 		})
+// 	}
 
-  $scope.email = "your@email.address";
+//   $scope.email = "your@email.address";
 
 });
 

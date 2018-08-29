@@ -145,7 +145,6 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     header#header
       nav#nav
         ul
-          li: a(href="fellows.html" alt="Affiliates") Affiliates
           li: a(href="code_of_conduct.html" alt="Code of Conduct") Code of Conduct
           each link, social in data.socials
             li
@@ -200,7 +199,20 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               |  international software development conference in Europe. 
             h2
             p Here you learn more than on other conferences. We focus on the core areas that are paramount to your success — software architecture, clean code and leadership. All noise is removed and can be learned elsewhere.
-          a.button(href="why.html") 25 reasons to attend
+            h2
+            p Riga, the capital of Latvia, is one of the top destinations in Europe. 
+            h2
+              p It's a must see.
+            p(style="color: #ffdd57")
+              i.fas.fa-star
+              |&nbsp;
+              i.fas.fa-star
+              |&nbsp;
+              i.fas.fa-star
+              |&nbsp;
+              i.fas.fa-star
+              |&nbsp;
+              i.fas.fa-star
           br
           br
         //- .fb-like(data-width="320px" data-href="https://www.facebook.com/devternity" data-layout="standard" data-action="like" data-show-faces="true" style="min-height: 100px")
@@ -396,10 +408,11 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     section#tickets-container.wrapper.style1.tickets.align-center
       div.container
         header
-          h1 Tickets to the key event of the year.
+          h1 
+            i.fa.fa-heart(style="color: red" aria-hidden="true") 
+            |  Tickets
           h2
-          p There is no point to wait until the last moment, because this is the limited offer. Secure your seat now. You will be able to change the information about the participants later. Free of charge.
-
+          p This is limited offer. Grab your ticket today.
         div.row
           section(class="tick feature 12u 12u$(medium) 12u$(small)")
             div.row
@@ -464,6 +477,11 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               |  and care 
               i.fa.fa-leaf(style="color: #4dac71" aria-hidden="true")
               |   by the leaders of Latvian software craftsmanship community.
+            h3 Location
+            p 
+              a(href="https://www.google.lv/maps/place/DevTernity+Conference/@56.9397819,24.0966023,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.939779!4d24.098791" target="_blank")
+                i.fas.fa-map-marker-alt
+              |  The venue is #{data.venue_name}, #{data.venue_address} 
           section(class="6u 12u$(small)")
             h3 Let's stay connected:
             ul.icons
