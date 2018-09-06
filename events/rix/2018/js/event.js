@@ -380,7 +380,7 @@
                     "description": "<h3>After the training, you will:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Know how to write clean code that is easy to understand and maintain</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Become more proficient in Test-Driven Development: using tests to design and build your code base</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Focus your tests and production code according to business requirements using Outside-In TDD</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understand design principles that lead to clean code</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Avoid over-engineering and large rewrites by incrementally evolving your design using tests</li></ul></p><p>Once you have an understanding of the principles at work, we will apply them to <b>Legacy Code</b> to help you gain confidence in improving legacy projects through testing, refactoring and redesigning. <b>The course is fully hands-on and developers will be writing a lot of code.</b>",
                     "img": "images/sandro_vec.png",
                     "presentation": "",
-                    "sold_out": false,
+                    "sold_out": true,
                     "sold_out_soon": false,
                     "video": ""
                 }                  
