@@ -639,9 +639,9 @@
                         "country": "de",
                         "bio": "Principal Architect @ Senacor Technologies",
                         "img": "images/schmitz_vec.png", 
-                        "title": "10 Tips for Failing Badly at Microservices",
-                        "description": "Microservices are just a bunch hip new framework plus some AngularJS frontend or React, right? So, if you want to make sure that you absolutely and definitely fail at your Microservice project, then watch this talk and learn how. Using real world experience from multiple green field and brown field projects, I can show you how to ignore the mandatory organizational impact, how to focus on the code only without any regard towards ops and testing, why continuous deployment is for losers, why jumping onto every new and untested framework is a must, why event-sourcing and CQRS are both free lunches and now you can add complexity without any real need, and more! <br>If you mind my tips, then surely you will fail at Microservices and your boss will never again try to move away from your beloved vintage monolith.",
-                        "tags": ["architecture", "anti-patterns", "rant"]
+                        "title": "Elixir — Easy Fun for Busy Developers",
+                        "description": "Did you ever want to create an application that is never down? Have you ever been jealous of those Erlang guys, that produce applications that practically never fail? Have you tried Erlang and fled because of its baroque syntax and tooling? Enter Elixir! Elixir combines Ruby's love for programmers with the absolute power that is the Erlang platform. This talk will introduce programmers to Elixir and OTP. You will gain an understanding of what Elixir brings to the table and how to build highly scale-able systems with a toolset that is actually fun to use. Even if you will never use Elixir and OTP for you projects, you will learn some of the concepts, that make Erlang into such a powerful ecosystem.",
+                        "tags": ["live coding", "new language", "distributed systems"]
                       },                      
                     {
                       "time": "16:00",
