@@ -710,10 +710,21 @@
                         "title": "Coffee Break",
                         "icon": "fa-coffee"
                     },
-                    {                           
+                    {
                       "time": "18:20",
-                      "type": "speech"
-                    },
+                      "tags": ["closing keynote", "simple design", "best practices"],
+                      "name": "Venkat Subramaniam",
+                      "twitter": "venkat_s",
+                      "type": "speech",
+                      "country": "us",
+                      "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
+                      "long_bio": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com.",
+                      "title": "Don't Walk Away from Complexity, Run!",
+                      "description": "Complexity hurts. We find it everywhere, in our daily lives, in products, and in the code we have to maintain as developers. Complexity comes in different forms and flavors. The ways in which complexity can manifest is, well, complex. In this keynote, an award winning author and software practitioner will share experiences and observations from working on multiple software projects, about what leads to complexities, the traps developers and organizations fall into, and what we can do to effectively deal with these common, recurring issues we see across domains and products.",
+                      "img": "images/venk_vec.png",
+                      "presentation": "",
+                      "video": ""
+                    }, 
                     {
                         "type": "break",
                         "time": "19:10",
