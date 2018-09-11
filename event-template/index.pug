@@ -174,9 +174,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 a.button.big.pulse(ng-click="slideTo('#tickets-container')") Get tickets
                 br
                 br
-                timer(ng-show="showCountdown(event.date_epoch)" end-time=`${data.date_epoch}`)
-                 | We start in 
-                 strong(style="color: white") {{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds
+                timer(ng-show="showCountdown(event.date_epoch)" end-time=`${data.date_epoch}` max-time-unit="'month'")
+                 | We start in just 
+                 strong(style="color: white") {{months ? months + ' month' + monthsS + ', ' : ''}} {{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds
             if data.status == "booked"
               li
                 a.button.big We are fully booked
@@ -202,7 +202,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             h2
             p Start preparing for the role of software architect, engineering leader or CTO today.
             h2
-              p It's a must see.
+              p(style="text-transform: uppercase") it's a must-see.
             p(style="color: #ffdd57")
               i.fas.fa-star
               |&nbsp;
@@ -474,14 +474,13 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             p
               | DevTernity is organised with love 
               i.fa.fa-heart(style="color: red" aria-hidden="true")
-              |  and care 
-              i.fa.fa-leaf(style="color: #4dac71" aria-hidden="true")
-              |   by the leaders of Latvian software craftsmanship community.
-            h3 Location
+              |  and care by 
+              strong: a(target="_blank" href="https://medium.com/@eduardsi/my-team-58f99b215be8") passionate software developers.
+            h3 Location / Venue
             p 
               a(href="https://www.google.lv/maps/place/DevTernity+Conference/@56.9397819,24.0966023,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.939779!4d24.098791" target="_blank")
                 i.fas.fa-map-marker-alt
-              |  The venue is #{data.venue_name}, #{data.venue_address} 
+              |  #{data.venue_name}, #{data.venue_address} 
           section(class="6u 12u$(small)")
             h3 Let's stay connected:
             ul.icons
