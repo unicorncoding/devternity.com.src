@@ -209,7 +209,13 @@
                 "since": "2018",
                 "link": "http://cognizant.lv",
                 "info": "<p><strong><a href=\"http://cognizant.lv\">Cognizant</a></strong> is a multinational corporation born in the USA, providing a range of IT services. We were the first company to be listed on NASDAQ 100, and today we have over two decades of experience and 260 000 employees worldwide. In 2011, we made our way into Fortune 500 list. In 2015, the Fortune magazine named us the world’s 4th most admired IT services company. In 2017, we jumped into Fortune’s Future 50 list. Where does the digital drive take us next? Join our journey to find out."
-              }
+              },
+              {
+                "logo": "eas.png",
+                "since": "2017",
+                "link": "https://www.workinestonia.com",
+                "info": "<p><strong><a href=\"https://www.workinestonia.com\">Work in Estonia</a></strong> introduces Estonia as an attractive living and working destination to talented potential employees worldwide, particularly in the ICT sector. Come and join the first digital society!</p>"
+              }              
             ]
           },          
           "gold": {
