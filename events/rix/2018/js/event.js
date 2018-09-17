@@ -293,8 +293,8 @@
                     "description": "<h3>What you’ll learn:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>When to refactor and when to rewrite, and how to do that safely.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>The killer technique for exposing in glorious detail exactly where the code wants us to break it apart.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use statistical sampling and logs to cobble together the beginnings of a test suite.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to sterilise a legacy environment before even trying to change the code.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to crack the chicken-and-egg problem: I need to write tests in order to refactor, and I need to refactor in order to write tests.</li></ul></p><p>We will work in short sessions on a diabolical-but-fun code base (available in at least 20 programming languages), practise micro-committing, a key technique to changing difficult code safely, practise a handful of refactoring and testing exercises that <b>develop the most essential legacy code rescue skills and disciplines.</b>",
                     "img": "images/jb_vec.png",
                     "presentation": "",
-                    "sold_out": false,
-                    "sold_out_soon": true,
+                    "sold_out": true,
+                    "sold_out_soon": false,
                     "video": ""
                   },
                   {
