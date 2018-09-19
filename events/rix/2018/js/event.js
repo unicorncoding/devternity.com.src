@@ -9,7 +9,15 @@
         "date_iso": "2018-11-30",
         "date_epoch": "1543561200000",         
         "duration_days": 2,
-        "attendees_total": 700,
+        "attendees_total": 600,
+        "roomCapacities": {
+          "KC A": 36,
+          "KC B": 45,
+          "KC C": 45,
+          "KC D": 44,
+          "R 78": 50,
+          "R 75": 16
+        },
         "talks_total": 20,
         "workshops_total": 7,
         "city": "Riga",
@@ -107,12 +115,6 @@
             "flag": "lv",
             "job": "Chief of Foodification",
             "pic": "jelena.png"
-          },
-          {
-            "name": "Alex",
-            "flag": "lv",
-            "job": "Dev @ Ask.fm",
-            "pic": "nazaroff.png"
           },
           {
             "name": "Darja",
