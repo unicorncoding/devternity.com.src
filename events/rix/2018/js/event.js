@@ -156,21 +156,20 @@
               "Main Day Only": {
                   "price": 299,
                   "extra": 100,
-                  "battery": "fa-battery-half",
+                  "battery": "fa-battery-three-quarters",
                   "sold_out": false
               },
               "Power Workshop Only": {
                   "price": 299,
                   "extra": 116,
-                  "battery": "fa-battery-quarter",
-                  "sold_out": false
+                  "battery": "fa-battery-full",
+                  "sold_out": true
               },
               "2-Days Super Pack": {
                   "price": 598,
                   "extra": 200,
-                  "sold_out": false,
-                  "battery": "fa-battery-quarter",
-                  "attention": true
+                  "sold_out": true,
+                  "battery": "fa-battery-full"
               }
             },
             "products": [
@@ -178,23 +177,22 @@
                 "name": "Main Day",
                 "price": 299,
                 "extra": 100,
-                "battery": "fa-battery-half",
+                "battery": "fa-battery-three-quarters",
                 "sold_out": false
               },
               {
                 "name": "Power Workshop",
                 "price": 299,
                 "extra": 116,
-                "battery": "fa-battery-quarter",
-                "sold_out": false
+                "battery": "fa-battery-full",
+                "sold_out": true
               },
               {
                 "name": "2-Days Super Pack",
                 "price": 598,
                 "extra": 200,
-                "sold_out": false,
-                "battery": "fa-battery-quarter",
-                "attention": true
+                "sold_out": true,
+                "battery": "fa-battery-full"
               }
             ]
         },

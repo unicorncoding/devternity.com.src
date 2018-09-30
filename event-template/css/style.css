@@ -124,14 +124,7 @@ strong a {
 }
 
 .tick h3 {
-		/*padding:0 !important; margin: 0 !important;*/
-		margin: 0 0 20px 0;
-}
-
-.tick a.button {
-  /*background-color: #353c46ab;*/
-  /*color: black !important;*/
-	/*width: 100%;*/
+	margin: 0 0 20px 0;
 }
 
 .tick .price {
@@ -1214,6 +1207,7 @@ form.subscribe input[type='submit'] {
 		input[type="reset"]:disabled,
 		input[type="button"].disabled,
 		input[type="button"]:disabled,
+		a.button:disabled,
 		.button.disabled,
 		.button[disabled='disabled'],
 		.button:disabled {

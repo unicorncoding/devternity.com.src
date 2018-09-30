@@ -427,7 +427,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                   h3.product(ng-class="{'attention' : product.attention, 'fade-attention': !product.attention}")
                     span(style="font-weight: bolder") {{product.name}}
                     br
-                    span(ng-if="!product.sold_out && event.status == 'on_sale'")
+                    span
                       span(ng-if="product.attention") 🚀
                       span.fa-layers.fa-fw.fa-3x.best(ng-if="product.attention")
                           i.fas.fa-certificate(style="color:#ffffff")
@@ -439,9 +439,8 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       br
                       i.fas(style="font-size: 40px" ng-class="product.battery")
                       br
-                      //- remove width auto after CDN cache expires
-                      a.button(ng-if="event.status != 'booked'" ng-click="moveTo(event.register)" style="padding: 0 0.5em; width: auto") Buy
-                    span(ng-if="product.sold_out || event.status == 'booked'") SOLD OUT
+                      a.button(ng-if="!product.sold_out && event.status == 'on_sale'" href=data.register style="padding: 0 0.5em") Buy
+                      a.button.disabled(ng-if="product.sold_out" style="padding: 0 0.5em; border: 0") Sold out
 
     if data.sponsorship
       section#support-container.wrapper
