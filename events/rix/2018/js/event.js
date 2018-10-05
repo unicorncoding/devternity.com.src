@@ -38,6 +38,7 @@
         "cfp_deadline": "2018-07-01",
         "subscribeEnabled": false,        
         "announced": true,
+        "sold_out": true,
         "venue_address": "Mūkusalas iela 3",
         "venue_postal_code": "LV-1423", 
         "venue_name": "National Library of Latvia",
@@ -156,8 +157,8 @@
               "Main Day Only": {
                   "price": 299,
                   "extra": 100,
-                  "battery": "fa-battery-three-quarters",
-                  "sold_out": false
+                  "battery": "fa-battery-full",
+                  "sold_out": true
               },
               "Power Workshop Only": {
                   "price": 299,
@@ -177,8 +178,8 @@
                 "name": "Main Day",
                 "price": 299,
                 "extra": 100,
-                "battery": "fa-battery-three-quarters",
-                "sold_out": false
+                "battery": "fa-battery-full",
+                "sold_out": true
               },
               {
                 "name": "Power Workshop",

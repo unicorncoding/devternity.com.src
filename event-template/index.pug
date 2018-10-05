@@ -178,7 +178,8 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           ul.actions
             if data.status == "on_sale"
               li
-                a.button.big.pulse(ng-click="slideTo('#tickets-container')") Get tickets
+                a.button.big.pulse(ng-click="slideTo('#tickets-container')" ng-if="!event.sold_out") Get tickets
+                a.button.big.disabled(ng-if="event.sold_out") SOLD OUT.
                 br
                 br
                 timer(ng-show="showCountdown(event.date_epoch)" end-time=`${data.date_epoch}` max-time-unit="'month'")
