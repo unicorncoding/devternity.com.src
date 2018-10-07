@@ -88,12 +88,6 @@
             "pic": "ilya.png"
           },
           {
-            "name": "Inta",
-            "flag": "lv",
-            "job": "Chief Designer",
-            "pic": "inta.png"
-          },
-          {
             "name": "Jānis",
             "flag": "lv",
             "job": "Dev @ Attido",
@@ -104,12 +98,6 @@
             "flag": "nl",
             "job": "Tech Lead @ ‎Attenza",
             "pic": "jovche.png"
-          },
-          {
-            "name": "Albert",
-            "flag": "lv",
-            "job": ".NET Ninja",
-            "pic": "albert.png"
           },
           {
             "name": "Jelena",
@@ -253,7 +241,13 @@
                 "since": "2016",
                 "link": "https://devchampions.com/",
                 "info": "<p><strong><a href=\"https://devchampions.com\">DevChampions</a></strong> offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation, Agile methodologies and soft skills.</p>"
-              }
+              },
+              {
+                "logo": "cloudvisor.png",
+                "since": "2018",
+                "link": "http://cloudvisor.eu",
+                "info": "<p><strong><a href=\"http://cloudvisor.eu\">Cloudvisor</a></strong> is an official Amazon AWS partner in Baltic states. We help companies grow by guiding them to world public cloud No. 1 and making sure their stay there is as pleasant as possible.</p>"
+              }              
             ]
           },
           "silver": {
