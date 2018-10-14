@@ -235,12 +235,6 @@
                 "since": "2018",
                 "link": "https://printify.com/",
                 "info": "<p><p>At Printify we are building the world’s largest print on demand marketplace.<br>We’re a cross-functional and highly autonomous team with pair programming, refactoring, TDD and Continuous Delivery deeply embedded in our development process. Our HQ is based in Riga.<br><br>Want to build a highly scalable SaaS platform? Be part of professional team? Want to level up your career? <a href=\"mailto:yury+devternity@printify.com?subject=Looking for devs?\">Drop us an email</a>!</p>"
-              },              
-              {
-                "logo": "devchampions.png",
-                "since": "2016",
-                "link": "https://devchampions.com/",
-                "info": "<p><strong><a href=\"https://devchampions.com\">DevChampions</a></strong> offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation, Agile methodologies and soft skills.</p>"
               },
               {
                 "logo": "cloudvisor.png",
