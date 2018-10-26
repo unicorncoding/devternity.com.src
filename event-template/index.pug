@@ -179,23 +179,22 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             if data.status == "on_sale"
               li
                 a.button.big.pulse(ng-click="slideTo('#tickets-container')" ng-if="!event.sold_out") Get tickets
-                a.button.big.disabled(ng-if="event.sold_out") SOLD OUT.
                 br
                 br
                 timer(ng-show="showCountdown(event.date_epoch)" end-time=`${data.date_epoch}` max-time-unit="'month'")
                  | We start in just 
                  strong(style="color: white") {{months ? months + ' month' + monthsS + ', ' : ''}} {{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds
-            if data.status == "booked"
+            if data.status == "sold_out"
               li
-                a.button.big We are fully booked
+                a.button.big We are sold out.
                 br
                 br
-                ul.links
-                  li Follow us —
-                  each link, social in data.socials
-                    li
-                      a(href=link)
-                        i(class=`fab fa-${social}`)
+                each link, social in data.socials
+                  span.links
+                    a(href=link)
+                      i(class=`fab fa-${social}`)
+                    | &nbsp;&nbsp;&nbsp;
+                a(ng-click="slideTo('#footer')" style="cursor: pointer") Join Waitlist
 
       section.wrapper.style1.align-center
         div.container.intro
@@ -252,20 +251,6 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       if speaker.twitter
                         a(href=`https://twitter.com/${speaker.twitter}`)
                           i.fab.fa-twitter.follow-speaker(aria-hidden="true")
-
-          div.row
-            section(class="feature 12u 12u$(small)")
-              if data.subscribeEnabled && data.hasUnknownSpeakers
-                h3.title More coming soon. Subscribe for the final announcement alert:
-                form.subscribe(ng-submit="onSubscribe()")
-                  div {{subscribeMessage}}
-                  input(type="email" ng-model="subscriber" placeholder="<your email address>")
-                  input(type="submit" value="Subscribe")
-                h5
-                  each link, social in data.socials
-                    a(href=link)
-                      i(class=`fab fa-${social}`)
-                    |  &nbsp;
 
       section#program-container.wrapper
           div.container
@@ -399,20 +384,6 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 unless speaker.sold_out
                   div
                     a.button(ng-click="slideTo('#tickets-container')") Book
-          if data.subscribeEnabled && data.hasUnknownWorkshops
-            br
-            h3.title More coming soon. Subscribe for the final announcement alert:
-            form.subscribe(ng-submit="onSubscribe()")
-              div {{subscribeMessage}}
-              input(type="email" ng-model="subscriber" placeholder="<your email address>")
-              input(type="submit" value="Subscribe")          
-            h5
-              each link, social in data.socials
-                a(href=link)
-                  i(class=`fab fa-${social}`)
-                |  &nbsp;        
-          #fb-root
-            script (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
     section#tickets-container.wrapper.style1.tickets.align-center
       div.container
         header
@@ -495,13 +466,14 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 li
                   a(href=link)
                     i(class=`fab fa-${social}`)
+              li #{data.contactEmail}
             ul.tabular
               li
-                h3 Mail
-                a(href=`mailto:${data.contactEmail}`) #{data.contactEmail}
-              li
-                h3 Phone
-                | (+371) 28814170
+                h3 Waitlist
+                form.subscribe(ng-submit="onSubscribe()")
+                  input(type="email" ng-model="subscriber" placeholder="<email address>")
+                  input(type="submit" value="Subscribe") 
+                  | &nbsp; {{subscribeMessage}}               
 
       section#exitOffer(data-remodal-id="exitOffer")
         form(ng-controller="ExitOfferController" name="exitOffer")
