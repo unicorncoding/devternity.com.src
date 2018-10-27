@@ -161,6 +161,7 @@
                   "extra": 200,
                   "sold_out": true,
                   "includesWorkshop": true,
+                  "includesMainDay": true,
                   "battery": "fa-battery-full"
               }
             },
