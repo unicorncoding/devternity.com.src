@@ -145,7 +145,8 @@
                   "price": 299,
                   "extra": 100,
                   "battery": "fa-battery-full",
-                  "sold_out": true
+                  "sold_out": true,
+                  "includesMainDay": true
               },
               "Power Workshop Only": {
                   "price": 299,
