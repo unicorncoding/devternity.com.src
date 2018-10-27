@@ -151,13 +151,15 @@
                   "price": 299,
                   "extra": 116,
                   "battery": "fa-battery-full",
-                  "sold_out": true
+                  "sold_out": true,
+                  "includesWorkshop": true
               },
               "2-Days Super Pack": {
                   "attention": true,
                   "price": 598,
                   "extra": 200,
                   "sold_out": true,
+                  "includesWorkshop": true,
                   "battery": "fa-battery-full"
               }
             },
