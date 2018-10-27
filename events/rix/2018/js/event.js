@@ -154,6 +154,7 @@
                   "sold_out": true
               },
               "2-Days Super Pack": {
+                  "attention": true,
                   "price": 598,
                   "extra": 200,
                   "sold_out": true,
