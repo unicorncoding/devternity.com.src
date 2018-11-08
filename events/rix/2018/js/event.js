@@ -251,7 +251,7 @@
           "silver": {
             "title": "Silver Sponsor",
             "stars": 0,
-            "sponsorsPerLine": 2,
+            "sponsorsPerLine": 3,
             "sponsors": [
               {
                 "logo": "bilderlings.jpg",
@@ -262,6 +262,12 @@
                 "logo": "jetbrains.png",
                 "since": "2018",
                 "link": "https://www.jetbrains.com"
+              },
+              {
+                "title": "Taxi Sponsor",
+                "logo": "taxify.png",
+                "since": "2015",
+                "link": "https://www.taxify.eu"
               }              
             ]
           }

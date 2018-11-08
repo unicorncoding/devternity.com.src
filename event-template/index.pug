@@ -434,7 +434,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       while star++ < package.stars
                         i.fa.fa-star(aria-hidden="true" style="color: orange")
                       em
-                        if package.title  
+                        if sponsor.title
+                          |  #{sponsor.title} 
+                        else if package.title  
                           |  #{package.title} 
                         if sponsor.since
                           |  (since #{sponsor.since})
