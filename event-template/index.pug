@@ -287,7 +287,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                         span #{event.tagList}
                 div(class=`evt row ${++index % 2 == 0 ? 'even' : 'odd'}`)
                     section(class="align-center feature 12u")
-                    |  * We'll do our best to keep everything as planned, but please note that schedule may be a subject to change.
+                        |  * We'll do our best to keep everything as planned, but please note that schedule may be a subject to change.
           each series, key in data.talks
               each event in series
                 if event.type == 'speech' && event.title
