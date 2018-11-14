@@ -179,24 +179,6 @@ gulp.task('purgecss', () =>
         .pipe(gulp.dest(css.dest))
 );
 
-gulp.task('imagemin', () =>
-    gulp.src(images.src)
-        .pipe(newer(images.dest))
-        .pipe(imagemin())
-        .pipe(gulp.dest(images.dest))
-        .pipe(imagemin([
-            imagemin.gifsicle({interlaced: true}),
-            imagemin.jpegtran({progressive: true}),
-            imagemin.optipng({optimizationLevel: 5}),
-            imagemin.svgo({
-                plugins: [
-                    {removeViewBox: true},
-                    {cleanupIDs: false}
-                ]
-            })
-        ]))
-);
-
 gulp.task('connect', () => {
     connect.server({
         root: 'build'
@@ -207,12 +189,10 @@ gulp.task('watch', () => {
     gulp.watch(["event-template/**/*", "events/**/*"], ['build']);
 });
 
-gulp.task('min', ['imagemin']);
-// gulp.task('build', ['events', 'copy-statics']);
 
 // it is important, that purgecss runs after there are files in ./build
 gulp.task('build', function (cb) {
-    runSequence('events', 'generate-calendar', 'copy-statics', 'min', cb)
+    runSequence('events', 'generate-calendar', 'copy-statics', cb)
 });
 
 gulp.task('deploy', ['ghPages']);
