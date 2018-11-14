@@ -111,9 +111,6 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
       | fbq('init', '1655374961370442');
       | fbq('track', "PageView");
 
-    noscript
-      img(height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1655374961370442&ev=PageView&noscript=1")
-
     link(rel="icon" type="image/png" href="https://devternity.com/images/logo_2017_filled.png")
     link(rel="stylesheet" href="css/remodal.css")
          
@@ -147,7 +144,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
   body.landing
 
     div#devternity-loading
-        div.loading-container: div.messaging: div: img(src="images/logo_2017.png")
+        div.loading-container: div.messaging: div: img(src="images/logo_2017.png" alt="logo")
 
     header#header
       nav#nav
@@ -155,7 +152,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           li: a(href="code_of_conduct.html" alt="Code of Conduct") Code of Conduct
           each link, social in data.socials
             li
-              a(href=link)
+              a(href=link alt=`Link to ${social}`)
                 i(class=`fab fa-${social}`)
           each history in data.history
             li: a(href=`/rix/${history}` alt=`DevTernity ${history}`) #{history}
@@ -166,11 +163,11 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           source(src="images/video.mp4" type="video/mp4")
 
         a#trust(href="https://itconference.top")
-          img(src="images/trustpilot.png")
+          img(src="images/trustpilot.png" alt="5 stars event")
 
         .info
           div
-            img(src="images/logo_2017.png")
+            img(src="images/logo_2017.png" alt="logo")
             h2 &nbsp;DevTernity
 
           p=data.desc
@@ -191,10 +188,10 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 br
                 each link, social in data.socials
                   span.links
-                    a(href=link)
+                    a(href=link alt=`Link to ${social}`)
                       i(class=`fab fa-${social}`)
                     | &nbsp;&nbsp;&nbsp;
-                a(ng-click="slideTo('#footer')" style="cursor: pointer") Join Waitlist
+                a(ng-click="slideTo('#footer')" style="cursor: pointer" alt="Slide to footer") Join Waitlist
 
       section.wrapper.style1.align-center
         div.container.intro
@@ -202,7 +199,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             h2
             p 
               | DevTernity is 
-              a(href="//itconference.top" target="_blank"): strong the top 3
+              a(href="//itconference.top" target="_blank" alt="IT Conference top"): strong the top 3
               |  international software development conference in Europe. 
             h2
             p We focus on the core skills paramount to your success – code design, software architecture and leadership.
@@ -249,7 +246,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                         |  #{speaker.name}
                       div.who !{speaker.bio}
                       if speaker.twitter
-                        a(href=`https://twitter.com/${speaker.twitter}`)
+                        a(href=`https://twitter.com/${speaker.twitter}` alt=`${speaker.name} Twitter account`)
                           i.fab.fa-twitter.follow-speaker(aria-hidden="true")
 
       section#program-container.wrapper
@@ -297,9 +294,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                       div.row
                         section(class="12u")
                           div
-                            img.headshot(src=`${event.img}`)
+                            img.headshot(src=`${event.img}` alt="speaker headshot")
                             if event.partner
-                              img.headshot(src=`${event.partner.img}` style="position:relative; right: 20px")
+                              img.headshot(src=`${event.partner.img}` style="position:relative; right: 20px" alt="speaker headshot")
                             p.whoname
                               img(src=`images/flags/${event.country}.png` alt=`${event.country} flag`)
                               |  #{event.name} 
@@ -376,7 +373,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 table
                   tr
                     td(style="vertical-align:middle; padding: 1em")
-                      img.lazy.headshot(style="width: 100px" data-src=`${speaker.img}`)
+                      img.lazy.headshot(style="width: 100px" data-src=`${speaker.img}` alt="speaker headshot")
                     td(style="vertical-align:middle")
                       a.follow-speaker(href=`https://twitter.com/${speaker.twitter}`): i.fab.fa-twitter
                       b  #{speaker.name}
@@ -430,8 +427,8 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 div.row.align-center
                   each sponsor, index in package.sponsors
                     section(class=`${12 / package.sponsorsPerLine}u 12u$(medium)`)
-                      a(target="_blank" rel="noopener" href=sponsor.link)
-                        img.lazy(style="max-width: 250px; max-height: 120px" class=`${package.grayscale ? 'grayscale' : ''}` data-src=`images/${sponsor.logo}`)
+                      a(target="_blank" rel="noopener" alt="Sponsor link" href=sponsor.link)
+                        img.lazy(style="max-width: 250px; max-height: 120px" class=`${package.grayscale ? 'grayscale' : ''}` data-src=`images/${sponsor.logo}` alt=`${sponsor.title} logo`)
                       br
                       - var star = 0
                       while star++ < package.stars
@@ -458,10 +455,10 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               | DevTernity is organised with love 
               i.fa.fa-heart(style="color: red" aria-hidden="true")
               |  and care by 
-              strong: a(target="_blank" href="https://medium.com/@eduardsi/my-team-58f99b215be8") passionate software developers.
+              strong: a(target="_blank" href="https://medium.com/@eduardsi/my-team-58f99b215be8" alt="Our team") passionate software developers.
             h3 Location / Venue
             p 
-              a(href="https://www.google.lv/maps/place/DevTernity+Conference/@56.9397819,24.0966023,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.939779!4d24.098791" target="_blank")
+              a(href="https://www.google.lv/maps/place/DevTernity+Conference/@56.9397819,24.0966023,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.939779!4d24.098791" target="_blank" alt="Venue location on Google maps")
                 i.fas.fa-map-marker-alt
               |  #{data.venue_name}, #{data.venue_address} 
           section(class="6u 12u$(small)")
@@ -469,7 +466,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             ul.icons
               each link, social in data.socials
                 li
-                  a(href=link)
+                  a(href=link alt=`${social} link`)
                     i(class=`fab fa-${social}`)
               li #{data.contactEmail}
             ul.tabular
@@ -480,7 +477,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                   input(type="submit" value="Subscribe") 
                   | &nbsp; {{subscribeMessage}}               
 
-      section#exitOffer(data-remodal-id="exitOffer")
+      // section#exitOffer(data-remodal-id="exitOffer")
         form(ng-controller="ExitOfferController" name="exitOffer")
           h2 
             | Lucky you! Here is the secret deal 
@@ -492,28 +489,14 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             br
             br
             p {{subscribeMessage}}
-            strong: a(href="#" data-remodal-action="close") No, thanks. Already have my ticket.
+            strong: a(href="#" data-remodal-action="close" alt="Close window") No, thanks. Already have my ticket.
       ul.copyright
         li &copy; DevTernity OÜ, 14226860, Mõisavahe tn 38-129 Tartu, Estonia. 
         br 
         | All rights reserved.
 
-    //- script(type="text/javascript")
-    //-   | var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    //-   | (function(){
-    //-   | var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    //-   | s1.async=true;
-    //-   | s1.src='https://embed.tawk.to/58ca5310f42d220ab327a8d7/default';
-    //-   | s1.charset='UTF-8';
-    //-   | s1.setAttribute('crossorigin','*');
-    //-   | s0.parentNode.insertBefore(s1,s0);
-    //-   | })();
-
     script(type="text/javascript")
       | (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter47893700 = new Ya.Metrika2({ id:47893700, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2");
-    noscript
-      div
-        img(src="https://mc.yandex.ru/watch/47893700" style="position:absolute; left:-9999px;" alt="")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.6.0/lazyload.min.js")
     script.
         window.lazyLoad = new LazyLoad({

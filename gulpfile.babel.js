@@ -44,12 +44,12 @@ const images = {
 
 const eventJs = (loc) => {
     try {
-        var content = fs.readFileSync(`events/${loc}/js/event.js`, "utf8");
-        var json = JSON.parse(content)[0];
-        return json;
+        var content = fs.readFileSync(`events/${loc}/js/event.js`, "utf8")
+        var [json] = JSON.parse(content)
+        return json
     } catch (err) {
-        console.log(err);
-        return {};
+        console.log(err)
+        return {}
     }
 };
 
