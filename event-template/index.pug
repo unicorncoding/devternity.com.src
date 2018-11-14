@@ -152,8 +152,8 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           li: a(href="code_of_conduct.html" alt="Code of Conduct") Code of Conduct
           each link, social in data.socials
             li
-              a(href=link alt=`Link to ${social}`)
-                i(class=`fab fa-${social}`)
+              a(href=link aria-label=`Link to ${social}`)
+                i(class=`fab fa-${social}` aria-hidden)
           each history in data.history
             li: a(href=`/rix/${history}` alt=`DevTernity ${history}`) #{history}
 
@@ -188,8 +188,8 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 br
                 each link, social in data.socials
                   span.links
-                    a(href=link alt=`Link to ${social}`)
-                      i(class=`fab fa-${social}`)
+                    a(href=link aria-label=`Link to ${social}`)
+                      i(class=`fab fa-${social}` aria-hidden)
                     | &nbsp;&nbsp;&nbsp;
                 a(ng-click="slideTo('#footer')" style="cursor: pointer" alt="Slide to footer") Join Waitlist
 
@@ -246,7 +246,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                         |  #{speaker.name}
                       div.who !{speaker.bio}
                       if speaker.twitter
-                        a(href=`https://twitter.com/${speaker.twitter}` alt=`${speaker.name} Twitter account`)
+                        a(href=`https://twitter.com/${speaker.twitter}` aria-label=`${speaker.name} Twitter account`)
                           i.fab.fa-twitter.follow-speaker(aria-hidden="true")
 
       section#program-container.wrapper
@@ -375,7 +375,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                     td(style="vertical-align:middle; padding: 1em")
                       img.lazy.headshot(style="width: 100px" data-src=`${speaker.img}` alt="speaker headshot")
                     td(style="vertical-align:middle")
-                      a.follow-speaker(href=`https://twitter.com/${speaker.twitter}`): i.fab.fa-twitter
+                      a.follow-speaker(href=`https://twitter.com/${speaker.twitter}` aria-label=`Follow ${speaker.name}`): i.fab.fa-twitter(aria-hidden)
                       b  #{speaker.name}
                       .who
                         strong !{speaker.bio}
@@ -458,22 +458,23 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               strong: a(target="_blank" href="https://medium.com/@eduardsi/my-team-58f99b215be8" alt="Our team") passionate software developers.
             h3 Location / Venue
             p 
-              a(href="https://www.google.lv/maps/place/DevTernity+Conference/@56.9397819,24.0966023,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.939779!4d24.098791" target="_blank" alt="Venue location on Google maps")
-                i.fas.fa-map-marker-alt
+              a(href="https://www.google.lv/maps/place/DevTernity+Conference/@56.9397819,24.0966023,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.939779!4d24.098791" target="_blank" aria-label="Venue location on Google maps")
+                i.fas.fa-map-marker-alt(aria-hidden)
               |  #{data.venue_name}, #{data.venue_address} 
           section(class="6u 12u$(small)")
             h3 Let's stay connected:
             ul.icons
               each link, social in data.socials
                 li
-                  a(href=link alt=`${social} link`)
-                    i(class=`fab fa-${social}`)
+                  a(href=link aria-label=`${social} link`)
+                    i(class=`fab fa-${social}` aria-hidden)
               li #{data.contactEmail}
             ul.tabular
               li
-                h3 Waitlist
                 form.subscribe(ng-submit="onSubscribe()")
-                  input(type="email" ng-model="subscriber" placeholder="<email address>")
+                  h3
+                    label(for="subscriptionEmail") Waitlist
+                  input(type="email" ng-model="subscriber" placeholder="<email address>" id="subscriptionEmail")
                   input(type="submit" value="Subscribe") 
                   | &nbsp; {{subscribeMessage}}               
 
@@ -490,9 +491,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             br
             p {{subscribeMessage}}
             strong: a(href="#" data-remodal-action="close" alt="Close window") No, thanks. Already have my ticket.
-      ul.copyright
-        li &copy; DevTernity OÜ, 14226860, Mõisavahe tn 38-129 Tartu, Estonia. 
-        br 
+      p.copyright
+        | &copy; DevTernity OÜ, 14226860, Mõisavahe tn 38-129 Tartu, Estonia. 
+        br
         | All rights reserved.
 
     script(type="text/javascript")
