@@ -224,7 +224,7 @@
                       "name": "Hadi Hariri",
                       "twitter": "hhariri",
                       "type": "speech",
-                      "country": "es",
+                      "country": "cz",
                       "bio": "VP of Developer Advocacy @ JetBrains",
                       "long_bio": "Developer and creator of many things OSS, his passions includes Web Development and Software Architecture. Has authored a couple of books, a few courses and has been speaking at industry events for nearly 15 years. Currently at JetBrains leading the Developer Advocacy team. Spends as much time as he can writing code.",
                       "title": "The Silver Bullet Syndrome",
