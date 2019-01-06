@@ -171,7 +171,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                     a(href=link aria-label=`Link to ${social}`)
                       i(class=`fab fa-${social}` aria-hidden)
                     | &nbsp;&nbsp;&nbsp;
-                a(ng-click="slideTo('#footer')" style="cursor: pointer" alt="Slide to footer") Join Waitlist
+                a(ng-click="slideTo('#footer')" style="cursor: pointer" alt="Slide to footer") Subscribe
 
       section.wrapper.style1.align-center
         div.container.intro
@@ -445,7 +445,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               li
                 form.subscribe(ng-submit="onSubscribe()")
                   h3
-                    label(for="subscriptionEmail") Waitlist
+                    label(for="subscriptionEmail") Updates
                   input(type="email" ng-model="subscriber" placeholder="<email address>" id="subscriptionEmail")
                   input(type="submit" value="Subscribe") 
                   | &nbsp; {{subscribeMessage}}               

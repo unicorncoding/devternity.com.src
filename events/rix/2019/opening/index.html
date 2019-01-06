@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+
+
+      h1 {
+        font-size: 4em !important;
+      }
+
+      a {
+        color: white;
+      }
+
+      canvas {
+        cursor: crosshair;
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }      
+
+      .splash { background-color: white !important; padding: 0}
+      .badge { background-color: #231f20 !important; }
+
+      .badge img {
+        width: 700px;
+      }
+
+      strong {
+        background-color: #2ea946;
+        padding: 15px 15px;
+      }
+
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+      .remark-slide-content {
+        color: white;
+        background-color: #100f0d;
+      }
+
+      .fit img {
+        width: 85%;
+      }
+
+      .slack img {
+        width: 300px;
+      }
+
+      .wifi img {
+        width: 150px;
+      }
+
+      .sponsors img {
+          position: absolute;
+          top: 70px;
+          right: 70px;
+          width: 500px;
+      }
+
+      .logo img {
+          position: absolute;
+          top: 70px;
+          left: 100px;
+          width: 400px;
+      }
+
+      .spinner {
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        left: 270px;
+        top: 450px;
+      }
+
+
+      .discussion img {
+        width: 500px;
+      }
+
+      .invert {
+        background-color: white;
+        color: #463937;
+      }
+
+      .invert strong {
+        color: white;
+      }
+
+      .align-l {
+        float: left;
+        width: 40%;
+      }
+
+      .align-r {
+        float: right;
+        width: 60%;
+      }
+
+
+      .beige {
+        background-color: #a7b8c8
+      }
+
+      .tshirt img {
+        width: 500px;
+      }
+
+      .twitter {
+        background-color: #2aa9df
+      }
+
+      .twitter img {
+        width: 300px;
+      }
+
+      .books img {
+          -webkit-box-shadow: 11px 9px 5px 0px rgba(0,0,0,0.2);
+          -moz-box-shadow: 11px 9px 5px 0px rgba(0,0,0,0.2);
+          box-shadow: 11px 9px 5px 0px rgba(0,0,0,0.2);
+      }
+
+      .directions img {
+        width: 30%;
+      }
+
+
+
+
+
+.spinner > div {
+  background-color: white;
+  height: 100%;
+  width: 20px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}      
+
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+.sponsors[![](sponsors.png)]
+.logo[![](logo.png)]
+<br/>
+<br/>
+<br/>
+<div class="spinner">
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
+</div>
+???
+- CANT HEAR YOU!
+- Again I am standing between you and Simon, so I will be fast.
+- Few facts about devternity
+
+---
+class: center, middle
+# Welcome!
+
+---
+class: middle, center, badge
+# Program
+![](badge.png)
+???
+- If you turn it like this, you'll see the conference program.
+- 3 tracks and 20 talks. 
+- Sometimes it will be hard to choose a talk, but don't worry - videos will avalable on YouTube
+
+---
+# **devternity.com/slack**
+## \#track-1-live
+## \#track-2-live
+## \#track-3-live
+???
+If you want to ask a question, upvote a question – use Slack. To join, just follow the link.
+
+---
+class: discussion, center, middle
+![](ab_zones.png)
+???
+- There will be 20 minutes break between sessions. 
+- You can have a discussion with a speaker in one of 2 discussion zones downstairs.
+- You can grab coffee and visit sponsor booths. Sponsors have prepared a lot of interesting activities.
+
+---
+background-image:url(lunch_def.png)
+background-size: 100%
+# **12:30** Lunch break
+## – Hot soup, fresh salad, sweet dessert, juice
+## – Vegetarian food by request
+???
+- everything prepared now. Literally. Now, while we're talking.
+this is the default option
+
+---
+background-image:url(lunch.png)
+# **9:00 – 15:00** Kliversala Rstr. Buffet
+## – Gluten free food etc.
+## – 5-10€
+## - Ask DevTernity Team for directions
+???
+- [buffei]
+- You can find DevTernity Team by t-shirt. Black. Btw, you can get yours downstairs.
+
+---
+background-image:url(beer.png)
+background-size: 100%
+# **19:30** Afterparty at Stargorod brewpub 
+## – Bus transfer from the main entrance
+## – Show your badge to get beer
+???
+great opportunity to hang out with friends and speakers.
+
+---
+class: center, middle, invert, wifi
+![](wifi.png)
+##.align-l[Network: **DevTernity**]
+## Password: **hello2018**
+???
+Be gentle to Wi-Fi, and use your 4g. Leave Wi-fi for international guests.
+
+---
+class: twitter
+#\#DevTernity
+![](twitter.gif)
+???
+– I will show a good example and share this slides immediately
+
+---
+class: slack, center, invert
+![](slack.svg)
+# Join **devternity.com/slack**
+
+---
+background-size: 125%
+class: center, middle
+# Let's begin!
+
+---
+class: center, middle
+# **Final words** before beer
+
+---
+background-image:url(megamind.jpg)
+background-size: 100%
+???
+- who is that? : )
+- let's play a game... 
+
+---
+class: center
+<canvas></canvas>
+# Speakers on stage!
+
+---
+class: center
+<canvas></canvas>
+# DevTernity Team on stage!
+
+---
+class: center
+<canvas></canvas>
+# See you in 2019!
+
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var frames = []
+
+      window.cancelAnimationFrame = ( function() {
+          return window.cancelAnimationFrame || window.mozCancelAnimationFrame || window.webkitCancelAnimationFrame;
+        })();      
+
+      window.requestAnimFrame = ( function() {
+        var frame = window.requestAnimationFrame ||
+              window.webkitRequestAnimationFrame ||
+              window.mozRequestAnimationFrame 
+        frames.push(frame)
+        return frame;
+      })();
+
+      var slideshow = remark.create({
+        "ratio": "16:9",
+        slideNumberFormat: function (current, total) {
+          return ""
+        }
+      })
+
+      slideshow.on("afterShowSlide", function(slide) {
+
+        frames.forEach(frame => {
+          window.cancelAnimationFrame(frame)
+        })
+
+        // now we will setup our basic variables for the demo
+        
+        var canvas = document.querySelectorAll('.remark-visible canvas' )[0]
+        if (!canvas) {
+          return;
+        }
+
+        var ctx = canvas.getContext( '2d' ),
+        // full screen dimensions
+        cw = window.innerWidth,
+        ch = window.innerHeight,
+        // firework collection
+        fireworks = [],
+        // particle collection
+        particles = [],
+        // starting hue
+        hue = 120,
+        // when launching fireworks with a click, too many get launched at once without a limiter, one launch per 5 loop ticks
+        limiterTotal = 25,
+        limiterTick = 0,
+        // this will time the auto launches of fireworks, one launch per 80 loop ticks
+        timerTotal = 10,
+        timerTick = 0,
+        mousedown = false,
+        // mouse x coordinate,
+        mx,
+        // mouse y coordinate
+        my;
+		
+        // set canvas dimensions
+        canvas.width = cw;
+        canvas.height = ch;
+
+        // now we are going to setup our function placeholders for the entire demo
+
+        // get a random number within a range
+        function random( min, max ) {
+          return Math.random() * ( max - min ) + min;
+        }
+
+        // calculate the distance between two points
+        function calculateDistance( p1x, p1y, p2x, p2y ) {
+          var xDistance = p1x - p2x,
+              yDistance = p1y - p2y;
+          return Math.sqrt( Math.pow( xDistance, 2 ) + Math.pow( yDistance, 2 ) );
+        }
+
+        // create firework
+        function Firework( sx, sy, tx, ty ) {
+          // actual coordinates
+          this.x = sx;
+          this.y = sy;
+          // starting coordinates
+          this.sx = sx;
+          this.sy = sy;
+          // target coordinates
+          this.tx = tx;
+          this.ty = ty;
+          // distance from starting point to target
+          this.distanceToTarget = calculateDistance( sx, sy, tx, ty );
+          this.distanceTraveled = 0;
+          // track the past coordinates of each firework to create a trail effect, increase the coordinate count to create more prominent trails
+          this.coordinates = [];
+          this.coordinateCount = 3;
+          // populate initial coordinate collection with the current coordinates
+          while( this.coordinateCount-- ) {
+            this.coordinates.push( [ this.x, this.y ] );
+          }
+          this.angle = Math.atan2( ty - sy, tx - sx );
+          this.speed = 2;
+          this.acceleration = 1.05;
+          this.brightness = random( 50, 100 );
+          // circle target indicator radius
+          this.targetRadius = 1;
+        }
+
+        // update firework
+        Firework.prototype.update = function( index ) {
+          // remove last item in coordinates array
+          this.coordinates.pop();
+          // add current coordinates to the start of the array
+          this.coordinates.unshift( [ this.x, this.y ] );
+          
+          // cycle the circle target indicator radius
+          if( this.targetRadius < 8 ) {
+            this.targetRadius += 0.3;
+          } else {
+            this.targetRadius = 1;
+          }
+	
+          // speed up the firework
+          this.speed *= this.acceleration;
+          
+          // get the current velocities based on angle and speed
+          var vx = Math.cos( this.angle ) * this.speed,
+              vy = Math.sin( this.angle ) * this.speed;
+          // how far will the firework have traveled with velocities applied?
+          this.distanceTraveled = calculateDistance( this.sx, this.sy, this.x + vx, this.y + vy );
+          
+          // if the distance traveled, including velocities, is greater than the initial distance to the target, then the target has been reached
+          if( this.distanceTraveled >= this.distanceToTarget ) {
+            createParticles( this.tx, this.ty );
+            // remove the firework, use the index passed into the update function to determine which to remove
+            fireworks.splice( index, 1 );
+          } else {
+            // target not reached, keep traveling
+            this.x += vx;
+            this.y += vy;
+          }
+        }
+
+        // draw firework
+        Firework.prototype.draw = function() {
+          ctx.beginPath();
+          // move to the last tracked coordinate in the set, then draw a line to the current x and y
+          ctx.moveTo( this.coordinates[ this.coordinates.length - 1][ 0 ], this.coordinates[ this.coordinates.length - 1][ 1 ] );
+          ctx.lineTo( this.x, this.y );
+          ctx.strokeStyle = 'hsl(' + hue + ', 100%, ' + this.brightness + '%)';
+          ctx.stroke();
+          
+          ctx.beginPath();
+          // draw the target for this firework with a pulsing circle
+          ctx.arc( this.tx, this.ty, this.targetRadius, 0, Math.PI * 2 );
+          ctx.stroke();
+        }
+
+        // create particle
+        function Particle( x, y ) {
+          this.x = x;
+          this.y = y;
+          // track the past coordinates of each particle to create a trail effect, increase the coordinate count to create more prominent trails
+          this.coordinates = [];
+          this.coordinateCount = 5;
+          while( this.coordinateCount-- ) {
+            this.coordinates.push( [ this.x, this.y ] );
+          }
+          // set a random angle in all possible directions, in radians
+          this.angle = random( 0, Math.PI * 2 );
+          this.speed = random( 1, 10 );
+          // friction will slow the particle down
+          this.friction = 0.95;
+          // gravity will be applied and pull the particle down
+          this.gravity = 1;
+          // set the hue to a random number +-50 of the overall hue variable
+          this.hue = random( hue - 50, hue + 50 );
+          this.brightness = random( 50, 80 );
+          this.alpha = 1;
+          // set how fast the particle fades out
+          this.decay = random( 0.015, 0.03 );
+        }
+
+        // update particle
+        Particle.prototype.update = function( index ) {
+          // remove last item in coordinates array
+          this.coordinates.pop();
+          // add current coordinates to the start of the array
+          this.coordinates.unshift( [ this.x, this.y ] );
+          // slow down the particle
+          this.speed *= this.friction;
+          // apply velocity
+          this.x += Math.cos( this.angle ) * this.speed;
+          this.y += Math.sin( this.angle ) * this.speed + this.gravity;
+          // fade out the particle
+          this.alpha -= this.decay;
+          
+          // remove the particle once the alpha is low enough, based on the passed in index
+          if( this.alpha <= this.decay ) {
+            particles.splice( index, 1 );
+          }
+        }
+
+        // draw particle
+        Particle.prototype.draw = function() {
+          ctx. beginPath();
+          // move to the last tracked coordinates in the set, then draw a line to the current x and y
+          ctx.moveTo( this.coordinates[ this.coordinates.length - 1 ][ 0 ], this.coordinates[ this.coordinates.length - 1 ][ 1 ] );
+          ctx.lineTo( this.x, this.y );
+          ctx.strokeStyle = 'hsla(' + this.hue + ', 100%, ' + this.brightness + '%, ' + this.alpha + ')';
+          ctx.stroke();
+        }
+
+        // create particle group/explosion
+        function createParticles( x, y ) {
+          // increase the particle count for a bigger explosion, beware of the canvas performance hit with the increased particles though
+          var particleCount = 30;
+          while( particleCount-- ) {
+            particles.push( new Particle( x, y ) );
+          }
+        }
+
+        // main demo loop
+        function loop() {
+          // this function will run endlessly with requestAnimationFrame
+          requestAnimFrame( loop );
+          
+          // increase the hue to get different colored fireworks over time
+          //hue += 0.5;
+          
+          // create random color
+          hue= random(0, 360 );
+          
+          // normally, clearRect() would be used to clear the canvas
+          // we want to create a trailing effect though
+          // setting the composite operation to destination-out will allow us to clear the canvas at a specific opacity, rather than wiping it entirely
+          ctx.globalCompositeOperation = 'destination-out';
+          // decrease the alpha property to create more prominent trails
+          ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+          ctx.fillRect( 0, 0, cw, ch );
+          // change the composite operation back to our main mode
+          // lighter creates bright highlight points as the fireworks and particles overlap each other
+          ctx.globalCompositeOperation = 'lighter';
+          
+          // loop over each firework, draw it, update it
+          var i = fireworks.length;
+          while( i-- ) {
+            fireworks[ i ].draw();
+            fireworks[ i ].update( i );
+          }
+          
+          // loop over each particle, draw it, update it
+          var i = particles.length;
+          while( i-- ) {
+            particles[ i ].draw();
+            particles[ i ].update( i );
+          }
+          
+          // launch fireworks automatically to random coordinates, when the mouse isn't down
+          if( timerTick >= timerTotal ) {
+              // start the firework at the bottom middle of the screen, then set the random target coordinates, the random y coordinates will be set within the range of the top half of the screen
+              fireworks.push( new Firework( cw / 2, ch, random( 0, cw ), random( 0, ch / 2 ) ) );
+              timerTick = 0;
+          } else {
+            timerTick++;
+          }
+    
+        }
+
+        // once the window loads, we are ready for some fireworks!        
+        loop()
+
+
+      })
+        
+    </script>
+  </body>
+</html>
