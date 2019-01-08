@@ -200,8 +200,24 @@
                       "img": "images/roy_vec.png",
                       "presentation": "",
                       "video": ""
-                  }
-                ]
+                  },
+                  {
+                    "product": "KUBERNETES",
+                    "name": "Juris Pavlyuchenkov",
+                    "type": "speech",
+                    "twitter": "jurispv",                      
+                    "time": "9:00",
+                    "endTime": "18:00",                      
+                    "tags": ["k8s", "containers"],
+                    "country": "lv",
+                    "bio": "Trainer, Amazon Certified Solutions Architect",
+                    "title": "Kubernetes for Developers",
+                    "brief_description": "Kubernetes makes automating deployment, scaling and management of application a breeze.  The goal of this intensive and practical training is to familiarise you with the core Kubernetes concepts, and equip you with enough knowledge so you can easily run and operate your own applications in Kubernetes.",
+                    "description": "<h3>The course covers:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why Kubernetes is important, when to use it and when to avoid</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding Docker basics – manifests, images, containers, repositories</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding how Kubernetes is built (API, scheduler, etcd, plugins, internals)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Configuring, deploying and operating stateless apps with Pods, Services, Deployments, Ingresses, Secrets, ConfigMaps</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Running stateful Redis cluster with StatefulSets, PersistantVolumes</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Running scheduled operations in a cluster (CronJobs, DaemonSets, Pod affinity)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Configuring Kubernetes cluster for maximum security</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Troubleshooting Kubernetes, monitoring, logging and debugging</li></ul><p>After this course, you'll get deep understanding of the core Kubernetes concepts, and will be able to easily run and operate your own containerized applications.</p>",
+                    "img": "images/pavl_vec.png",
+                    "presentation": ""
+                }                  
+              ]
             },
             {
                 "event": "keynotes",
