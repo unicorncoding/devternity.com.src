@@ -199,7 +199,7 @@ gulp.task('deploy', ['ghPages']);
 
 gulp.task('ghPages', (cb) => {
     ghpages.publish('./build', {
-        repo: "https://eduardsi:${GH_TOKEN}@github.com/devternity/devternity.github.io.git",
+        repo: "https://sizovs:${GH_TOKEN}@github.com/devternity/devternity.github.io.git",
         branch: "master"
     }, cb)
 });
