@@ -214,7 +214,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                   section(class="feature 3u 12u$(small)")
                       img.lazy.headshot(data-src=speaker.img, alt=speaker.name)
                       div.whoname
-                        img.lazy(data-src=`images/flags/${speaker.country}.png` alt=`${speaker.country} flag`) 
+                        img.lazy(data-src=`images/flags/${speaker.country}.svg` alt=`${speaker.country} flag` style="height: 13px") 
                         |  #{speaker.name}
                       div.who !{speaker.bio}
                       if speaker.twitter
@@ -270,7 +270,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                             if event.partner
                               img.headshot(src=`${event.partner.img}` style="position:relative; right: 20px" alt="speaker headshot")
                             p.whoname
-                              img(src=`images/flags/${event.country}.png` alt=`${event.country} flag`)
+                              img(src=`images/flags/${event.country}.svg` alt=`${event.country} flag` style="height: 13px")
                               |  #{event.name} 
                               if event.partner
                                 |  &amp; #{event.partner.name}
