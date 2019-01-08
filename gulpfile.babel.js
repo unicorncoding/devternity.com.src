@@ -2,16 +2,14 @@
 
 import pug from "gulp-pug2"
 import gulp from 'gulp'
-import deploy from 'gulp-gh-pages'
 import connect from 'gulp-connect'
 import merge from 'merge-stream'
 import gulpif from 'gulp-if'
+import ghpages from 'gh-pages'
 import moment from 'moment'
-import newer from 'gulp-newer'
 import fs from "fs"
 import _ from "lodash"
 import purgecss from 'gulp-purgecss'
-import imagemin from 'gulp-imagemin'
 import htmlToText from 'html-to-text'
 import runSequence from 'run-sequence'
 
@@ -199,13 +197,11 @@ gulp.task('build', function (cb) {
 gulp.task('deploy', ['ghPages']);
 
 
-gulp.task('ghPages', () => {
-    return gulp
-        .src(['./build/**/*'])
-        .pipe(deploy({
-            remoteUrl: "https://eduardsi:${GH_TOKEN}@github.com/devternity/devternity.github.io.git",
-            branch: "master"
-        }));
+gulp.task('ghPages', (cb) => {
+    ghpages.publish('./build', {
+        repo: "https://eduardsi:${GH_TOKEN}@github.com/devternity/devternity.github.io.git",
+        branch: "master"
+    }, cb)
 });
 
 gulp.task('default', ['build', 'watch', 'connect']);
