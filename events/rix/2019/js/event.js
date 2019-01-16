@@ -164,7 +164,20 @@
         },
         "promos": [
         ],
-        "sponsorship": {        
+        "sponsorship": {
+          "platinum": {
+            "title": "Platinum Sponsor",
+            "stars": 5,
+            "sponsorsPerLine": 1,
+            "sponsors": [
+              {
+                "logo": "eas.png",
+                "since": "2017",
+                "link": "https://www.workinestonia.com",
+                "info": "<p><strong><a href=\"https://www.workinestonia.com\">Work in Estonia</a></strong> introduces Estonia as an attractive living and working destination to talented potential employees worldwide, particularly in the ICT sector. Come and join the first digital society!</p>"
+              }              
+            ]
+          }, 
           "gold": {
             "title": "Gold Sponsor",
             "stars": 3,
