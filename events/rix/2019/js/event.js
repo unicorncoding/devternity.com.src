@@ -295,17 +295,18 @@
                     "description": "Did you ever want to create an application that is never down? Have you ever been jealous of those Erlang guys, that produce applications that practically never fail? Have you tried Erlang and fled because of its baroque syntax and tooling? Enter Elixir! Elixir combines Ruby's love for programmers with the absolute power that is the Erlang platform. This talk will introduce programmers to Elixir and OTP. You will gain an understanding of what Elixir brings to the table and how to build highly scale-able systems with a toolset that is actually fun to use. Even if you will never use Elixir and OTP for you projects, you will learn some of the concepts, that make Erlang into such a powerful ecosystem.",
                     "tags": ["live coding", "new language", "distributed systems"]
                   },                                                                                                         
-                  {
-                        "time": "10:30",
-                        "type": "speech",
-                        "twitter": "stefanjudis",
-                        "country": "de",
-                        "bio": "Developer Advocate @ Contentful, Teaching <a href=\"https://twitter.com/CSSclasses\">@CSSclasses</a>, Maintaining <a href=\"https://twitter.com/perf_tooling\">@perf_tooling</a>",
-                        "description": "Frontend and JavaScript technologies are moving fast. So fast that it's always hard to keep track of all the new things that are coming up. This talk will show new tools, workflows, ways to develop and give advice on how to stay up to date.",
-                        "img": "images/judis.png",
-                        "presentation": "",
-                        "video": ""
-                    },  
+                  {                           
+                    "time": "10:30",                            
+                    "name": "J.B. Rainsberger",
+                    "type": "speech",
+                    "twitter": "jbrains",                      
+                    "country": "ca",
+                    "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
+                    "img": "images/jb_vec.png",
+                    "title": "The Well-Balanced Programmer",
+                    "description": "A well-balanced programmer feels comfortable dealing with designing software, managing projects, and working with people. Companies seem to want to hire \"the best\", but well-balanced programmers relatively rare. Although many programmers feel confident arguing about algorithms, modularity, and scalability in design sessions, they would stand out from their peers if they also had incredible habits for managing their work, knew how to negotiate features with product owners, had intelligent conversations with project managers about the risks in their project, and understood what lies behind the irrationality of the people and systems around them. Sadly, most programmers don't appreciate the value of these skills. Others don't know how to get started learning them. I started programming computers because people are messy! I'd like to share a curated collection of concepts for you explore that will help you become irresistibly valuable to your employer or clients. I plan to share the design principles and programming techniques that amplified my skills the most over the last 20 years. In addition, I'll describe how I learned the key non-programming concepts, techniques, and approaches that have endeared me to fellow programmers, managers, and clients. I offer you a very practical approach to issues like influencing peers, negotiating with stakeholders, and adopting new ways of working safely. I'll help you start to build a personal work system that will free your mind to do your best work. I know how this might sound. I promise to share concrete techniques that you can begin applying right away. Of course, these techniques aren't magic, so you'll have to read some more and practise on your own, but you will know how to get started right away on becoming the well-balanced programmer that every manager and co-worker will love to have on their team.",
+                    "tags": ["productivity", "work habits", "software design"]
+                  },            
                     {
                         "type": "break",
                         "time": "11:20",
