@@ -229,7 +229,25 @@
                     "description": "<h3>The course covers:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why Kubernetes is important, when to use it and when to avoid</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding Docker basics – manifests, images, containers, repositories</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding how Kubernetes is built (API, scheduler, etcd, plugins, internals)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Configuring, deploying and operating stateless apps with Pods, Services, Deployments, Ingresses, Secrets, ConfigMaps</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Running stateful Redis cluster with StatefulSets, PersistantVolumes</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Running scheduled operations in a cluster (CronJobs, DaemonSets, Pod affinity)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Configuring Kubernetes cluster for maximum security</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Troubleshooting Kubernetes, monitoring, logging and debugging</li></ul><p>After this course, you'll get deep understanding of the core Kubernetes concepts, and will be able to easily run and operate your own containerized applications.</p>",
                     "img": "images/pavl_vec.png",
                     "presentation": ""
-                }                  
+                },
+                {
+                  "product": "JEDI",
+                  "time": "9:00",
+                  "endTime": "18:00",
+                  "tags": ["productivity", "getting things done", "smarter working"],
+                  "name": "Maxim Dorofeev",
+                  "twitter": "cartmendum",
+                  "type": "speech",
+                  "country": "ru",
+                  "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
+                  "long_bio": "Maxim is award-winning trainer and speaker, focused on personal and team efficiency. He has over 15 years of experience in IT under his belt. Maxim is the founder of mnogosdelal.ru, ex-Head of IT Engineering at Kaspersky Lab, and the author author of best-selling <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a> book.",
+                  "title": "Jedi Techniques of Personal Effectiveness",
+                  "brief_description": "This practical workshop will equip you with necessary skills for accomplishing more, with less stress and efforts, and bring you closer to the work-life balance on a win-win basis. After the training, you will know how to achieve more at work and personal life simultaneously (instead of conventional view: “one at the expense of another”).",
+                  "description": "<h3>In a simple and entertaining way, you will learn:</h3> <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How do our minds work? Daniel Kahneman’s and Tim Urban’s models.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>What does instant gratification monkey do in my head and how to tame it? </li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>What cognitive biases are and how they affect our day-to-day work?</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>The concept of limited Mindfuel and how to save it</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why some ToDo lists do not help and how to create ToDo list that (finally) works</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Methods of “Magic fairy” and “Rational flaneur”</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to succeed in a highly uncertain environment and how to make uncertainty your best friend</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How technology hijacks our minds. The concept of information overload and how to prevеnt it.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to deal with tasks and commitments under tight deadlines and high uncertainty</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>...and much more!</li></ul><p>More than 50% of workshop time is devoted to practice, exercises and discussions. The workshop offers concrete, ready-to-use improvement recipes for daily work.",
+                  "img": "images/max_vec.png",
+                  "presentation": "",
+                  "video": ""
+              }                   
               ]
             },
             {
@@ -275,7 +293,7 @@
                         "type": "speech",
                         "twitter": "royosherove",
                         "country": "il",
-                        "bio": "DevOps Process Lead & Continuous Delivery Architect @ Dell EMC, author of <a href=\"https://www.amazon.com/Elastic-Leadership-Growing-self-organizing-teams/dp/1617293083\">Elastic Leadership</a>, <a href=\"https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890\">The Art of Unit Testing</a>",
+                        "bio": "DevOps Process Lead & Continuous Delivery Architect @ Dell EMC, Author of <a href=\"https://www.amazon.com/Elastic-Leadership-Growing-self-organizing-teams/dp/1617293083\">Elastic Leadership</a>, <a href=\"https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890\">The Art of Unit Testing</a>",
                         "long_bio": "Roy Osherove is the the DevOps Process Lead at Dell EMC, located in the bay area, California.He is the author of The Art Of Unit Testing and Elastic Leadership, as well as the upcoming Enterprise DevOps book.  He consults and trains teams worldwide on the gentle art of unit testing, test-driven development and how to lead software teams. He frequently speaks at international conferences on these topics and others.",
                         "title": "The Coaching Architect Manifesto",
                         "description": "What does it take to bring your team to the next level? In this talk, you'll learn practical techniques that architects and tech leads can use to achieve that goal. Roy will share do's and don'ts from the hard won battles in the field. You'll also learn the core principles of Elastic Leadership and Coaching Manifesto and how they map to the actions outlined in the talk.",
@@ -314,36 +332,47 @@
                         "icon": "fa-coffee"
                     }, 
                     {
-                        "time": "11:40",
-                        "twitter": "scottwlaschin",
-                        "type": "speech",
-                        "country": "gb",
-                        "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
-                        "description": "In object-oriented development, we are all familiar with design patterns such as the Strategy pattern and Decorator pattern, and design principles such as SOLID. The functional programming community has design patterns and principles as well. This talk will provide an overview of some of these patterns (such as currying, monads), and present some demonstrations of FP design in practice. We'll also look at some of the ways you can use these patterns as part of a domain driven design process, with some simple real world examples in F#. No jargon, no maths, and no prior F# experience necessary.",
-                        "img": "images/scott_vec.png",
-                        "presentation": "",
-                        "video": ""
-                      },  
-                      {                           
-                        "time": "11:40",                            
-                        "type": "speech",
-                        "twitter": "ifesdjeen",                      
-                        "country": "de",
-                        "bio": "Senior Software Engineer, Apache Cassandra Committer",
-                        "img": "images/petrov_vec.png",
-                        "description": "In the world of Big Data, it’s important to know how the Database Storage works in order to be able to pick a right tool right job. The talk covers evaluation techniques, to choose storage with best read, write or memory overhead, best suitable for your data. This information will help you to navigate the world of databases and stream processing engines, each of which uses a specific storage type or offers multiple different possibilities. You will gain understanding the trade-offs different Storage types bring as you scale out your data and plan for growth."
-                      },                                       
-                      {
-                        "time": "11:40",
-                        "twitter": "antonkeks",
-                        "type": "speech",
-                        "country": "ee",
-                        "bio": "Software Craftsman, Co-Founder, Developer @ Codeborne",
-                        "description": "Kotlin is a marvelous JVM language that many have waited for. While we already have Java 8 and some people have migrated away from JVM while waiting for a more productive language, Kotlin finally is here, promising lots of good stuff, but still allowing us to use the cross-platform and highly optimized JVM and many of familiar frameworks. However, nothing comes without drawbacks. There have been some controversial decisions while designing the language that affect what is convenient to do in the language and what is not so. Moreover, Kotlin is yet to deliver many of its promises, like compilation speed. In this talk I'll talk about real life experience of using Kotlin in an Agile way, the obstacles that you may encounter and how to overcome them.",
-                        "img": "images/keks_vec.png",
-                        "presentation": "",
-                        "video": ""
-                      },    
+                      "time": "11:40",
+                      "tags": ["productivity", "getting things done"],
+                      "name": "Maxim Dorofeev",
+                      "twitter": "cartmendum",
+                      "type": "speech",
+                      "country": "ru",
+                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
+                      "title": "Jedi Techniques of Effective Problem Solving",
+                      "description": "coming soon",
+                      "img": "images/max_vec.png",
+                      "presentation": "",
+                      "video": ""
+                    },        
+                    {
+                      "time": "11:40",
+                      "tags": ["architecture", ".net examples"],
+                      "name": "Ian Cooper",
+                      "type": "speech",
+                      "twitter": "icooper",
+                      "country": "gb",
+                      "bio": "Lead Application Architect @ Huddle, Founder of the London .NET user group",
+                      "long_bio": "Ian Cooper has over 20 years of experience delivering Microsoft platform solutions in government, healthcare, and finance. During that time he has worked for the DTi, Reuters, Sungard, Misys, Beazley and Huddle delivering everything from enterprise solutions to 'shrink-wrapped' products. Ian is a passionate exponent of OO, SOA, EDA, CQRS and Agile. He is the founder of the London .NET user group.",
+                      "title": "The Clean Architecture",
+                      "description": "What is the clean architecture and how you would build one in .NET? Recently Bob Martin has categorized a set of architectures, including hexagonal architecture, onion architecture and screaming architecture as 'the clean architecture' - a layered architecture of concentric circles with a strong emphasis on separation of concerns. This architecture has become popular because of its amenability to modification as an evolutionary architecture and its support for practices such as TDD. In this presentation we will discuss the clean architecture and its benefits. More than that, in the bulk of the presentation, we will show you how to implement a clean architecture in .NET. From first steps to working code, we will show you the moves required to embrace this approach, and introduce you to some of the OSS libraries that can help you get there. All examples will be in .NET Core",
+                      "img": "images/ianco.png",
+                      "presentation": "",
+                      "video": ""
+                  },                                      
+                  {
+                    "time": "11:40",
+                    "tags": ["coding", "code readability", "linting"],
+                    "name": "Douglas Crockford",
+                    "type": "speech",
+                    "country": "us",
+                    "bio": "Senior JavaScript Architect @ PayPal, Author of <a href=\"https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742\">JavaScript: The Good Parts</a>, <a href=\"https://www.amazon.com/dp/1949815005/wrrrldwideweb\">How JavaScript Works</a>",
+                    "title": "Programming Style & Your Brain",
+                    "description": "Computer programs are the most complicated things humans make. They must be perfect, which is hard for us because we are not perfect. Programming is thought to be a \"head\" activity, but there is a lot of \"gut\" involved. Indeed, it may be the gut that gives us the insight necessary for solving hard problems. But gut messes us up when it come to matters of style.The systems in our brains that make us vulnerable to advertising and propaganda also influence our programming styles. This talk looks systematically at the development of a programming style that specifically improves the reliability of programs. The examples are given in JavaScript, a language with an uncommonly large number of bad parts, but the principles are applicable to all languages.",
+                    "img": "images/doug.png",
+                    "presentation": "",
+                    "video": ""
+                },    
                     {
                         "type": "break",
                         "time": "12:30",
