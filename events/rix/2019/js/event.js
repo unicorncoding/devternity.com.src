@@ -247,7 +247,25 @@
                   "img": "images/max_vec.png",
                   "presentation": "",
                   "video": ""
-              }                   
+              },
+              {
+                "product": "MESSAGING",                
+                "time": "9:00",
+                "endTime": "18:00",
+                "tags": ["distributed systems", "integration", "rabbitmq examples"],
+                "name": "Ian Cooper",
+                "type": "speech",
+                "twitter": "icooper",
+                "country": "gb",
+                "bio": "Lead Application Architect @ Huddle, Founder of the London .NET user group",
+                "long_bio": "Ian Cooper has over 20 years of experience delivering Microsoft platform solutions in government, healthcare, and finance. During that time he has worked for the DTi, Reuters, Sungard, Misys, Beazley and Huddle delivering everything from enterprise solutions to 'shrink-wrapped' products. Ian is a passionate exponent of OO, SOA, EDA, CQRS and Agile. He is the founder of the London .NET user group.",
+                "title": "Practical Messaging",
+                "brief_description": "<p>In this training, we will look at messaging as the effective solution to the problems of integrating a distributed systems, and master the fundamental messaging and integration patterns.</p><p>The training includes hands-on exercises and take you from simple messaging scenarios through to more complex ideas like routing, brokers, and publish-subscribe.</p><p>By the end of the workshop you should feel understand when and how to use messaging and become comfortable understanding how to implement it in your applications.</p>",
+                "description": "<h3>The course covers: </h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why Messaging is important, when to use it and when RPC is good enough</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding integration styles, Architectures and Simple Patterns</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding Eventual Consistency</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding Guaranteed, At Least Once and Exactly Once Delivery</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding Pipes and Filters Architectures</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding Channels, Endpoints, Routers</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding Command, Events, & Documents</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding Channels (Point-to-Point, Publish-Subscribe, Dead Letters)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding Consumers (Polling, Event-Driven, Competing)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>...and much more!</li></ul><p>By the end of the workshop you should feel understand when and how to use messaging and become comfortable understanding how to implement it in your applications.</p>",
+                "img": "images/ianco.png",
+                "presentation": "",
+                "video": ""
+              }                    
               ]
             },
             {
@@ -359,7 +377,7 @@
                       "img": "images/ianco.png",
                       "presentation": "",
                       "video": ""
-                  },                                      
+                    },                                      
                   {
                     "time": "11:40",
                     "tags": ["coding", "code readability", "linting"],
