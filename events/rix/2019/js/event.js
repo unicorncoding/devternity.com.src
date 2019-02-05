@@ -249,6 +249,25 @@
                   "video": ""
               },
               {
+                "product": "SOA",                
+                "time": "9:00",
+                "endTime": "18:00",
+                "tags": ["architecture", "microservices", ".net examples"],
+                "name": "Jimmy Bogard",
+                "type": "speech",
+                "twitter": "jbogard",
+                "country": "us",
+                "twitter": "jbogard",
+                "bio": "Chief Architect @ Headspring, Microsoft MVP, Creator of <a href=\"https://github.com/AutoMapper/AutoMapper\">AutoMapper</a>",
+                "title": "SOA Done Right",
+                "brief_description": "<p>Go beyond the hype and build a solid foundation of theory and practice with this workshop on SOA development. We’ll understand service oriented architecture concepts, and DDD concepts such as bounded contexts and data ownership. You'll apply those concepts to build a simple, yet fully functional, order management system sample with a microservices architecture, using patterns such as command processing, pub/sub and long-running sagas.</p>",
+                "description": "<h3>The course covers: </h3><ul class=\"fa-ul\">   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>UI Decomposition</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Data ownership across the enterprise</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Finding service boundaries</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Fault tolerance – HTTP and queues</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Reliable integration with 3rd party systems</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Scalability, high availability & monitoring</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Scalable command-processing endpoints</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Publish/subscribe event-processing interactions</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Long-running multi-stage business processes and policies</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>...and much more!</li></ul><p>You'll apply those concepts to build a simple, fully functional system sample with a microservices architecture!</p>",
+                "img": "images/jimbo.png",
+                "presentation": "",
+                "sold_out_soon": true,                
+                "video": ""
+              },
+              {
                 "product": "MESSAGING",                
                 "time": "9:00",
                 "endTime": "18:00",
@@ -403,6 +422,7 @@
                       "name": "Jimmy Bogard",
                       "type": "speech",
                       "country": "us",
+                      "twitter": "jbogard",
                       "bio": "Chief Architect @ Headspring, Microsoft MVP, Creator of <a href=\"https://github.com/AutoMapper/AutoMapper\">AutoMapper</a>",
                       "title": "Vertical Slice Architecture",
                       "description": "Moving from a layered architecture to a vertical slice architecture can be a bit daunting. We remove abstractions, complex structures, and focus building on the axis of change, then what's next? What new structures, patterns, and policies will need to be introduced in this style of architecture? How will we deal with common business functionality, and where do concepts like CQRS and DDD fit in? In this session, we'll introduce the idea of vertical slice architectures, and dive into the patterns, tools, and techniques used with slices. We'll also cover how you can fit vertical slices into different kinds of systems, from desktop, SPA, and normal MVC applications. Finally, we'll look at some of the new challenges that come with slices and layers, and how a different approach provides a much more maintainable end result.",
