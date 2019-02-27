@@ -437,16 +437,19 @@
                       "video": ""
                   },  
                   {
-                      "time": "13:40",
-                      "twitter": "cartmendum",
-                      "type": "speech",
-                      "country": "ru",
-                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
-                      "description": "There are huge amount of different techniques and methodologies of self-organisation and personal effectiveness. However,  most of them are flawed, because they do not take into account that the world is unpredictable, people are different and “knowing how to be effective” and “being affective” are not quite the same thing. In this talk, Maxim will show not “yet another personal effectiveness methodology” but the methodology that may help you to build your own one. Be ready to become more productive after this talk!",
-                      "img": "images/max_vec.png",
-                      "presentation": "",
-                      "video": ""
-                    },          
+                    "time": "13:40",
+                    "tags": ["cqrs", "event sourcing", "spring"],
+                    "name": "Jakub Pilimon",
+                    "twitter": "jakubpilimon",
+                    "type": "speech",
+                    "country": "pl",
+                    "bio": " Principal Technologist @ Pivotal, Trainer @ ‎Bottega IT Minds, DZone's Most-Valuable Blogger",
+                    "title": "Event-Driven Architecture Traps",
+                    "description": "Event-driven architectures (EDA) have become more popular by the day. Organizations see a great value in them, and developers love how EDA help to grow, scale, and mirror what really happens in the business domain. However, most developers are not familiar with this kind of architecture, which can lead to common pitfalls that we’ll examine in this talk. We’ll also cover a broad set of concepts like: Spring Cloud Stream, exactly-once delivery (is that event a thing?), GDPR, CQRS, and tackle the problem of how to version our events. There will be code and the presentation requires basic knowledge about distributed systems.",
+                    "img": "images/jakubpilo.jpg",
+                    "presentation": "",
+                    "video": ""
+                  },       
                    {
                         "time": "13:40",
                         "twitter": "dylanbeattie",
