@@ -464,27 +464,20 @@
                     "presentation": "",
                     "video": ""
                   },       
-                                                      
-            
-
-                    {
-                        "type": "break",
-                        "time": "14:30",
-                        "title": "Coffee Break",
-                        "icon": "fa-coffee"
-                    },
-                      {
-                        "time": "14:50",
-                        "twitter": "svenpet",
-                        "type": "speech",
-                        "country": "de",
-                        "bio": "Technology Evangelist @ Atlassian",
-                        "long_bio": "Sven Peters is a software geek working as an ambassador for Atlassian. He has been developing Java applications for over 12 years and leading small teams using lean methodologies. Sven likes effective software development and cares about the motivation of developers.",
-                        "description": "Every software team writes code, but some teams produce fewer bugs than others. Every software team creates new features, but some teams develop features users love and others don't. What do high performance teams do differently, and why are team members more focused, satisfied and relaxed? They truly work together. No 10x programmer can achieve what a well rounded, enthusiastic team can. Sven Peters, Technical Evangelist, will examine how the best software teams set and follow goals, integrate new members fast, ensure diversity, monitor and continually improve team health, embrace transparency, use a playbook to guide them through every phase of development and much more! He shares techniques including: bugfix rotations, OKRs, feature buddies, open demos, focus days, sanity checks and many more that help teams and team members to work more effectively together, and produce awesome results.",
-                        "img": "images/sven_vec.png",
-                        "presentation": "",
-                        "video": ""
-                      },                     
+                  {
+                    "name": "Kevlin Henney",
+                    "type": "speech",
+                    "tags": ["general programming", "coding", "best practices"],
+                    "twitter": "kevlinhenney",
+                    "time": "14:50",
+                    "country": "gb",
+                    "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
+                    "title": "Lean Code",
+                    "description": "Lean has been applied as a toolkit to fine-tune development processes and organisational workflow, but what does it mean when we apply the practices to the detail of the code, the practices used to develop it and the people who develop it? What does Lean Code and its creation look like? There is a need to move beyond often separated worlds of software craft and agile development, to properly embrace code in its detail, but to also connect it more completely to the flow of business and the intelligence of people around it. To move beyond simple exhortations of clean code to something more human. This talk offers a fresh look at Lean principles and practices from the perspective of the code and the coder, rather than the usual scale of the organisation and the development process.",
+                    "img": "images/kevlin.png",
+                    "presentation": "",
+                    "video": ""
+                },                  
                     {                           
                       "time": "14:50",                            
                       "type": "speech",
