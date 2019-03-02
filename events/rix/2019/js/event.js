@@ -465,6 +465,12 @@
                     "video": ""
                   },       
                   {
+                    "type": "break",
+                    "time": "14:30",
+                    "title": "Coffee Break",
+                    "icon": "fa-coffee"
+                },                    
+                  {
                     "name": "Kevlin Henney",
                     "type": "speech",
                     "tags": ["general programming", "coding", "best practices"],
