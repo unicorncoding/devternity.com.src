@@ -293,6 +293,7 @@
               },
               {
                 "product": "GOOD_CODE",
+                "tags": ["clean code", "code design", "best practices"],
                 "name": "Kevlin Henney",
                 "type": "speech",
                 "time": "9:00",
@@ -304,7 +305,6 @@
                 "description": "<h3>The course covers: </h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>What constitutes good code?</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to write good code?</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Economics of good / bad code</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Naming Heuristics</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>SOLID Principles</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Code Comments</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Coupling and Cohesion</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Testability</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>...and much more!</li></ul><p>More than 50% of workshop time is devoted to practice, whiteboard exercises and group discussion.</p>",
                 "img": "images/kevlin.png",
                 "presentation": "",
-                "sold_out": true,
                 "video": ""
             }     
               ]
