@@ -303,7 +303,7 @@
                 "title": "Good Code",
                 "brief_description": "<p>This workshop explores what properties we want from a codebase and, therefore, what we can deduce to be good. These conclusions can sometimes be surprising and counter-intuitive! This session will explore some common guidelines on what is considered good, from expression to subsystem, from naming to tests, from fluent to SOLID. We will look at the consequences of good and not-so-good code from point of view of economics, day-to-day work, people and runtime performance and reliability.</p>",
                 "description": "<h3>The course covers: </h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>What constitutes good code?</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to write good code?</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Economics of good / bad code</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Naming Heuristics</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>SOLID Principles</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Code Comments</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Coupling and Cohesion</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Testability</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>...and much more!</li></ul><p>More than 50% of workshop time is devoted to practice, whiteboard exercises and group discussion.</p>",
-                "img": "images/kevlin.png",
+                "img": "images/vec_kevlin.png",
                 "presentation": "",
                 "video": ""
             }     
@@ -462,7 +462,7 @@
                     "bio": "Software Engineer @ Joyent, ex-Software Engineer @ HashiCorp",
                     "title": "Securing Your Infrastructure with Vault",
                     "description": "Coming soon.",
-                    "img": "images/pstack.jpg",
+                    "img": "images/vec_paul.png",
                     "presentation": "",
                     "video": ""
                   },                  
@@ -496,7 +496,7 @@
                     "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
                     "title": "Lean Code",
                     "description": "Lean has been applied as a toolkit to fine-tune development processes and organisational workflow, but what does it mean when we apply the practices to the detail of the code, the practices used to develop it and the people who develop it? What does Lean Code and its creation look like? There is a need to move beyond often separated worlds of software craft and agile development, to properly embrace code in its detail, but to also connect it more completely to the flow of business and the intelligence of people around it. To move beyond simple exhortations of clean code to something more human. This talk offers a fresh look at Lean principles and practices from the perspective of the code and the coder, rather than the usual scale of the organisation and the development process.",
-                    "img": "images/kevlin.png",
+                    "img": "images/vec_kevlin.png",
                     "presentation": "",
                     "video": ""
                 },                  
