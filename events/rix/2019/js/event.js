@@ -495,7 +495,7 @@
                     "bio": "Consultant, Trainer, Writer, Leader of Software Craftsmanship Zurich",
                     "title": "Achieving Technical Excellence in Your Software Teams",
                     "description": "Our industry has a problem: We are not lacking software methodologies, programming languages, tools or frameworks but we need great software engineers. Great software engineer teams build quality-in and deliver great software on a regular basis. The technical excellence of those engineers will help you escape the \"Waterfall sandwich\" and make your organization a little more agile, from the inception of an idea till they go live. I will talk about my experiences from the last 15 years, including small software delivery teams until big financial institutions. Why would a company like to be \"agile\"? How can a company achieve that? How can you achieve Technical Excellence in your software teams? What developer skills are more important than languages, methods or frameworks? This will be an interactive session with a Q&A at the end.",
-                    "img": "images/peter_gfader.png",
+                    "img": "images/pfader.png",
                     "presentation": "",
                     "video": ""
                 },                  
