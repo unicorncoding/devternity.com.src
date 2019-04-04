@@ -420,14 +420,15 @@
                     },                                      
                   {
                     "time": "11:40",
-                    "tags": ["coding", "code readability", "linting"],
-                    "name": "Douglas Crockford",
+                    "tags": ["ux", "design", "beyond software"],
+                    "name": "Janne Jul Jensen",
                     "type": "speech",
-                    "country": "us",
-                    "bio": "Senior JavaScript Architect @ PayPal, Author of <a href=\"https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742\">JavaScript: The Good Parts</a>, <a href=\"https://www.amazon.com/dp/1949815005/wrrrldwideweb\">How JavaScript Works</a>",
-                    "title": "Programming Style & Your Brain",
-                    "description": "Computer programs are the most complicated things humans make. They must be perfect, which is hard for us because we are not perfect. Programming is thought to be a \"head\" activity, but there is a lot of \"gut\" involved. Indeed, it may be the gut that gives us the insight necessary for solving hard problems. But gut messes us up when it come to matters of style.The systems in our brains that make us vulnerable to advertising and propaganda also influence our programming styles. This talk looks systematically at the development of a programming style that specifically improves the reliability of programs. The examples are given in JavaScript, a language with an uncommonly large number of bad parts, but the principles are applicable to all languages.",
-                    "img": "images/doug.png",
+                    "country": "dk",
+                    "bio": "Senior UX Architect @ LEGO",
+                    "title": "UX for Developers",
+                    "description": "coming soon...",
+                    "img": "images/juljen.png",
+                    "twitter": "JanneJulJensen",
                     "presentation": "",
                     "video": ""
                 },    
@@ -499,24 +500,28 @@
                     "presentation": "",
                     "video": ""
                 },                  
-                    {                           
-                      "time": "14:50",                            
-                      "type": "speech",
-                      "twitter": "jnabrdalik",                      
-                      "country": "pl",
-                      "bio": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
-                      "img": "images/jnb_vec.png", 
-                      "description": "I’ve been using TDD/BDD at work for the last 12 years, I also teach and mentor teams on this subject. I’ve found that misconceptions and errors in this field are shared, and that most of us make the same mistakes. Give me 45 minutes of your time, and I’ll try to address the most common problems, hoping to improve your TDD/BDD situation as much as possible. I’ll try to solve: long running tests problem, by bringing back the correct shape of test-pyramid with power of Hexagonal Architecture (Ports & Adapters) with practical examples in Spring, miscommunication and lost art of requirement gathering, by focusing on readability, introducing just enough of Domain Specific Language, and sorting out what is important with the power of Spock, difficult test setup and environment requirements, by using command and conquer, modularity, monitoring, mock abuse, by showing what are the benefits of in-memory implementations, and hopefully more. Most teams that do not write tests first do it, because it’s hard for them. I’ll try to show you, how to make it easy. Real life examples included. If you are not using TDD/BDD, this might also interest you - you’ll know how to start the right way."
-                    },                                                              
-                      {                           
-                        "time": "14:50",                            
-                        "type": "speech",
-                        "twitter": "heimeshoff",                      
-                        "country": "de",
-                        "bio": "Independent Consultant, Domain-Driven Design and Event-Sourcing Expert",
-                        "img": "images/marco_vec.png", 
-                        "description": "Domain Driven Design is neither a method nor a technology, it is a culture, a way of thinking about the needs of the customers first and putting an emphasis on their language and human interactions. The promise of DDD is to tackle complexity in the heart of software, and the means are plentiful and can be overwhelming. There are three pillars though, on which the whole approach stands. A focus on learning, language and empathy. With the right mindset it becomes simple to derive good models, keep them pure and aligned with the business. Simple is not easy, but done right Domain Driven Design transforms everything in your organisation from code to culture, from agile to architecture."
-                      },                                      
+                {
+                  "time": "14:50",
+                  "tags": ["architecture", "soa", "microservices"],
+                  "name": "Adam Ralph",
+                  "type": "speech",
+                  "country": "ch",
+                  "bio": "Software Developer @ Particular Software, OSS maintainer, Microsoft MVP",
+                  "title": "Finding Your Service Boundaries",
+                  "description": "We know it's useful to split up complex systems. We've seen the benefits of modular deployment of microservices. Dealing with only one piece of code at a time eases our cognitive load. But how do we know where to draw the service boundaries? In complex business domains, it's often difficult to know where to start. When we get our boundaries wrong, the clocks starts ticking. Before long, we hear ourselves say \"it would be easier to re-write it\". Join Adam for practical advice on discovering the hidden boundaries in your systems. Help tease out the natural separation of concerns in a sample business domain. During 20 years of developing complex systems, Adam has had plenty of time to get things wrong. Learn to avoid the common pitfalls that can lead us down the path to \"the big re-write\".",
+                  "img": "images/adam.jpg",
+                  "presentation": "",
+                  "video": ""
+              },                                                             
+                {                           
+                  "time": "14:50",                            
+                  "type": "speech",
+                  "twitter": "heimeshoff",                      
+                  "country": "de",
+                  "bio": "Independent Consultant, Domain-Driven Design and Event-Sourcing Expert",
+                  "img": "images/marco_vec.png", 
+                  "description": "Domain Driven Design is neither a method nor a technology, it is a culture, a way of thinking about the needs of the customers first and putting an emphasis on their language and human interactions. The promise of DDD is to tackle complexity in the heart of software, and the means are plentiful and can be overwhelming. There are three pillars though, on which the whole approach stands. A focus on learning, language and empathy. With the right mindset it becomes simple to derive good models, keep them pure and aligned with the business. Simple is not easy, but done right Domain Driven Design transforms everything in your organisation from code to culture, from agile to architecture."
+                },                                      
                       {
                           "type": "break",
                           "time": "15:40",
