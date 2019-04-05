@@ -499,7 +499,21 @@
                     "img": "images/pfader.png",
                     "presentation": "",
                     "video": ""
-                },                  
+                },  
+                {
+                  "time": "14:50",
+                  "tags": ["devops", "IT performance", "best practices"],
+                  "name": "Uwe Friedrichsen",
+                  "type": "speech",
+                  "twitter": "ufried",
+                  "country": "de",
+                  "bio": "CTO @ Codecentric, Fellow, Speaker, Nerd, Consultant",
+                  "title": "DevOps is Not Enough – Towards a DevOps Ecosystem",
+                  "description": "In this talk we will examine the drivers and goals behind DevOps, why we need the change, how DevOps affects the whole IT value chain and what else is needed to really “become DevOps”. We will develop a DevOps ecosystem and draw the missing lines between several important concepts that all feed into the goals behind DevOps.",
+                  "img": "images/uwe.jpg",
+                  "presentation": "",
+                  "video": ""
+              },
                 {
                   "time": "14:50",
                   "tags": ["architecture", "soa", "microservices"],
@@ -512,16 +526,7 @@
                   "img": "images/adam.jpg",
                   "presentation": "",
                   "video": ""
-              },                                                             
-                {                           
-                  "time": "14:50",                            
-                  "type": "speech",
-                  "twitter": "heimeshoff",                      
-                  "country": "de",
-                  "bio": "Independent Consultant, Domain-Driven Design and Event-Sourcing Expert",
-                  "img": "images/marco_vec.png", 
-                  "description": "Domain Driven Design is neither a method nor a technology, it is a culture, a way of thinking about the needs of the customers first and putting an emphasis on their language and human interactions. The promise of DDD is to tackle complexity in the heart of software, and the means are plentiful and can be overwhelming. There are three pillars though, on which the whole approach stands. A focus on learning, language and empathy. With the right mindset it becomes simple to derive good models, keep them pure and aligned with the business. Simple is not easy, but done right Domain Driven Design transforms everything in your organisation from code to culture, from agile to architecture."
-                },                                      
+              },                                                                                                 
                       {
                           "type": "break",
                           "time": "15:40",
