@@ -194,9 +194,28 @@
                 "since": "2015",
                 "link": "https://www.visma.lv/vakances/",
                 "info": "<p>Do you think time and money matter? We at Visma believe so. Therefore we make IT solutions that enable our customers to save both. \"Efficiency experts\", that's how we like to call ourselves. We achieve that by building international teams of smart minds who enjoy being stretched to their limits. <p>Click <strong><a href=\"https://www.visma.lv/vakances/\">here</a></strong> to check if you would like to join us.</p></p>"
-              }                 
+              },
+              {
+                "logo": "4finance.png",
+                "since": "2015",
+                "link": "http://www.4financeit.com/",
+                "info": "<p><strong><a href=\"http://4financeit.com\">4financeIT</a></strong> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance in 15 different countries.</p>"
+              }
             ]
-        }
+        },
+        "silver": {
+          "title": "Silver Sponsor",
+          "stars": 0,
+          "sponsorsPerLine": 1,
+          "sponsors": [
+            {
+              "title": "Silver Sponsor",
+              "logo": "bolt.png",
+              "since": "2017",
+              "link": "https://www.bolt.eu"
+            }              
+          ]
+        }        
       },
         "program": [
             {
