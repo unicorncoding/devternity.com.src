@@ -552,15 +552,19 @@
                           "title": "Coffee Break",
                           "icon": "fa-coffee"
                       },          
-                    {                           
-                        "time": "16:00",                            
+                      {
+                        "time": "16:00",
+                        "tags": ["continuous integration", "continuous delivery"],
+                        "name": "Thierry de Pauw",
                         "type": "speech",
-                        "twitter": "jbrains",
-                        "country": "ca",
-                        "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
-                        "img": "images/jb_vec.png",
-                        "description": "Every month, someone new asks me the question, \"How do I convince my manager to let me refactor?\" While it's true that a manager shouldn't constrain the programmer's plans to deliver high-quality code, the fact remains that some organisations allow their managers to assert this level of micro-control. In this talk I outline a set of models for justifying evolutionary design with basic economic concepts that relate directly to delivering, planning, and funding software projects. This talk will provide you with a solid argument to meet any skeptic's rational objections to writing tests first and letting both low-level design and architecture emerge."
-                      },            
+                        "country": "be",
+                        "bio": "Founder, Consultant @ ThinkingLabs, Continuous Delivery Advocate",
+                        "title": "Feature Branching Considered Evil",
+                        "description": "With DVCSs branch creation became very easy, but it comes at a certain cost. Long living branches break the flow of the software delivery process, impacting stability and throughput. The session explores why teams are using feature branches, what problems are introduced by using them and what techniques exist to avoid them altogether. It explores exactly what's evil about feature branches, which is not necessarily the problems they introduce - but rather, the real reasons why teams are using them. After the session, you'll understand a different branching strategy and how it relates to CI/CD.",
+                        "img": "images/thierry.png",
+                        "presentation": "",
+                        "video": ""
+                    },              
                                      
                     {                           
                         "time": "16:00",                            
