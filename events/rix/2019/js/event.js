@@ -240,6 +240,24 @@
                       "video": ""
                   },
                   {
+                    "product": "ARCH",
+                    "time": "9:00",
+                    "endTime": "18:00",
+                    "tags": ["software architecture"],
+                    "name": "Uwe Friedrichsen",
+                    "twitter": "ufried",
+                    "type": "speech",
+                    "country": "ru",
+                    "bio": "CTO @ Codecentric, Fellow, Speaker, Nerd, Consultant",
+                    "long_bio": "Maxim is award-winning trainer and speaker, focused on personal and team efficiency. He has over 15 years of experience in IT under his belt. Maxim is the founder of mnogosdelal.ru, ex-Head of IT Engineering at Kaspersky Lab, and the author author of best-selling <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a> book.",
+                    "title": "Architectural Thinking in a Post-agile World",
+                    "brief_description": "The agile hype is over. DevOps took over, driven by the need to speed up the IT value chain. At the same time, the second wave of digitization is rolling, turning IT systems into an essential ingredient of our business models. In this context, good architectural work is crucial. But instead we often observe a perfect confusion without clear direction - ranging from BDUF over several flavors of hype-driven, lots of one-size-fits-all to dogmatic pseudo-agile \"no architecture\". Yet, we have been told that architecture is about those decisions that really hurt if you get them wrong. <strong>How can we minimize the risk of getting hurt, especially if we need to go fast? Which approach is right</strong>?",
+                    "description": "<h3>What's inside?</h3><p>In this workshop we will first discuss the challenges of architectural work in a post-agile IT world. Then, after rediscovering why we need architectural work at all, we will set up a surprisingly simple down-to-earth approach for implementing it. After that, we will fill the building blocks one by one. Finally, we will complete the picture by discussing questions like: When should we do what? How much should we do in which context? How can we create a sustainable architecture and where are the limits? Plus some more topics. All this will happen in a mix of bits of theory, lots of interaction and hands-on, plus room for questions, discussion, tips, tricks and more. <strong>After this workshop, you will have a better understanding what architectural work actually is about, what is important, what is not, and how to tackle it in practice.</strong></p>",
+                    "img": "images/uwe.jpg",
+                    "presentation": "",
+                    "video": ""
+                },                  
+                  {
                     "product": "KUBERNETES",
                     "name": "Juris Pavlyuchenkov",
                     "type": "speech",
@@ -254,7 +272,7 @@
                     "description": "<h3>The course covers:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why Kubernetes is important, when to use it and when to avoid</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding Docker basics – manifests, images, containers, repositories</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understanding how Kubernetes is built (API, scheduler, etcd, plugins, internals)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Configuring, deploying and operating stateless apps with Pods, Services, Deployments, Ingresses, Secrets, ConfigMaps</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Running stateful Redis cluster with StatefulSets, PersistantVolumes</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Running scheduled operations in a cluster (CronJobs, DaemonSets, Pod affinity)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Configuring Kubernetes cluster for maximum security</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Troubleshooting Kubernetes, monitoring, logging and debugging</li></ul><p>After this course, you'll get deep understanding of the core Kubernetes concepts, and will be able to easily run and operate your own containerized applications.</p>",
                     "img": "images/pavl_vec.png",
                     "presentation": ""
-                },
+                },                
                 {
                   "product": "JEDI",
                   "time": "9:00",
