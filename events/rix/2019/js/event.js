@@ -540,6 +540,7 @@
                   "tags": ["architecture", "soa", "microservices"],
                   "name": "Adam Ralph",
                   "type": "speech",
+                  "twitter": "adamralph",
                   "country": "ch",
                   "bio": "Software Developer @ Particular Software, OSS maintainer, Microsoft MVP",
                   "title": "Finding Your Service Boundaries",
@@ -558,6 +559,7 @@
                         "time": "16:00",
                         "tags": ["continuous integration", "continuous delivery"],
                         "name": "Thierry de Pauw",
+                        "twitter": "tdpauw",
                         "type": "speech",
                         "country": "be",
                         "bio": "Founder, Consultant @ ThinkingLabs, Continuous Delivery Advocate",
@@ -568,15 +570,20 @@
                         "video": ""
                     },              
                                      
-                    {                           
-                        "time": "16:00",                            
-                        "type": "speech",
-                        "twitter": "koenighotze",                      
-                        "country": "de",
-                        "bio": "Principal Architect @ Senacor Technologies",
-                        "img": "images/schmitz_vec.png", 
-                        "description": "Did you ever want to create an application that is never down? Have you ever been jealous of those Erlang guys, that produce applications that practically never fail? Have you tried Erlang and fled because of its baroque syntax and tooling? Enter Elixir! Elixir combines Ruby's love for programmers with the absolute power that is the Erlang platform. This talk will introduce programmers to Elixir and OTP. You will gain an understanding of what Elixir brings to the table and how to build highly scale-able systems with a toolset that is actually fun to use. Even if you will never use Elixir and OTP for you projects, you will learn some of the concepts, that make Erlang into such a powerful ecosystem."
-                      },                      
+                    {
+                      "time": "16:00",
+                      "tags": ["leadership", "soft skills", "people"],
+                      "name": "David Neal",
+                      "twitter": "reverentgeek",
+                      "type": "speech",
+                      "country": "us",
+                      "bio": "Senior Developer Advocate @ Octa, Microsoft MVP",
+                      "title": "Leadership Guide for the Reluctant Leader",
+                      "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
+                      "img": "images/dneal.png",
+                      "presentation": "",
+                      "video": ""
+                  },                     
                     {
                       "time": "16:00",
                       "twitter": "nikhilaravi",
