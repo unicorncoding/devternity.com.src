@@ -529,8 +529,8 @@
                   "twitter": "ufried",
                   "country": "de",
                   "bio": "CTO @ Codecentric, Fellow, Speaker, Nerd, Consultant",
-                  "title": "DevOps is Not Enough – Towards a DevOps Ecosystem",
-                  "description": "In this talk we will examine the drivers and goals behind DevOps, why we need the change, how DevOps affects the whole IT value chain and what else is needed to really “become DevOps”. We will develop a DevOps ecosystem and draw the missing lines between several important concepts that all feed into the goals behind DevOps.",
+                  "title": "DevOps is Not Enough – Re-thinking IT from Scratch",
+                  "description": "DevOps - a simple term, but tons of confusion. Some think, it is about more collaboration between Dev and Ops. Others think, it is just about tools and automation. But in its core, DevOps is about accelerating the IT value chain. How long does it take to deliver a business idea to your customer using IT? How fast can you go - repeatedly and without compromising quality? But why should we speed up in the first place? Do we really need it? How fast is fast enough? How can we implement it? What else do we need to take into account? ... lots of questions if we follow this thought for a moment. In this session we will try to answer some of the questions. We will examine the drivers and goals behind DevOps and answer the question why we need to change. Then we will see how DevOps affects the way we think and act, what else is needed to really \"become DevOps\" and how all these building blocks are connected to each other. Finally, we will have a brief peek into the (likely) future of DevOps.",
                   "img": "images/uwe.jpg",
                   "presentation": "",
                   "video": ""
