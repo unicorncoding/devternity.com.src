@@ -412,14 +412,14 @@
                     }, 
                     {
                       "time": "11:40",
-                      "tags": ["productivity", "getting things done"],
+                      "tags": ["productivity", "getting things done", "teamwork"],
                       "name": "Maxim Dorofeev",
                       "twitter": "cartmendum",
                       "type": "speech",
                       "country": "ru",
                       "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
-                      "title": "Jedi Techniques of Effective Problem Solving",
-                      "description": "coming soon",
+                      "title": "The Jedi Techniques of Problem Solving",
+                      "description": "An anthill is not a simple sum of ants. What matters most is an interaction between them. Taking into account that people are extremely more complicated creature than ants it is possible to assume that making every team member productive definitely will not give us a productive team as a whole. The fundamental feature of any productive team is the ability to collaborative problem-solving. The most common reason for a problem to occur is that too often we see the same thing in different ways (typically all of us are wrong) and at the same time, we can poorly express our thought. I’m going to share with you some simple and useful tools that could help us better understand each other and to find better solutions for the problems we face.",
                       "img": "images/max_vec.png",
                       "presentation": "",
                       "video": ""
