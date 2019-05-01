@@ -584,17 +584,18 @@
                       "presentation": "",
                       "video": ""
                   },                     
-                    {
-                      "time": "16:00",
-                      "twitter": "nikhilaravi",
-                      "type": "speech",
-                      "country": "us",
-                      "bio": "Software Engineer in the Applied Machine Learning Group",
-                      "description": "Machine Learning (ML) and Artificial Intelligence are becoming ubiquitous in websites, chatbots and mobile apps. While Node.js may not be the language of choice for building and training ML models, it is an excellent option for building the user-facing server layer that brings ML product to life. In this talk you'll learn about the ways that Node and ML can work together, whether it’s through running ML models in the browser (using WebAssembly and WebGPU) or writing a node server for an ML chatbot.",
-                      "img": "images/nikki2.png",
-                      "presentation": "",
-                      "video": ""
-                    },                        
+                  {                           
+                    "time": "16:00",                            
+                    "name": "Jakub Nabrdalik",
+                    "type": "speech",
+                    "twitter": "jnabrdalik",                      
+                    "country": "pl",
+                    "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
+                    "img": "images/jnb_vec.png", 
+                    "title": "What Neuroscience and Science Fiction Taught Me About DDD",
+                    "description": "When I visit a company and ask them to show me their architecture, usually they would go over their kubernetes clusters, their istio based networking, their choice of microfrontend framework, their message queues and databases. And it looks exactly the same as any other company with k8s, istio, microfrontend and event based communication. When I ask them about their domain, they seem puzzled. Top level management says: “we’ve hired the best people on the market that already know the domain”. The senior people say: “I don’t have the big picture, but here’s what my service does”. And regular devs usually go with “Oh, it’s just a big fucking mess”. When I push the devs with “So where do we put the logic for a new feature?” they answer with “It’s mostly random”. We have books about DDD building blocks, we’ve learned Event Storming, we use Event Sourcing, Value-stream mapping, we write Functional/Objective microservices or lambdas, and yet again we fail at modelling the domain. How come? And what can we do about it?",
+                    "tags": ["domain-driven design", "architecture", "experience report"]
+                  },                         
                       {
                           "type": "break",
                           "time": "16:50",
