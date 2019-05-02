@@ -206,14 +206,20 @@
         "silver": {
           "title": "Silver Sponsor",
           "stars": 0,
-          "sponsorsPerLine": 1,
+          "sponsorsPerLine": 2,
           "sponsors": [
             {
               "title": "Silver Sponsor",
               "logo": "bolt.png",
               "since": "2017",
               "link": "https://www.bolt.eu"
-            }              
+            },
+            {
+              "title": "Silver Sponsor",
+              "logo": "sunfi.png",
+              "since": "2019",
+              "link": "https://www.sunfinance.group"
+            }                          
           ]
         }        
       },
