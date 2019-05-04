@@ -259,7 +259,7 @@
                     "title": "Software Architecture in a Post-agile World",
                     "brief_description": "The agile hype is over. DevOps took over, driven by the need to speed up the IT value chain. At the same time, the second wave of digitization is rolling, turning IT systems into an essential ingredient of our business models. In this context, good architectural work is crucial. But instead we often observe a perfect confusion without clear direction - ranging from BDUF over several flavors of hype-driven, lots of one-size-fits-all to dogmatic pseudo-agile \"no architecture\". Yet, we have been told that architecture is about those decisions that really hurt if you get them wrong. <strong>How can we minimize the risk of getting hurt, especially if we need to go fast? Which approach is right</strong>?",
                     "description": "<h3>What's inside?</h3><p>In this workshop we will first discuss the challenges of architectural work in a post-agile IT world. Then, after rediscovering why we need architectural work at all, we will set up a surprisingly simple down-to-earth approach for implementing it. After that, we will fill the building blocks one by one. Finally, we will complete the picture by discussing questions like: When should we do what? How much should we do in which context? How can we create a sustainable architecture and where are the limits? Plus some more topics. All this will happen in a mix of bits of theory, lots of interaction and hands-on, plus room for questions, discussion, tips, tricks and more. <strong>After this workshop, you will have a better understanding what architectural work actually is about, what is important, what is not, and how to tackle it in practice.</strong></p>",
-                    "img": "images/uwe.jpg",
+                    "img": "images/uwe.png",
                     "presentation": "",
                     "video": ""
                 },             
@@ -537,7 +537,7 @@
                   "bio": "CTO @ Codecentric, Fellow, Speaker, Nerd, Consultant",
                   "title": "DevOps is Not Enough – Re-thinking IT from Scratch",
                   "description": "DevOps - a simple term, but tons of confusion. Some think, it is about more collaboration between Dev and Ops. Others think, it is just about tools and automation. But in its core, DevOps is about accelerating the IT value chain. How long does it take to deliver a business idea to your customer using IT? How fast can you go - repeatedly and without compromising quality? But why should we speed up in the first place? Do we really need it? How fast is fast enough? How can we implement it? What else do we need to take into account? ... lots of questions if we follow this thought for a moment. In this session we will try to answer some of the questions. We will examine the drivers and goals behind DevOps and answer the question why we need to change. Then we will see how DevOps affects the way we think and act, what else is needed to really \"become DevOps\" and how all these building blocks are connected to each other. Finally, we will have a brief peek into the (likely) future of DevOps.",
-                  "img": "images/uwe.jpg",
+                  "img": "images/uwe.png",
                   "presentation": "",
                   "video": ""
               },
