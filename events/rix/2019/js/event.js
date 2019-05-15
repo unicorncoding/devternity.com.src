@@ -200,7 +200,13 @@
                 "since": "2015",
                 "link": "http://www.4financeit.com/",
                 "info": "<p><strong><a href=\"http://4financeit.com\">4financeIT</a></strong> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance in 15 different countries.</p>"
-              }
+              },
+              {
+                "logo": "proof.png",
+                "since": "2019",
+                "link": "http://proofit.lv",
+                "info": "<p>It’s not about where you work, but who you work with, is it? Our enthusiastic and mindful <strong><a href=\"http://proofit.lv\">Proof IT</a></strong> team will gladly help you to realize your full potential by taking part in the development of IT solutions that matter while exploring new technologies and business areas!</p>"
+              }              
             ]
         },
         "silver": {
