@@ -492,7 +492,7 @@
                     "twitter": "stack72",
                     "type": "speech",
                     "country": "gb",
-                    "bio": "Software Engineer @ Joyent, ex-Software Engineer @ HashiCorp",
+                    "bio": "Staff Software Engineer @ Pulumi, ex-Software Engineer @ HashiCorp",
                     "title": "Securing Your Infrastructure with Vault",
                     "description": "Coming soon.",
                     "img": "images/vec_paul.png",
