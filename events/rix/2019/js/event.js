@@ -507,7 +507,7 @@
                     "type": "speech",
                     "country": "pl",
                     "bio": " Principal Technologist @ Pivotal, Trainer @ ‎Bottega IT Minds, DZone's Most-Valuable Blogger",
-                    "title": "Event-Driven Architecture Traps",
+                    "title": "Event-Driven Architecture and Traps",
                     "description": "Event-driven architectures (EDA) have become more popular by the day. Organizations see a great value in them, and developers love how EDA help to grow, scale, and mirror what really happens in the business domain. However, most developers are not familiar with this kind of architecture, which can lead to common pitfalls that we’ll examine in this talk. We’ll also cover a broad set of concepts like: Spring Cloud Stream, exactly-once delivery (is that event a thing?), GDPR, CQRS, and tackle the problem of how to version our events. There will be code and the presentation requires basic knowledge about distributed systems.",
                     "img": "images/pilo.png",
                     "presentation": "",
