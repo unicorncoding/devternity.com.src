@@ -312,13 +312,12 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 //-           |  
 
 
-          each speaker in data.workshops
+          each speaker, index in data.workshops
             .row
               section(class="feature 12u 12u$(small) align-left")
                 h3
-                  i.far.fa-clock
-                  |  9:00 – 18:00 
-                  strong #{speaker.title} 
+                  strong { #{index + 1}/#{data.workshops.length} }  
+                  strong  #{speaker.title} 
                   em  (limited seats)
                 if speaker.tags
                   h5 
