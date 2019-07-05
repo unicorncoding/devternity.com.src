@@ -95,33 +95,33 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     link(rel="icon" type="image/png" href="https://devternity.com/images/logo_2017_filled.png")
     link(rel="stylesheet" href="css/remodal.css")
          
-    style(type="text/css")
-      | #devternity-loading {
-      |   z-index: 10001;
-      |   position: fixed;
-      | }
+    style(type="text/css").
+       #devternity-loading {
+         z-index: 10001;
+         position: fixed;
+       }
 
-      | #devternity-loading div.loading-container {
-      |   background-color: black;
-      |   bottom: 0px;
-      |   left: 0px;
-      |   opacity: 1.0;
-      |   position: fixed;
-      |   right: 0px;
-      |   top: 0px;
-      |   z-index: 999999;
-      | }
+       #devternity-loading div.loading-container {
+         background-color: black;
+         bottom: 0px;
+         left: 0px;
+         opacity: 1.0;
+         position: fixed;
+         right: 0px;
+         top: 0px;
+         z-index: 999999;
+       }
 
-      | #devternity-loading div.messaging {
-      |   color: #FFFFFF;
-      |   left: 0px;
-      |   margin-top: -37px;
-      |   position: absolute;
-      |   right: 0px;
-      |   text-align: center;
-      |   top: 50%;
-      | }
-
+       #devternity-loading div.messaging {
+         color: #FFFFFF;
+         left: 0px;
+         margin-top: -37px;
+         position: absolute;
+         right: 0px;
+         text-align: center;
+         top: 50%;
+       }
+       
   body.landing
 
     div#devternity-loading
@@ -394,14 +394,14 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               h1 Sponsors            
               h2 
               p
-                em We are partnering with amazing companies that have continuous learning and innovation in their DNA:              
+                em We are partnering with amazing companies that have continuous learning and innovation in their DNA.
               each package, key in data.sponsorship 
                 br
                 div.row.align-center
                   each sponsor, index in package.sponsors
                     section(class=`${12 / package.sponsorsPerLine}u 12u$(medium)`)
-                      a(target="_blank" rel="noopener" alt="Sponsor link" href=sponsor.link)
-                        img.lazy(style="max-width: 250px; max-height: 120px" class=`${package.grayscale ? 'grayscale' : ''}` data-src=`images/${sponsor.logo}` alt=`${sponsor.title} logo`)
+                      a(target="_blank"  rel="noopener nofollow" alt="Sponsor link" href=sponsor.link)
+                        img.lazy(style="height: 60px" class=`${package.grayscale ? 'grayscale' : ''}` data-src=`images/${sponsor.logo}` alt=`${sponsor.title} logo`)
                       br
                       - var star = 0
                       while star++ < package.stars
