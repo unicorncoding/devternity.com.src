@@ -235,6 +235,23 @@
                 "date_iso": "2019-12-07",
                 "schedule": [
                   {
+                    "product": "JBRAINS",
+                    "name": "J.B. Rainsberger",
+                    "type": "speech",
+                    "twitter": "jbrains",                      
+                    "time": "9:00",
+                    "endTime": "18:00",                      
+                    "tags": ["evolutionary design", "legacy code", "clean code"],
+                    "country": "ca",
+                    "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
+                    "title": "Surviving Legacy Code",
+                    "brief_description": "We all have legacy code, meaning profitable code that we’re afraid to change. It doesn’t matter who wrote it, in which language, nor when. It matters that we feel the fear now and need to deal with it. Rewrite or refactor? How do we write tests? There’s so much to change; how do we get started? In the typical programmer’s day job, there’s no time to learn how to do this. We’re already behind schedule and the cost of fixing the legacy code is crushing us. We need a way to learn how to do this safely, correctly, and eventually, even quickly. That’s what Surviving Legacy Code is about.",
+                    "description": "<h3>What you’ll learn:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>When to refactor and when to rewrite, and how to do that safely.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>The killer technique for exposing in glorious detail exactly where the code wants us to break it apart.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use statistical sampling and logs to cobble together the beginnings of a test suite.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to sterilise a legacy environment before even trying to change the code.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to crack the chicken-and-egg problem: I need to write tests in order to refactor, and I need to refactor in order to write tests.</li></ul></p><p>We will work in short sessions on a diabolical-but-fun code base (available in at least 20 programming languages), practise micro-committing, a key technique to changing difficult code safely, practise a handful of refactoring and testing exercises that <b>develop the most essential legacy code rescue skills and disciplines.</b>",
+                    "img": "images/jb_vec.png",
+                    "presentation": "",
+                    "video": ""
+                  },                  
+                  {
                       "product": "LEADERSHIP",
                       "name": "Roy Osherove",
                       "type": "speech",
