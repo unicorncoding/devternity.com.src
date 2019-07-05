@@ -89,6 +89,7 @@ gulp.task('copy-events', () => {
             .pipe(gulpif(/.pug/, pug({
                 data: _.extend({
                     days: _(event_js.duration_days).times(n => moment(event_js.date_iso).add(n, 'days').format("D MMM YYYY")),
+                    daysNoYear: _(event_js.duration_days).times(n => moment(event_js.date_iso).add(n, 'days').format("D MMM")),
                     speakersInRows: speakersInRows,
                     hasUnknownSpeakers: hasUnknownSpeakers,
                     hasUnknownWorkshops: hasUnknownWorkshops,

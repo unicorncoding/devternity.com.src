@@ -857,7 +857,7 @@ form.subscribe input[type='submit'] {
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			/* padding-left: 0.5em; */
 		}
 
 		ul.alt {
@@ -973,9 +973,9 @@ form.subscribe input[type='submit'] {
 			ul.tabular li {
 				border-top: solid 1px rgba(144, 144, 144, 0.25);
 				line-height: 1.75em;
-				margin: 1.5em 0px 0px;
-				padding-left: 7em;
-				padding-top: 12px;
+				/* margin: 1.5em 0px 0px; */
+				/* padding-left: 7em; */
+				/* padding-top: 12px; */
 				position: relative;
 			}
 

@@ -137,7 +137,6 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 i(class=`fab fa-${social}` aria-hidden)
           each history in data.history
             li: a(href=`/rix/${history}` alt=`DevTernity ${history}`) #{history}
-
     <!-- Banner -->
       section#banner
         video#video(autoplay loop playsinline muted)
@@ -183,7 +182,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               a(href="//itconference.top" target="_blank" alt="IT Conference top" rel="noopener"): strong the top 3
               |  international software development conference in Europe. 
             h2
-            p We focus on the core skills paramount to your success – code design, software architecture and leadership.
+            p We focus on the core skills paramount to your success – coding, architecture and leadership.
             h2
             p Start preparing for the role of software architect, engineering leader or CTO today.
             h2
@@ -204,7 +203,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             h1 
               | Inspiring Talks 
               i.separator.fa.fa-ellipsis-v 
-              |  Day I, #{data.days[0]}
+              |  Day I, #{data.daysNoYear[0]}
             h2 
             p 
               em No Agile bullshit bingo and marketing talks permitted. See for yourself:
@@ -255,7 +254,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                             span!=event.title
                         br
                         span #{event.tagList}
-                div(class=`evt row ${++index % 2 == 0 ? 'even' : 'odd'}`)
+                //- div(class=`evt row ${++index % 2 == 0 ? 'even' : 'odd'}`)
                     section(class="align-center feature 12u")
                         |  * We'll do our best to keep everything as planned, but please note that schedule may be a subject to change.
           each series, key in data.talks
@@ -287,11 +286,11 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             h1             
               | Power Workshops 
               i.separator.fa.fa-ellipsis-v 
-              |  Day II, #{data.days[1]} 
+              |  Day II, #{data.daysNoYear[1]} 
             h2 
             if data.workshops.length
               p
-                em Our instructors are here to deliver full-day workshops. Go beyond theory with industry experts:
+                em Our instructors are here to deliver full-day workshops. Learn directly from industry experts:
             else
               p Coming soon...
 
@@ -415,7 +414,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                           |  (since #{sponsor.since})
                       p !{sponsor.info}
                   br
-            p.align-center(style="margin-top: 100px")
+            p.align-center(style="margin-top: 100px") Want to increase your company's visibility?
+              br
+              br
               a.button.pulse(style="padding: 0 1em" href=`mailto:${data.contactEmail}?subject=Sponsorship`) Become a sponsor                      
     footer#footer
       div.container
@@ -425,30 +426,31 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           section(class="6u 12u$(small)")
             h3 Organisers
             p
-              | DevTernity is organised with love 
               i.fa.fa-heart(style="color: red" aria-hidden="true")
-              |  and care by 
-              strong: a(target="_blank" href="https://medium.com/@eduardsi/my-team-58f99b215be8" alt="Our team" rel="noopener") passionate software developers.
+              |  DevTernity is organised with love and care by 
+              strong: a(target="_blank" href="https://medium.com/@eduardsi/my-team-58f99b215be8" alt="Our team" rel="nofollow noopener") passionate software craftspeople from Latvia, Estonia and Netherlands. 
             h3 Location / Venue
             p 
-              a(href="https://www.google.lv/maps/place/DevTernity+Conference/@56.9397819,24.0966023,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.939779!4d24.098791" target="_blank" aria-label="Venue location on Google maps" rel="noopener")
+              a(href="https://www.google.lv/maps/place/DevTernity+Conference/@56.9397819,24.0966023,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.939779!4d24.098791" target="_blank" aria-label="Venue location on Google maps" rel="noopener nofollow")
                 i.fas.fa-map-marker-alt(aria-hidden)
               |  #{data.venue_name}, #{data.venue_address} 
           section(class="6u 12u$(small)")
-            h3 Let's stay connected:
+            h3 Contacts
             ul.icons
               each link, social in data.socials
                 li
                   a(href=link aria-label=`${social} link`)
-                    i(class=`fab fa-${social}` aria-hidden)
-              li #{data.contactEmail}
+                    i(class=`fab fa-${social}` aria-hidden)                    
+              li 
+                a(href=`mailto:${data.contactEmail}` aria-label=`email link`)
+                  i(class=`far fa-envelope` aria-hidden)              
             ul.tabular
               li
                 form.subscribe(ng-submit="onSubscribe()")
                   h3
-                    label(for="subscriptionEmail") Updates
+                    label(for="subscriptionEmail") &nbsp;
                   input(type="email" ng-model="subscriber" placeholder="<email address>" id="subscriptionEmail")
-                  input(type="submit" value="Subscribe") 
+                  input(type="submit" value="Subscribe for updates") 
                   | &nbsp; {{subscribeMessage}}               
 
       // section#exitOffer(data-remodal-id="exitOffer")
