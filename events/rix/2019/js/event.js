@@ -408,7 +408,7 @@
                         "time": "9:00",
                         "title": "Conference Opening",
                         "icon": "fa-bullhorn"
-                    },
+                    },                    
                     {
                       "name": "Kevlin Henney",
                       "type": "speech",
@@ -429,6 +429,18 @@
                         "title": "Coffee Break",
                         "icon": "fa-coffee"
                     },
+                    {                           
+                      "time": "10:30",                            
+                      "name": "Scott Hanselman",
+                      "type": "speech",
+                      "twitter": "shanselman",                      
+                      "country": "us",
+                      "bio": "Principal Community Architect for Web Platform @ Microsoft, Blogger, Podcaster",
+                      "img": "images/hanselman.jpg", 
+                      "title": "Scaling Yourself",
+                      "description": "As information workers, we are asked to absorb even more information than ever before. More blogs, more documentation, more patterns, more layers of abstraction. Now Twitter and Facebook compete with Email and Texts for our attention, keeping us up-to-date on our friends dietary details and movie attendance second-by-second. Does all this information take a toll on your psyche or sharpen the saw? Is it a matter of finding the right tools and filters to capture what you need, or do you just need to unplug.",
+                      "tags": ["closing keynote", "productivity", "career advice"]
+                    },                                                  
                     {
                         "time": "10:30",
                         "tags": ["team leadership", "self-organization", "people"],
@@ -443,19 +455,7 @@
                         "img": "images/roy_vec.png",
                         "presentation": "",
                         "video": ""
-                  },               
-                  {                           
-                    "time": "10:30",                            
-                    "name": "David Schmitz",
-                    "type": "speech",
-                    "twitter": "koenighotze",                      
-                    "country": "de",
-                    "bio": "Principal Architect @ Senacor Technologies",
-                    "img": "images/schmitz_vec.png", 
-                    "title": "Elixir — Easy Fun for Busy Developers",
-                    "description": "Did you ever want to create an application that is never down? Have you ever been jealous of those Erlang guys, that produce applications that practically never fail? Have you tried Erlang and fled because of its baroque syntax and tooling? Enter Elixir! Elixir combines Ruby's love for programmers with the absolute power that is the Erlang platform. This talk will introduce programmers to Elixir and OTP. You will gain an understanding of what Elixir brings to the table and how to build highly scale-able systems with a toolset that is actually fun to use. Even if you will never use Elixir and OTP for you projects, you will learn some of the concepts, that make Erlang into such a powerful ecosystem.",
-                    "tags": ["live coding", "new language", "distributed systems"]
-                  },                                                                                                         
+                  },                                                                                          
                   {                           
                     "time": "10:30",                            
                     "name": "J.B. Rainsberger",
@@ -666,18 +666,18 @@
                           "title": "Coffee Break",
                           "icon": "fa-coffee"
                       },
-                    {
-                      "time": "17:10",
-                      "twitter": "mjpt777",
-                      "type": "speech",
-                      "country": "gb",
-                      "bio": "High-performance & Low-latency Computing Consultant, ex-CTO of LMAX, creator of <a href=\"https://github.com/real-logic/aeron\">Aeron</a>",
-                      "long_bio": "Martin Thompson is a Java Champion with over 2 decades of experience building complex and high-performance computing systems. He is most recently known for his work on Aeron and SBE. Previously at LMAX he was the co-founder and CTO when he created the Disruptor. Prior to LMAX Martin worked for Betfair, three different content companies wrestling with the world largest product catalogues, and was a lead on some of the most significant C++ and Java systems of the 1990s in the automotive and finance domains. He blogs at mechanical-sympathy.blogspot.com, and can be found giving training courses on performance and concurrency when he is not cutting code to make systems better.",
-                      "description": "What does it really mean to design software for high-performance? Performance is such a generic and misunderstood subject. In this talk the subject of software performance will be explored. We will focus on what is means to achieve sufficient response times, throughput, and scalability. Once the theory is out of the way we will dig into how modern hardware works and what we need to know about abstractions mapping to our software designs. These abstractions are the key to the models our code represents. The author has not meet many abstraction layers he did not enjoyed violating. There is a good reason for this. So many of our abstractions are leaky or just plain wrong.",
-                      "img": "images/thompson_vec.png",
-                      "presentation": "",
-                      "video": ""
-                    },             
+                      {                           
+                        "time": "17:10",                            
+                        "name": "David Schmitz",
+                        "type": "speech",
+                        "twitter": "koenighotze",                      
+                        "country": "de",
+                        "bio": "Principal Architect @ Senacor Technologies",
+                        "img": "images/schmitz_vec.png", 
+                        "title": "Elixir — Easy Fun for Busy Developers",
+                        "description": "Did you ever want to create an application that is never down? Have you ever been jealous of those Erlang guys, that produce applications that practically never fail? Have you tried Erlang and fled because of its baroque syntax and tooling? Enter Elixir! Elixir combines Ruby's love for programmers with the absolute power that is the Erlang platform. This talk will introduce programmers to Elixir and OTP. You will gain an understanding of what Elixir brings to the table and how to build highly scale-able systems with a toolset that is actually fun to use. Even if you will never use Elixir and OTP for you projects, you will learn some of the concepts, that make Erlang into such a powerful ecosystem.",
+                        "tags": ["live coding", "new language", "distributed systems"]
+                      },                 
                    {
                       "time": "17:10",
                       "twitter": "rschu",
