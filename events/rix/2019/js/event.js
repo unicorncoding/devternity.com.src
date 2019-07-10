@@ -537,20 +537,18 @@
                       "presentation": "",
                       "video": ""
                   },  
-                  {
-                    "time": "13:40",
-                    "tags": ["security", "hashistack", "live demo"],
-                    "name": "Paul Stack",
-                    "twitter": "stack72",
+                  {                           
+                    "time": "13:40",                            
+                    "name": "Sergei Egorov",
                     "type": "speech",
-                    "country": "gb",
-                    "bio": "Staff Software Engineer @ Pulumi, ex-Software Engineer @ HashiCorp",
-                    "title": "Securing Your Infrastructure with Vault",
-                    "description": "Coming soon.",
-                    "img": "images/vec_paul.png",
-                    "presentation": "",
-                    "video": ""
-                  },                  
+                    "twitter": "bsideup",                      
+                    "country": "de",
+                    "bio": "Staff Engineer @ Pivotal, Groovy, Reactor and Testcontainers Committer",
+                    "img": "images/egorov.jpg", 
+                    "title": "Integration Testing with Docker and Testcontainers",
+                    "description": "Unit testing is fine, but without proper integration testing, especially if you work with external resources like databases and other services, you might not know how your application will actually behave once it has been deployed to the real production environment. Testcontainers is a popular JVM testing library that provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. In this talk, we will briefly go throught the past, present and the future of the library.",
+                    "tags": ["docker", "testing", "java demo"]
+                  },                                      
                   {
                     "time": "13:40",
                     "tags": ["cqrs", "event sourcing", "spring"],
@@ -678,17 +676,20 @@
                         "description": "Did you ever want to create an application that is never down? Have you ever been jealous of those Erlang guys, that produce applications that practically never fail? Have you tried Erlang and fled because of its baroque syntax and tooling? Enter Elixir! Elixir combines Ruby's love for programmers with the absolute power that is the Erlang platform. This talk will introduce programmers to Elixir and OTP. You will gain an understanding of what Elixir brings to the table and how to build highly scale-able systems with a toolset that is actually fun to use. Even if you will never use Elixir and OTP for you projects, you will learn some of the concepts, that make Erlang into such a powerful ecosystem.",
                         "tags": ["live coding", "new language", "distributed systems"]
                       },                 
-                   {
-                      "time": "17:10",
-                      "twitter": "rschu",
-                      "type": "speech",
-                      "country": "de",
-                      "bio": "Director, Global Innovation Microsoft RD &amp; MVP",
-                      "description": "The year 2018 is the year of Mixed Reality with devices like the Microsoft HoloLens which are turning science fiction movie technology into reality. It’s an amazing time to be a developer and to be part of the fourth industrial revolution where XR is dramatically changing work processes. Rene will demonstrate some of the HoloLens projects he and his team worked on since 2015 and share how they were able to overcome challenges. His best practices and recommendations will help you avoid pit falls and might provide inspiration for your next XR projects. He will also provide you with a future perspective of Mixed Reality combining AI + MR using Windows Machine Learning in Unity.",
-                      "img": "images/rene_vec.png",
-                      "presentation": "",
-                      "video": ""
-                    },                                                                                                                                          
+                      {
+                        "time": "17:10",
+                        "tags": ["security", "hashistack", "live demo"],
+                        "name": "Paul Stack",
+                        "twitter": "stack72",
+                        "type": "speech",
+                        "country": "gb",
+                        "bio": "Staff Software Engineer @ Pulumi, ex-Software Engineer @ HashiCorp",
+                        "title": "Securing Your Infrastructure with Vault",
+                        "description": "Coming soon.",
+                        "img": "images/vec_paul.png",
+                        "presentation": "",
+                        "video": ""
+                      },                                                                                                                                    
                       {                           
                         "time": "17:10",                            
                         "type": "speech",
