@@ -437,7 +437,7 @@
                       "twitter": "shanselman",                      
                       "country": "us",
                       "bio": "Principal Community Architect for Web Platform @ Microsoft, Blogger, Podcaster",
-                      "img": "images/hanselman.jpg", 
+                      "img": "images/hanselman.png", 
                       "title": "Scaling Yourself",
                       "description": "As information workers, we are asked to absorb even more information than ever before. More blogs, more documentation, more patterns, more layers of abstraction. Now Twitter and Facebook compete with Email and Texts for our attention, keeping us up-to-date on our friends dietary details and movie attendance second-by-second. Does all this information take a toll on your psyche or sharpen the saw? Is it a matter of finding the right tools and filters to capture what you need, or do you just need to unplug.",
                       "tags": ["closing keynote", "productivity", "career advice"]
@@ -513,7 +513,7 @@
                     "bio": "Senior UX Architect @ LEGO",
                     "title": "UX for Developers",
                     "description": "coming soon...",
-                    "img": "images/juljen.png",
+                    "img": "images/juljensen.png",
                     "twitter": "JanneJulJensen",
                     "presentation": "",
                     "video": ""
@@ -545,7 +545,7 @@
                     "twitter": "bsideup",                      
                     "country": "de",
                     "bio": "Staff Engineer @ Pivotal, Groovy, Reactor and Testcontainers Committer",
-                    "img": "images/egorov.jpg", 
+                    "img": "images/egorov.png", 
                     "title": "Integration Testing with Docker and Testcontainers",
                     "description": "Unit testing is fine, but without proper integration testing, especially if you work with external resources like databases and other services, you might not know how your application will actually behave once it has been deployed to the real production environment. Testcontainers is a popular JVM testing library that provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. In this talk, we will briefly go throught the past, present and the future of the library.",
                     "tags": ["docker", "testing", "java demo"]
