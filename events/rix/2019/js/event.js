@@ -206,7 +206,13 @@
                 "since": "2019",
                 "link": "http://proofit.lv",
                 "info": "<p>It’s not about where you work, but who you work with, is it? Our enthusiastic and mindful Proof IT team will gladly help you to realize your full potential by taking part in the development of IT solutions that matter while exploring new technologies and business areas!</p>"
-              }              
+              },
+              {
+                "logo": "geta.png",
+                "since": "2019",
+                "link": "https://geta.no",
+                "info": "<p>We’re a fast growing international digital commerce agency with a strong focus on both technology and people. You’re more than welcome to test your skills with us.</p>"
+              }                                  
             ]
         },
         "silver": {
