@@ -210,7 +210,7 @@
               {
                 "logo": "geta.png",
                 "since": "2019",
-                "link": "https://geta.no",
+                "link": "https://getadigital.com/",
                 "info": "<p>We’re a fast growing international digital commerce agency with a strong focus on both technology and people. You’re more than welcome to test your skills with us.</p>"
               }                                  
             ]
