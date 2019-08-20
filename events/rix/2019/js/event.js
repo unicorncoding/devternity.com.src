@@ -693,7 +693,7 @@
                         "country": "gb",
                         "bio": "Staff Software Engineer @ Pulumi, ex-Software Engineer @ HashiCorp",
                         "title": "Securing Your Infrastructure with Vault",
-                        "description": "Coming soon.",
+                        "description": "Making sure our systems are secure has become a huge priority for companies but not everyone actually dedicated the time to making it happen. In this session, Paul will demonstrate examples of how to secure infrastructure and applications to have end to end TLS using Vault. He will be able to prove to attendees that by investing a little time upfront, we can ensure that our development and production environments have TLS throughout and will allow us to not get surprised when our systems to production.",
                         "img": "images/vec_paul.png",
                         "presentation": "",
                         "video": ""
