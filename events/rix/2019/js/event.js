@@ -489,7 +489,7 @@
                       "name": "Janne Jul Jensen",
                       "type": "speech",
                       "country": "dk",
-                      "bio": "Senior UX Architect @ LEGO",
+                      "bio": " Lead UX Designer @ Elsevier",
                       "title": "UX for Developers",
                       "description": "Some people in the software development industry still seem to think, that UX is some kind of unicorn fairy dust, that you sprinkle on a project in the end, and then it will magically make everything, that was ever wrong with that project, all better. This talk will explore why it isn’t so, what real UX is, why it is a team effort and what UX-responsibilities the various stakeholders can, and should own up to, for the greater good of the project.",
                       "img": "images/juljensen.png",
