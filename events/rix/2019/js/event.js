@@ -461,7 +461,7 @@
                       "bio": "Developer Advocate @ Hazelacst, ex-SAP, Author of Integration Testing from the Trenches",
                       "title": "Object-Oriented Programming in the Enterprise",
                       "description": "Most developers don’t write Object-Oriented code, including myself. And yet, we have learned how to do it. Why is that? One of the possible reasons, is that many frameworks (Java EE, Spring) do not favor OOP in their design. But what is OOP really? We will have a look at a super-simplified bank account model. In my demo, I’ll demo with a Java-based application how can we evolve from the traditional current approach to proper OOP. Finally, it will be time to have a look at the benefits and drawbacks of both approach.",
-                      "img": "images/frankel.jpg",
+                      "img": "images/frankel.png",
                       "presentation": "",
                       "video": ""
                     },                                                                                                                                                             
@@ -560,14 +560,14 @@
                   },                                      
                   {
                     "time": "13:40",
-                    "tags": ["cqrs", "event sourcing", "spring"],
+                    "tags": ["coding", "refactoring", "legacy code"],
                     "name": "Jakub Pilimon",
                     "twitter": "jakubpilimon",
                     "type": "speech",
                     "country": "pl",
                     "bio": " Principal Technologist @ Pivotal, Trainer @ ‎Bottega IT Minds, DZone's Most-Valuable Blogger",
-                    "title": "Event-Driven Architecture and Traps",
-                    "description": "Event-driven architectures (EDA) have become more popular by the day. Organizations see a great value in them, and developers love how EDA help to grow, scale, and mirror what really happens in the business domain. However, most developers are not familiar with this kind of architecture, which can lead to common pitfalls that we’ll examine in this talk. We’ll also cover a broad set of concepts like: Spring Cloud Stream, exactly-once delivery (is that event a thing?), GDPR, CQRS, and tackle the problem of how to version our events. There will be code and the presentation requires basic knowledge about distributed systems.",
+                    "title": "Safe Refactoring",
+                    "description": "We’ve all been there, facing a blinking cursor. You need to build a new feature, but aren’t sure where to start. Or you have to fix something in your app, and you’re unsure why it broke. This situation is common with Big Ball of Mud architectures. This design hinders your release velocity. And it makes it near-impossible to seize new business opportunities. How can you move on from this situation? Most of us also know what good design is. We talk a lot about Domain-Driven Design, modeling, event storming and Test-Driven Development. Here’s the challenge: how to apply this thinking to your current systems. How do we modernize the app? How do convince people we should modernize it? How do we overcome the lack of testing? Or lack of business knowledge? Attend this session to answer these questions and more. You’ll learn about techniques that have proven to work in companies like yours.",
                     "img": "images/pilo.png",
                     "presentation": "",
                     "video": ""
@@ -708,7 +708,7 @@
                         "bio": "Senior Developer Advocate @ Confluent, OSS contributor to Apache Kafka",
                         "title": "Apache Kafka and KSQL in Action: Let's Build a Streaming Data Pipeline!",
                         "description": "In this talk we’ll explain the architectural reasoning for Apache Kafka and the benefits of real-time integration, and we’ll build a streaming data pipeline using nothing but our bare hands, Kafka Connect, and KSQL. Gasp as we filter events in real time! Be amazed at how we can enrich streams of data with data from RDBMS! Be astonished at the power of streaming aggregates for anomaly detection!",
-                        "img": "images/robin.jpg",
+                        "img": "images/moffat.png",
                         "presentation": "",
                         "video": ""
                       },                                           
