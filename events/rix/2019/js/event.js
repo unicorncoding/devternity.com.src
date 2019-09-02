@@ -705,7 +705,7 @@
                         "twitter": "rmoff",
                         "type": "speech",
                         "country": "gb",
-                        "bio": "Senior Developer Advocate @ Confluent, OSS contributor to Apache Kafka",
+                        "bio": "Senior Developer Advocate @ Confluent, Streaming Data Geek",
                         "title": "Apache Kafka and KSQL in Action: Let's Build a Streaming Data Pipeline!",
                         "description": "In this talk we’ll explain the architectural reasoning for Apache Kafka and the benefits of real-time integration, and we’ll build a streaming data pipeline using nothing but our bare hands, Kafka Connect, and KSQL. Gasp as we filter events in real time! Be amazed at how we can enrich streams of data with data from RDBMS! Be astonished at the power of streaming aggregates for anomaly detection!",
                         "img": "images/moffat.png",
