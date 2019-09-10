@@ -280,6 +280,7 @@
                     "product": "JBRAINS",
                     "name": "J.B. Rainsberger",
                     "type": "speech",
+                    "sold_out": true,                    
                     "twitter": "jbrains",                      
                     "time": "9:00",
                     "endTime": "18:00",                      
