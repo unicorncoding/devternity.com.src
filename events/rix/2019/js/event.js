@@ -233,6 +233,12 @@
               "link": "https://www.sunfinance.group"
             },
             {
+              "title": "Silver Sponsor",
+              "logo": "codecentric.png",
+              "since": "2019",
+              "link": "https://www.codecentric.de"
+            },            
+            {
               "title": "Partner",
               "logo": "google.png",
               "since": "2019",
