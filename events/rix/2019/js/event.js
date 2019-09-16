@@ -562,7 +562,7 @@
                       "twitter": "nicolas_frankel",
                       "type": "speech",
                       "country": "ch",
-                      "bio": "Developer Advocate @ Hazelacst, ex-SAP, Author of Integration Testing from the Trenches",
+                      "bio": "Developer Advocate @ Hazelcast, ex-SAP, Author of Integration Testing from the Trenches",
                       "title": "Object-Oriented Programming in the Enterprise",
                       "description": "Most developers don’t write Object-Oriented code, including myself. And yet, we have learned how to do it. Why is that? One of the possible reasons, is that many frameworks (Java EE, Spring) do not favor OOP in their design. But what is OOP really? We will have a look at a super-simplified bank account model. In my demo, I’ll demo with a Java-based application how can we evolve from the traditional current approach to proper OOP. Finally, it will be time to have a look at the benefits and drawbacks of both approach.",
                       "img": "images/frankel.png",
