@@ -315,6 +315,7 @@
                       "description": "<h3>During this training, you will:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Learn about the three basic team modes: Survival mode, Learning mode and Self Organization Mode. Learn how to know which mode your team is in right now.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Learn essential skills for the three modes of leadership you will need for the three phases of the team: Command and control leadership, Coaching and facilitative leadership.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Learn how to change anything by understanding why people behave the way they do, and understanding the six influence forces that affect our behavior.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Participate in engaging exercises that will examine your skills at the various leadership modes.</li></ul><p>More than 50% of workshop time is devoted to practice, exercises and discussions. The workshop offers concrete, ready-to-use improvement recipes for daily work.</p>",
                       "img": "images/roy_vec.png",
                       "presentation": "",
+                      "sold_out": true,                   
                       "video": ""
                   },
                   {
@@ -406,6 +407,7 @@
                 "description": "<h3>The course covers: </h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>What constitutes good code?</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to write good code?</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Economics of good / bad code</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Naming Heuristics</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>SOLID Principles</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Code Comments</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Coupling and Cohesion</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Testability</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>...and much more!</li></ul><p>More than 50% of workshop time is devoted to practice, whiteboard exercises and group discussion.</p>",
                 "img": "images/vec_kevlin.png",
                 "presentation": "",
+                "sold_out": true,                
                 "video": ""
             }     
               ]
