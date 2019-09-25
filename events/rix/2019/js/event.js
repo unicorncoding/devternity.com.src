@@ -237,7 +237,13 @@
               "logo": "codecentric.png",
               "since": "2019",
               "link": "https://www.codecentric.de"
-            },            
+            },      
+            {
+              "title": "Silver Sponsor",
+              "logo": "senacor.jpg",
+              "since": "2019",
+              "link": "https://senacor.com"
+            },                        
             {
               "title": "Partner",
               "logo": "google.png",
