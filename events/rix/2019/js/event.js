@@ -708,9 +708,9 @@
                         "country": "de",
                         "bio": "Principal Architect @ Senacor Technologies",
                         "img": "images/schmitz_vec.png", 
-                        "title": "Elixir — Easy Fun for Busy Developers",
-                        "description": "Did you ever want to create an application that is never down? Have you ever been jealous of those Erlang guys, that produce applications that practically never fail? Have you tried Erlang and fled because of its baroque syntax and tooling? Enter Elixir! Elixir combines Ruby's love for programmers with the absolute power that is the Erlang platform. This talk will introduce programmers to Elixir and OTP. You will gain an understanding of what Elixir brings to the table and how to build highly scale-able systems with a toolset that is actually fun to use. Even if you will never use Elixir and OTP for you projects, you will learn some of the concepts, that make Erlang into such a powerful ecosystem.",
-                        "tags": ["live coding", "new language", "distributed systems"]
+                        "title": "Zero Magic Event Sourcing from the Grounds Up",
+                        "description": "Event sourcing is a well-known pattern for handling data e.g. in microservice landscapes. Most developers, however, struggle with the complexities of patterns, frameworks, tools and get lost in the complexities involved. In this session, we will code a complete example of an event-sourced service using no frameworks and no additional magic. We will use the open source database \"Eventstore\" and NodeJS and nothing else. Ok, maybe Docker and a light-weight web framework. By coding a real example, we will discuss patterns that you can use when building your systems, such as: handling read models, dealing with concurrency and validation, deleting data. So if you want to look behind the magic of event sourcing, join me on this hands-on journey.",
+                        "tags": ["event-sourcing", "live coding", "js examples"]
                       },                                                        
                       {                           
                         "time": "17:10",                            
