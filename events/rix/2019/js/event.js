@@ -124,7 +124,6 @@
         ],
         "socials": {
           "twitter": "https://twitter.com/devternity",
-          "meetup": "https://meetup.com/devternity",
           "facebook": "https://www.facebook.com/devternity",
           "linkedin": "http://go.devternity.com/linkedin",
           "instagram": "https://www.instagram.com/devternity",
@@ -141,6 +140,7 @@
         "pricing": {
             "packages": {
               "Main Day Only": {
+                  "attention": true,                
                   "price": 299,
                   "extra": 100,
                   "battery": "fa-battery-quarter",
@@ -149,16 +149,17 @@
               "Power Workshop Only": {
                   "price": 299,
                   "extra": 116,
-                  "battery": "fa-battery-quarter",
-                  "includesWorkshop": true
+                  "battery": "fa-battery-full",
+                  "includesWorkshop": true,
+                  "sold_out": true
               },
               "2-Days Super Pack": {
-                  "attention": true,
                   "price": 598,
                   "extra": 200,
+                  "sold_out": true,
                   "includesWorkshop": true,
                   "includesMainDay": true,
-                  "battery": "fa-battery-quarter"
+                  "battery": "fa-battery-full"
               }
             }
         },

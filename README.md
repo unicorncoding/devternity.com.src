@@ -3,3 +3,7 @@
 # devternity.com.src
 
 Sources for https://devternity.com website.
+
+```
+  yarn start
+```

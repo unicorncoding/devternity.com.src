@@ -5,7 +5,7 @@
     "min": "gulp min",
     "mincss": "gulp purgecss",
     "minim": "gulp imagemin",
-    "start": "gulp"
+    "start": "npx -p node@8 -- gulp"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
