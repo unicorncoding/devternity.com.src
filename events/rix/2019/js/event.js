@@ -213,7 +213,13 @@
                 "since": "2019",
                 "link": "https://getadigital.com/",
                 "info": "<p>We’re a fast growing international digital commerce agency with a strong focus on both technology and people. You’re more than welcome to test your skills with us.</p>"
-              }                                  
+              },             
+              {
+                "logo": "mintos.png",
+                "since": "2019",
+                "link": "https://www.mintos.com/en/about-us/careers/",
+                "info": "<p>Mintos is a global marketplace for investments loans. We are revolutionising financial services by rethinking how money flows across the borders from those who want to save and invest to those who want to borrow. Tired of fitting into other people’s code? Join our fast growing fintech startup and craft your own work by developing greenfield projects while working on a unique product.</p>"
+              }                                                
             ]
         },
         "silver": {
