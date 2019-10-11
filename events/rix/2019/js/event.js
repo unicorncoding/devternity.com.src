@@ -235,6 +235,12 @@
             },
             {
               "title": "Silver Sponsor",
+              "logo": "u_logo.png",
+              "since": "2019",
+              "link": "https://ui.com"
+            },            
+            {
+              "title": "Silver Sponsor",
               "logo": "sunfi.png",
               "since": "2019",
               "link": "https://www.sunfinance.group"
