@@ -28,7 +28,7 @@
         "hotel_name": "Bellevue Park Hotel Riga",
         "hotel_link": "https://www.booking.com/hotel/lv/bellevue-park-riga.en-gb.html",
         "hotel_to_venue_map": "https://www.google.co.uk/maps/dir/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka,+M%C5%ABkusalas+iela,+R%C4%ABga,+R%C4%ABgas+pils%C4%93ta,+Latvia/Bellevue+Park+Hotel+Riga,+Slokas+iela+1,+Zemgales+priek%C5%A1pils%C4%93ta,+R%C4%ABga,+LV-1048/@56.9408798,24.0802257,15z/data=!4m14!4m13!1m5!1m1!1s0x46eed028bbe816ff:0x4a2fb4e541eacced!2m2!1d24.0960398!2d56.9414915!1m5!1m1!1s0x46eed02233ca36c3:0xc8bcf56beebf7535!2m2!1d24.0815464!2d56.9414617!3e2?hl=en",
-        "status": "on_sale",
+        "status": "sold_out",
         "subscribe": "http://sizovs.us12.list-manage1.com/subscribe?u=286cb53c1b1459ca29ad7c933&id=f4321ae910",
         "country": "Latvia",
         "classes": "extended_event",
@@ -141,9 +141,10 @@
             "packages": {
               "Main Day Only": {
                   "attention": true,                
+                  "sold_out": true,                  
                   "price": 299,
                   "extra": 100,
-                  "battery": "fa-battery-quarter",
+                  "battery": "fa-battery-full",
                   "includesMainDay": true
               },
               "Power Workshop Only": {
