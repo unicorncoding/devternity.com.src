@@ -719,19 +719,7 @@
                         "title": "The Well-Balanced Programmer",
                         "description": "A well-balanced programmer feels comfortable dealing with designing software, managing projects, and working with people. Companies seem to want to hire \"the best\", but well-balanced programmers relatively rare. Although many programmers feel confident arguing about algorithms, modularity, and scalability in design sessions, they would stand out from their peers if they also had incredible habits for managing their work, knew how to negotiate features with product owners, had intelligent conversations with project managers about the risks in their project, and understood what lies behind the irrationality of the people and systems around them. Sadly, most programmers don't appreciate the value of these skills. Others don't know how to get started learning them. I started programming computers because people are messy! I'd like to share a curated collection of concepts for you explore that will help you become irresistibly valuable to your employer or clients. I plan to share the design principles and programming techniques that amplified my skills the most over the last 20 years. In addition, I'll describe how I learned the key non-programming concepts, techniques, and approaches that have endeared me to fellow programmers, managers, and clients. I offer you a very practical approach to issues like influencing peers, negotiating with stakeholders, and adopting new ways of working safely. I'll help you start to build a personal work system that will free your mind to do your best work. I know how this might sound. I promise to share concrete techniques that you can begin applying right away. Of course, these techniques aren't magic, so you'll have to read some more and practise on your own, but you will know how to get started right away on becoming the well-balanced programmer that every manager and co-worker will love to have on their team.",
                         "tags": ["productivity", "work habits", "software design"]
-                      },                                                                                                                                                                                
-                      {                           
-                        "time": "17:10",                            
-                        "name": "David Schmitz",
-                        "type": "speech",
-                        "twitter": "koenighotze",                      
-                        "country": "de",
-                        "bio": "Principal Architect @ Senacor Technologies",
-                        "img": "images/schmitz_vec.png", 
-                        "title": "Zero Magic Event Sourcing from the Grounds Up",
-                        "description": "Event sourcing is a well-known pattern for handling data e.g. in microservice landscapes. Most developers, however, struggle with the complexities of patterns, frameworks, tools and get lost in the complexities involved. In this session, we will code a complete example of an event-sourced service using no frameworks and no additional magic. We will use the open source database \"Eventstore\" and NodeJS and nothing else. Ok, maybe Docker and a light-weight web framework. By coding a real example, we will discuss patterns that you can use when building your systems, such as: handling read models, dealing with concurrency and validation, deleting data. So if you want to look behind the magic of event sourcing, join me on this hands-on journey.",
-                        "tags": ["event-sourcing", "live coding", "js examples"]
-                      },                                                        
+                      },     
                       {                           
                         "time": "17:10",                            
                         "name": "Sergei Egorov",
@@ -743,7 +731,19 @@
                         "title": "Integration Testing with Docker and Testcontainers",
                         "description": "Unit testing is fine, but without proper integration testing, especially if you work with external resources like databases and other services, you might not know how your application will actually behave once it has been deployed to the real production environment. Testcontainers is a popular JVM testing library that provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. In this talk, we will briefly go throught the past, present and the future of the library.",
                         "tags": ["docker", "testing", "java demo"]
-                      },                           
+                      },                                                                                                                                                                                                  
+                      {                           
+                        "time": "17:10",                            
+                        "name": "David Schmitz",
+                        "type": "speech",
+                        "twitter": "koenighotze",                      
+                        "country": "de",
+                        "bio": "Principal Architect @ Senacor Technologies",
+                        "img": "images/schmitz_vec.png", 
+                        "title": "Zero Magic Event Sourcing from the Grounds Up",
+                        "description": "Event sourcing is a well-known pattern for handling data e.g. in microservice landscapes. Most developers, however, struggle with the complexities of patterns, frameworks, tools and get lost in the complexities involved. In this session, we will code a complete example of an event-sourced service using no frameworks and no additional magic. We will use the open source database \"Eventstore\" and NodeJS and nothing else. Ok, maybe Docker and a light-weight web framework. By coding a real example, we will discuss patterns that you can use when building your systems, such as: handling read models, dealing with concurrency and validation, deleting data. So if you want to look behind the magic of event sourcing, join me on this hands-on journey.",
+                        "tags": ["event-sourcing", "live coding", "js examples"]
+                      },                                                                                  
                     {
                         "type": "break",
                         "time": "18:00",
