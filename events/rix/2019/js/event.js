@@ -293,7 +293,13 @@
               "logo": "medium.png",
               "since": "2019",
               "link": "https://www.medium.com"
-            }               
+            },
+            {
+              "title": "Partner",
+              "logo": "pulumi.jpg",
+              "since": "2019",
+              "link": "https://pulumi.com"
+            }             
           ]
         }               
       },
