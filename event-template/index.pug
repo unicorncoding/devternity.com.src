@@ -236,24 +236,25 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                   div(class=`evt row ${++index % 2 == 0 ? 'even' : 'odd'}`)
                     each event in series
                       section(class="align-center feature " +  (series.length == 1 ? '12u' : '4u'))
-                        | #{event.time}
-                        br
-                        if event.type == 'speech'
-                          if event.title
-                            a.pointer(ng-click=`popupSpeech(${event.uid})`) 
-                              | #{event.name}
-                              if event.partner
-                                |  &amp; #{event.partner.name}
-                              br
-                              strong!=event.title
+                       if event.title != 'none'
+                          | #{event.time}
+                          br
+                          if event.type == 'speech'
+                            if event.title != 'none'
+                              a.pointer(ng-click=`popupSpeech(${event.uid})`) 
+                                | #{event.name}
+                                if event.partner
+                                  |  &amp; #{event.partner.name}
+                                br
+                                strong!=event.title
+                            else
+                              span
+                                i.fas.fa-clock 
+                                |  amazing talk pending
                           else
-                            span
-                              i.fas.fa-clock 
-                              |  amazing talk pending
-                        else
-                            span!=event.title
-                        br
-                        span #{event.tagList}
+                              span!=event.title
+                          br
+                          span #{event.tagList}
                 //- div(class=`evt row ${++index % 2 == 0 ? 'even' : 'odd'}`)
                     section(class="align-center feature 12u")
                         |  * We'll do our best to keep everything as planned, but please note that schedule may be a subject to change.

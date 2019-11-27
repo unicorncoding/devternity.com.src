@@ -539,15 +539,15 @@
                 },                         
                 {
                   "time": "11:40",
-                  "tags": ["streaming architecture", "integration", "live-demo"],
-                  "name": "Robin Moffatt",
-                  "twitter": "rmoff",
+                  "tags": ["career", "interviews", "hacks"],
+                  "name": "Eduards Sizovs",
+                  "twitter": "eduardsi",
                   "type": "speech",
-                  "country": "gb",
-                  "bio": "Senior Developer Advocate @ Confluent, Streaming Data Geek",
-                  "title": "Apache Kafka and KSQL in Action: Let's Build a Streaming Data Pipeline!",
-                  "description": "In this talk we’ll explain the architectural reasoning for Apache Kafka and the benefits of real-time integration, and we’ll build a streaming data pipeline using nothing but our bare hands, Kafka Connect, and KSQL. Gasp as we filter events in real time! Be amazed at how we can enrich streams of data with data from RDBMS! Be astonished at the power of streaming aggregates for anomaly detection!",
-                  "img": "images/moffat.png",
+                  "country": "lv",
+                  "bio": "Consultant, Trainer, ex-CTO, Founder @ DevTernity, Founder and Dev @ Dev.Tube",
+                  "title": "Beyond Software Craftsmanship: From Dev to Chief Architect",
+                  "description": "Johnny is a full-stack developer with 5+ years of experience under the belt, M.Sc degree and ‘get sh%t done fast’ mentality. Although Johnny possesses exceptional technical skills, Milton – his manager – doesn’t promote Johnny, because Johnny lacks some important skills. What skills Milton is talking about? Together with Johnny, you will walk the thorny road to his remarkable career as a Chief Software Architect; the road full of struggles, discoveries and actions that will turn your career around.",
+                  "img": "images/eduardsi_vec.png",
                   "presentation": "",
                   "video": ""
                 },                     
@@ -739,16 +739,9 @@
                         "tags": ["docker", "testing", "java demo"]
                       },                                                                                                                                                                                                  
                       {                           
-                        "time": "17:10",                            
-                        "name": "David Schmitz",
-                        "type": "speech",
-                        "twitter": "koenighotze",                      
-                        "country": "de",
-                        "bio": "Principal Architect @ Senacor Technologies",
-                        "img": "images/schmitz_vec.png", 
-                        "title": "Zero Magic Event Sourcing from the Grounds Up",
-                        "description": "Event sourcing is a well-known pattern for handling data e.g. in microservice landscapes. Most developers, however, struggle with the complexities of patterns, frameworks, tools and get lost in the complexities involved. In this session, we will code a complete example of an event-sourced service using no frameworks and no additional magic. We will use the open source database \"Eventstore\" and NodeJS and nothing else. Ok, maybe Docker and a light-weight web framework. By coding a real example, we will discuss patterns that you can use when building your systems, such as: handling read models, dealing with concurrency and validation, deleting data. So if you want to look behind the magic of event sourcing, join me on this hands-on journey.",
-                        "tags": ["event-sourcing", "live coding", "js examples"]
+                        "time": "17:10",
+                        "title": "none",
+                        "type": "speech"
                       },                                                                                  
                     {
                         "type": "break",
