@@ -641,7 +641,7 @@
                 "twitter": "bartekslota",
                 "type": "speech",
                 "country": "pl",
-                "bio": "Software Engineer, Consultant @ Bottega IT Minds",
+                "bio": "Consultant @ Bottega IT Minds / Vattenfall",
                 "title": "Live Refactoring Towards Solid Code",
                 "description": "In this live coding session we will refactor a part of some legacy system. We will approach the problem pragmatically, identifying issues and fixing them by applying rules and patterns related to modularity, cohesion, testability, and more. We will also see how Domain Driven Design can help us achieving the goal of a clean and solid code.",
                 "img": "images/bart.png",
