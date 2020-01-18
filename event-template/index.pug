@@ -130,7 +130,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
     header#header
       nav#nav
         ul
-          li: a(href="code_of_conduct.html" alt="Code of Conduct") Code of Conduct
+          li: a(href="code_of_conduct.html" alt="Code of Conduct") CoC
           each link, social in data.socials
             li
               a(href=link aria-label=`Link to ${social}`)
@@ -166,12 +166,14 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 a.button.big We are sold out.
                 br
                 br
+                span DevTernity 2020 is on the 3-4 of December. Save the date!
+                br
+                br
                 each link, social in data.socials
                   span.links
                     a(href=link aria-label=`Link to ${social}`)
                       i(class=`fab fa-${social}` aria-hidden)
                     | &nbsp;&nbsp;&nbsp;
-                a(ng-click="slideTo('#footer')" style="cursor: pointer" alt="Slide to footer") Join waitlist
 
       section.wrapper.style1.align-center
         div.container.intro
