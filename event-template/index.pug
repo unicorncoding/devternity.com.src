@@ -264,7 +264,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                         |  * We'll do our best to keep everything as planned, but please note that schedule may be a subject to change.
           each series, key in data.talks
               each event in series
-                if event.type == 'speech' && event.title
+                if event.type === 'speech' && event.title && event.title !== "pending"
                   div.container
                     section.wrapper.speech.tickets.align-center(data-remodal-id=`${event.uid}`)
                       button.remodal-close(data-remodal-action="close")
