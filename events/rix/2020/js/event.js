@@ -484,7 +484,7 @@
                       "country": "de",
                       "bio": "Developer Advocate @ MongoDB, ex-Technology Evangelist @ Atlassian",
                       "long_bio": "Sven Peters is a software geek working as an ambassador for Atlassian. He has been developing Java applications for over 12 years and leading small teams using lean methodologies. Sven likes effective software development and cares about the motivation of developers.",
-                      "title": "The Effective Developer – Work Smarter, Not Harder",
+                      "title": "The Effective Developer",
                       "description": "We’re agile, we’re doing DevOps, we work in cross-functional teams, and we use the latest developer pipeline tooling. With all those methodologies and technologies we should be highly effective, right? Probably not. Most of us still struggle with balancing coding speed and quality, working on the stuff that really makes a difference, and feeling constantly stressed by all the things we should learn. Effective developers don't just write clean, simple, and robust code. They also have a strong understanding of the entire development process and the problem that needs to be solved. They take time to learn, practice, and play. Learn how those developers build effective coding habits, use automations whenever needed, reserve time for deep work, and much more. You’ll walk away from this talk with lots of ideas on how to work smarter, not harder.",
                       "img": "images/sven_vec.png",
                       "presentation": "",
