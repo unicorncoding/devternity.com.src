@@ -3,7 +3,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
   head
     base(href="/")
     meta(charset="UTF-8")
-    title 🚀 #{data.theme} – The Top Tech Conference in Europe
+    title 🚀 #{data.theme} – The Top Developer Conference in Europe
     meta(name="viewport" content="width=device-width, initial-scale=1")
     meta(name="author" content="DevTernity")
     meta(http-equiv="x-ua-compatible" content="ie=edge")
@@ -64,6 +64,8 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
          "@type": "EducationEvent",
          "name": "#{data.theme} Conference",
          "image": "http://devternity.com/images/logo_2017_filled.png",
+         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+         "eventStatus": "https://schema.org/EventScheduled",
          "description": "The best software development conference in Europe, #{data.city}, #{data.country}",
          "startDate": "#{data.date_iso}T09:00",
          "endDate": "#{data.date_iso}T20:00",
@@ -93,6 +95,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
          }
        }      
     link(rel="icon" type="image/png" href="https://devternity.com/images/logo_2017_filled.png")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css")
     link(rel="stylesheet" href="css/remodal.css")
          
     style(type="text/css").
@@ -212,7 +215,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
           each row in data.speakersInRows
             div.row
               each speaker, speakerIndex in row
-                if speaker.name
+                if speaker.name && speaker.title !== 'pending'
                   section(class="feature 3u 12u$(small)")
                       img.lazy.headshot(data-src=speaker.img, alt=speaker.name)
                       div.whoname
@@ -242,17 +245,16 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                           | #{event.time}
                           br
                           if event.type == 'speech'
-                            if event.title != 'none'
-                              a.pointer(ng-click=`popupSpeech(${event.uid})`) 
-                                | #{event.name}
-                                if event.partner
-                                  |  &amp; #{event.partner.name}
-                                br
-                                strong!=event.title
-                            else
+                            if event.title === 'none'
+                            else if event.title === 'pending'
                               span
                                 i.fas.fa-clock 
                                 |  amazing talk pending
+                            else
+                              a.pointer(ng-click=`popupSpeech(${event.uid})`) 
+                                | #{event.name}
+                                br
+                                strong!=event.title                            
                           else
                               span!=event.title
                           br
@@ -270,13 +272,6 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                         section(class="12u")
                           div
                             img.headshot(src=`${event.img}` alt="speaker headshot")
-                            if event.partner
-                              img.headshot(src=`${event.partner.img}` style="position:relative; right: 20px" alt="speaker headshot")
-                            p.whoname
-                              img(src=`images/flags/${event.country}.svg` alt=`${event.country} flag` style="height: 13px")
-                              |  #{event.name} 
-                              if event.partner
-                                |  &amp; #{event.partner.name}
                             if !event.partner                                
                               p.speaker-bio !{event.bio}
                           p.whoname

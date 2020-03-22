@@ -18,7 +18,8 @@ const events = [
     {loc: "rix/2016", history: []},
     {loc: "rix/2017", history: ["2016", "2015"]},
     {loc: "rix/2018", history: ["2017", "2016", "2015"]},
-    {loc: "rix/2019", history: ["2018", "2017", "2016", "2015"], current: true}
+    {loc: "rix/2019", history: ["2018", "2017", "2016", "2015"]},
+    {loc: "rix/2020", history: ["2019", "2018", "2017", "2016", "2015"], current: true}
 ];
 
 const eventsNewOnly = events.filter(event => !event.loc.includes('2015') && !event.loc.includes('2016'))
